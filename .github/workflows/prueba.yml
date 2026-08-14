@@ -1,0 +1,19 @@
+name: Prueba investigador laboral
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * *"
+
+jobs:
+  prueba:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Ejecutar prueba
+        run: |
+          echo "================================"
+          echo "INVESTIGADOR LABORAL FUNCIONANDO"
+          echo "Fecha:"
+          date
+          echo "================================"
