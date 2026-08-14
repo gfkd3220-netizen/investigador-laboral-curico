@@ -1,17 +1,39 @@
 {
-  "ultima_actualizacion": "",
+  "ultima_actualizacion": "actualizado automáticamente",
   "ofertas": [
     {
       "titulo": "Técnico de Mantenimiento Industrial",
       "empresa": "Empresa de Prueba",
       "ubicacion": "Curicó",
       "descripcion": "Trabajo en mantenimiento industrial, electricidad industrial y diagnóstico de fallas.",
-      "requisitos": "Experiencia de 2 años de experiencia. Conocimientos de PLC, tableros eléctricos y mantenimiento preventivo."
+      "requisitos": "Experiencia de 2 años de experiencia. Conocimientos de PLC, tableros eléctricos y mantenimiento preventivo.",
+      "analisis": {
+        "competencias_detectadas": [
+          "electricidad industrial",
+          "mantenimiento industrial",
+          "tableros eléctricos",
+          "PLC",
+          "diagnóstico de fallas",
+          "mantenimiento preventivo"
+        ],
+        "experiencia_detectada": [
+          "2 años"
+        ]
+      }
     }
   ],
   "tendencias": {
-    "competencias": {},
-    "experiencia_requerida": {},
+    "competencias": {
+      "electricidad industrial": 1,
+      "mantenimiento industrial": 1,
+      "tableros eléctricos": 1,
+      "PLC": 1,
+      "diagnóstico de fallas": 1,
+      "mantenimiento preventivo": 1
+    },
+    "experiencia_requerida": {
+      "2 años": 1
+    },
     "ubicaciones": {},
     "cargos": {}
   }
