@@ -128,7 +128,8 @@
           "SCADA"
         ],
         "plc_marcas_detectadas": [
-          "Allen-Bradley"
+          "Allen-Bradley",
+          "Schneider"
         ],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -152,7 +153,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC, automatización industrial, HMI",
-            "PLC detectado: Allen-Bradley",
+            "PLC detectado: Allen-Bradley, Schneider",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -957,7 +958,7 @@
         "experiencia_solicitada": {
           "anos": 10.0,
           "meses": 120.0,
-          "tipo": "especificada"
+          "tipo": "mas_de"
         },
         "experiencia_perfil": {
           "meses": 6,
@@ -1060,7 +1061,8 @@
           "SCADA"
         ],
         "plc_marcas_detectadas": [
-          "Allen-Bradley"
+          "Allen-Bradley",
+          "Schneider"
         ],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -1084,7 +1086,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC, automatización industrial, HMI",
-            "PLC detectado: Allen-Bradley",
+            "PLC detectado: Allen-Bradley, Schneider",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -1385,7 +1387,10 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
-        "plc_marcas_detectadas": [],
+        "plc_marcas_detectadas": [
+          "Siemens",
+          "Schneider"
+        ],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null,
@@ -1408,6 +1413,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: control industrial, lectura de planos",
+            "PLC detectado: Siemens, Schneider",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -2084,7 +2090,7 @@
         "experiencia_solicitada": {
           "anos": 10.0,
           "meses": 120.0,
-          "tipo": "especificada"
+          "tipo": "rango"
         },
         "experiencia_perfil": {
           "meses": 6,
@@ -2422,7 +2428,7 @@
         "experiencia_solicitada": {
           "anos": 6.0,
           "meses": 72.0,
-          "tipo": "especificada"
+          "tipo": "rango"
         },
         "experiencia_perfil": {
           "meses": 6,
@@ -2556,7 +2562,7 @@
         "experiencia_solicitada": {
           "anos": 15.0,
           "meses": 180.0,
-          "tipo": "especificada"
+          "tipo": "mas_de"
         },
         "experiencia_perfil": {
           "meses": 6,
@@ -2838,7 +2844,7 @@
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0,
-          "tipo": "especificada"
+          "tipo": "rango"
         },
         "experiencia_perfil": {
           "meses": 6,
@@ -2881,7 +2887,7 @@
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0,
-          "tipo": "especificada"
+          "tipo": "rango"
         },
         "experiencia_perfil": {
           "meses": 6,
@@ -3386,7 +3392,7 @@
         "experiencia_solicitada": {
           "anos": 20.0,
           "meses": 240.0,
-          "tipo": "especificada"
+          "tipo": "mas_de"
         },
         "experiencia_perfil": {
           "meses": 6,
@@ -3481,7 +3487,7 @@
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0,
-          "tipo": "especificada"
+          "tipo": "mas_de"
         },
         "experiencia_perfil": {
           "meses": 6,
@@ -4208,7 +4214,7 @@
         "experiencia_solicitada": {
           "anos": 4.0,
           "meses": 48.0,
-          "tipo": "especificada"
+          "tipo": "rango"
         },
         "experiencia_perfil": {
           "meses": 6,
@@ -4830,7 +4836,7 @@
         "experiencia_solicitada": {
           "anos": 5.0,
           "meses": 60.0,
-          "tipo": "especificada"
+          "tipo": "mas_de"
         },
         "experiencia_perfil": {
           "meses": 6,
@@ -4965,12 +4971,14 @@
           "PLC Allen-Bradley"
         ],
         "plc_marcas_detectadas": [
+          "Allen-Bradley",
+          "Schneider",
           "ABB"
         ],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0,
-          "tipo": "especificada"
+          "tipo": "mas_de"
         },
         "experiencia_perfil": {
           "meses": 6,
@@ -4989,7 +4997,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC, control industrial, HMI",
-            "PLC detectado: ABB",
+            "PLC detectado: Allen-Bradley, Schneider, ABB",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -6146,7 +6154,7 @@
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0,
-          "tipo": "especificada"
+          "tipo": "rango"
         },
         "experiencia_perfil": {
           "meses": 6,
@@ -6405,7 +6413,7 @@
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0,
-          "tipo": "especificada"
+          "tipo": "mas_de"
         },
         "experiencia_perfil": {
           "meses": 6,
@@ -7374,7 +7382,7 @@
         "experiencia_solicitada": {
           "anos": 8.0,
           "meses": 96.0,
-          "tipo": "especificada"
+          "tipo": "mas_de"
         },
         "experiencia_perfil": {
           "meses": 6,
@@ -7426,6 +7434,7 @@
           "SCADA"
         ],
         "plc_marcas_detectadas": [
+          "Siemens",
           "Allen-Bradley"
         ],
         "experiencia_solicitada": {
@@ -7450,7 +7459,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC, automatización industrial, HMI",
-            "PLC detectado: Allen-Bradley",
+            "PLC detectado: Siemens, Allen-Bradley",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -8135,7 +8144,7 @@
         "experiencia_solicitada": {
           "anos": 10.0,
           "meses": 120.0,
-          "tipo": "especificada"
+          "tipo": "mas_de"
         },
         "experiencia_perfil": {
           "meses": 6,
@@ -8358,8 +8367,8 @@
       "diagnóstico de fallas": 19,
       "variadores de frecuencia": 15,
       "motores eléctricos": 11,
-      "HMI": 10,
       "SCADA": 10,
+      "HMI": 10,
       "neumática": 10,
       "hidráulica": 10,
       "mantenimiento correctivo": 6,
@@ -8375,17 +8384,17 @@
       "WinCC": 1
     },
     "plc_por_marca": {
-      "Allen-Bradley": 5,
-      "Siemens": 3,
-      "ABB": 2,
-      "Schneider": 2
+      "Schneider": 6,
+      "Allen-Bradley": 6,
+      "Siemens": 5,
+      "ABB": 2
     },
     "analisis_PLC": {
       "ofertas_con_PLC": 43,
       "marcas_PLC": {
-        "Allen-Bradley": 4,
-        "Siemens": 2,
-        "Schneider": 2,
+        "Schneider": 5,
+        "Allen-Bradley": 5,
+        "Siemens": 3,
         "ABB": 2
       },
       "tecnologias_PLC": {
@@ -8427,11 +8436,11 @@
           "ofertas": 19,
           "porcentaje": 24.1
         },
-        "tableros eléctricos": {
+        "instrumentación industrial": {
           "ofertas": 18,
           "porcentaje": 22.8
         },
-        "instrumentación industrial": {
+        "tableros eléctricos": {
           "ofertas": 18,
           "porcentaje": 22.8
         },
@@ -8511,7 +8520,14 @@
         "ofertas": 56,
         "estado": "BRECHA",
         "es_objetivo": true,
-        "prioridad": 9
+        "prioridad": 10
+      },
+      {
+        "competencia": "sensores",
+        "ofertas": 26,
+        "estado": "BRECHA",
+        "es_objetivo": true,
+        "prioridad": 8
       },
       {
         "competencia": "electromecánica",
@@ -8521,46 +8537,32 @@
         "prioridad": 7
       },
       {
-        "competencia": "sensores",
-        "ofertas": 26,
-        "estado": "BRECHA",
-        "es_objetivo": true,
-        "prioridad": 7
-      },
-      {
-        "competencia": "PLC",
-        "ofertas": 43,
-        "estado": "YA_EN_PERFIL",
-        "es_objetivo": true,
-        "prioridad": 6
-      },
-      {
         "competencia": "diagnóstico de fallas",
         "ofertas": 19,
         "estado": "BRECHA",
         "es_objetivo": true,
-        "prioridad": 6
+        "prioridad": 7
       },
       {
         "competencia": "SCADA",
         "ofertas": 10,
         "estado": "BRECHA",
         "es_objetivo": true,
-        "prioridad": 6
+        "prioridad": 7
       },
       {
         "competencia": "neumática",
         "ofertas": 10,
         "estado": "BRECHA",
         "es_objetivo": true,
-        "prioridad": 6
+        "prioridad": 7
       },
       {
         "competencia": "hidráulica",
         "ofertas": 10,
         "estado": "BRECHA",
         "es_objetivo": true,
-        "prioridad": 6
+        "prioridad": 7
       },
       {
         "competencia": "mantenimiento preventivo",
@@ -8582,6 +8584,13 @@
         "estado": "BRECHA",
         "es_objetivo": false,
         "prioridad": 5
+      },
+      {
+        "competencia": "PLC",
+        "ofertas": 43,
+        "estado": "YA_EN_PERFIL",
+        "es_objetivo": false,
+        "prioridad": 4
       },
       {
         "competencia": "automatización industrial",
@@ -8655,13 +8664,13 @@
       }
     ],
     "recomendaciones": [
-      "Priorizar formación práctica en PLC. Las marcas detectadas con mayor frecuencia son: Allen-Bradley, Siemens, ABB.",
+      "Priorizar formación práctica en PLC. Las marcas detectadas con mayor frecuencia son: Schneider, Allen-Bradley, Siemens.",
       "Considerar electromecánica como línea importante de búsqueda: 79 ofertas (47.0% del conjunto analizado).",
       "Mantener como núcleo profesional: electromecánica, mantenimiento preventivo, instrumentación industrial, mantenimiento industrial, PLC.",
       "Buscar especialmente cargos que combinen mantenimiento industrial + electricidad industrial + PLC/automatización.",
       "No limitar la búsqueda a cargos que exijan experiencia: también seguir las ofertas que aceptan candidatos sin experiencia.",
       "Dar prioridad adicional a ofertas donde la experiencia no está especificada, porque no presentan una barrera explícita de años de experiencia.",
-      "Para cerrar brechas, comenzar por: instrumentación industrial, electromecánica, sensores, diagnóstico de fallas, SCADA."
+      "Para cerrar brechas, comenzar por: instrumentación industrial, sensores, electromecánica, diagnóstico de fallas, SCADA."
     ]
   },
   "plan_desarrollo": {
