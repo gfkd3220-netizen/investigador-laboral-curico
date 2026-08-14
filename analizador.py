@@ -48,7 +48,7 @@ PERFIL = {
         "mantenimiento preventivo",
         "tableros eléctricos",
         "PLC",
-        "automatización",
+        "automatización industrial",
         "control industrial",
         "variadores de frecuencia",
         "HMI",
@@ -59,7 +59,9 @@ PERFIL = {
 
 
 # ============================================================
-# COMPETENCIAS GENERALES DEL ÁREA
+# COMPETENCIAS GENERALES
+#
+# Cada publicación cuenta SOLO 1 vez por competencia.
 # ============================================================
 
 COMPETENCIAS = {
@@ -192,7 +194,7 @@ COMPETENCIAS = {
 # ============================================================
 # TECNOLOGÍAS ESPECÍFICAS
 #
-# Cada oferta cuenta UNA SOLA VEZ por tecnología.
+# Cada publicación cuenta SOLO 1 vez por tecnología.
 # ============================================================
 
 TECNOLOGIAS = {
@@ -307,11 +309,6 @@ TECNOLOGIAS = {
         "variador schneider",
         "variadores schneider",
         "altivar"
-    ],
-
-    "Instrumentación industrial": [
-        "instrumentación industrial",
-        "instrumentacion industrial"
     ]
 }
 
@@ -361,7 +358,7 @@ def texto_oferta(oferta):
 # ============================================================
 # DETECTAR CATEGORÍAS
 #
-# Una oferta cuenta UNA SOLA VEZ por categoría.
+# Una publicación = máximo 1 conteo.
 # ============================================================
 
 def detectar_categorias(texto, catalogo):
@@ -377,6 +374,10 @@ def detectar_categorias(texto, catalogo):
             if normalizar(variante) in texto:
 
                 encontradas.append(nombre)
+
+                # Importante:
+                # aunque aparezca 20 veces en la oferta,
+                # esta publicación cuenta solo 1 vez.
                 break
 
     return encontradas
@@ -385,24 +386,26 @@ def detectar_categorias(texto, catalogo):
 # ============================================================
 # DETECTAR EXPERIENCIA
 #
-# IMPORTANTE:
-# No buscamos simplemente "número + años".
+# Evita interpretar números de fechas, teléfonos, códigos,
+# etc. como años de experiencia.
 #
-# El número debe estar relacionado con "experiencia".
-# Esto evita que fechas u otros números de la página
-# sean interpretados como años de experiencia.
+# También ignora valores absurdos superiores a 20 años.
 # ============================================================
 
 def detectar_experiencia(texto):
 
     texto = normalizar(texto)
 
-    # Sin experiencia
+    # --------------------------------------------------------
+    # SIN EXPERIENCIA
+    # --------------------------------------------------------
+
     if (
         "sin experiencia" in texto
         or "no requiere experiencia" in texto
         or "sin experiencia previa" in texto
     ):
+
         return {
             "anos": 0,
             "meses": 0
@@ -410,27 +413,27 @@ def detectar_experiencia(texto):
 
     encontrados = []
 
-    # Ejemplos:
-    #
-    # experiencia de 2 años
-    # experiencia: 2 años
-    # experiencia mínima de 2 años
-    # experiencia laboral de 6 meses
-    #
+    # --------------------------------------------------------
+    # PATRÓN:
+    # "experiencia de 2 años"
+    # "experiencia mínima de 2 años"
+    # "experiencia laboral de 6 meses"
+    # --------------------------------------------------------
+
     patron_1 = (
         r"experiencia"
-        r"[^.\n]{0,60}?"
+        r"[^.\n]{0,50}?"
         r"(\d+(?:[.,]\d+)?)"
         r"\s*"
         r"(anos?|mes(?:es)?)"
     )
 
-    # Ejemplos:
-    #
-    # 2 años de experiencia
-    # 3 años experiencia
-    # 6 meses de experiencia
-    #
+    # --------------------------------------------------------
+    # PATRÓN:
+    # "2 años de experiencia"
+    # "6 meses de experiencia"
+    # --------------------------------------------------------
+
     patron_2 = (
         r"(\d+(?:[.,]\d+)?)"
         r"\s*"
@@ -460,7 +463,74 @@ def detectar_experiencia(texto):
 
                 meses = numero
 
+            # ------------------------------------------------
+            # Evitar basura:
+            #
+            # 45 años
+            # 100 años
+            # etc.
+            #
+            # Para este investigador laboral consideramos
+            # como máximo 20 años de experiencia solicitada.
+            # ------------------------------------------------
+
+            if meses <= 240:
+
+                encontrados.append(meses)
+
+    # --------------------------------------------------------
+    # "más de 3 años"
+    # --------------------------------------------------------
+
+    patron_mas = (
+        r"mas\s+de\s+"
+        r"(\d+(?:[.,]\d+)?)"
+        r"\s*anos?"
+    )
+
+    for numero in re.findall(
+        patron_mas,
+        texto
+    ):
+
+        numero = float(
+            numero.replace(",", ".")
+        )
+
+        meses = numero * 12
+
+        if meses <= 240:
+
             encontrados.append(meses)
+
+    # --------------------------------------------------------
+    # "menos de 1 año"
+    # --------------------------------------------------------
+
+    patron_menos = (
+        r"menos\s+de\s+"
+        r"(\d+(?:[.,]\d+)?)"
+        r"\s*anos?"
+    )
+
+    for numero in re.findall(
+        patron_menos,
+        texto
+    ):
+
+        numero = float(
+            numero.replace(",", ".")
+        )
+
+        meses = numero * 12
+
+        if meses <= 240:
+
+            # Guardamos una aproximación para poder
+            # clasificar la oferta.
+            encontrados.append(
+                max(1, meses - 1)
+            )
 
     if not encontrados:
 
@@ -469,7 +539,7 @@ def detectar_experiencia(texto):
             "meses": None
         }
 
-    # Si aparecen varias exigencias,
+    # Si una publicación menciona varias exigencias,
     # tomamos la mayor.
     meses = max(encontrados)
 
@@ -518,7 +588,9 @@ def detectar_cargo(titulo):
 
     for cargo in PERFIL["cargos"]:
 
-        cargo_normalizado = normalizar(cargo)
+        cargo_normalizado = normalizar(
+            cargo
+        )
 
         palabras = cargo_normalizado.split()
 
@@ -635,11 +707,9 @@ def calcular_puntaje(
 def nivel(puntaje):
 
     if puntaje >= 80:
-
         return "ALTA"
 
     if puntaje >= 60:
-
         return "MEDIA"
 
     return "BAJA"
@@ -652,11 +722,9 @@ def nivel(puntaje):
 def prioridad(puntaje):
 
     if puntaje >= 80:
-
         return "ALTA"
 
     if puntaje >= 60:
-
         return "MEDIA"
 
     return "BAJA"
@@ -683,11 +751,7 @@ def analizar_oferta(oferta):
     )
 
     experiencia_detectada = detectar_experiencia(
-        oferta.get(
-            "requisitos",
-            ""
-        )
-        or texto
+        texto
     )
 
     meses_solicitados = (
@@ -719,7 +783,9 @@ def analizar_oferta(oferta):
         cargos
     )
 
-    fortalezas = []
+    # --------------------------------------------------------
+    # COMPETENCIAS QUE SÍ TIENE EL PERFIL
+    # --------------------------------------------------------
 
     coincidencias_perfil = [
         competencia
@@ -727,6 +793,8 @@ def analizar_oferta(oferta):
         if competencia
         in PERFIL["competencias"]
     ]
+
+    fortalezas = []
 
     if coincidencias_perfil:
 
@@ -755,6 +823,10 @@ def analizar_oferta(oferta):
         "SEC Clase D en trámite."
     )
 
+    # --------------------------------------------------------
+    # BRECHAS
+    # --------------------------------------------------------
+
     brechas = []
 
     if (
@@ -769,6 +841,9 @@ def analizar_oferta(oferta):
             f"{PERFIL['experiencia_meses']} meses."
         )
 
+    # Solo consideramos brecha una competencia
+    # que realmente aparece en la oferta pero
+    # que NO está en el perfil.
     for competencia in competencias:
 
         if competencia not in PERFIL["competencias"]:
@@ -776,6 +851,10 @@ def analizar_oferta(oferta):
             brechas.append(
                 competencia
             )
+
+    # --------------------------------------------------------
+    # RECOMENDACIÓN
+    # --------------------------------------------------------
 
     if puntaje >= 80:
 
@@ -861,6 +940,8 @@ def analizar_oferta(oferta):
 
 # ============================================================
 # ANALIZAR MERCADO
+#
+# Cada oferta se cuenta una sola vez por categoría.
 # ============================================================
 
 def analizar_mercado(ofertas):
@@ -885,8 +966,6 @@ def analizar_mercado(ofertas):
 
         # ----------------------------------------------------
         # COMPETENCIAS
-        #
-        # Una publicación = máximo 1 conteo por competencia.
         # ----------------------------------------------------
 
         competencias = detectar_categorias(
@@ -894,18 +973,14 @@ def analizar_mercado(ofertas):
             COMPETENCIAS
         )
 
-        for competencia in set(
-            competencias
-        ):
+        for competencia in competencias:
 
             contador_competencias[
                 competencia
             ] += 1
 
         # ----------------------------------------------------
-        # TECNOLOGÍAS ESPECÍFICAS
-        #
-        # Una publicación = máximo 1 conteo por tecnología.
+        # TECNOLOGÍAS
         # ----------------------------------------------------
 
         tecnologias = detectar_categorias(
@@ -913,9 +988,7 @@ def analizar_mercado(ofertas):
             TECNOLOGIAS
         )
 
-        for tecnologia in set(
-            tecnologias
-        ):
+        for tecnologia in tecnologias:
 
             contador_tecnologias[
                 tecnologia
@@ -926,11 +999,7 @@ def analizar_mercado(ofertas):
         # ----------------------------------------------------
 
         experiencia = detectar_experiencia(
-            oferta.get(
-                "requisitos",
-                ""
-            )
-            or texto
+            texto
         )
 
         meses = experiencia["meses"]
@@ -1089,6 +1158,9 @@ def analizar_mercado(ofertas):
 
 # ============================================================
 # PLAN DE DESARROLLO
+#
+# Solo muestra competencias que el mercado pide
+# y que NO están en el perfil.
 # ============================================================
 
 def generar_plan_desarrollo(mercado):
@@ -1487,6 +1559,7 @@ def analizar_historial():
                 "puntaje",
                 0
             ),
+            "/ 100",
             "|",
             compatibilidad.get(
                 "recomendacion",
@@ -1494,16 +1567,18 @@ def analizar_historial():
             )
         )
 
-        tecnologias = analisis.get(
+        tecnologias_oferta = analisis.get(
             "tecnologias_detectadas",
             []
         )
 
-        if tecnologias:
+        if tecnologias_oferta:
 
             print(
                 "Tecnologías:",
-                ", ".join(tecnologias)
+                ", ".join(
+                    tecnologias_oferta
+                )
             )
 
     print()
