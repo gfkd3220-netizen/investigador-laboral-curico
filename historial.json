@@ -34,28 +34,32 @@
           "Técnico de instrumentación junior"
         ],
         "compatibilidad": {
-          "puntaje": 56,
-          "probabilidad_ajuste": "MEDIA",
+          "puntaje": 80,
+          "probabilidad_ajuste": "ALTA",
           "fortalezas": [
-            "La formación técnica está directamente relacionada con el cargo.",
-            "Cuenta con conocimientos relacionados con electricidad industrial.",
-            "Cuenta con conocimientos relacionados con PLC.",
+            "La formación técnica está relacionada con automatización, control y electricidad.",
+            "El perfil cuenta con referencia a {'tipo': 'SEC Clase D', 'estado': 'En trámite', 'observacion': 'Cuenta con preparación y conocimientos para rendir la certificación, pero aún no debe considerarse como certificación obtenida.'}.",
+            "El perfil prioriza conocimientos relacionados con electricidad industrial.",
+            "El perfil prioriza conocimientos relacionados con mantenimiento industrial.",
+            "El perfil prioriza conocimientos relacionados con tableros eléctricos.",
+            "El perfil prioriza conocimientos relacionados con PLC.",
+            "El perfil prioriza conocimientos relacionados con diagnóstico de fallas.",
             "La ubicación (Curicó) está dentro de las zonas prioritarias.",
             "El tipo de cargo coincide con uno de los cargos prioritarios."
           ],
+          "conocimientos_relacionados": [
+            "mantenimiento preventivo"
+          ],
           "brechas": [
-            "mantenimiento industrial",
-            "tableros eléctricos",
-            "diagnóstico de fallas",
-            "mantenimiento preventivo",
-            "La oferta solicita 2 años de experiencia y el perfil todavía está iniciando su experiencia profesional."
+            "La oferta solicita aproximadamente 2 año(s) de experiencia; el perfil registra aproximadamente 0 meses."
           ],
           "aprendizaje_rapido": [
-            "PLC: puede reforzarse mediante estudio, simulación y práctica guiada.",
-            "mantenimiento preventivo: puede reforzarse mediante estudio, simulación y práctica guiada."
+            "PLC: puede reforzarse mediante estudio, simulación y práctica guiada."
           ],
           "brechas_practicas": [
-            "Diagnóstico de fallas: es una competencia que normalmente requiere experiencia práctica en terreno."
+            "La principal diferencia es experiencia práctica acumulada en terreno.",
+            "Mantenimiento industrial: conviene desarrollarla mediante experiencia práctica en terreno.",
+            "Diagnóstico de fallas: conviene desarrollarla mediante experiencia práctica en terreno."
           ]
         }
       }
@@ -77,7 +81,7 @@
         "experiencia_detectada": [
           "1 año"
         ],
-        "anos_experiencia_solicitados": null,
+        "anos_experiencia_solicitados": 1,
         "ubicacion": {
           "ubicacion_oferta": "Curicó",
           "zona_prioritaria": true,
@@ -88,30 +92,35 @@
           "Técnico de mantenimiento junior",
           "Técnico en automatización junior",
           "Ayudante eléctrico",
-          "Ayudante de mantenimiento",
           "Técnico electromecánico junior",
           "Técnico de instrumentación junior"
         ],
         "compatibilidad": {
-          "puntaje": 56,
+          "puntaje": 74,
           "probabilidad_ajuste": "MEDIA",
           "fortalezas": [
-            "La formación técnica está directamente relacionada con el cargo.",
-            "Cuenta con conocimientos relacionados con electricidad industrial.",
-            "Cuenta con conocimientos relacionados con PLC.",
+            "La formación técnica está relacionada con automatización, control y electricidad.",
+            "El perfil cuenta con referencia a {'tipo': 'SEC Clase D', 'estado': 'En trámite', 'observacion': 'Cuenta con preparación y conocimientos para rendir la certificación, pero aún no debe considerarse como certificación obtenida.'}.",
+            "El perfil prioriza conocimientos relacionados con electricidad industrial.",
+            "El perfil prioriza conocimientos relacionados con mantenimiento industrial.",
+            "El perfil prioriza conocimientos relacionados con tableros eléctricos.",
+            "El perfil prioriza conocimientos relacionados con PLC.",
             "La ubicación (Curicó) está dentro de las zonas prioritarias.",
             "El tipo de cargo coincide con uno de los cargos prioritarios."
           ],
-          "brechas": [
-            "mantenimiento industrial",
-            "tableros eléctricos",
+          "conocimientos_relacionados": [
             "mantenimiento preventivo"
           ],
-          "aprendizaje_rapido": [
-            "PLC: puede reforzarse mediante estudio, simulación y práctica guiada.",
-            "mantenimiento preventivo: puede reforzarse mediante estudio, simulación y práctica guiada."
+          "brechas": [
+            "La oferta solicita aproximadamente 1 año(s) de experiencia; el perfil registra aproximadamente 0 meses."
           ],
-          "brechas_practicas": []
+          "aprendizaje_rapido": [
+            "La diferencia de experiencia es relativamente pequeña; conviene postular igualmente si el resto de los requisitos encaja.",
+            "PLC: puede reforzarse mediante estudio, simulación y práctica guiada."
+          ],
+          "brechas_practicas": [
+            "Mantenimiento industrial: conviene desarrollarla mediante experiencia práctica en terreno."
+          ]
         }
       }
     }
@@ -133,6 +142,28 @@
       "Curicó": 2
     },
     "cargos": {
+      "Técnico de Mantenimiento Industrial": 1,
+      "Técnico Eléctrico Industrial": 1
+    }
+  },
+  "resumen_mercado": {
+    "ofertas_analizadas": 2,
+    "competencias_mas_solicitadas": {
+      "electricidad industrial": 2,
+      "mantenimiento industrial": 2,
+      "tableros eléctricos": 2,
+      "PLC": 2,
+      "mantenimiento preventivo": 2,
+      "diagnóstico de fallas": 1
+    },
+    "experiencia_mas_solicitada": {
+      "2 años": 1,
+      "1 año": 1
+    },
+    "ubicaciones_mas_repetidas": {
+      "Curicó": 2
+    },
+    "cargos_mas_repetidos": {
       "Técnico de Mantenimiento Industrial": 1,
       "Técnico Eléctrico Industrial": 1
     }
