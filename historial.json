@@ -18,7 +18,46 @@
         ],
         "experiencia_detectada": [
           "2 años"
-        ]
+        ],
+        "anos_experiencia_solicitados": 2,
+        "ubicacion": {
+          "ubicacion_oferta": "Curicó",
+          "zona_prioritaria": true,
+          "zona_coincidente": "Curicó"
+        },
+        "cargos_coincidentes": [
+          "Técnico eléctrico junior",
+          "Técnico de mantenimiento junior",
+          "Técnico en automatización junior",
+          "Ayudante de mantenimiento",
+          "Técnico electromecánico junior",
+          "Técnico de instrumentación junior"
+        ],
+        "compatibilidad": {
+          "puntaje": 56,
+          "probabilidad_ajuste": "MEDIA",
+          "fortalezas": [
+            "La formación técnica está directamente relacionada con el cargo.",
+            "Cuenta con conocimientos relacionados con electricidad industrial.",
+            "Cuenta con conocimientos relacionados con PLC.",
+            "La ubicación (Curicó) está dentro de las zonas prioritarias.",
+            "El tipo de cargo coincide con uno de los cargos prioritarios."
+          ],
+          "brechas": [
+            "mantenimiento industrial",
+            "tableros eléctricos",
+            "diagnóstico de fallas",
+            "mantenimiento preventivo",
+            "La oferta solicita 2 años de experiencia y el perfil todavía está iniciando su experiencia profesional."
+          ],
+          "aprendizaje_rapido": [
+            "PLC: puede reforzarse mediante estudio, simulación y práctica guiada.",
+            "mantenimiento preventivo: puede reforzarse mediante estudio, simulación y práctica guiada."
+          ],
+          "brechas_practicas": [
+            "Diagnóstico de fallas: es una competencia que normalmente requiere experiencia práctica en terreno."
+          ]
+        }
       }
     },
     {
@@ -37,7 +76,43 @@
         ],
         "experiencia_detectada": [
           "1 año"
-        ]
+        ],
+        "anos_experiencia_solicitados": null,
+        "ubicacion": {
+          "ubicacion_oferta": "Curicó",
+          "zona_prioritaria": true,
+          "zona_coincidente": "Curicó"
+        },
+        "cargos_coincidentes": [
+          "Técnico eléctrico junior",
+          "Técnico de mantenimiento junior",
+          "Técnico en automatización junior",
+          "Ayudante eléctrico",
+          "Ayudante de mantenimiento",
+          "Técnico electromecánico junior",
+          "Técnico de instrumentación junior"
+        ],
+        "compatibilidad": {
+          "puntaje": 56,
+          "probabilidad_ajuste": "MEDIA",
+          "fortalezas": [
+            "La formación técnica está directamente relacionada con el cargo.",
+            "Cuenta con conocimientos relacionados con electricidad industrial.",
+            "Cuenta con conocimientos relacionados con PLC.",
+            "La ubicación (Curicó) está dentro de las zonas prioritarias.",
+            "El tipo de cargo coincide con uno de los cargos prioritarios."
+          ],
+          "brechas": [
+            "mantenimiento industrial",
+            "tableros eléctricos",
+            "mantenimiento preventivo"
+          ],
+          "aprendizaje_rapido": [
+            "PLC: puede reforzarse mediante estudio, simulación y práctica guiada.",
+            "mantenimiento preventivo: puede reforzarse mediante estudio, simulación y práctica guiada."
+          ],
+          "brechas_practicas": []
+        }
       }
     }
   ],
@@ -54,7 +129,12 @@
       "2 años": 1,
       "1 año": 1
     },
-    "ubicaciones": {},
-    "cargos": {}
+    "ubicaciones": {
+      "Curicó": 2
+    },
+    "cargos": {
+      "Técnico de Mantenimiento Industrial": 1,
+      "Técnico Eléctrico Industrial": 1
+    }
   }
 }
