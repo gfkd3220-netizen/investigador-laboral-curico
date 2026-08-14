@@ -656,26 +656,46 @@ def detectar_categorias(texto, catalogo):
 
 # ============================================================
 # CONTEXTO PLC
+#
+# IMPORTANTE:
+# Esta función NO debe considerar simplemente palabras como
+# "automatización industrial" como PLC.
+#
+# Para marcar una oferta como PLC debe existir una referencia
+# directa a PLC/controlador o a una tecnología/marca claramente
+# relacionada con PLC.
 # ============================================================
 
 def tiene_contexto_plc(texto):
 
-    contexto_fuerte = [
+    texto_normalizado = normalizar(texto)
+
+    contexto_directo = [
         "plc",
+        "controlador lógico programable",
         "controlador logico programable",
         "programacion plc",
         "programacion de plc",
         "programar plc",
-        "automatizacion industrial",
-        "control industrial",
-        "sistema de control",
-        "hmi",
-        "scada",
+        "programación plc",
+        "programación de plc",
+        "programar plc"
+    ]
+
+    if any(
+        contiene_termino(
+            texto_normalizado,
+            termino
+        )
+        for termino in contexto_directo
+    ):
+        return True
+
+    # Tecnologías inequívocamente asociadas a PLC
+    tecnologias_plc = [
         "tia portal",
         "step 7",
-        "controllogix",
-        "compactlogix",
-        "modicon",
+        "simatic",
         "s7-1200",
         "s7 1200",
         "s7-1500",
@@ -685,20 +705,43 @@ def tiene_contexto_plc(texto):
         "s7-400",
         "s7 400",
         "studio 5000",
+        "studio5000",
+        "controllogix",
+        "compactlogix",
+        "micrologix",
+        "rslogix",
         "factorytalk",
+        "modicon",
         "ecostruxure",
+        "eco struxure",
+        "m221",
+        "m241",
+        "m251",
+        "m340",
+        "m580",
         "gx works",
+        "gx works2",
+        "gx works3",
+        "fx3u",
+        "fx5u",
         "cx-programmer",
-        "twincat"
+        "cx programmer",
+        "twincat",
+        "twin cat",
+        "logo!",
+        "logo 8"
     ]
 
-    return any(
+    if any(
         contiene_termino(
-            texto,
+            texto_normalizado,
             termino
         )
-        for termino in contexto_fuerte
-    )
+        for termino in tecnologias_plc
+    ):
+        return True
+
+    return False
 
 
 # ============================================================
@@ -707,36 +750,24 @@ def tiene_contexto_plc(texto):
 
 def tiene_plc(texto):
 
-    return (
-        contiene_termino(texto, "plc")
-        or contiene_termino(
-            texto,
-            "controlador lógico programable"
-        )
-        or contiene_termino(
-            texto,
-            "controlador logico programable"
-        )
-        or tiene_contexto_plc(texto)
-    )
+    return tiene_contexto_plc(texto)
 
 
 # ============================================================
 # DETECTAR MARCAS PLC
 #
-# Importante:
-# Se usa esta misma función en TODO el analizador.
-# Así no tendremos una cifra en "desglose" y otra
-# distinta en "análisis del mercado".
+# ÚNICA FUENTE DE VERDAD PARA TODAS LAS SECCIONES DEL
+# ANALIZADOR.
+#
+# Si una oferta no es considerada PLC por tiene_plc(),
+# ninguna marca será contabilizada como PLC.
 # ============================================================
 
 def detectar_marcas_plc(texto):
 
     texto_normalizado = normalizar(texto)
 
-    if not tiene_contexto_plc(
-        texto_normalizado
-    ):
+    if not tiene_plc(texto_normalizado):
         return []
 
     marcas = []
@@ -757,6 +788,36 @@ def detectar_marcas_plc(texto):
 
 
 # ============================================================
+# DETECTAR TECNOLOGÍAS PLC
+#
+# También depende de la misma detección PLC.
+# ============================================================
+
+def detectar_tecnologias_plc(texto):
+
+    texto_normalizado = normalizar(texto)
+
+    if not tiene_plc(texto_normalizado):
+        return []
+
+    tecnologias = []
+
+    for tecnologia, variantes in TECNOLOGIAS.items():
+
+        for variante in variantes:
+
+            if contiene_termino(
+                texto_normalizado,
+                variante
+            ):
+
+                tecnologias.append(tecnologia)
+                break
+
+    return tecnologias
+
+
+# ============================================================
 # DETECTAR EXPERIENCIA
 # ============================================================
 
@@ -774,7 +835,8 @@ def detectar_experiencia(texto):
         "sin experiencia previa",
         "sin experiencia laboral",
         "no se requiere experiencia",
-        "no requiere de experiencia"
+        "no requiere de experiencia",
+        "sin requerir experiencia"
     ]
 
     if any(
@@ -809,6 +871,7 @@ def detectar_experiencia(texto):
         meses = numero * 12
 
         if meses <= 240:
+
             encontrados.append({
                 "meses": meses,
                 "tipo": "mas_de"
@@ -836,6 +899,7 @@ def detectar_experiencia(texto):
         )
 
         if meses <= 240:
+
             encontrados.append({
                 "meses": meses,
                 "tipo": "menos_de"
@@ -877,7 +941,7 @@ def detectar_experiencia(texto):
 
     patron_experiencia = re.compile(
         r"(?:experiencia|experiencia\s+laboral)"
-        r"[^.\n]{0,50}?"
+        r"[^.\n]{0,80}?"
         r"(\d+(?:[.,]\d+)?)"
         r"\s*(anos?|mes(?:es)?)"
     )
@@ -926,6 +990,31 @@ def detectar_experiencia(texto):
 
             encontrados.append({
                 "meses": meses,
+                "tipo": "especificada"
+            })
+
+    # --------------------------------------------------------
+    # EXPERIENCIA EXPRESADA COMO "12 MESES"
+    # EN CONTEXTO LABORAL
+    # --------------------------------------------------------
+
+    patron_meses_experiencia = re.compile(
+        r"(\d+(?:[.,]\d+)?)"
+        r"\s*mes(?:es)?"
+        r"[^.\n]{0,30}"
+        r"experiencia"
+    )
+
+    for numero in patron_meses_experiencia.findall(texto):
+
+        numero = float(
+            numero.replace(",", ".")
+        )
+
+        if numero <= 240:
+
+            encontrados.append({
+                "meses": numero,
                 "tipo": "especificada"
             })
 
@@ -1026,8 +1115,6 @@ def detectar_cargo(titulo):
 
                 coincidencias += 1
 
-        # Para cargos de 1-2 palabras:
-        # deben coincidir todas.
         if len(palabras) <= 2:
 
             minimo = len(palabras)
@@ -1082,6 +1169,13 @@ def comparar_experiencia(meses_solicitados):
 
 # ============================================================
 # PUNTAJE PERSONAL
+#
+# Máximo:
+# - Competencias: 40
+# - Ubicación: 20
+# - Cargo: 20
+# - Experiencia: 20
+# = 100
 # ============================================================
 
 def calcular_puntaje(
@@ -1127,21 +1221,27 @@ def calcular_puntaje(
     # --------------------------------------------------------
 
     if experiencia == "cumple":
+
         puntaje += 20
 
     elif experiencia == "sin_experiencia":
+
         puntaje += 20
 
     elif experiencia == "no_especificada":
+
         puntaje += 15
 
     elif experiencia == "brecha_pequena":
+
         puntaje += 10
 
     elif experiencia == "brecha_moderada":
+
         puntaje += 5
 
     elif experiencia == "brecha_alta":
+
         puntaje += 0
 
     return min(
@@ -1195,10 +1295,46 @@ def analizar_oferta(oferta):
         COMPETENCIAS
     )
 
-    tecnologias = detectar_categorias(
+    # --------------------------------------------------------
+    # PLC CANÓNICO
+    #
+    # Esta variable será reutilizada en todo el sistema.
+    # --------------------------------------------------------
+
+    plc_detectado = tiene_plc(
+        texto
+    )
+
+    # Si la oferta tiene una referencia PLC inequívoca,
+    # PLC queda registrado como competencia aunque el texto
+    # no use literalmente la palabra "PLC".
+    if plc_detectado and "PLC" not in competencias:
+
+        competencias.append("PLC")
+
+    # --------------------------------------------------------
+    # TECNOLOGÍAS
+    # --------------------------------------------------------
+
+    tecnologias_generales = detectar_categorias(
         texto,
         TECNOLOGIAS
     )
+
+    tecnologias_plc = detectar_tecnologias_plc(
+        texto
+    )
+
+    tecnologias = list(
+        dict.fromkeys(
+            tecnologias_generales
+            + tecnologias_plc
+        )
+    )
+
+    # --------------------------------------------------------
+    # MARCAS PLC
+    # --------------------------------------------------------
 
     marcas_plc = detectar_marcas_plc(
         texto
@@ -1258,12 +1394,28 @@ def analizar_oferta(oferta):
             )
         )
 
+    if plc_detectado:
+
+        fortalezas.append(
+            "Se detectó requerimiento relacionado "
+            "con PLC."
+        )
+
     if marcas_plc:
 
         fortalezas.append(
             "PLC detectado: "
             + ", ".join(
                 marcas_plc
+            )
+        )
+
+    if tecnologias_plc:
+
+        fortalezas.append(
+            "Tecnologías PLC: "
+            + ", ".join(
+                tecnologias_plc
             )
         )
 
@@ -1339,6 +1491,12 @@ def analizar_oferta(oferta):
         "tecnologias_detectadas":
             tecnologias,
 
+        "tecnologias_plc_detectadas":
+            tecnologias_plc,
+
+        "plc_detectado":
+            plc_detectado,
+
         "plc_marcas_detectadas":
             marcas_plc,
 
@@ -1404,6 +1562,13 @@ def analizar_oferta(oferta):
 
 # ============================================================
 # ANALIZAR PLC POR MARCA
+#
+# IMPORTANTE:
+# Solo se utiliza el campo plc_detectado generado por
+# analizar_oferta().
+#
+# Esto garantiza que esta sección y el análisis de mercado
+# tengan exactamente el mismo universo de ofertas.
 # ============================================================
 
 def analizar_plc_por_marca(ofertas):
@@ -1416,6 +1581,12 @@ def analizar_plc_por_marca(ofertas):
             "analisis",
             {}
         )
+
+        if not analisis.get(
+            "plc_detectado",
+            False
+        ):
+            continue
 
         marcas = analisis.get(
             "plc_marcas_detectadas",
@@ -1434,8 +1605,8 @@ def analizar_plc_por_marca(ofertas):
 # ============================================================
 # ANÁLISIS DETALLADO DE PLC
 #
-# Ahora utiliza el análisis ya calculado de cada oferta.
-# Esto evita diferencias entre las distintas secciones.
+# MISMA FUENTE DE VERDAD:
+# plc_detectado
 # ============================================================
 
 def analizar_mercado_plc(ofertas):
@@ -1467,25 +1638,23 @@ def analizar_mercado_plc(ofertas):
             {}
         )
 
-        competencias = analisis.get(
-            "competencias_detectadas",
-            []
-        )
+        if not analisis.get(
+            "plc_detectado",
+            False
+        ):
+            continue
 
-        tecnologias_oferta = analisis.get(
-            "tecnologias_detectadas",
-            []
-        )
+        ofertas_plc += 1
 
         marcas_oferta = analisis.get(
             "plc_marcas_detectadas",
             []
         )
 
-        if "PLC" not in competencias:
-            continue
-
-        ofertas_plc += 1
+        tecnologias_oferta = analisis.get(
+            "tecnologias_plc_detectadas",
+            []
+        )
 
         for marca in set(
             marcas_oferta
@@ -1649,7 +1818,7 @@ def generar_plan_desarrollo(mercado):
             prioridad_base += 3
 
         # ----------------------------------------------------
-        # DEMANDA
+        # DEMANDA DEL MERCADO
         # ----------------------------------------------------
 
         if cantidad >= 50:
@@ -1667,6 +1836,25 @@ def generar_plan_desarrollo(mercado):
         elif cantidad >= 10:
 
             prioridad_base += 1
+
+        # ----------------------------------------------------
+        # COMPETENCIA DE ALTA PRIORIDAD PARA EL PERFIL
+        # ----------------------------------------------------
+
+        competencias_criticas = {
+            "instrumentación industrial": 2,
+            "diagnóstico de fallas": 2,
+            "sensores": 2,
+            "SCADA": 2,
+            "neumática": 1,
+            "hidráulica": 1,
+            "puesta en marcha": 1
+        }
+
+        prioridad_base += competencias_criticas.get(
+            competencia,
+            0
+        )
 
         resultado.append({
 
@@ -2070,6 +2258,21 @@ def analizar_mercado(ofertas):
     analisis_plc = analizar_mercado_plc(
         ofertas
     )
+
+    # --------------------------------------------------------
+    # VERIFICACIÓN DE CONSISTENCIA PLC
+    #
+    # Esta comprobación evita volver a guardar resultados
+    # contradictorios.
+    # --------------------------------------------------------
+
+    if plc_por_marca != analisis_plc["marcas_PLC"]:
+
+        raise RuntimeError(
+            "ERROR DE CONSISTENCIA PLC: "
+            "el desglose por marca y el análisis de mercado "
+            "no coinciden."
+        )
 
     # --------------------------------------------------------
     # ELECTROMECÁNICA
@@ -2736,6 +2939,48 @@ def analizar_historial():
             )
         )
 
+        # ----------------------------------------------------
+        # UBICACIÓN
+        # ----------------------------------------------------
+
+        ubicacion = analisis.get(
+            "ubicacion",
+            {}
+        )
+
+        if ubicacion.get(
+            "zona_prioritaria"
+        ):
+
+            print(
+                "Zona:",
+                ubicacion.get(
+                    "zona_coincidente"
+                )
+            )
+
+        # ----------------------------------------------------
+        # COMPETENCIAS
+        # ----------------------------------------------------
+
+        competencias_oferta = analisis.get(
+            "competencias_detectadas",
+            []
+        )
+
+        if competencias_oferta:
+
+            print(
+                "Competencias:",
+                ", ".join(
+                    competencias_oferta
+                )
+            )
+
+        # ----------------------------------------------------
+        # TECNOLOGÍAS
+        # ----------------------------------------------------
+
         tecnologias_oferta = analisis.get(
             "tecnologias_detectadas",
             []
@@ -2750,19 +2995,50 @@ def analizar_historial():
                 )
             )
 
-        marcas_plc = analisis.get(
-            "plc_marcas_detectadas",
-            []
-        )
+        # ----------------------------------------------------
+        # PLC
+        # ----------------------------------------------------
 
-        if marcas_plc:
+        if analisis.get(
+            "plc_detectado",
+            False
+        ):
 
             print(
-                "PLC:",
-                ", ".join(
-                    marcas_plc
-                )
+                "PLC: SÍ"
             )
+
+            marcas_plc = analisis.get(
+                "plc_marcas_detectadas",
+                []
+            )
+
+            if marcas_plc:
+
+                print(
+                    "Marcas PLC:",
+                    ", ".join(
+                        marcas_plc
+                    )
+                )
+
+            tecnologias_plc = analisis.get(
+                "tecnologias_plc_detectadas",
+                []
+            )
+
+            if tecnologias_plc:
+
+                print(
+                    "Tecnologías PLC:",
+                    ", ".join(
+                        tecnologias_plc
+                    )
+                )
+
+        # ----------------------------------------------------
+        # EXPERIENCIA
+        # ----------------------------------------------------
 
         experiencia_oferta = analisis.get(
             "experiencia_solicitada",
@@ -2780,6 +3056,43 @@ def analizar_historial():
                 ),
                 "años"
             )
+
+            print(
+                "Ajuste experiencia:",
+                analisis.get(
+                    "ajuste_experiencia",
+                    ""
+                )
+            )
+
+        else:
+
+            print(
+                "Experiencia solicitada: "
+                "no especificada"
+            )
+
+        # ----------------------------------------------------
+        # FORTALEZAS
+        # ----------------------------------------------------
+
+        fortalezas = compatibilidad.get(
+            "fortalezas",
+            []
+        )
+
+        if fortalezas:
+
+            print(
+                "Fortalezas:",
+                " | ".join(
+                    fortalezas[:4]
+                )
+            )
+
+        # ----------------------------------------------------
+        # BRECHAS
+        # ----------------------------------------------------
 
         brechas = compatibilidad.get(
             "brechas",
