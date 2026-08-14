@@ -37,10 +37,10 @@
           "técnico de mantenimiento"
         ],
         "compatibilidad": {
-          "puntaje": 80,
-          "nivel": "ALTA",
-          "prioridad": "ALTA",
-          "recomendacion": "POSTULAR",
+          "puntaje": 65,
+          "nivel": "MEDIA",
+          "prioridad": "MEDIA",
+          "recomendacion": "EVALUAR Y POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES",
           "fortalezas": [
             "Coincide con: electricidad industrial, mantenimiento industrial, mantenimiento preventivo, tableros eléctricos, PLC",
             "Ubicación dentro de las zonas prioritarias.",
@@ -89,10 +89,10 @@
           "técnico eléctrico"
         ],
         "compatibilidad": {
-          "puntaje": 90,
-          "nivel": "ALTA",
-          "prioridad": "ALTA",
-          "recomendacion": "POSTULAR",
+          "puntaje": 75,
+          "nivel": "MEDIA",
+          "prioridad": "MEDIA",
+          "recomendacion": "EVALUAR Y POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES",
           "fortalezas": [
             "Coincide con: electricidad industrial, mantenimiento industrial, mantenimiento preventivo, tableros eléctricos, PLC",
             "Ubicación dentro de las zonas prioritarias.",
@@ -128,8 +128,7 @@
           "SCADA"
         ],
         "plc_marcas_detectadas": [
-          "Allen-Bradley",
-          "Schneider"
+          "Allen-Bradley"
         ],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -147,13 +146,13 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 24,
+          "puntaje": 15,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC, automatización industrial, HMI",
-            "PLC detectado: Allen-Bradley, Schneider",
+            "PLC detectado: Allen-Bradley",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -304,7 +303,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 8,
+          "puntaje": 5,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -354,7 +353,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 39,
+          "puntaje": 30,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -401,7 +400,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 23,
+          "puntaje": 20,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -452,7 +451,7 @@
           "electromecánico"
         ],
         "compatibilidad": {
-          "puntaje": 36,
+          "puntaje": 30,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -510,10 +509,10 @@
           "técnico instrumentista"
         ],
         "compatibilidad": {
-          "puntaje": 60,
-          "nivel": "MEDIA",
-          "prioridad": "MEDIA",
-          "recomendacion": "EVALUAR Y POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES",
+          "puntaje": 45,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: mantenimiento preventivo, PLC, automatización industrial, control industrial, lectura de planos",
             "El cargo coincide con el perfil.",
@@ -564,7 +563,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 55,
+          "puntaje": 40,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -616,10 +615,10 @@
           "electromecánico"
         ],
         "compatibilidad": {
-          "puntaje": 70,
-          "nivel": "MEDIA",
-          "prioridad": "MEDIA",
-          "recomendacion": "EVALUAR Y POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES",
+          "puntaje": 55,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: mantenimiento industrial, mantenimiento preventivo, tableros eléctricos, automatización industrial, motores eléctricos",
             "El cargo coincide con el perfil.",
@@ -671,7 +670,7 @@
           "técnico eléctrico"
         ],
         "compatibilidad": {
-          "puntaje": 44,
+          "puntaje": 35,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -722,7 +721,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 31,
+          "puntaje": 25,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -766,7 +765,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 23,
+          "puntaje": 20,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -815,10 +814,10 @@
           "técnico de mantenimiento"
         ],
         "compatibilidad": {
-          "puntaje": 62,
-          "nivel": "MEDIA",
-          "prioridad": "MEDIA",
-          "recomendacion": "EVALUAR Y POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES",
+          "puntaje": 50,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: mantenimiento industrial, mantenimiento preventivo, automatización industrial, control industrial",
             "El cargo coincide con el perfil.",
@@ -869,7 +868,7 @@
           "técnico en automatización"
         ],
         "compatibilidad": {
-          "puntaje": 54,
+          "puntaje": 45,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -921,7 +920,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 24,
+          "puntaje": 15,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -976,7 +975,7 @@
           "técnico en automatización"
         ],
         "compatibilidad": {
-          "puntaje": 52,
+          "puntaje": 40,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -1023,7 +1022,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 8,
+          "puntaje": 5,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -1061,8 +1060,7 @@
           "SCADA"
         ],
         "plc_marcas_detectadas": [
-          "Allen-Bradley",
-          "Schneider"
+          "Allen-Bradley"
         ],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -1080,13 +1078,13 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 34,
+          "puntaje": 25,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC, automatización industrial, HMI",
-            "PLC detectado: Allen-Bradley, Schneider",
+            "PLC detectado: Allen-Bradley",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -1131,7 +1129,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 8,
+          "puntaje": 5,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -1178,7 +1176,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 26,
+          "puntaje": 20,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -1228,7 +1226,7 @@
           "técnico en automatización"
         ],
         "compatibilidad": {
-          "puntaje": 59,
+          "puntaje": 50,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -1273,7 +1271,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 23,
+          "puntaje": 20,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -1357,7 +1355,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 8,
+          "puntaje": 5,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -1387,11 +1385,7 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
-        "plc_marcas_detectadas": [
-          "Siemens",
-          "Schneider",
-          "Omron"
-        ],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null,
@@ -1408,13 +1402,12 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 31,
+          "puntaje": 25,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: control industrial, lectura de planos",
-            "PLC detectado: Siemens, Schneider, Omron",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -1453,7 +1446,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 8,
+          "puntaje": 5,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -1499,7 +1492,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 16,
+          "puntaje": 10,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -1559,7 +1552,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 40,
+          "puntaje": 25,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -1615,7 +1608,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 40,
+          "puntaje": 25,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -1671,7 +1664,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 40,
+          "puntaje": 25,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -1722,13 +1715,10 @@
           "zona_coincidente": null
         },
         "cargos_coincidentes": [
-          "técnico de mantenimiento junior",
-          "técnico electromecánico junior",
-          "técnico de mantenimiento",
           "electromecánico"
         ],
         "compatibilidad": {
-          "puntaje": 46,
+          "puntaje": 40,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -1777,7 +1767,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 23,
+          "puntaje": 20,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -1823,7 +1813,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 16,
+          "puntaje": 10,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -1868,7 +1858,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 8,
+          "puntaje": 5,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -1912,7 +1902,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 8,
+          "puntaje": 5,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -1940,7 +1930,6 @@
           "mantenimiento industrial",
           "mantenimiento preventivo",
           "electromecánica",
-          "hidráulica",
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
@@ -1959,25 +1948,18 @@
           "zona_prioritaria": false,
           "zona_coincidente": null
         },
-        "cargos_coincidentes": [
-          "técnico de mantenimiento junior",
-          "técnico electromecánico junior",
-          "técnico de mantenimiento",
-          "electromecánico"
-        ],
+        "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 59,
+          "puntaje": 30,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: electricidad industrial, mantenimiento industrial, mantenimiento preventivo",
-            "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "electromecánica",
-            "hidráulica",
             "puesta en marcha"
           ]
         }
@@ -2013,7 +1995,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 8,
+          "puntaje": 5,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -2066,10 +2048,10 @@
           "electromecánico"
         ],
         "compatibilidad": {
-          "puntaje": 67,
-          "nivel": "MEDIA",
-          "prioridad": "MEDIA",
-          "recomendacion": "EVALUAR Y POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES",
+          "puntaje": 55,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: electricidad industrial, mantenimiento industrial, mantenimiento preventivo, tableros eléctricos",
             "El cargo coincide con el perfil.",
@@ -2115,7 +2097,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 24,
+          "puntaje": 15,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -2165,7 +2147,7 @@
           "electromecánico"
         ],
         "compatibilidad": {
-          "puntaje": 59,
+          "puntaje": 50,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -2216,7 +2198,7 @@
           "técnico de mantenimiento"
         ],
         "compatibilidad": {
-          "puntaje": 28,
+          "puntaje": 25,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -2267,7 +2249,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 24,
+          "puntaje": 15,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -2306,7 +2288,7 @@
           "meses": 6,
           "anos": 0.5
         },
-        "ajuste_experiencia": "cumple",
+        "ajuste_experiencia": "sin_experiencia",
         "ubicacion": {
           "zona_prioritaria": false,
           "zona_coincidente": null
@@ -2360,7 +2342,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 8,
+          "puntaje": 5,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -2405,7 +2387,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 16,
+          "puntaje": 10,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -2453,7 +2435,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 16,
+          "puntaje": 10,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -2500,7 +2482,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 23,
+          "puntaje": 20,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -2542,7 +2524,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 8,
+          "puntaje": 5,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -2587,7 +2569,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 16,
+          "puntaje": 10,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -2637,7 +2619,7 @@
           "electromecánico"
         ],
         "compatibilidad": {
-          "puntaje": 51,
+          "puntaje": 45,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -2688,7 +2670,7 @@
           "electromecánico"
         ],
         "compatibilidad": {
-          "puntaje": 51,
+          "puntaje": 45,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -2735,7 +2717,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 16,
+          "puntaje": 10,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -2912,7 +2894,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 8,
+          "puntaje": 5,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -2961,7 +2943,7 @@
           "electromecánico"
         ],
         "compatibilidad": {
-          "puntaje": 43,
+          "puntaje": 40,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -2989,7 +2971,6 @@
       "analisis": {
         "competencias_detectadas": [
           "tableros eléctricos",
-          "instrumentación industrial",
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
@@ -3010,7 +2991,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 8,
+          "puntaje": 5,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -3020,7 +3001,6 @@
           ],
           "brechas": [
             "Solicita 24 meses de experiencia y el perfil tiene 6 meses.",
-            "instrumentación industrial",
             "electromecánica"
           ]
         }
@@ -3229,7 +3209,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 16,
+          "puntaje": 10,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -3322,7 +3302,7 @@
           "técnico eléctrico"
         ],
         "compatibilidad": {
-          "puntaje": 28,
+          "puntaje": 25,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -3373,10 +3353,10 @@
           "técnico eléctrico"
         ],
         "compatibilidad": {
-          "puntaje": 62,
-          "nivel": "MEDIA",
-          "prioridad": "MEDIA",
-          "recomendacion": "EVALUAR Y POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES",
+          "puntaje": 50,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: electricidad industrial, mantenimiento preventivo, tableros eléctricos, motores eléctricos",
             "El cargo coincide con el perfil.",
@@ -3422,7 +3402,7 @@
           "técnico eléctrico"
         ],
         "compatibilidad": {
-          "puntaje": 28,
+          "puntaje": 25,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -3514,7 +3494,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 16,
+          "puntaje": 10,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -3562,7 +3542,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 8,
+          "puntaje": 5,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -3651,7 +3631,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 8,
+          "puntaje": 5,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -3702,7 +3682,7 @@
           "técnico eléctrico"
         ],
         "compatibilidad": {
-          "puntaje": 36,
+          "puntaje": 30,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -3755,7 +3735,7 @@
           "técnico instrumentista"
         ],
         "compatibilidad": {
-          "puntaje": 51,
+          "puntaje": 45,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -3807,7 +3787,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 24,
+          "puntaje": 15,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -3858,7 +3838,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 23,
+          "puntaje": 20,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -3908,7 +3888,7 @@
           "técnico eléctrico"
         ],
         "compatibilidad": {
-          "puntaje": 46,
+          "puntaje": 40,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -3934,6 +3914,7 @@
       "fuente": "Chiletrabajos",
       "analisis": {
         "competencias_detectadas": [
+          "mantenimiento industrial",
           "electromecánica"
         ],
         "tecnologias_detectadas": [
@@ -3959,11 +3940,12 @@
           "técnico eléctrico"
         ],
         "compatibilidad": {
-          "puntaje": 20,
+          "puntaje": 25,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
+            "Coincide con: mantenimiento industrial",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
@@ -4051,7 +4033,7 @@
           "técnico en automatización"
         ],
         "compatibilidad": {
-          "puntaje": 59,
+          "puntaje": 50,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -4102,7 +4084,7 @@
           "técnico en automatización"
         ],
         "compatibilidad": {
-          "puntaje": 43,
+          "puntaje": 40,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -4148,7 +4130,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 23,
+          "puntaje": 20,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -4193,7 +4175,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 23,
+          "puntaje": 20,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -4296,7 +4278,7 @@
           "técnico en automatización"
         ],
         "compatibilidad": {
-          "puntaje": 70,
+          "puntaje": 60,
           "nivel": "MEDIA",
           "prioridad": "MEDIA",
           "recomendacion": "EVALUAR Y POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES",
@@ -4348,7 +4330,7 @@
           "electromecánico"
         ],
         "compatibilidad": {
-          "puntaje": 46,
+          "puntaje": 40,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -4403,7 +4385,7 @@
           "instrumentista"
         ],
         "compatibilidad": {
-          "puntaje": 54,
+          "puntaje": 45,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -4431,8 +4413,7 @@
       "fuente": "Chiletrabajos",
       "analisis": {
         "competencias_detectadas": [
-          "mantenimiento preventivo",
-          "instrumentación industrial"
+          "mantenimiento preventivo"
         ],
         "tecnologias_detectadas": [],
         "plc_marcas_detectadas": [],
@@ -4445,7 +4426,7 @@
           "meses": 6,
           "anos": 0.5
         },
-        "ajuste_experiencia": "cumple",
+        "ajuste_experiencia": "sin_experiencia",
         "ubicacion": {
           "zona_prioritaria": false,
           "zona_coincidente": null
@@ -4455,7 +4436,7 @@
           "técnico en automatización"
         ],
         "compatibilidad": {
-          "puntaje": 48,
+          "puntaje": 45,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -4464,9 +4445,7 @@
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
-          "brechas": [
-            "instrumentación industrial"
-          ]
+          "brechas": []
         }
       }
     },
@@ -4506,7 +4485,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 18,
+          "puntaje": 15,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -4554,7 +4533,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 31,
+          "puntaje": 25,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -4604,7 +4583,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 55,
+          "puntaje": 40,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -4723,9 +4702,7 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
-        "plc_marcas_detectadas": [
-          "Siemens"
-        ],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null,
@@ -4744,13 +4721,12 @@
           "instrumentista"
         ],
         "compatibilidad": {
-          "puntaje": 43,
+          "puntaje": 40,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: electricidad industrial",
-            "PLC detectado: Siemens",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
@@ -4774,22 +4750,22 @@
         "tecnologias_detectadas": [],
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
-          "anos": null,
-          "meses": null,
-          "tipo": "no_especificada"
+          "anos": 0,
+          "meses": 0,
+          "tipo": "sin_experiencia"
         },
         "experiencia_perfil": {
           "meses": 6,
           "anos": 0.5
         },
-        "ajuste_experiencia": "no_especificada",
+        "ajuste_experiencia": "sin_experiencia",
         "ubicacion": {
           "zona_prioritaria": false,
           "zona_coincidente": null
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 15,
+          "puntaje": 20,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -4989,8 +4965,6 @@
           "PLC Allen-Bradley"
         ],
         "plc_marcas_detectadas": [
-          "Allen-Bradley",
-          "Schneider",
           "ABB"
         ],
         "experiencia_solicitada": {
@@ -5009,13 +4983,13 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 24,
+          "puntaje": 15,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC, control industrial, HMI",
-            "PLC detectado: Allen-Bradley, Schneider, ABB",
+            "PLC detectado: ABB",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -5038,7 +5012,6 @@
           "mantenimiento industrial",
           "automatización industrial",
           "electromecánica",
-          "neumática",
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
@@ -5064,7 +5037,7 @@
           "electromecánico"
         ],
         "compatibilidad": {
-          "puntaje": 46,
+          "puntaje": 40,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -5076,7 +5049,6 @@
           "brechas": [
             "Solicita 12 meses de experiencia y el perfil tiene 6 meses.",
             "electromecánica",
-            "neumática",
             "puesta en marcha"
           ]
         }
@@ -5118,7 +5090,7 @@
           "electromecánico"
         ],
         "compatibilidad": {
-          "puntaje": 44,
+          "puntaje": 35,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -5145,7 +5117,6 @@
       "fuente": "Chiletrabajos",
       "analisis": {
         "competencias_detectadas": [
-          "instrumentación industrial",
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
@@ -5178,7 +5149,6 @@
           ],
           "brechas": [
             "Solicita 24 meses de experiencia y el perfil tiene 6 meses.",
-            "instrumentación industrial",
             "electromecánica"
           ]
         }
@@ -5194,8 +5164,7 @@
       "fuente": "Chiletrabajos",
       "analisis": {
         "competencias_detectadas": [
-          "electromecánica",
-          "hidráulica"
+          "electromecánica"
         ],
         "tecnologias_detectadas": [],
         "plc_marcas_detectadas": [],
@@ -5223,8 +5192,7 @@
             "SEC Clase D en trámite."
           ],
           "brechas": [
-            "electromecánica",
-            "hidráulica"
+            "electromecánica"
           ]
         }
       }
@@ -5357,7 +5325,7 @@
           "electromecánico"
         ],
         "compatibilidad": {
-          "puntaje": 59,
+          "puntaje": 50,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -5405,7 +5373,7 @@
           "electromecánico"
         ],
         "compatibilidad": {
-          "puntaje": 28,
+          "puntaje": 25,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -5444,7 +5412,7 @@
           "meses": 6,
           "anos": 0.5
         },
-        "ajuste_experiencia": "cumple",
+        "ajuste_experiencia": "sin_experiencia",
         "ubicacion": {
           "zona_prioritaria": false,
           "zona_coincidente": null
@@ -5496,7 +5464,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 31,
+          "puntaje": 25,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -5639,7 +5607,7 @@
           "electromecánico"
         ],
         "compatibilidad": {
-          "puntaje": 51,
+          "puntaje": 45,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -5686,7 +5654,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 23,
+          "puntaje": 20,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -5785,7 +5753,7 @@
           "técnico instrumentista"
         ],
         "compatibilidad": {
-          "puntaje": 44,
+          "puntaje": 35,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -5838,7 +5806,7 @@
           "electromecánico"
         ],
         "compatibilidad": {
-          "puntaje": 36,
+          "puntaje": 30,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -5886,7 +5854,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 8,
+          "puntaje": 5,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -5934,7 +5902,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 24,
+          "puntaje": 15,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -5968,9 +5936,7 @@
           "instrumentación industrial",
           "electromecánica",
           "lectura de planos",
-          "sensores",
-          "neumática",
-          "hidráulica"
+          "sensores"
         ],
         "tecnologias_detectadas": [],
         "plc_marcas_detectadas": [],
@@ -5990,7 +5956,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 40,
+          "puntaje": 35,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -6002,9 +5968,7 @@
             "Solicita 36 meses de experiencia y el perfil tiene 6 meses.",
             "instrumentación industrial",
             "electromecánica",
-            "sensores",
-            "neumática",
-            "hidráulica"
+            "sensores"
           ]
         }
       }
@@ -6026,22 +5990,22 @@
         "tecnologias_detectadas": [],
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
-          "anos": null,
-          "meses": null,
-          "tipo": "no_especificada"
+          "anos": 0,
+          "meses": 0,
+          "tipo": "sin_experiencia"
         },
         "experiencia_perfil": {
           "meses": 6,
           "anos": 0.5
         },
-        "ajuste_experiencia": "no_especificada",
+        "ajuste_experiencia": "sin_experiencia",
         "ubicacion": {
           "zona_prioritaria": false,
           "zona_coincidente": null
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 31,
+          "puntaje": 30,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -6090,7 +6054,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 18,
+          "puntaje": 15,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -6142,7 +6106,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 18,
+          "puntaje": 15,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -6195,7 +6159,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 40,
+          "puntaje": 25,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -6247,7 +6211,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 24,
+          "puntaje": 15,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -6344,7 +6308,7 @@
           "técnico instrumentista"
         ],
         "compatibilidad": {
-          "puntaje": 28,
+          "puntaje": 25,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -6401,7 +6365,7 @@
           "instrumentista"
         ],
         "compatibilidad": {
-          "puntaje": 75,
+          "puntaje": 65,
           "nivel": "MEDIA",
           "prioridad": "MEDIA",
           "recomendacion": "EVALUAR Y POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES",
@@ -6454,7 +6418,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 32,
+          "puntaje": 20,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -6489,8 +6453,7 @@
           "HMI",
           "instrumentación industrial",
           "electromecánica",
-          "sensores",
-          "neumática"
+          "sensores"
         ],
         "tecnologias_detectadas": [],
         "plc_marcas_detectadas": [],
@@ -6512,10 +6475,10 @@
           "electromecánico"
         ],
         "compatibilidad": {
-          "puntaje": 60,
-          "nivel": "MEDIA",
-          "prioridad": "MEDIA",
-          "recomendacion": "EVALUAR Y POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES",
+          "puntaje": 55,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: electricidad industrial, mantenimiento industrial, mantenimiento preventivo, tableros eléctricos, PLC, automatización industrial, HMI",
             "El cargo coincide con el perfil.",
@@ -6525,8 +6488,7 @@
             "Solicita 36 meses de experiencia y el perfil tiene 6 meses.",
             "instrumentación industrial",
             "electromecánica",
-            "sensores",
-            "neumática"
+            "sensores"
           ]
         }
       }
@@ -6565,7 +6527,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 24,
+          "puntaje": 15,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -6613,7 +6575,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 31,
+          "puntaje": 25,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -6671,10 +6633,10 @@
           "técnico de mantenimiento"
         ],
         "compatibilidad": {
-          "puntaje": 60,
-          "nivel": "MEDIA",
-          "prioridad": "MEDIA",
-          "recomendacion": "EVALUAR Y POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES",
+          "puntaje": 50,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: electricidad industrial, mantenimiento industrial, PLC, variadores de frecuencia, motores eléctricos, lectura de planos",
             "El cargo coincide con el perfil.",
@@ -6768,7 +6730,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 31,
+          "puntaje": 25,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -6879,7 +6841,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 24,
+          "puntaje": 15,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -6926,7 +6888,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 31,
+          "puntaje": 25,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -6972,7 +6934,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 16,
+          "puntaje": 10,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -7016,7 +6978,7 @@
           "meses": 6,
           "anos": 0.5
         },
-        "ajuste_experiencia": "cumple",
+        "ajuste_experiencia": "sin_experiencia",
         "ubicacion": {
           "zona_prioritaria": false,
           "zona_coincidente": null
@@ -7028,10 +6990,10 @@
           "técnico de mantenimiento"
         ],
         "compatibilidad": {
-          "puntaje": 64,
-          "nivel": "MEDIA",
-          "prioridad": "MEDIA",
-          "recomendacion": "EVALUAR Y POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES",
+          "puntaje": 55,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: mantenimiento preventivo, PLC, variadores de frecuencia",
             "El cargo coincide con el perfil.",
@@ -7057,8 +7019,7 @@
           "mantenimiento preventivo",
           "PLC",
           "automatización industrial",
-          "HMI",
-          "instrumentación industrial"
+          "HMI"
         ],
         "tecnologias_detectadas": [],
         "plc_marcas_detectadas": [],
@@ -7078,7 +7039,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 47,
+          "puntaje": 35,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -7086,9 +7047,7 @@
             "Coincide con: mantenimiento preventivo, PLC, automatización industrial, HMI",
             "SEC Clase D en trámite."
           ],
-          "brechas": [
-            "instrumentación industrial"
-          ]
+          "brechas": []
         }
       }
     },
@@ -7122,7 +7081,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 23,
+          "puntaje": 20,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -7169,7 +7128,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 23,
+          "puntaje": 20,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -7218,7 +7177,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 24,
+          "puntaje": 15,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -7262,14 +7221,14 @@
           "meses": 6,
           "anos": 0.5
         },
-        "ajuste_experiencia": "cumple",
+        "ajuste_experiencia": "sin_experiencia",
         "ubicacion": {
           "zona_prioritaria": false,
           "zona_coincidente": null
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 52,
+          "puntaje": 40,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -7321,7 +7280,7 @@
           "electromecánico"
         ],
         "compatibilidad": {
-          "puntaje": 52,
+          "puntaje": 40,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -7374,7 +7333,7 @@
           "técnico de mantenimiento"
         ],
         "compatibilidad": {
-          "puntaje": 43,
+          "puntaje": 40,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -7428,7 +7387,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 16,
+          "puntaje": 10,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -7459,8 +7418,7 @@
           "PLC",
           "automatización industrial",
           "HMI",
-          "SCADA",
-          "electromecánica"
+          "SCADA"
         ],
         "tecnologias_detectadas": [
           "PLC Siemens",
@@ -7468,7 +7426,6 @@
           "SCADA"
         ],
         "plc_marcas_detectadas": [
-          "Siemens",
           "Allen-Bradley"
         ],
         "experiencia_solicitada": {
@@ -7487,19 +7444,18 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 24,
+          "puntaje": 15,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC, automatización industrial, HMI",
-            "PLC detectado: Siemens, Allen-Bradley",
+            "PLC detectado: Allen-Bradley",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 36 meses de experiencia y el perfil tiene 6 meses.",
-            "SCADA",
-            "electromecánica"
+            "SCADA"
           ]
         }
       }
@@ -7536,7 +7492,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 31,
+          "puntaje": 25,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -7591,10 +7547,10 @@
           "electromecánico"
         ],
         "compatibilidad": {
-          "puntaje": 60,
-          "nivel": "MEDIA",
-          "prioridad": "MEDIA",
-          "recomendacion": "EVALUAR Y POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES",
+          "puntaje": 50,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: electricidad industrial, mantenimiento industrial, tableros eléctricos, PLC, variadores de frecuencia, lectura de planos",
             "El cargo coincide con el perfil.",
@@ -7652,7 +7608,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 40,
+          "puntaje": 25,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -7701,7 +7657,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 23,
+          "puntaje": 20,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -7751,7 +7707,7 @@
           "electromecánico"
         ],
         "compatibilidad": {
-          "puntaje": 44,
+          "puntaje": 35,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -7805,7 +7761,7 @@
           "instrumentista"
         ],
         "compatibilidad": {
-          "puntaje": 54,
+          "puntaje": 45,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -7852,7 +7808,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 23,
+          "puntaje": 20,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -7896,7 +7852,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 16,
+          "puntaje": 10,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -7943,7 +7899,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 31,
+          "puntaje": 25,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -7989,7 +7945,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 18,
+          "puntaje": 15,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -8039,7 +7995,7 @@
           "electromecánico"
         ],
         "compatibilidad": {
-          "puntaje": 43,
+          "puntaje": 40,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -8089,7 +8045,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 24,
+          "puntaje": 15,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -8139,7 +8095,7 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 24,
+          "puntaje": 15,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -8197,7 +8153,7 @@
           "técnico en automatización"
         ],
         "compatibilidad": {
-          "puntaje": 52,
+          "puntaje": 40,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -8249,7 +8205,7 @@
           "electromecánico"
         ],
         "compatibilidad": {
-          "puntaje": 43,
+          "puntaje": 40,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -8302,7 +8258,7 @@
           "electromecánico"
         ],
         "compatibilidad": {
-          "puntaje": 59,
+          "puntaje": 50,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -8387,10 +8343,10 @@
   "resumen_mercado": {
     "ofertas_analizadas": 168,
     "competencias_mas_solicitadas": {
-      "electromecánica": 80,
-      "instrumentación industrial": 60,
+      "electromecánica": 79,
       "mantenimiento preventivo": 58,
-      "mantenimiento industrial": 50,
+      "instrumentación industrial": 56,
+      "mantenimiento industrial": 51,
       "PLC": 43,
       "automatización industrial": 42,
       "electricidad industrial": 40,
@@ -8401,11 +8357,11 @@
       "control industrial": 20,
       "diagnóstico de fallas": 19,
       "variadores de frecuencia": 15,
-      "neumática": 13,
-      "hidráulica": 13,
       "motores eléctricos": 11,
-      "SCADA": 10,
       "HMI": 10,
+      "SCADA": 10,
+      "neumática": 10,
+      "hidráulica": 10,
       "mantenimiento correctivo": 6,
       "seguridad eléctrica": 4
     },
@@ -8419,18 +8375,17 @@
       "WinCC": 1
     },
     "plc_por_marca": {
-      "Allen-Bradley": 6,
-      "Schneider": 6,
-      "Siemens": 6,
+      "Allen-Bradley": 5,
+      "Siemens": 3,
       "ABB": 2,
-      "Omron": 1
+      "Schneider": 2
     },
     "analisis_PLC": {
       "ofertas_con_PLC": 43,
       "marcas_PLC": {
-        "Allen-Bradley": 5,
-        "Schneider": 5,
-        "Siemens": 3,
+        "Allen-Bradley": 4,
+        "Siemens": 2,
+        "Schneider": 2,
         "ABB": 2
       },
       "tecnologias_PLC": {
@@ -8442,94 +8397,94 @@
       }
     },
     "electromecanica": {
-      "ofertas_electromecanica": 80,
+      "ofertas_electromecanica": 79,
       "competencias_dentro_electromecanica": {
         "mantenimiento preventivo": {
           "ofertas": 35,
-          "porcentaje": 43.8
+          "porcentaje": 44.3
         },
         "mantenimiento industrial": {
-          "ofertas": 33,
-          "porcentaje": 41.2
+          "ofertas": 34,
+          "porcentaje": 43.0
         },
         "electricidad industrial": {
           "ofertas": 27,
-          "porcentaje": 33.8
+          "porcentaje": 34.2
         },
         "automatización industrial": {
-          "ofertas": 23,
-          "porcentaje": 28.7
+          "ofertas": 22,
+          "porcentaje": 27.8
         },
         "PLC": {
-          "ofertas": 22,
-          "porcentaje": 27.5
-        },
-        "instrumentación industrial": {
-          "ofertas": 20,
-          "porcentaje": 25.0
+          "ofertas": 21,
+          "porcentaje": 26.6
         },
         "sensores": {
           "ofertas": 19,
-          "porcentaje": 23.8
+          "porcentaje": 24.1
         },
         "lectura de planos": {
           "ofertas": 19,
-          "porcentaje": 23.8
+          "porcentaje": 24.1
         },
         "tableros eléctricos": {
           "ofertas": 18,
-          "porcentaje": 22.5
+          "porcentaje": 22.8
+        },
+        "instrumentación industrial": {
+          "ofertas": 18,
+          "porcentaje": 22.8
         },
         "diagnóstico de fallas": {
           "ofertas": 12,
-          "porcentaje": 15.0
+          "porcentaje": 15.2
         },
         "puesta en marcha": {
           "ofertas": 10,
-          "porcentaje": 12.5
-        },
-        "neumática": {
-          "ofertas": 10,
-          "porcentaje": 12.5
-        },
-        "motores eléctricos": {
-          "ofertas": 10,
-          "porcentaje": 12.5
+          "porcentaje": 12.7
         },
         "variadores de frecuencia": {
           "ofertas": 10,
-          "porcentaje": 12.5
+          "porcentaje": 12.7
+        },
+        "motores eléctricos": {
+          "ofertas": 10,
+          "porcentaje": 12.7
+        },
+        "neumática": {
+          "ofertas": 7,
+          "porcentaje": 8.9
         },
         "hidráulica": {
-          "ofertas": 10,
-          "porcentaje": 12.5
+          "ofertas": 7,
+          "porcentaje": 8.9
         },
         "HMI": {
-          "ofertas": 7,
-          "porcentaje": 8.8
+          "ofertas": 6,
+          "porcentaje": 7.6
         },
         "SCADA": {
-          "ofertas": 5,
-          "porcentaje": 6.2
+          "ofertas": 4,
+          "porcentaje": 5.1
         },
         "mantenimiento correctivo": {
           "ofertas": 4,
-          "porcentaje": 5.0
+          "porcentaje": 5.1
         }
       }
     },
     "experiencia_requerida": {
-      "no especificada": 60,
+      "no especificada": 58,
       "3 años": 28,
       "2 años": 26,
       "más de 3 años": 25,
       "1 año": 24,
-      "sin experiencia": 5
+      "sin experiencia": 7
     },
     "experiencia_promedio_anos": 3.3,
     "experiencia_minima_anos": 1.0,
     "experiencia_maxima_anos": 20.0,
-    "ofertas_sin_experiencia": 5,
+    "ofertas_sin_experiencia": 7,
     "ubicaciones_mas_repetidas": {
       "Curicó": 2
     },
@@ -8553,10 +8508,17 @@
     "plan_desarrollo": [
       {
         "competencia": "instrumentación industrial",
-        "ofertas": 60,
+        "ofertas": 56,
         "estado": "BRECHA",
         "es_objetivo": true,
-        "prioridad": 8
+        "prioridad": 9
+      },
+      {
+        "competencia": "electromecánica",
+        "ofertas": 79,
+        "estado": "BRECHA",
+        "es_objetivo": false,
+        "prioridad": 7
       },
       {
         "competencia": "sensores",
@@ -8564,13 +8526,6 @@
         "estado": "BRECHA",
         "es_objetivo": true,
         "prioridad": 7
-      },
-      {
-        "competencia": "electromecánica",
-        "ofertas": 80,
-        "estado": "BRECHA",
-        "es_objetivo": false,
-        "prioridad": 6
       },
       {
         "competencia": "PLC",
@@ -8587,20 +8542,6 @@
         "prioridad": 6
       },
       {
-        "competencia": "neumática",
-        "ofertas": 13,
-        "estado": "BRECHA",
-        "es_objetivo": true,
-        "prioridad": 6
-      },
-      {
-        "competencia": "hidráulica",
-        "ofertas": 13,
-        "estado": "BRECHA",
-        "es_objetivo": true,
-        "prioridad": 6
-      },
-      {
         "competencia": "SCADA",
         "ofertas": 10,
         "estado": "BRECHA",
@@ -8608,25 +8549,39 @@
         "prioridad": 6
       },
       {
-        "competencia": "puesta en marcha",
-        "ofertas": 26,
+        "competencia": "neumática",
+        "ofertas": 10,
         "estado": "BRECHA",
-        "es_objetivo": false,
-        "prioridad": 5
+        "es_objetivo": true,
+        "prioridad": 6
+      },
+      {
+        "competencia": "hidráulica",
+        "ofertas": 10,
+        "estado": "BRECHA",
+        "es_objetivo": true,
+        "prioridad": 6
       },
       {
         "competencia": "mantenimiento preventivo",
         "ofertas": 58,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
-        "prioridad": 4
+        "prioridad": 5
       },
       {
         "competencia": "mantenimiento industrial",
-        "ofertas": 50,
+        "ofertas": 51,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
-        "prioridad": 4
+        "prioridad": 5
+      },
+      {
+        "competencia": "puesta en marcha",
+        "ofertas": 26,
+        "estado": "BRECHA",
+        "es_objetivo": false,
+        "prioridad": 5
       },
       {
         "competencia": "automatización industrial",
@@ -8700,12 +8655,13 @@
       }
     ],
     "recomendaciones": [
-      "Priorizar formación práctica en PLC. Las marcas detectadas con mayor frecuencia son: Allen-Bradley, Schneider, Siemens.",
-      "Considerar electromecánica como línea importante de búsqueda: 80 ofertas (47.6% del conjunto analizado).",
-      "Mantener como núcleo profesional: electromecánica, instrumentación industrial, mantenimiento preventivo, mantenimiento industrial, PLC.",
+      "Priorizar formación práctica en PLC. Las marcas detectadas con mayor frecuencia son: Allen-Bradley, Siemens, ABB.",
+      "Considerar electromecánica como línea importante de búsqueda: 79 ofertas (47.0% del conjunto analizado).",
+      "Mantener como núcleo profesional: electromecánica, mantenimiento preventivo, instrumentación industrial, mantenimiento industrial, PLC.",
       "Buscar especialmente cargos que combinen mantenimiento industrial + electricidad industrial + PLC/automatización.",
       "No limitar la búsqueda a cargos que exijan experiencia: también seguir las ofertas que aceptan candidatos sin experiencia.",
-      "Para cerrar brechas, comenzar por: electromecánica, instrumentación industrial, sensores, puesta en marcha, diagnóstico de fallas."
+      "Dar prioridad adicional a ofertas donde la experiencia no está especificada, porque no presentan una barrera explícita de años de experiencia.",
+      "Para cerrar brechas, comenzar por: instrumentación industrial, electromecánica, sensores, diagnóstico de fallas, SCADA."
     ]
   },
   "plan_desarrollo": {
@@ -8723,6 +8679,7 @@
   "perfil_analizado": {
     "profesion": "Técnico en Automatización y Control Industrial",
     "experiencia_meses": 6,
+    "anos_experiencia": 0.5,
     "certificacion_electrica": {
       "tipo": "SEC Clase D",
       "estado": "En trámite"
