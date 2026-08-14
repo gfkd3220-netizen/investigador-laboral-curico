@@ -192,9 +192,106 @@ COMPETENCIAS = {
 
 
 # ============================================================
-# TECNOLOGÍAS ESPECÍFICAS
+# ============================================================
+# DESGLOSE PLC POR MARCA
 #
-# Cada publicación cuenta SOLO 1 vez por tecnología.
+# Una publicación cuenta SOLO 1 vez por marca.
+#
+# No basta con que aparezca la palabra "Siemens" de forma
+# aislada. Se intenta comprobar que exista contexto de PLC,
+# automatización, programación o modelos de la marca.
+# ============================================================
+# ============================================================
+
+PLC_MARCAS = {
+
+    "Siemens": [
+        "siemens",
+        "s7-1200",
+        "s7 1200",
+        "s7-1500",
+        "s7 1500",
+        "s7-300",
+        "s7 300",
+        "s7-400",
+        "s7 400",
+        "logo!",
+        "tia portal",
+        "step 7",
+        "wincc",
+        "simatic"
+    ],
+
+    "Allen-Bradley": [
+        "allen-bradley",
+        "allen bradley",
+        "rockwell",
+        "controllogix",
+        "compactlogix",
+        "micrologix",
+        "studio 5000",
+        "studio5000",
+        "rslogix",
+        "factorytalk"
+    ],
+
+    "Schneider": [
+        "schneider",
+        "schneider electric",
+        "modicon",
+        "m251",
+        "m340",
+        "m580",
+        "m580",
+        "unity pro",
+        "unitypro",
+        "ecostruxure",
+        "plantstruxure"
+    ],
+
+    "Mitsubishi": [
+        "mitsubishi",
+        "fx3u",
+        "fx5u",
+        "gx works"
+    ],
+
+    "Omron": [
+        "omron",
+        "cx-programmer",
+        "cx programmer",
+        "nx1p",
+        "cj2"
+    ],
+
+    "ABB": [
+        "abb",
+        "800xa",
+        "800xA",
+        "abb acs"
+    ],
+
+    "Panasonic": [
+        "panasonic",
+        "matsushita"
+    ],
+
+    "GE / Fanuc": [
+        "ge fanuc",
+        "ge/fanuc",
+        "gefanuc",
+        "fanuc"
+    ],
+
+    "Beckhoff": [
+        "beckhoff",
+        "twincat"
+    ]
+}
+
+
+# ============================================================
+# TECNOLOGÍAS ESPECÍFICAS
 # ============================================================
 
 TECNOLOGIAS = {
@@ -217,6 +314,7 @@ TECNOLOGIAS = {
         "plc allen bradley",
         "allen-bradley",
         "allen bradley",
+        "rockwell",
         "controllogix",
         "compactlogix"
     ],
@@ -243,6 +341,11 @@ TECNOLOGIAS = {
         "cx-programmer",
         "nx1p",
         "cj2"
+    ],
+
+    "PLC ABB": [
+        "plc abb",
+        "abb plc"
     ],
 
     "TIA Portal": [
@@ -314,6 +417,130 @@ TECNOLOGIAS = {
 
 
 # ============================================================
+# DESGLOSE DE ELECTROMECÁNICA
+#
+# Este bloque NO cuenta todo el mercado.
+#
+# Primero identifica las ofertas donde aparece
+# "electromecánica/electromecánico".
+#
+# Después analiza qué competencias aparecen DENTRO
+# de esas ofertas.
+# ============================================================
+
+ELECTROMECANICA_DESGLOSE = {
+
+    "mantenimiento industrial": [
+        "mantenimiento industrial",
+        "mantención industrial",
+        "mantenimiento de maquinaria",
+        "mantencion de maquinaria"
+    ],
+
+    "mantenimiento preventivo": [
+        "mantenimiento preventivo",
+        "mantención preventiva"
+    ],
+
+    "mantenimiento correctivo": [
+        "mantenimiento correctivo",
+        "mantención correctiva"
+    ],
+
+    "electricidad industrial": [
+        "electricidad industrial",
+        "eléctrica industrial",
+        "electrico industrial",
+        "electricista industrial"
+    ],
+
+    "motores eléctricos": [
+        "motor eléctrico",
+        "motores eléctricos",
+        "motor electrico",
+        "motores electricos"
+    ],
+
+    "PLC": [
+        "plc",
+        "controlador lógico programable",
+        "controlador logico programable"
+    ],
+
+    "automatización industrial": [
+        "automatización industrial",
+        "automatizacion industrial"
+    ],
+
+    "instrumentación industrial": [
+        "instrumentación industrial",
+        "instrumentacion industrial",
+        "instrumentista"
+    ],
+
+    "variadores de frecuencia": [
+        "variador de frecuencia",
+        "variadores de frecuencia",
+        "vfd",
+        "variador"
+    ],
+
+    "sensores": [
+        "sensores",
+        "sensor industrial"
+    ],
+
+    "neumática": [
+        "neumática",
+        "neumatica"
+    ],
+
+    "hidráulica": [
+        "hidráulica",
+        "hidraulica"
+    ],
+
+    "tableros eléctricos": [
+        "tablero eléctrico",
+        "tableros eléctricos",
+        "tableros electricos"
+    ],
+
+    "lectura de planos": [
+        "lectura de planos",
+        "interpretación de planos",
+        "interpretacion de planos",
+        "planos eléctricos",
+        "planos electricos"
+    ],
+
+    "diagnóstico de fallas": [
+        "diagnóstico de fallas",
+        "diagnostico de fallas",
+        "detección de fallas",
+        "deteccion de fallas",
+        "troubleshooting"
+    ],
+
+    "puesta en marcha": [
+        "puesta en marcha",
+        "puesta en servicio",
+        "comisionamiento"
+    ],
+
+    "HMI": [
+        "hmi",
+        "interfaz hombre máquina",
+        "interfaz hombre maquina"
+    ],
+
+    "SCADA": [
+        "scada"
+    ]
+}
+
+
+# ============================================================
 # NORMALIZAR
 # ============================================================
 
@@ -358,7 +585,7 @@ def texto_oferta(oferta):
 # ============================================================
 # DETECTAR CATEGORÍAS
 #
-# Una publicación = máximo 1 conteo.
+# Una publicación = máximo 1 conteo por categoría.
 # ============================================================
 
 def detectar_categorias(texto, catalogo):
@@ -375,21 +602,72 @@ def detectar_categorias(texto, catalogo):
 
                 encontradas.append(nombre)
 
-                # Importante:
-                # aunque aparezca 20 veces en la oferta,
-                # esta publicación cuenta solo 1 vez.
                 break
 
     return encontradas
 
 
 # ============================================================
+# DETECTAR MARCAS PLC
+#
+# Una publicación = máximo 1 conteo por marca.
+# ============================================================
+
+def detectar_marcas_plc(texto):
+
+    texto = normalizar(texto)
+
+    marcas = []
+
+    # Contexto que indica que la oferta realmente
+    # está hablando de automatización / PLC.
+    contexto_plc = [
+        "plc",
+        "programacion",
+        "programación",
+        "automatizacion",
+        "automatización",
+        "control industrial",
+        "sistema de control",
+        "hmi",
+        "scada",
+        "tia portal",
+        "step 7",
+        "controllogix",
+        "compactlogix",
+        "modicon",
+        "s7-1200",
+        "s7 1200",
+        "s7-1500",
+        "s7 1500"
+    ]
+
+    tiene_contexto = any(
+        normalizar(palabra) in texto
+        for palabra in contexto_plc
+    )
+
+    if not tiene_contexto:
+
+        return marcas
+
+    for marca, variantes in PLC_MARCAS.items():
+
+        for variante in variantes:
+
+            if normalizar(variante) in texto:
+
+                marcas.append(marca)
+
+                break
+
+    return marcas
+
+
+# ============================================================
 # DETECTAR EXPERIENCIA
 #
-# Evita interpretar números de fechas, teléfonos, códigos,
-# etc. como años de experiencia.
-#
-# También ignora valores absurdos superiores a 20 años.
+# Evita fechas, teléfonos, códigos, etc.
 # ============================================================
 
 def detectar_experiencia(texto):
@@ -414,7 +692,6 @@ def detectar_experiencia(texto):
     encontrados = []
 
     # --------------------------------------------------------
-    # PATRÓN:
     # "experiencia de 2 años"
     # "experiencia mínima de 2 años"
     # "experiencia laboral de 6 meses"
@@ -429,7 +706,6 @@ def detectar_experiencia(texto):
     )
 
     # --------------------------------------------------------
-    # PATRÓN:
     # "2 años de experiencia"
     # "6 meses de experiencia"
     # --------------------------------------------------------
@@ -463,17 +739,8 @@ def detectar_experiencia(texto):
 
                 meses = numero
 
-            # ------------------------------------------------
-            # Evitar basura:
-            #
-            # 45 años
-            # 100 años
-            # etc.
-            #
-            # Para este investigador laboral consideramos
-            # como máximo 20 años de experiencia solicitada.
-            # ------------------------------------------------
-
+            # Máximo razonable considerado:
+            # 20 años.
             if meses <= 240:
 
                 encontrados.append(meses)
@@ -526,8 +793,6 @@ def detectar_experiencia(texto):
 
         if meses <= 240:
 
-            # Guardamos una aproximación para poder
-            # clasificar la oferta.
             encontrados.append(
                 max(1, meses - 1)
             )
@@ -539,8 +804,6 @@ def detectar_experiencia(texto):
             "meses": None
         }
 
-    # Si una publicación menciona varias exigencias,
-    # tomamos la mayor.
     meses = max(encontrados)
 
     return {
@@ -750,6 +1013,10 @@ def analizar_oferta(oferta):
         TECNOLOGIAS
     )
 
+    marcas_plc = detectar_marcas_plc(
+        texto
+    )
+
     experiencia_detectada = detectar_experiencia(
         texto
     )
@@ -782,10 +1049,6 @@ def analizar_oferta(oferta):
         ubicacion,
         cargos
     )
-
-    # --------------------------------------------------------
-    # COMPETENCIAS QUE SÍ TIENE EL PERFIL
-    # --------------------------------------------------------
 
     coincidencias_perfil = [
         competencia
@@ -823,10 +1086,6 @@ def analizar_oferta(oferta):
         "SEC Clase D en trámite."
     )
 
-    # --------------------------------------------------------
-    # BRECHAS
-    # --------------------------------------------------------
-
     brechas = []
 
     if (
@@ -841,9 +1100,6 @@ def analizar_oferta(oferta):
             f"{PERFIL['experiencia_meses']} meses."
         )
 
-    # Solo consideramos brecha una competencia
-    # que realmente aparece en la oferta pero
-    # que NO está en el perfil.
     for competencia in competencias:
 
         if competencia not in PERFIL["competencias"]:
@@ -851,10 +1107,6 @@ def analizar_oferta(oferta):
             brechas.append(
                 competencia
             )
-
-    # --------------------------------------------------------
-    # RECOMENDACIÓN
-    # --------------------------------------------------------
 
     if puntaje >= 80:
 
@@ -880,6 +1132,9 @@ def analizar_oferta(oferta):
 
         "tecnologias_detectadas":
             tecnologias,
+
+        "plc_marcas_detectadas":
+            marcas_plc,
 
         "experiencia_solicitada": {
 
@@ -939,9 +1194,98 @@ def analizar_oferta(oferta):
 
 
 # ============================================================
-# ANALIZAR MERCADO
+# DESGLOSE PLC POR MARCA
 #
-# Cada oferta se cuenta una sola vez por categoría.
+# Analiza todas las ofertas y cuenta una vez por marca.
+# ============================================================
+
+def analizar_plc_por_marca(ofertas):
+
+    contador = Counter()
+
+    for oferta in ofertas:
+
+        texto = texto_oferta(
+            oferta
+        )
+
+        marcas = detectar_marcas_plc(
+            texto
+        )
+
+        for marca in set(marcas):
+
+            contador[marca] += 1
+
+    return dict(
+        contador.most_common()
+    )
+
+
+# ============================================================
+# DESGLOSE ELECTROMECÁNICA
+#
+# Primero detecta las ofertas que realmente mencionan
+# electromecánica/electromecánico.
+#
+# Después analiza las competencias solicitadas dentro
+# de ese subconjunto.
+# ============================================================
+
+def analizar_electromecanica(ofertas):
+
+    contador = Counter()
+
+    ofertas_electromecanica = 0
+
+    for oferta in ofertas:
+
+        texto = texto_oferta(
+            oferta
+        )
+
+        texto_normalizado = normalizar(
+            texto
+        )
+
+        es_electromecanica = (
+            "electromecanica" in texto_normalizado
+            or "electromecanico" in texto_normalizado
+        )
+
+        if not es_electromecanica:
+
+            continue
+
+        ofertas_electromecanica += 1
+
+        competencias = detectar_categorias(
+            texto,
+            ELECTROMECANICA_DESGLOSE
+        )
+
+        for competencia in set(
+            competencias
+        ):
+
+            contador[
+                competencia
+            ] += 1
+
+    return {
+
+        "ofertas_electromecanica":
+            ofertas_electromecanica,
+
+        "competencias_dentro_electromecanica":
+            dict(
+                contador.most_common()
+            )
+    }
+
+
+# ============================================================
+# ANALIZAR MERCADO
 # ============================================================
 
 def analizar_mercado(ofertas):
@@ -973,7 +1317,9 @@ def analizar_mercado(ofertas):
             COMPETENCIAS
         )
 
-        for competencia in competencias:
+        for competencia in set(
+            competencias
+        ):
 
             contador_competencias[
                 competencia
@@ -988,7 +1334,9 @@ def analizar_mercado(ofertas):
             TECNOLOGIAS
         )
 
-        for tecnologia in tecnologias:
+        for tecnologia in set(
+            tecnologias
+        ):
 
             contador_tecnologias[
                 tecnologia
@@ -1112,6 +1460,20 @@ def analizar_mercado(ofertas):
         experiencia_minima = None
         experiencia_maxima = None
 
+    # --------------------------------------------------------
+    # NUEVOS ANÁLISIS
+    # --------------------------------------------------------
+
+    plc_por_marca = analizar_plc_por_marca(
+        ofertas
+    )
+
+    desglose_electromecanica = (
+        analizar_electromecanica(
+            ofertas
+        )
+    )
+
     return {
 
         "ofertas_analizadas":
@@ -1126,6 +1488,12 @@ def analizar_mercado(ofertas):
             dict(
                 contador_tecnologias.most_common()
             ),
+
+        "plc_por_marca":
+            plc_por_marca,
+
+        "electromecanica":
+            desglose_electromecanica,
 
         "experiencia_requerida":
             dict(
@@ -1158,9 +1526,6 @@ def analizar_mercado(ofertas):
 
 # ============================================================
 # PLAN DE DESARROLLO
-#
-# Solo muestra competencias que el mercado pide
-# y que NO están en el perfil.
 # ============================================================
 
 def generar_plan_desarrollo(mercado):
@@ -1371,6 +1736,40 @@ def analizar_historial():
         )
 
     # ========================================================
+    # PLC POR MARCA
+    # ========================================================
+
+    print()
+    print("======================================")
+    print("DESGLOSE PLC POR MARCA")
+    print("======================================")
+
+    plc_por_marca = mercado[
+        "plc_por_marca"
+    ]
+
+    if plc_por_marca:
+
+        for i, (
+            marca,
+            cantidad
+        ) in enumerate(
+            plc_por_marca.items(),
+            start=1
+        ):
+
+            print(
+                f"{i}. {marca}: "
+                f"{cantidad} ofertas"
+            )
+
+    else:
+
+        print(
+            "No se detectaron marcas de PLC."
+        )
+
+    # ========================================================
     # TECNOLOGÍAS ESPECÍFICAS
     # ========================================================
 
@@ -1405,6 +1804,59 @@ def analizar_historial():
 
         print(
             "No se detectaron tecnologías específicas."
+        )
+
+    # ========================================================
+    # ELECTROMECÁNICA
+    # ========================================================
+
+    print()
+    print("======================================")
+    print("DESGLOSE ELECTROMECÁNICA")
+    print("======================================")
+
+    electromecanica = mercado[
+        "electromecanica"
+    ]
+
+    cantidad_electromecanica = (
+        electromecanica[
+            "ofertas_electromecanica"
+        ]
+    )
+
+    print(
+        "Ofertas de electromecánica:",
+        cantidad_electromecanica
+    )
+
+    competencias_electromecanica = (
+        electromecanica[
+            "competencias_dentro_electromecanica"
+        ]
+    )
+
+    if competencias_electromecanica:
+
+        print()
+
+        for i, (
+            nombre,
+            cantidad
+        ) in enumerate(
+            competencias_electromecanica.items(),
+            start=1
+        ):
+
+            print(
+                f"{i}. {nombre}: "
+                f"{cantidad} ofertas"
+            )
+
+    else:
+
+        print(
+            "No se detectaron competencias dentro de electromecánica."
         )
 
     # ========================================================
@@ -1578,6 +2030,20 @@ def analizar_historial():
                 "Tecnologías:",
                 ", ".join(
                     tecnologias_oferta
+                )
+            )
+
+        marcas_plc = analisis.get(
+            "plc_marcas_detectadas",
+            []
+        )
+
+        if marcas_plc:
+
+            print(
+                "PLC:",
+                ", ".join(
+                    marcas_plc
                 )
             )
 
