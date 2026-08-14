@@ -34,11 +34,11 @@
           "Técnico de instrumentación junior"
         ],
         "compatibilidad": {
-          "puntaje": 80,
+          "puntaje": 75,
           "probabilidad_ajuste": "ALTA",
           "fortalezas": [
-            "La formación técnica está relacionada con automatización, control y electricidad.",
-            "El perfil cuenta con referencia a {'tipo': 'SEC Clase D', 'estado': 'En trámite', 'observacion': 'Cuenta con preparación y conocimientos para rendir la certificación, pero aún no debe considerarse como certificación obtenida.'}.",
+            "La formación técnica está relacionada con el área del cargo.",
+            "Cuenta con SEC Clase D en tramite.",
             "El perfil prioriza conocimientos relacionados con electricidad industrial.",
             "El perfil prioriza conocimientos relacionados con mantenimiento industrial.",
             "El perfil prioriza conocimientos relacionados con tableros eléctricos.",
@@ -51,15 +51,17 @@
             "mantenimiento preventivo"
           ],
           "brechas": [
-            "La oferta solicita aproximadamente 2 año(s) de experiencia; el perfil registra aproximadamente 0 meses."
+            "La oferta solicita aproximadamente 2 año(s) de experiencia; el perfil registra aproximadamente 0 meses.",
+            "mantenimiento preventivo"
           ],
           "aprendizaje_rapido": [
             "PLC: puede reforzarse mediante estudio, simulación y práctica guiada."
           ],
           "brechas_practicas": [
             "La principal diferencia es experiencia práctica acumulada en terreno.",
-            "Mantenimiento industrial: conviene desarrollarla mediante experiencia práctica en terreno.",
-            "Diagnóstico de fallas: conviene desarrollarla mediante experiencia práctica en terreno."
+            "mantenimiento industrial: conviene desarrollarla mediante experiencia práctica en terreno.",
+            "tableros eléctricos: conviene desarrollarla mediante experiencia práctica en terreno.",
+            "diagnóstico de fallas: conviene desarrollarla mediante experiencia práctica en terreno."
           ]
         }
       }
@@ -96,11 +98,11 @@
           "Técnico de instrumentación junior"
         ],
         "compatibilidad": {
-          "puntaje": 74,
+          "puntaje": 73,
           "probabilidad_ajuste": "MEDIA",
           "fortalezas": [
-            "La formación técnica está relacionada con automatización, control y electricidad.",
-            "El perfil cuenta con referencia a {'tipo': 'SEC Clase D', 'estado': 'En trámite', 'observacion': 'Cuenta con preparación y conocimientos para rendir la certificación, pero aún no debe considerarse como certificación obtenida.'}.",
+            "La formación técnica está relacionada con el área del cargo.",
+            "Cuenta con SEC Clase D en tramite.",
             "El perfil prioriza conocimientos relacionados con electricidad industrial.",
             "El perfil prioriza conocimientos relacionados con mantenimiento industrial.",
             "El perfil prioriza conocimientos relacionados con tableros eléctricos.",
@@ -112,14 +114,16 @@
             "mantenimiento preventivo"
           ],
           "brechas": [
-            "La oferta solicita aproximadamente 1 año(s) de experiencia; el perfil registra aproximadamente 0 meses."
+            "La oferta solicita aproximadamente 1 año(s) de experiencia; el perfil registra aproximadamente 0 meses.",
+            "mantenimiento preventivo"
           ],
           "aprendizaje_rapido": [
             "La diferencia de experiencia es relativamente pequeña; conviene postular igualmente si el resto de los requisitos encaja.",
             "PLC: puede reforzarse mediante estudio, simulación y práctica guiada."
           ],
           "brechas_practicas": [
-            "Mantenimiento industrial: conviene desarrollarla mediante experiencia práctica en terreno."
+            "mantenimiento industrial: conviene desarrollarla mediante experiencia práctica en terreno.",
+            "tableros eléctricos: conviene desarrollarla mediante experiencia práctica en terreno."
           ]
         }
       }
