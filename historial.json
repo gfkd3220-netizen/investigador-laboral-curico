@@ -137,17 +137,16 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 16,
+          "puntaje": 24,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: PLC, HMI",
+            "Coincide con: PLC, automatización industrial, HMI",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 24 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "SCADA",
             "electromecánica",
             "puesta en marcha"
@@ -242,11 +241,10 @@
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: electricidad industrial, mantenimiento preventivo, tableros eléctricos, PLC, variadores de frecuencia, motores eléctricos, lectura de planos",
+            "Coincide con: electricidad industrial, mantenimiento preventivo, tableros eléctricos, PLC, automatización industrial, variadores de frecuencia, motores eléctricos, lectura de planos",
             "SEC Clase D en trámite."
           ],
           "brechas": [
-            "automatización industrial",
             "instrumentación industrial",
             "electromecánica",
             "diagnóstico de fallas",
@@ -284,16 +282,16 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 0,
+          "puntaje": 8,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
+            "Coincide con: automatización industrial",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 60 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "puesta en marcha"
           ]
         }
@@ -375,15 +373,15 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 15,
+          "puntaje": 23,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
+            "Coincide con: automatización industrial",
             "SEC Clase D en trámite."
           ],
           "brechas": [
-            "automatización industrial",
             "puesta en marcha"
           ]
         }
@@ -422,18 +420,17 @@
           "técnico electromecánico junior"
         ],
         "compatibilidad": {
-          "puntaje": 28,
+          "puntaje": 36,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: mantenimiento industrial",
+            "Coincide con: mantenimiento industrial, automatización industrial",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 24 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "electromecánica",
             "puesta en marcha"
           ]
@@ -460,9 +457,7 @@
           "diagnóstico de fallas",
           "sensores"
         ],
-        "tecnologias_detectadas": [
-          "Instrumentación industrial"
-        ],
+        "tecnologias_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -478,17 +473,16 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 32,
+          "puntaje": 40,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: mantenimiento preventivo, PLC, control industrial, lectura de planos",
+            "Coincide con: mantenimiento preventivo, PLC, automatización industrial, control industrial, lectura de planos",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 24 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "instrumentación industrial",
             "electromecánica",
             "diagnóstico de fallas",
@@ -530,16 +524,15 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 47,
+          "puntaje": 55,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: electricidad industrial, mantenimiento industrial, mantenimiento preventivo, PLC",
+            "Coincide con: electricidad industrial, mantenimiento industrial, mantenimiento preventivo, PLC, automatización industrial",
             "SEC Clase D en trámite."
           ],
           "brechas": [
-            "automatización industrial",
             "electromecánica"
           ]
         }
@@ -580,18 +573,17 @@
           "técnico electromecánico junior"
         ],
         "compatibilidad": {
-          "puntaje": 62,
+          "puntaje": 70,
           "nivel": "MEDIA",
           "prioridad": "MEDIA",
           "recomendacion": "EVALUAR Y POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES",
           "fortalezas": [
-            "Coincide con: mantenimiento industrial, mantenimiento preventivo, tableros eléctricos, motores eléctricos",
+            "Coincide con: mantenimiento industrial, mantenimiento preventivo, tableros eléctricos, automatización industrial, motores eléctricos",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 12 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "electromecánica"
           ]
         }
@@ -634,18 +626,17 @@
           "técnico eléctrico"
         ],
         "compatibilidad": {
-          "puntaje": 36,
+          "puntaje": 44,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: electricidad industrial, tableros eléctricos",
+            "Coincide con: electricidad industrial, tableros eléctricos, automatización industrial",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 36 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "instrumentación industrial",
             "electromecánica",
             "sensores",
@@ -670,31 +661,29 @@
         ],
         "tecnologias_detectadas": [],
         "experiencia_solicitada": {
-          "anos": 30.0,
-          "meses": 360.0
+          "anos": null,
+          "meses": null
         },
         "experiencia_perfil": {
           "meses": 6,
           "anos": 0.5
         },
-        "ajuste_experiencia": "brecha_alta",
+        "ajuste_experiencia": "no_especificada",
         "ubicacion": {
           "zona_prioritaria": false,
           "zona_coincidente": null
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 8,
+          "puntaje": 31,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: mantenimiento industrial",
+            "Coincide con: mantenimiento industrial, automatización industrial",
             "SEC Clase D en trámite."
           ],
           "brechas": [
-            "Solicita 360 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "electromecánica"
           ]
         }
@@ -728,16 +717,15 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 15,
+          "puntaje": 23,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
+            "Coincide con: automatización industrial",
             "SEC Clase D en trámite."
           ],
-          "brechas": [
-            "automatización industrial"
-          ]
+          "brechas": []
         }
       }
     },
@@ -776,18 +764,17 @@
           "técnico de mantenimiento"
         ],
         "compatibilidad": {
-          "puntaje": 54,
-          "nivel": "BAJA",
-          "prioridad": "BAJA",
-          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "puntaje": 62,
+          "nivel": "MEDIA",
+          "prioridad": "MEDIA",
+          "recomendacion": "EVALUAR Y POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES",
           "fortalezas": [
-            "Coincide con: mantenimiento industrial, mantenimiento preventivo, control industrial",
+            "Coincide con: mantenimiento industrial, mantenimiento preventivo, automatización industrial, control industrial",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 12 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "electromecánica"
           ]
         }
@@ -811,14 +798,14 @@
           "AutoCAD"
         ],
         "experiencia_solicitada": {
-          "anos": 30.0,
-          "meses": 360.0
+          "anos": 1.0,
+          "meses": 12.0
         },
         "experiencia_perfil": {
           "meses": 6,
           "anos": 0.5
         },
-        "ajuste_experiencia": "brecha_alta",
+        "ajuste_experiencia": "brecha_pequena",
         "ubicacion": {
           "zona_prioritaria": false,
           "zona_coincidente": null
@@ -828,18 +815,17 @@
           "técnico en automatización"
         ],
         "compatibilidad": {
-          "puntaje": 36,
+          "puntaje": 54,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: control industrial, lectura de planos",
+            "Coincide con: automatización industrial, control industrial, lectura de planos",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
           "brechas": [
-            "Solicita 360 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial"
+            "Solicita 12 meses de experiencia y el perfil tiene 6 meses."
           ]
         }
       }
@@ -877,17 +863,16 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 16,
+          "puntaje": 24,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: mantenimiento preventivo, PLC",
+            "Coincide con: mantenimiento preventivo, PLC, automatización industrial",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 60 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "SCADA"
           ]
         }
@@ -930,18 +915,17 @@
           "técnico en automatización"
         ],
         "compatibilidad": {
-          "puntaje": 44,
+          "puntaje": 52,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: electricidad industrial, tableros eléctricos, lectura de planos",
+            "Coincide con: electricidad industrial, tableros eléctricos, automatización industrial, lectura de planos",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 120 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "electromecánica"
           ]
         }
@@ -976,16 +960,16 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 0,
+          "puntaje": 8,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
+            "Coincide con: automatización industrial",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 24 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "neumática"
           ]
         }
@@ -1028,17 +1012,16 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 26,
+          "puntaje": 34,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: PLC, HMI",
+            "Coincide con: PLC, automatización industrial, HMI",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 12 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "SCADA",
             "instrumentación industrial",
             "electromecánica",
@@ -1076,16 +1059,16 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 0,
+          "puntaje": 8,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
+            "Coincide con: automatización industrial",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 120 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "puesta en marcha"
           ]
         }
@@ -1168,17 +1151,16 @@
           "técnico en automatización"
         ],
         "compatibilidad": {
-          "puntaje": 51,
+          "puntaje": 59,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: PLC, control industrial",
+            "Coincide con: PLC, automatización industrial, control industrial",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
           "brechas": [
-            "automatización industrial",
             "puesta en marcha"
           ]
         }
@@ -1212,16 +1194,15 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 15,
+          "puntaje": 23,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
+            "Coincide con: automatización industrial",
             "SEC Clase D en trámite."
           ],
-          "brechas": [
-            "automatización industrial"
-          ]
+          "brechas": []
         }
       }
     },
@@ -1322,21 +1303,21 @@
         ],
         "tecnologias_detectadas": [],
         "experiencia_solicitada": {
-          "anos": 35.0,
-          "meses": 420.0
+          "anos": null,
+          "meses": null
         },
         "experiencia_perfil": {
           "meses": 6,
           "anos": 0.5
         },
-        "ajuste_experiencia": "brecha_alta",
+        "ajuste_experiencia": "no_especificada",
         "ubicacion": {
           "zona_prioritaria": false,
           "zona_coincidente": null
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 16,
+          "puntaje": 31,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -1345,7 +1326,6 @@
             "SEC Clase D en trámite."
           ],
           "brechas": [
-            "Solicita 420 meses de experiencia y el perfil tiene 6 meses.",
             "puesta en marcha"
           ]
         }
@@ -1423,17 +1403,16 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 8,
+          "puntaje": 16,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: control industrial",
+            "Coincide con: automatización industrial, control industrial",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 48 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "diagnóstico de fallas"
           ]
         }
@@ -1477,17 +1456,16 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 32,
+          "puntaje": 40,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: electricidad industrial, PLC, control industrial, variadores de frecuencia",
+            "Coincide con: electricidad industrial, PLC, automatización industrial, control industrial, variadores de frecuencia",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 36 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "diagnóstico de fallas",
             "puesta en marcha",
             "seguridad eléctrica"
@@ -1530,17 +1508,16 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 32,
+          "puntaje": 40,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: tableros eléctricos, variadores de frecuencia, motores eléctricos, lectura de planos",
+            "Coincide con: tableros eléctricos, automatización industrial, variadores de frecuencia, motores eléctricos, lectura de planos",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 24 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "electromecánica",
             "diagnóstico de fallas",
             "puesta en marcha"
@@ -2878,8 +2855,8 @@
         ],
         "tecnologias_detectadas": [],
         "experiencia_solicitada": {
-          "anos": 35.0,
-          "meses": 420.0
+          "anos": 3.0,
+          "meses": 36.0
         },
         "experiencia_perfil": {
           "meses": 6,
@@ -2904,7 +2881,7 @@
             "SEC Clase D en trámite."
           ],
           "brechas": [
-            "Solicita 420 meses de experiencia y el perfil tiene 6 meses.",
+            "Solicita 36 meses de experiencia y el perfil tiene 6 meses.",
             "instrumentación industrial"
           ]
         }
@@ -3316,21 +3293,21 @@
         ],
         "tecnologias_detectadas": [],
         "experiencia_solicitada": {
-          "anos": null,
-          "meses": null
+          "anos": 3.0,
+          "meses": 36.0
         },
         "experiencia_perfil": {
           "meses": 6,
           "anos": 0.5
         },
-        "ajuste_experiencia": "no_especificada",
+        "ajuste_experiencia": "brecha_alta",
         "ubicacion": {
           "zona_prioritaria": false,
           "zona_coincidente": null
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 31,
+          "puntaje": 16,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -3339,6 +3316,7 @@
             "SEC Clase D en trámite."
           ],
           "brechas": [
+            "Solicita 36 meses de experiencia y el perfil tiene 6 meses.",
             "electromecánica",
             "diagnóstico de fallas",
             "neumática",
@@ -4080,13 +4058,12 @@
           "prioridad": "MEDIA",
           "recomendacion": "EVALUAR Y POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES",
           "fortalezas": [
-            "Coincide con: mantenimiento industrial, PLC, variadores de frecuencia, HMI, lectura de planos",
+            "Coincide con: mantenimiento industrial, PLC, automatización industrial, variadores de frecuencia, HMI, lectura de planos",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 12 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "instrumentación industrial",
             "electromecánica",
             "sensores"
@@ -4268,16 +4245,16 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 10,
+          "puntaje": 18,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
+            "Coincide con: automatización industrial",
             "SEC Clase D en trámite."
           ],
           "brechas": [
-            "Solicita 12 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial"
+            "Solicita 12 meses de experiencia y el perfil tiene 6 meses."
           ]
         }
       }
@@ -4312,16 +4289,15 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 23,
+          "puntaje": 31,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: lectura de planos",
+            "Coincide con: automatización industrial, lectura de planos",
             "SEC Clase D en trámite."
           ],
           "brechas": [
-            "automatización industrial",
             "diagnóstico de fallas"
           ]
         }
@@ -4360,16 +4336,15 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 47,
+          "puntaje": 55,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: mantenimiento industrial, mantenimiento preventivo, tableros eléctricos, lectura de planos",
+            "Coincide con: mantenimiento industrial, mantenimiento preventivo, tableros eléctricos, automatización industrial, lectura de planos",
             "SEC Clase D en trámite."
           ],
           "brechas": [
-            "automatización industrial",
             "electromecánica"
           ]
         }
@@ -4475,9 +4450,7 @@
           "instrumentación industrial",
           "puesta en marcha"
         ],
-        "tecnologias_detectadas": [
-          "Instrumentación industrial"
-        ],
+        "tecnologias_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -4789,18 +4762,17 @@
           "técnico en automatización"
         ],
         "compatibilidad": {
-          "puntaje": 38,
+          "puntaje": 46,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: mantenimiento industrial",
+            "Coincide con: mantenimiento industrial, automatización industrial",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 12 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "electromecánica",
             "neumática",
             "puesta en marcha"
@@ -4871,8 +4843,8 @@
         ],
         "tecnologias_detectadas": [],
         "experiencia_solicitada": {
-          "anos": 45.0,
-          "meses": 540.0
+          "anos": 2.0,
+          "meses": 24.0
         },
         "experiencia_perfil": {
           "meses": 6,
@@ -4893,7 +4865,7 @@
             "SEC Clase D en trámite."
           ],
           "brechas": [
-            "Solicita 540 meses de experiencia y el perfil tiene 6 meses.",
+            "Solicita 24 meses de experiencia y el perfil tiene 6 meses.",
             "instrumentación industrial",
             "electromecánica"
           ]
@@ -5443,9 +5415,7 @@
           "lectura de planos",
           "sensores"
         ],
-        "tecnologias_detectadas": [
-          "Instrumentación industrial"
-        ],
+        "tecnologias_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -5632,9 +5602,7 @@
           "neumática",
           "hidráulica"
         ],
-        "tecnologias_detectadas": [
-          "Instrumentación industrial"
-        ],
+        "tecnologias_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -5655,12 +5623,11 @@
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: electricidad industrial, mantenimiento industrial, PLC, variadores de frecuencia, motores eléctricos, lectura de planos",
+            "Coincide con: electricidad industrial, mantenimiento industrial, PLC, automatización industrial, variadores de frecuencia, motores eléctricos, lectura de planos",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 36 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "instrumentación industrial",
             "electromecánica",
             "sensores",
@@ -5746,16 +5713,16 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 10,
+          "puntaje": 18,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
+            "Coincide con: automatización industrial",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 12 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "SCADA",
             "puesta en marcha"
           ]
@@ -5794,16 +5761,16 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 10,
+          "puntaje": 18,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
+            "Coincide con: automatización industrial",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 12 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "SCADA",
             "puesta en marcha"
           ]
@@ -5875,12 +5842,11 @@
           "instrumentación industrial"
         ],
         "tecnologias_detectadas": [
-          "SCADA",
-          "Instrumentación industrial"
+          "SCADA"
         ],
         "experiencia_solicitada": {
-          "anos": 30.0,
-          "meses": 360.0
+          "anos": 3.0,
+          "meses": 36.0
         },
         "experiencia_perfil": {
           "meses": 6,
@@ -5893,17 +5859,16 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 16,
+          "puntaje": 24,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: PLC, control industrial",
+            "Coincide con: PLC, automatización industrial, control industrial",
             "SEC Clase D en trámite."
           ],
           "brechas": [
-            "Solicita 360 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
+            "Solicita 36 meses de experiencia y el perfil tiene 6 meses.",
             "SCADA",
             "instrumentación industrial"
           ]
@@ -6020,9 +5985,7 @@
           "sensores",
           "puesta en marcha"
         ],
-        "tecnologias_detectadas": [
-          "Instrumentación industrial"
-        ],
+        "tecnologias_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -6043,11 +6006,10 @@
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: mantenimiento preventivo, PLC, control industrial, variadores de frecuencia, lectura de planos",
+            "Coincide con: mantenimiento preventivo, PLC, automatización industrial, control industrial, variadores de frecuencia, lectura de planos",
             "SEC Clase D en trámite."
           ],
           "brechas": [
-            "automatización industrial",
             "instrumentación industrial",
             "diagnóstico de fallas",
             "sensores",
@@ -6073,9 +6035,7 @@
           "electromecánica",
           "lectura de planos"
         ],
-        "tecnologias_detectadas": [
-          "Instrumentación industrial"
-        ],
+        "tecnologias_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -6129,9 +6089,7 @@
           "sensores",
           "neumática"
         ],
-        "tecnologias_detectadas": [
-          "Instrumentación industrial"
-        ],
+        "tecnologias_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -6152,12 +6110,11 @@
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: electricidad industrial, mantenimiento industrial, mantenimiento preventivo, tableros eléctricos, PLC, HMI",
+            "Coincide con: electricidad industrial, mantenimiento industrial, mantenimiento preventivo, tableros eléctricos, PLC, automatización industrial, HMI",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 36 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "instrumentación industrial",
             "electromecánica",
             "sensores",
@@ -6241,17 +6198,15 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 23,
+          "puntaje": 31,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: mantenimiento preventivo",
+            "Coincide con: mantenimiento preventivo, automatización industrial",
             "SEC Clase D en trámite."
           ],
-          "brechas": [
-            "automatización industrial"
-          ]
+          "brechas": []
         }
       }
     },
@@ -6278,9 +6233,7 @@
           "neumática",
           "hidráulica"
         ],
-        "tecnologias_detectadas": [
-          "Instrumentación industrial"
-        ],
+        "tecnologias_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -6332,9 +6285,7 @@
         "competencias_detectadas": [
           "instrumentación industrial"
         ],
-        "tecnologias_detectadas": [
-          "Instrumentación industrial"
-        ],
+        "tecnologias_detectadas": [],
         "experiencia_solicitada": {
           "anos": 10.0,
           "meses": 120.0
@@ -6378,25 +6329,23 @@
           "variadores de frecuencia",
           "instrumentación industrial"
         ],
-        "tecnologias_detectadas": [
-          "Instrumentación industrial"
-        ],
+        "tecnologias_detectadas": [],
         "experiencia_solicitada": {
-          "anos": 35.0,
-          "meses": 420.0
+          "anos": null,
+          "meses": null
         },
         "experiencia_perfil": {
           "meses": 6,
           "anos": 0.5
         },
-        "ajuste_experiencia": "brecha_alta",
+        "ajuste_experiencia": "no_especificada",
         "ubicacion": {
           "zona_prioritaria": false,
           "zona_coincidente": null
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 16,
+          "puntaje": 31,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -6405,7 +6354,6 @@
             "SEC Clase D en trámite."
           ],
           "brechas": [
-            "Solicita 420 meses de experiencia y el perfil tiene 6 meses.",
             "instrumentación industrial"
           ]
         }
@@ -6435,9 +6383,7 @@
           "sensores",
           "seguridad eléctrica"
         ],
-        "tecnologias_detectadas": [
-          "Instrumentación industrial"
-        ],
+        "tecnologias_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -6458,12 +6404,11 @@
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: electricidad industrial, mantenimiento preventivo, tableros eléctricos, PLC, control industrial, variadores de frecuencia, motores eléctricos, lectura de planos",
+            "Coincide con: electricidad industrial, mantenimiento preventivo, tableros eléctricos, PLC, automatización industrial, control industrial, variadores de frecuencia, motores eléctricos, lectura de planos",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 36 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "instrumentación industrial",
             "electromecánica",
             "sensores",
@@ -6488,9 +6433,7 @@
           "instrumentación industrial",
           "diagnóstico de fallas"
         ],
-        "tecnologias_detectadas": [
-          "Instrumentación industrial"
-        ],
+        "tecnologias_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -6537,21 +6480,21 @@
         ],
         "tecnologias_detectadas": [],
         "experiencia_solicitada": {
-          "anos": 30.0,
-          "meses": 360.0
+          "anos": null,
+          "meses": null
         },
         "experiencia_perfil": {
           "meses": 6,
           "anos": 0.5
         },
-        "ajuste_experiencia": "brecha_alta",
+        "ajuste_experiencia": "no_especificada",
         "ubicacion": {
           "zona_prioritaria": false,
           "zona_coincidente": null
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 16,
+          "puntaje": 31,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -6559,9 +6502,7 @@
             "Coincide con: mantenimiento industrial, PLC",
             "SEC Clase D en trámite."
           ],
-          "brechas": [
-            "Solicita 360 meses de experiencia y el perfil tiene 6 meses."
-          ]
+          "brechas": []
         }
       }
     },
@@ -6699,16 +6640,15 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 39,
+          "puntaje": 47,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: mantenimiento preventivo, PLC, HMI",
+            "Coincide con: mantenimiento preventivo, PLC, automatización industrial, HMI",
             "SEC Clase D en trámite."
           ],
           "brechas": [
-            "automatización industrial",
             "instrumentación industrial"
           ]
         }
@@ -6771,21 +6711,21 @@
           "EcoStruxure"
         ],
         "experiencia_solicitada": {
-          "anos": 35.0,
-          "meses": 420.0
+          "anos": null,
+          "meses": null
         },
         "experiencia_perfil": {
           "meses": 6,
           "anos": 0.5
         },
-        "ajuste_experiencia": "brecha_alta",
+        "ajuste_experiencia": "no_especificada",
         "ubicacion": {
           "zona_prioritaria": false,
           "zona_coincidente": null
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 8,
+          "puntaje": 23,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
@@ -6794,7 +6734,6 @@
             "SEC Clase D en trámite."
           ],
           "brechas": [
-            "Solicita 420 meses de experiencia y el perfil tiene 6 meses.",
             "puesta en marcha"
           ]
         }
@@ -7081,17 +7020,16 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 16,
+          "puntaje": 24,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: PLC, HMI",
+            "Coincide con: PLC, automatización industrial, HMI",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 36 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "SCADA",
             "electromecánica"
           ]
@@ -7234,18 +7172,17 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 32,
+          "puntaje": 40,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: mantenimiento preventivo, PLC, variadores de frecuencia, HMI",
+            "Coincide con: mantenimiento preventivo, PLC, automatización industrial, variadores de frecuencia, HMI",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 24 meses de experiencia y el perfil tiene 6 meses.",
             "mantenimiento correctivo",
-            "automatización industrial",
             "SCADA",
             "electromecánica",
             "sensores"
@@ -7328,18 +7265,17 @@
           "técnico electromecánico junior"
         ],
         "compatibilidad": {
-          "puntaje": 36,
+          "puntaje": 44,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: mantenimiento preventivo, PLC",
+            "Coincide con: mantenimiento preventivo, PLC, automatización industrial",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 36 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "electromecánica",
             "neumática",
             "hidráulica"
@@ -7749,18 +7685,17 @@
           "técnico en automatización"
         ],
         "compatibilidad": {
-          "puntaje": 44,
+          "puntaje": 52,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: electricidad industrial, tableros eléctricos, lectura de planos",
+            "Coincide con: electricidad industrial, tableros eléctricos, automatización industrial, lectura de planos",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
           "brechas": [
             "Solicita 120 meses de experiencia y el perfil tiene 6 meses.",
-            "automatización industrial",
             "electromecánica"
           ]
         }
@@ -7899,13 +7834,12 @@
       "neumática": 13,
       "hidráulica": 13,
       "motores eléctricos": 11,
-      "SCADA": 10,
       "HMI": 10,
+      "SCADA": 10,
       "mantenimiento correctivo": 6,
       "seguridad eléctrica": 4
     },
     "tecnologias_especificas": {
-      "Instrumentación industrial": 13,
       "SCADA": 10,
       "PLC Allen-Bradley": 5,
       "AutoCAD": 4,
@@ -7915,16 +7849,16 @@
       "WinCC": 1
     },
     "experiencia_requerida": {
-      "no especificada": 55,
-      "más de 3 años": 34,
-      "2 años": 25,
-      "3 años": 25,
-      "1 año": 23,
+      "no especificada": 59,
+      "3 años": 28,
+      "2 años": 26,
+      "más de 3 años": 25,
+      "1 año": 24,
       "sin experiencia": 5
     },
-    "experiencia_promedio_anos": 5.9,
+    "experiencia_promedio_anos": 3.3,
     "experiencia_minima_anos": 1.0,
-    "experiencia_maxima_anos": 45.0,
+    "experiencia_maxima_anos": 20.0,
     "ofertas_sin_experiencia": 5,
     "ubicaciones_mas_repetidas": {
       "Curicó": 2
@@ -7949,7 +7883,6 @@
   },
   "plan_desarrollo": {
     "electromecánica": 79,
-    "automatización industrial": 41,
     "instrumentación industrial": 37,
     "puesta en marcha": 26,
     "sensores": 26,
