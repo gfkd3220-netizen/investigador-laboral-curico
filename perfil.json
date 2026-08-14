@@ -4,150 +4,132 @@
   "certificacion_electrica": {
     "tipo": "SEC Clase D",
     "estado": "En trámite",
-    "observacion": "Cuenta con preparación y conocimientos para rendir la certificación, pero aún no debe considerarse como certificación obtenida."
+    "observacion": "La certificación aún no debe considerarse obtenida. El perfil cuenta con preparación y conocimientos para rendir la prueba."
   },
 
-  "perfil_laboral": {
+  "experiencia": {
     "nivel": "Recién egresado",
-    "objetivo": "Ingresar al área eléctrica, mantenimiento industrial y automatización para adquirir experiencia práctica y desarrollarse profesionalmente."
-  },
+    "meses_aproximados": 6,
 
-  "experiencia_real": {
-    "tipo_principal": "Ayudante eléctrico en baja tensión",
-
-    "actividades_realizadas": [
+    "experiencia_practica_real": [
+      "Ayudante eléctrico en baja tensión",
       "Canalizaciones eléctricas",
       "Instalación de bandejas",
-      "Instalación de canaletas",
-      "Tendido y traslado de conductores",
       "Cableado eléctrico",
-      "Apoyo en conexiones de motores",
+      "Instalación de canaletas",
+      "Instalación de botones de motores",
       "Instalación de lámparas UFO",
       "Instalación de luminarias LED",
-      "Uso de herramientas manuales",
+      "Apoyo en instalaciones eléctricas",
+      "Apoyo en trabajos de fuerza y control",
       "Uso de esmeril",
-      "Preparación de materiales y herramientas para terminar trabajos eléctricos"
+      "Uso de pinzas y herramientas manuales",
+      "Preparación y terminación de trabajos eléctricos"
     ],
 
-    "nivel_de_autonomia": "Principalmente apoyo y ejecución de tareas básicas bajo supervisión o siguiendo procedimientos de trabajo.",
+    "experiencia_practica_academica": [
+      "Arranque directo de motores",
+      "Arranque estrella-triángulo",
+      "Circuitos básicos de fuerza y control",
+      "Trabajo académico con PLC Delta",
+      "Instalación y configuración académica de variadores de frecuencia",
+      "Trabajo académico con HMI"
+    ],
 
-    "experiencia_practica": [
-      "Trabajo con conductores de fuerza de mayor sección",
-      "Observación y apoyo en conexión de conductores trifásicos",
-      "Trabajo práctico en instalaciones eléctricas de baja tensión",
-      "Preparación y terminación de trabajos eléctricos"
+    "experiencia_que_no_debe_considerarse_profesional": [
+      "Programación de PLC Siemens en terreno",
+      "Puesta en marcha de sistemas industriales complejos",
+      "Diagnóstico avanzado de fallas industriales",
+      "Instrumentación industrial ejecutada profesionalmente en terreno",
+      "SCADA ejecutado profesionalmente en terreno"
     ]
   },
 
-  "conocimientos_electricos": {
-    "nivel_general": "Básico a intermedio",
-
-    "conocimientos": [
-      "Electricidad de baja tensión",
-      "Instalaciones eléctricas",
+  "conocimientos": {
+    "electricidad": [
+      "Electricidad básica",
+      "Electricidad industrial",
+      "Instalaciones eléctricas residenciales",
       "Canalizaciones",
-      "Bandejas portacables",
-      "Canaletas",
       "Cableado",
-      "Conductores eléctricos",
+      "Bandejas",
+      "Fuerza y control",
       "Motores eléctricos",
-      "Luminarias",
-      "Herramientas eléctricas y manuales",
-      "Seguridad básica en trabajos eléctricos"
+      "Arranque directo",
+      "Arranque estrella-triángulo",
+      "Tableros eléctricos básicos",
+      "Seguridad eléctrica"
     ],
 
-    "instalaciones_residenciales": {
-      "nivel": "Conocimientos teóricos y prácticos en desarrollo",
-      "descripcion": "Conoce y estudia instalaciones eléctricas residenciales bajo normativa RIC y se está preparando para rendir la prueba correspondiente."
-    }
+    "automatizacion": [
+      "PLC Delta",
+      "Variadores de frecuencia",
+      "HMI",
+      "Control básico",
+      "Automatización industrial básica"
+    ],
+
+    "planos": [
+      "Lectura básica de planos eléctricos",
+      "Interpretación básica de circuitos de fuerza",
+      "Interpretación básica de circuitos de control"
+    ],
+
+    "mantenimiento": [
+      "Conocimientos básicos de mantenimiento industrial",
+      "Conocimientos básicos de mantenimiento preventivo"
+    ],
+
+    "instrumentacion": [
+      "Conocimientos teóricos básicos",
+      "Sin experiencia profesional significativa en terreno"
+    ]
   },
 
-  "automatizacion_y_control": {
-    "nivel_general": "Formación técnica con experiencia práctica limitada",
+  "nivel_practico": {
+    "alto": [
+      "Canalizaciones",
+      "Cableado",
+      "Instalación de bandejas",
+      "Instalación de canaletas",
+      "Uso de herramientas manuales",
+      "Uso de esmeril",
+      "Instalaciones eléctricas básicas",
+      "Instalación de luminarias"
+    ],
 
-    "plc": {
-      "experiencia_practica": [
-        "PLC Delta durante la formación académica"
-      ],
-      "nivel": "Básico",
-      "limitacion": "No cuenta todavía con experiencia profesional práctica con PLC en terreno.",
-      "otros_plc": {
-        "Siemens": "Conocimiento teórico o autodidacta, sin experiencia práctica profesional.",
-        "otros": "Puede estudiar y adaptarse a nuevas plataformas de PLC, pero requiere práctica para alcanzar autonomía."
-      }
-    },
+    "medio": [
+      "Electricidad industrial básica",
+      "Fuerza y control",
+      "Motores eléctricos",
+      "Tableros eléctricos básicos",
+      "Arranque directo",
+      "Estrella-triángulo"
+    ],
 
-    "variadores_de_frecuencia": {
-      "nivel": "Básico",
-      "experiencia": "Experiencia durante la formación académica.",
-      "observacion": "No cuenta todavía con experiencia profesional en terreno."
-    },
+    "academico": [
+      "PLC Delta",
+      "Variadores de frecuencia",
+      "HMI",
+      "Automatización básica",
+      "Lectura de planos eléctricos"
+    ],
 
-    "HMI": {
-      "nivel": "Básico",
-      "experiencia": "Conocimientos adquiridos durante la formación académica."
-    },
-
-    "control_de_motores": {
-      "nivel": "Básico",
-      "conocimientos": [
-        "Arranque directo de motor",
-        "Arranque estrella-triángulo",
-        "Circuitos básicos de fuerza y control"
-      ],
-      "limitacion": "La experiencia práctica fue principalmente de formación y observación/apoyo, no de ejecución profesional autónoma."
-    },
-
-    "lectura_de_planos": {
-      "nivel": "Básico",
-      "conocimientos": [
-        "Planos básicos de fuerza",
-        "Planos básicos de control",
-        "Arranque directo",
-        "Arranque estrella-triángulo"
-      ],
-      "limitacion": "No debe considerarse experiencia avanzada en interpretación de planos industriales complejos."
-    }
+    "requiere_experiencia_terreno": [
+      "Diagnóstico de fallas industriales",
+      "Mantenimiento industrial avanzado",
+      "Instrumentación industrial",
+      "Puesta en marcha industrial",
+      "PLC industriales utilizados profesionalmente",
+      "PLC Siemens en terreno",
+      "SCADA",
+      "Neumática industrial",
+      "Hidráulica industrial"
+    ]
   },
-
-  "instrumentacion": {
-    "nivel": "Básico / formación",
-    "experiencia_profesional": false,
-    "observacion": "Tiene conocimientos adquiridos durante la formación, pero necesita experiencia práctica en terreno para trabajar con equipos y sistemas de instrumentación de manera autónoma."
-  },
-
-  "fortalezas": [
-    "Formación como Técnico en Automatización y Control Industrial",
-    "Experiencia práctica como ayudante eléctrico en baja tensión",
-    "Conocimientos de electricidad industrial",
-    "Experiencia práctica con canalizaciones, bandejas y canaletas",
-    "Experiencia con cableado eléctrico",
-    "Conocimientos básicos de motores eléctricos",
-    "Conocimientos de PLC Delta adquiridos durante la formación",
-    "Conocimientos de variadores de frecuencia",
-    "Conocimientos de HMI",
-    "Conocimientos básicos de control de motores",
-    "Conocimientos de instalaciones eléctricas residenciales",
-    "Preparación para certificación SEC Clase D",
-    "Disponibilidad para estudiar y capacitarse"
-  ],
-
-  "areas_a_desarrollar": [
-    "Experiencia profesional en mantenimiento industrial",
-    "Diagnóstico de fallas en terreno",
-    "PLC Siemens y otras plataformas industriales",
-    "Programación de PLC aplicada a instalaciones reales",
-    "Instrumentación industrial práctica",
-    "Lectura de planos industriales complejos",
-    "Puesta en marcha de equipos industriales",
-    "Conexión y configuración de equipos de automatización",
-    "Trabajo autónomo con variadores de frecuencia",
-    "Experiencia práctica con HMI",
-    "Mantenimiento preventivo y correctivo en terreno"
-  ],
 
   "objetivo": {
-    "principal": "Conseguir experiencia práctica en terreno y crecer hacia automatización, mantenimiento industrial, electricidad industrial e instrumentación.",
+    "principal": "Conseguir experiencia práctica en terreno y crecer hacia automatización, mantenimiento industrial y electricidad industrial.",
 
     "zona_prioritaria": [
       "Curicó",
@@ -171,7 +153,7 @@
   "priorizar": [
     "Cargos donde acepten recién egresados",
     "Cargos con poca experiencia requerida",
-    "Cargos que ofrezcan capacitación en terreno",
+    "Capacitación en terreno",
     "Mantenimiento industrial",
     "Electricidad industrial",
     "Automatización",
@@ -179,8 +161,7 @@
     "Diagnóstico de fallas",
     "PLC",
     "Variadores de frecuencia",
-    "Instrumentación",
-    "Cargos con posibilidades de crecimiento técnico"
+    "Instrumentación"
   ],
 
   "evitar_por_ahora": [
@@ -188,42 +169,6 @@
     "Supervisión",
     "Cargos senior",
     "Cargos que exijan 3 o más años de experiencia",
-    "Cargos que requieran autonomía avanzada desde el primer día",
-    "Cargos que exijan experiencia profesional comprobable en PLC o instrumentación avanzada si no ofrecen capacitación",
-    "Cargos donde se requiera experiencia avanzada que no pueda compensarse con formación o capacitación"
-  ],
-
-  "criterios_para_analizar_ofertas": {
-    "prioridad_alta": [
-      "Acepta recién egresados",
-      "Experiencia menor o igual a 1 año",
-      "Ayudante o técnico junior",
-      "Capacitación en terreno",
-      "Mantenimiento industrial",
-      "Electricidad industrial",
-      "Automatización",
-      "Posibilidad de aprender PLC",
-      "Posibilidad de aprender instrumentación"
-    ],
-
-    "prioridad_media": [
-      "Experiencia de 1 a 2 años",
-      "PLC",
-      "Variadores de frecuencia",
-      "HMI",
-      "Tableros eléctricos",
-      "Diagnóstico de fallas",
-      "Mantenimiento preventivo"
-    ],
-
-    "riesgo_alto": [
-      "3 o más años de experiencia",
-      "Autonomía completa desde el inicio",
-      "Programación avanzada de PLC",
-      "Instrumentación avanzada con experiencia comprobable",
-      "Puesta en marcha avanzada",
-      "Supervisión de personal",
-      "Responsabilidad de mantenimiento sin capacitación"
-    ]
-  }
+    "Cargos donde se requiera experiencia avanzada que no pueda compensarse con formación"
+  ]
 }
