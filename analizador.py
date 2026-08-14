@@ -48,12 +48,12 @@ PERFIL = {
         "mantenimiento preventivo",
         "tableros eléctricos",
         "PLC",
-        "automatización",
+        "automatización industrial",
         "control industrial",
         "variadores de frecuencia",
         "HMI",
         "motores eléctricos",
-        "lectura de planos"
+        "lectura de planos eléctricos"
     ]
 }
 
@@ -61,8 +61,19 @@ PERFIL = {
 # ============================================================
 # COMPETENCIAS GENERALES DEL MERCADO
 #
+# IMPORTANTE:
+#
 # Cada oferta cuenta UNA SOLA VEZ por competencia.
-# No importa si la palabra aparece 2, 5 o 20 veces.
+#
+# Ejemplo:
+#
+# Oferta A:
+# "PLC, PLC, PLC Siemens..."
+#
+# Resultado:
+# PLC = 1 oferta
+#
+# No importa cuántas veces aparezca dentro de la publicación.
 # ============================================================
 
 COMPETENCIAS = {
@@ -108,7 +119,9 @@ COMPETENCIAS = {
     ],
 
     "control industrial": [
-        "control industrial"
+        "control industrial",
+        "control automático",
+        "control automatico"
     ],
 
     "variadores de frecuencia": [
@@ -118,7 +131,9 @@ COMPETENCIAS = {
     ],
 
     "HMI": [
-        "hmi"
+        "hmi",
+        "interfaz hombre máquina",
+        "interfaz hombre maquina"
     ],
 
     "SCADA": [
@@ -149,9 +164,14 @@ COMPETENCIAS = {
         "lectura de planos eléctricos",
         "lectura de planos electricos",
         "interpretación de planos eléctricos",
-        "interpretacion de planos electricos",
+        "interpretacion de planos electricos"
+    ],
+
+    "planos eléctricos": [
         "planos eléctricos",
-        "planos electricos"
+        "planos electricos",
+        "esquemas eléctricos",
+        "esquemas electricos"
     ],
 
     "diagnóstico de fallas": [
@@ -185,6 +205,11 @@ COMPETENCIAS = {
     "seguridad eléctrica": [
         "seguridad eléctrica",
         "seguridad electrica"
+    ],
+
+    "instrumentación y control": [
+        "instrumentación y control",
+        "instrumentacion y control"
     ]
 }
 
@@ -192,28 +217,36 @@ COMPETENCIAS = {
 # ============================================================
 # TECNOLOGÍAS ESPECÍFICAS
 #
-# Estas NO reemplazan a "PLC".
+# Estas permiten saber EXACTAMENTE qué tecnología pide
+# el mercado.
+#
+# Cada publicación cuenta UNA SOLA VEZ por tecnología.
 #
 # Ejemplo:
 #
-# Una oferta que diga:
-# "PLC Siemens S7-1200 y TIA Portal"
+# Una oferta dice:
+# "PLC Siemens S7-1200, TIA Portal y HMI Siemens"
 #
-# cuenta:
+# Cuenta:
 #
-# PLC              +1
-# PLC Siemens      +1
-# S7-1200          +1
-# TIA Portal       +1
+# PLC                    = 1
+# PLC Siemens            = 1
+# S7-1200                = 1
+# TIA Portal             = 1
+# HMI Siemens            = 1
 #
-# Siempre máximo una vez por oferta.
 # ============================================================
 
 TECNOLOGIAS = {
 
+    # --------------------------------------------------------
+    # SIEMENS
+    # --------------------------------------------------------
+
     "PLC Siemens": [
         "plc siemens",
-        "siemens plc"
+        "siemens plc",
+        "siemens"
     ],
 
     "S7-1200": [
@@ -229,6 +262,11 @@ TECNOLOGIAS = {
     "S7-300": [
         "s7-300",
         "s7 300"
+    ],
+
+    "S7-400": [
+        "s7-400",
+        "s7 400"
     ],
 
     "LOGO! Siemens": [
@@ -250,12 +288,6 @@ TECNOLOGIAS = {
         "siemens hmi"
     ],
 
-    "PLC Allen-Bradley": [
-        "allen bradley",
-        "allen-bradley",
-        "rockwell automation"
-    ],
-
     "SINAMICS": [
         "sinamics",
         "siemens sinamics"
@@ -264,12 +296,103 @@ TECNOLOGIAS = {
     "G120": [
         "g120",
         "g120c"
+    ],
+
+    # --------------------------------------------------------
+    # ALLEN-BRADLEY / ROCKWELL
+    # --------------------------------------------------------
+
+    "PLC Allen-Bradley": [
+        "allen bradley",
+        "allen-bradley",
+        "rockwell automation"
+    ],
+
+    "ControlLogix": [
+        "controllogix"
+    ],
+
+    "CompactLogix": [
+        "compactlogix"
+    ],
+
+    "Studio 5000": [
+        "studio 5000",
+        "studio5000"
+    ],
+
+    # --------------------------------------------------------
+    # SCHNEIDER
+    # --------------------------------------------------------
+
+    "PLC Schneider": [
+        "plc schneider",
+        "schneider electric"
+    ],
+
+    "Modicon": [
+        "modicon"
+    ],
+
+    "EcoStruxure": [
+        "ecostruxure"
+    ],
+
+    # --------------------------------------------------------
+    # OMRON
+    # --------------------------------------------------------
+
+    "PLC Omron": [
+        "plc omron",
+        "omron plc"
+    ],
+
+    "Sysmac": [
+        "sysmac"
+    ],
+
+    # --------------------------------------------------------
+    # MITSUBISHI
+    # --------------------------------------------------------
+
+    "PLC Mitsubishi": [
+        "plc mitsubishi",
+        "mitsubishi plc"
+    ],
+
+    # --------------------------------------------------------
+    # OTROS
+    # --------------------------------------------------------
+
+    "PLC Delta": [
+        "plc delta",
+        "delta plc"
+    ],
+
+    "Arduino": [
+        "arduino"
+    ],
+
+    "Python": [
+        "python"
+    ],
+
+    "AutoCAD": [
+        "autocad"
+    ],
+
+    "EPLAN": [
+        "eplan"
+    ],
+
+    "LabVIEW": [
+        "labview"
     ]
 }
 
 
 # ============================================================
-# NORMALIZAR TEXTO
+# NORMALIZAR
 # ============================================================
 
 def normalizar(texto):
@@ -311,7 +434,9 @@ def texto_oferta(oferta):
 
 
 # ============================================================
-# DETECTAR COMPETENCIAS GENERALES
+# DETECTAR COMPETENCIAS
+#
+# Una oferta = máximo 1 aparición por competencia.
 # ============================================================
 
 def detectar_competencias(texto):
@@ -334,7 +459,9 @@ def detectar_competencias(texto):
 
 
 # ============================================================
-# DETECTAR TECNOLOGÍAS ESPECÍFICAS
+# DETECTAR TECNOLOGÍAS
+#
+# Una oferta = máximo 1 aparición por tecnología.
 # ============================================================
 
 def detectar_tecnologias(texto):
@@ -484,7 +611,7 @@ def detectar_cargo(titulo):
 
 
 # ============================================================
-# COMPARAR EXPERIENCIA
+# COMPARAR EXPERIENCIA CON EL PERFIL
 # ============================================================
 
 def comparar_experiencia(meses_solicitados):
@@ -517,6 +644,9 @@ def comparar_experiencia(meses_solicitados):
 
 # ============================================================
 # PUNTAJE PERSONAL
+#
+# Esto sí depende de TU perfil.
+# No afecta las estadísticas del mercado.
 # ============================================================
 
 def calcular_puntaje(
@@ -622,7 +752,10 @@ def analizar_oferta(oferta):
     )
 
     experiencia_detectada = detectar_experiencia(
-        oferta.get("requisitos", "")
+        oferta.get(
+            "requisitos",
+            ""
+        )
         or texto
     )
 
@@ -635,11 +768,17 @@ def analizar_oferta(oferta):
     )
 
     ubicacion = analizar_ubicacion(
-        oferta.get("ubicacion", "")
+        oferta.get(
+            "ubicacion",
+            ""
+        )
     )
 
     cargos = detectar_cargo(
-        oferta.get("titulo", "")
+        oferta.get(
+            "titulo",
+            ""
+        )
     )
 
     puntaje = calcular_puntaje(
@@ -742,21 +881,28 @@ def analizar_oferta(oferta):
         "experiencia_solicitada": {
 
             "anos":
-                experiencia_detectada["anos"],
+                experiencia_detectada[
+                    "anos"
+                ],
 
             "meses":
-                experiencia_detectada["meses"]
+                experiencia_detectada[
+                    "meses"
+                ]
         },
 
         "experiencia_perfil": {
 
             "meses":
-                PERFIL["experiencia_meses"],
+                PERFIL[
+                    "experiencia_meses"
+                ],
 
             "anos":
                 round(
-                    PERFIL["experiencia_meses"]
-                    / 12,
+                    PERFIL[
+                        "experiencia_meses"
+                    ] / 12,
                     2
                 )
         },
@@ -800,12 +946,12 @@ def analizar_oferta(oferta):
 # ============================================================
 # ANÁLISIS DEL MERCADO
 #
-# IMPORTANTE:
+# ESTA PARTE ES INDEPENDIENTE DEL PERFIL.
 #
-# NO depende de tu perfil.
+# Junior = 1 publicación
+# Senior = 1 publicación
 #
-# Una oferta junior, senior o de otro nivel
-# pesa exactamente como UNA publicación.
+# Cada publicación cuenta máximo 1 vez por cada elemento.
 # ============================================================
 
 def analizar_mercado(ofertas):
@@ -833,9 +979,9 @@ def analizar_mercado(ofertas):
         )
 
         # ----------------------------------------------------
-        # COMPETENCIAS GENERALES
+        # COMPETENCIAS
         #
-        # Una oferta = máximo 1 conteo por competencia.
+        # Una oferta = máximo 1.
         # ----------------------------------------------------
 
         competencias = detectar_competencias(
@@ -853,7 +999,7 @@ def analizar_mercado(ofertas):
         # ----------------------------------------------------
         # TECNOLOGÍAS ESPECÍFICAS
         #
-        # Una oferta = máximo 1 conteo por tecnología.
+        # Una oferta = máximo 1.
         # ----------------------------------------------------
 
         tecnologias = detectar_tecnologias(
@@ -873,7 +1019,10 @@ def analizar_mercado(ofertas):
         # ----------------------------------------------------
 
         experiencia = detectar_experiencia(
-            oferta.get("requisitos", "")
+            oferta.get(
+                "requisitos",
+                ""
+            )
             or texto
         )
 
@@ -944,6 +1093,8 @@ def analizar_mercado(ofertas):
 
         # ----------------------------------------------------
         # CARGO
+        #
+        # Se usa el título real.
         # ----------------------------------------------------
 
         titulo = str(
@@ -960,7 +1111,7 @@ def analizar_mercado(ofertas):
             ] += 1
 
     # ========================================================
-    # EXPERIENCIA PROMEDIO
+    # EXPERIENCIA
     # ========================================================
 
     if experiencias:
@@ -984,36 +1135,16 @@ def analizar_mercado(ofertas):
     else:
 
         experiencia_promedio = None
+
         experiencia_minima = None
+
         experiencia_maxima = None
 
     # ========================================================
     # RESULTADOS
     #
-    # SOLO NÚMEROS.
-    #
-    # Sin porcentajes.
+    # SOLO CANTIDADES.
     # ========================================================
-
-    competencias_mas_solicitadas = dict(
-        contador_competencias.most_common()
-    )
-
-    tecnologias_mas_solicitadas = dict(
-        contador_tecnologias.most_common()
-    )
-
-    ubicaciones_mas_repetidas = dict(
-        contador_ubicaciones.most_common(
-            15
-        )
-    )
-
-    cargos_mas_repetidos = dict(
-        contador_cargos.most_common(
-            15
-        )
-    )
 
     return {
 
@@ -1021,10 +1152,14 @@ def analizar_mercado(ofertas):
             total,
 
         "competencias_mas_solicitadas":
-            competencias_mas_solicitadas,
+            dict(
+                contador_competencias.most_common()
+            ),
 
         "tecnologias_especificas":
-            tecnologias_mas_solicitadas,
+            dict(
+                contador_tecnologias.most_common()
+            ),
 
         "experiencia_requerida":
             dict(
@@ -1044,15 +1179,26 @@ def analizar_mercado(ofertas):
             ofertas_sin_experiencia,
 
         "ubicaciones_mas_repetidas":
-            ubicaciones_mas_repetidas,
+            dict(
+                contador_ubicaciones.most_common(
+                    15
+                )
+            ),
 
         "cargos_mas_repetidos":
-            cargos_mas_repetidos
+            dict(
+                contador_cargos.most_common(
+                    15
+                )
+            )
     }
 
 
 # ============================================================
 # PLAN DE DESARROLLO
+#
+# Muestra qué pide el mercado y que todavía no está
+# registrado dentro de tu perfil.
 # ============================================================
 
 def generar_plan_desarrollo(
@@ -1061,11 +1207,9 @@ def generar_plan_desarrollo(
 
     plan = {}
 
-    competencias_mercado = (
-        mercado[
-            "competencias_mas_solicitadas"
-        ]
-    )
+    # --------------------------------------------------------
+    # COMPETENCIAS
+    # --------------------------------------------------------
 
     competencias_perfil = set(
         normalizar(c)
@@ -1073,7 +1217,9 @@ def generar_plan_desarrollo(
     )
 
     for competencia, cantidad in (
-        competencias_mercado.items()
+        mercado[
+            "competencias_mas_solicitadas"
+        ].items()
     ):
 
         if normalizar(
@@ -1081,6 +1227,26 @@ def generar_plan_desarrollo(
         ) not in competencias_perfil:
 
             plan[competencia] = cantidad
+
+    # --------------------------------------------------------
+    # TECNOLOGÍAS
+    #
+    # Las agregamos con el prefijo "TECNOLOGÍA:"
+    # para diferenciarlas de competencias generales.
+    # --------------------------------------------------------
+
+    for tecnologia, cantidad in (
+        mercado[
+            "tecnologias_especificas"
+        ].items()
+    ):
+
+        nombre = (
+            "TECNOLOGÍA: "
+            + tecnologia
+        )
+
+        plan[nombre] = cantidad
 
     return dict(
         sorted(
@@ -1092,7 +1258,7 @@ def generar_plan_desarrollo(
 
 
 # ============================================================
-# GUARDAR Y MOSTRAR ANÁLISIS
+# ANALIZAR HISTORIAL
 # ============================================================
 
 def analizar_historial():
@@ -1146,9 +1312,14 @@ def analizar_historial():
         "resumen_mercado"
     ] = mercado
 
+    # ========================================================
+    # 3. TENDENCIAS
+    # ========================================================
+
     historial[
         "tendencias"
     ] = {
+
         "competencias":
             mercado[
                 "competencias_mas_solicitadas"
@@ -1176,7 +1347,7 @@ def analizar_historial():
     }
 
     # ========================================================
-    # 3. PLAN DE DESARROLLO
+    # 4. PLAN DE DESARROLLO
     # ========================================================
 
     historial[
@@ -1186,7 +1357,7 @@ def analizar_historial():
     )
 
     # ========================================================
-    # 4. PERFIL
+    # 5. PERFIL
     # ========================================================
 
     historial["perfil"] = {
@@ -1241,7 +1412,7 @@ def analizar_historial():
     )
 
     # ========================================================
-    # 5. GUARDAR JSON
+    # 6. GUARDAR
     # ========================================================
 
     with open(
@@ -1275,7 +1446,7 @@ def analizar_historial():
     )
 
     # ========================================================
-    # COMPETENCIAS GENERALES
+    # COMPETENCIAS
     # ========================================================
 
     print()
@@ -1311,7 +1482,7 @@ def analizar_historial():
 
         for nombre, cantidad in list(
             tecnologias.items()
-        )[:20]:
+        )[:30]:
 
             print(
                 f"- {nombre}: "
@@ -1351,6 +1522,7 @@ def analizar_historial():
     ):
 
         print()
+
         print(
             "Experiencia promedio:",
             mercado[
@@ -1401,7 +1573,8 @@ def analizar_historial():
 
     print()
     print("======================================")
-    print("COMPETENCIAS A DESARROLLAR")
+    print("LO QUE EL MERCADO ESTÁ PIDIENDO")
+    print("Y QUE NO ESTÁ EN TU PERFIL")
     print("======================================")
 
     plan = historial[
@@ -1412,7 +1585,7 @@ def analizar_historial():
 
         for nombre, cantidad in list(
             plan.items()
-        )[:10]:
+        )[:20]:
 
             print(
                 f"- {nombre}: "
@@ -1422,7 +1595,7 @@ def analizar_historial():
     else:
 
         print(
-            "No se detectaron brechas."
+            "No se detectaron elementos nuevos."
         )
 
     # ========================================================
@@ -1463,6 +1636,7 @@ def analizar_historial():
         )
 
         print()
+
         print(
             oferta.get(
                 "titulo",
