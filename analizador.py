@@ -12,7 +12,65 @@ ARCHIVO_PERFIL = "perfil.json"
 
 
 # ============================================================
-# COMPETENCIAS Y FAMILIAS
+# CONOCIMIENTOS DEL PERFIL
+#
+# IMPORTANTE:
+# - "practico": experiencia real en terreno
+# - "formacion": conocimientos académicos / técnicos
+# - "estudio": conocimientos que pueden reforzarse principalmente
+#   mediante estudio, simulación o práctica guiada
+# ============================================================
+
+CONOCIMIENTOS_PRACTICOS = {
+    "electricidad de baja tensión",
+    "canalizaciones",
+    "bandejas portacables",
+    "cableado",
+    "canaletas",
+    "conexión de motores",
+    "instalación de luminarias",
+    "instalación eléctrica residencial",
+    "herramientas eléctricas",
+    "esmeril",
+    "pinzas",
+    "trabajos eléctricos",
+}
+
+CONOCIMIENTOS_FORMACION = {
+    "electricidad industrial",
+    "automatización",
+    "control industrial",
+    "tableros eléctricos",
+    "PLC",
+    "variadores de frecuencia",
+    "HMI",
+    "arranque directo",
+    "estrella triángulo",
+    "conductores de fuerza",
+    "conductores de control",
+    "lectura básica de planos",
+    "mantenimiento industrial",
+    "mantenimiento preventivo",
+    "instrumentación",
+    "sensores",
+}
+
+CONOCIMIENTOS_ESTUDIO = {
+    "PLC",
+    "Siemens",
+    "instrumentación",
+    "diagnóstico de fallas",
+    "mantenimiento industrial",
+    "mantenimiento preventivo",
+    "SCADA",
+    "HMI",
+    "variadores de frecuencia",
+    "automatización",
+}
+
+
+# ============================================================
+# COMPETENCIAS DEL MERCADO
 # ============================================================
 
 COMPETENCIAS = {
@@ -21,38 +79,27 @@ COMPETENCIAS = {
         "eléctrica industrial",
         "electrico industrial",
         "electricista industrial",
-        "instalaciones eléctricas industriales"
     ],
 
     "mantenimiento industrial": [
         "mantenimiento industrial",
-        "mantención industrial"
+        "mantención industrial",
     ],
 
     "mantenimiento preventivo": [
         "mantenimiento preventivo",
         "mantención preventiva",
-        "mantenimiento programado",
-        "mantención programada",
-        "plan de mantenimiento",
-        "planes de mantenimiento",
-        "inspecciones preventivas"
     ],
 
     "mantenimiento correctivo": [
         "mantenimiento correctivo",
-        "mantención correctiva"
+        "mantención correctiva",
     ],
 
     "tableros eléctricos": [
         "tablero eléctrico",
         "tableros eléctricos",
-        "tablero electrico",
         "tableros electricos",
-        "panel eléctrico",
-        "paneles eléctricos",
-        "panel electrico",
-        "paneles electricos"
     ],
 
     "lectura de planos": [
@@ -61,16 +108,21 @@ COMPETENCIAS = {
         "interpretacion de planos",
         "planos eléctricos",
         "planos electricos",
-        "planos de control",
-        "planos de fuerza"
     ],
 
     "PLC": [
         "plc",
         "controlador lógico programable",
         "controlador programable",
-        "programación plc",
-        "programacion plc"
+    ],
+
+    "Siemens": [
+        "siemens",
+        "s7-1200",
+        "s7 1200",
+        "s7-1500",
+        "s7 1500",
+        "tia portal",
     ],
 
     "variadores de frecuencia": [
@@ -78,7 +130,6 @@ COMPETENCIAS = {
         "variadores de frecuencia",
         "vfd",
         "drive",
-        "variador"
     ],
 
     "automatización": [
@@ -86,9 +137,6 @@ COMPETENCIAS = {
         "automatizacion",
         "control automático",
         "control automatico",
-        "automatización industrial",
-        "automatizacion industrial",
-        "control industrial"
     ],
 
     "instrumentación": [
@@ -96,22 +144,20 @@ COMPETENCIAS = {
         "instrumentacion",
         "instrumentista",
         "instrumentos industriales",
-        "instrumentación industrial",
-        "instrumentacion industrial"
     ],
 
     "neumática": [
         "neumática",
         "neumatica",
         "sistemas neumáticos",
-        "sistemas neumaticos"
+        "sistemas neumaticos",
     ],
 
     "hidráulica": [
         "hidráulica",
         "hidraulica",
         "sistemas hidráulicos",
-        "sistemas hidraulicos"
+        "sistemas hidraulicos",
     ],
 
     "diagnóstico de fallas": [
@@ -121,26 +167,22 @@ COMPETENCIAS = {
         "deteccion de fallas",
         "resolución de fallas",
         "resolucion de fallas",
-        "diagnóstico eléctrico",
-        "diagnostico electrico",
-        "detección de averías",
-        "deteccion de averias"
+        "diagnosticar fallas",
     ],
 
     "HMI": [
         "hmi",
         "interfaz hombre máquina",
-        "interfaz hombre maquina"
+        "interfaz hombre maquina",
     ],
 
     "SCADA": [
-        "scada"
+        "scada",
     ],
 
     "sensores": [
         "sensores",
         "sensor industrial",
-        "sensor"
     ],
 
     "motores eléctricos": [
@@ -148,78 +190,34 @@ COMPETENCIAS = {
         "motores eléctricos",
         "motor electrico",
         "motores electricos",
-        "motores"
     ],
 
     "seguridad eléctrica": [
         "seguridad eléctrica",
         "seguridad electrica",
         "procedimientos eléctricos",
-        "procedimientos electricos"
-    ]
+        "procedimientos electricos",
+    ],
+
+    "necesidad de terreno": [
+        "experiencia en terreno",
+        "trabajo en terreno",
+        "experiencia práctica",
+        "experiencia practica",
+        "experiencia en planta",
+        "experiencia industrial",
+    ],
 }
 
 
 # ============================================================
-# EXPERIENCIA SOLICITADA
+# EXPERIENCIA
 # ============================================================
 
-PATRONES_EXPERIENCIA = {
-    "sin experiencia": [
-        "sin experiencia",
-        "no requiere experiencia",
-        "recién egresado",
-        "recien egresado",
-        "sin requerir experiencia",
-        "no se requiere experiencia",
-        "no requiere de experiencia"
-    ],
-
-    "experiencia menor a 1 año": [
-        "6 meses de experiencia",
-        "6 meses experiencia",
-        "menos de 1 año",
-        "menos de un año",
-        "experiencia de 6 meses",
-        "experiencia 6 meses"
-    ],
-
-    "1 año": [
-        "1 año de experiencia",
-        "1 año experiencia",
-        "un año de experiencia",
-        "experiencia de 1 año",
-        "experiencia 1 año",
-        "experiencia mínima de 1 año",
-        "experiencia minima de 1 año"
-    ],
-
-    "2 años": [
-        "2 años de experiencia",
-        "2 años experiencia",
-        "dos años de experiencia",
-        "experiencia de 2 años",
-        "experiencia 2 años",
-        "experiencia mínima de 2 años",
-        "experiencia minima de 2 años"
-    ],
-
-    "3 años o más": [
-        "3 años de experiencia",
-        "4 años de experiencia",
-        "5 años de experiencia",
-        "3 años experiencia",
-        "4 años experiencia",
-        "5 años experiencia",
-        "experiencia de 3 años",
-        "experiencia de 4 años",
-        "experiencia de 5 años",
-        "más de 3 años",
-        "mas de 3 años",
-        "experiencia mínima de 3 años",
-        "experiencia minima de 3 años"
-    ]
-}
+PATRONES_EXPERIENCIA = [
+    r"(\d+(?:[.,]\d+)?)\s*(?:años|año)",
+    r"(\d+)\s*(?:meses|mes)",
+]
 
 
 # ============================================================
@@ -236,7 +234,7 @@ def normalizar(texto):
         "í": "i",
         "ó": "o",
         "ú": "u",
-        "ñ": "n"
+        "ñ": "n",
     }
 
     for original, nuevo in reemplazos.items():
@@ -246,93 +244,7 @@ def normalizar(texto):
 
 
 # ============================================================
-# DETECTAR COMPETENCIAS
-# ============================================================
-
-def detectar_competencias(texto):
-
-    texto_normalizado = normalizar(texto)
-
-    encontradas = []
-
-    for competencia, palabras in COMPETENCIAS.items():
-
-        for palabra in palabras:
-
-            palabra_normalizada = normalizar(palabra)
-
-            if palabra_normalizada in texto_normalizado:
-                encontradas.append(competencia)
-                break
-
-    return encontradas
-
-
-# ============================================================
-# DETECTAR EXPERIENCIA
-# ============================================================
-
-def detectar_experiencia(texto):
-
-    texto_normalizado = normalizar(texto)
-
-    resultados = []
-
-    for nivel, patrones in PATRONES_EXPERIENCIA.items():
-
-        for patron in patrones:
-
-            if normalizar(patron) in texto_normalizado:
-                resultados.append(nivel)
-                break
-
-    return resultados
-
-
-# ============================================================
-# EXTRAER AÑOS DE EXPERIENCIA SOLICITADOS
-# ============================================================
-
-def extraer_anos_experiencia(texto):
-
-    texto_normalizado = normalizar(texto)
-
-    patrones = [
-        r"(\d+(?:[.,]\d+)?)\s*anos?\s*(?:de\s*)?experiencia",
-        r"experiencia\s*(?:minima\s*)?(?:de\s*)?(\d+(?:[.,]\d+)?)\s*anos?",
-        r"(\d+(?:[.,]\d+)?)\s*ano\s*de\s*experiencia"
-    ]
-
-    valores = []
-
-    for patron in patrones:
-
-        coincidencias = re.findall(patron, texto_normalizado)
-
-        for valor in coincidencias:
-
-            try:
-                valores.append(float(valor.replace(",", ".")))
-            except ValueError:
-                pass
-
-    if valores:
-        return max(valores)
-
-    if "dos anos de experiencia" in texto_normalizado:
-        return 2.0
-
-    if "un ano de experiencia" in texto_normalizado:
-        return 1.0
-
-    if "tres anos de experiencia" in texto_normalizado:
-        return 3.0
-
-    return None
-
-
-# ============================================================
-# LEER PERFIL
+# CARGAR PERFIL
 # ============================================================
 
 def cargar_perfil():
@@ -352,82 +264,146 @@ def cargar_perfil():
 # EXPERIENCIA DEL PERFIL
 # ============================================================
 
-def obtener_meses_experiencia(perfil):
+def obtener_experiencia_perfil(perfil):
 
     experiencia = perfil.get("experiencia", {})
+
+    meses = experiencia.get("meses_aproximados", 0)
 
     try:
-        return float(experiencia.get("meses_aproximados", 0))
-    except (TypeError, ValueError):
-        return 0.0
-
-
-# ============================================================
-# OBTENER TEXTO DEL PERFIL
-# ============================================================
-
-def obtener_texto_perfil(perfil):
-
-    partes = []
-
-    profesion = perfil.get("profesion", "")
-    certificacion = perfil.get("certificacion_electrica", "")
-
-    partes.append(str(profesion))
-    partes.append(str(certificacion))
-
-    experiencia = perfil.get("experiencia", {})
-
-    partes.extend(experiencia.get("tipo", []))
-
-    partes.extend(perfil.get("priorizar", []))
-    partes.extend(perfil.get("tipo_de_cargo_prioritario", []))
-
-    conocimientos = perfil.get("conocimientos", [])
-
-    if isinstance(conocimientos, list):
-        partes.extend(conocimientos)
-
-    return " ".join(str(x) for x in partes)
-
-
-# ============================================================
-# DETECTAR UBICACIÓN
-# ============================================================
-
-def analizar_ubicacion(oferta, perfil):
-
-    ubicacion_oferta = str(oferta.get("ubicacion", "")).strip()
-
-    zonas = perfil.get("objetivo", {}).get("zona_prioritaria", [])
-
-    ubicacion_normalizada = normalizar(ubicacion_oferta)
-
-    coincidencia = None
-
-    for zona in zonas:
-
-        if normalizar(zona) in ubicacion_normalizada:
-
-            coincidencia = zona
-            break
+        meses = float(meses)
+    except (ValueError, TypeError):
+        meses = 0.0
 
     return {
-        "ubicacion_oferta": ubicacion_oferta,
-        "zona_prioritaria": coincidencia is not None,
-        "zona_coincidente": coincidencia
+        "meses_aproximados": meses,
+        "anos_aproximados": round(meses / 12, 2),
     }
 
 
 # ============================================================
-# DETECTAR CARGOS COINCIDENTES
+# DETECTAR AÑOS SOLICITADOS
 # ============================================================
 
-def analizar_cargo(oferta, perfil):
+def detectar_anos_experiencia(texto):
 
-    titulo = normalizar(oferta.get("titulo", ""))
+    texto_normalizado = normalizar(texto)
 
-    cargos = perfil.get("tipo_de_cargo_prioritario", [])
+    encontrados = []
+
+    for patron in PATRONES_EXPERIENCIA:
+
+        coincidencias = re.findall(
+            patron,
+            texto_normalizado
+        )
+
+        for valor in coincidencias:
+
+            try:
+                numero = float(valor.replace(",", "."))
+
+                if "mes" in patron:
+                    numero = numero / 12
+
+                encontrados.append(numero)
+
+            except ValueError:
+                pass
+
+    if not encontrados:
+        return None
+
+    return max(encontrados)
+
+
+# ============================================================
+# DETECTAR COMPETENCIAS
+# ============================================================
+
+def detectar_competencias(texto):
+
+    texto_normalizado = normalizar(texto)
+
+    encontradas = []
+
+    for competencia, palabras in COMPETENCIAS.items():
+
+        for palabra in palabras:
+
+            palabra_normalizada = normalizar(palabra)
+
+            if palabra_normalizada in texto_normalizado:
+
+                if competencia not in encontradas:
+                    encontradas.append(competencia)
+
+                break
+
+    return encontradas
+
+
+# ============================================================
+# OBTENER UBICACIÓN
+# ============================================================
+
+def analizar_ubicacion(oferta, perfil):
+
+    ubicacion_oferta = str(
+        oferta.get("ubicacion", "")
+    ).strip()
+
+    zonas = perfil.get(
+        "objetivo",
+        {}
+    ).get(
+        "zona_prioritaria",
+        []
+    )
+
+    zonas_normalizadas = {
+        normalizar(zona): zona
+        for zona in zonas
+    }
+
+    ubicacion_normalizada = normalizar(
+        ubicacion_oferta
+    )
+
+    for zona_normalizada, zona_original in zonas_normalizadas.items():
+
+        if (
+            zona_normalizada in ubicacion_normalizada
+            or ubicacion_normalizada in zona_normalizada
+        ):
+
+            return {
+                "ubicacion_oferta": ubicacion_oferta,
+                "zona_prioritaria": True,
+                "zona_coincidente": zona_original,
+            }
+
+    return {
+        "ubicacion_oferta": ubicacion_oferta,
+        "zona_prioritaria": False,
+        "zona_coincidente": None,
+    }
+
+
+# ============================================================
+# OBTENER CARGOS COINCIDENTES
+# ============================================================
+
+def analizar_cargos(oferta, perfil):
+
+    titulo = normalizar(
+        oferta.get("titulo", "")
+    )
+
+    cargos = perfil.get(
+        "tipo_de_cargo_prioritario",
+        []
+    )
 
     coincidencias = []
 
@@ -435,247 +411,148 @@ def analizar_cargo(oferta, perfil):
 
         palabras = normalizar(cargo).split()
 
-        palabras_utiles = [
-            palabra
-            for palabra in palabras
-            if len(palabra) > 3
-        ]
+        coincidencias_palabras = 0
 
-        if palabras_utiles:
+        for palabra in palabras:
 
-            coincidencias_utiles = sum(
-                1 for palabra in palabras_utiles
-                if palabra in titulo
-            )
+            if len(palabra) >= 4 and palabra in titulo:
+                coincidencias_palabras += 1
 
-            if coincidencias_utiles >= max(1, len(palabras_utiles) // 2):
-                coincidencias.append(cargo)
+        if coincidencias_palabras >= 1:
+
+            coincidencias.append(cargo)
 
     return coincidencias
 
 
 # ============================================================
-# CLASIFICAR COMPETENCIA SEGÚN EL PERFIL
+# CLASIFICAR CONOCIMIENTO
 # ============================================================
 
-def clasificar_competencias(competencias_oferta, perfil):
+def clasificar_conocimiento(competencia):
 
-    texto_perfil = obtener_texto_perfil(perfil)
-
-    priorizar = perfil.get("priorizar", [])
-
-    texto_priorizado = normalizar(" ".join(priorizar))
-
-    experiencia_real = normalizar(
-        " ".join(
-            perfil.get("experiencia", {}).get("tipo", [])
-        )
+    competencia_normalizada = normalizar(
+        competencia
     )
 
-    formacion = normalizar(texto_perfil)
+    for conocimiento in CONOCIMIENTOS_PRACTICOS:
 
-    conocimientos = []
+        if normalizar(conocimiento) == competencia_normalizada:
+            return "practico"
+
+    for conocimiento in CONOCIMIENTOS_FORMACION:
+
+        if normalizar(conocimiento) == competencia_normalizada:
+            return "formacion"
+
+    for conocimiento in CONOCIMIENTOS_ESTUDIO:
+
+        if normalizar(conocimiento) == competencia_normalizada:
+            return "estudio"
+
+    return "desconocido"
+
+
+# ============================================================
+# ANALIZAR CONOCIMIENTOS
+# ============================================================
+
+def analizar_conocimientos(competencias):
+
+    relacionados = []
     aprendizaje_rapido = []
     brechas_practicas = []
 
-    for competencia in competencias_oferta:
+    for competencia in competencias:
 
-        competencia_normalizada = normalizar(competencia)
-
-        aparece_formacion = (
-            competencia_normalizada in formacion
-            or competencia_normalizada in texto_priorizado
+        tipo = clasificar_conocimiento(
+            competencia
         )
 
-        aparece_experiencia = (
-            competencia_normalizada in experiencia_real
-        )
+        if tipo == "practico":
 
-        # ----------------------------------------------------
-        # EXPERIENCIA PRÁCTICA REAL
-        # ----------------------------------------------------
+            relacionados.append(competencia)
 
-        if aparece_experiencia:
+        elif tipo == "formacion":
 
-            conocimientos.append(competencia)
-            continue
+            relacionados.append(competencia)
 
-        # ----------------------------------------------------
-        # CONOCIMIENTO / FORMACIÓN
-        # ----------------------------------------------------
+        elif tipo == "estudio":
 
-        if aparece_formacion:
-
-            conocimientos.append(competencia)
-
-            # Estas áreas suelen permitir refuerzo
-            # mediante estudio y simulación.
-            if competencia in [
-                "PLC",
-                "HMI",
-                "SCADA",
-                "automatización",
-                "variadores de frecuencia",
-                "lectura de planos"
-            ]:
-                aprendizaje_rapido.append(competencia)
-
-            # Estas áreas requieren normalmente
-            # más exposición práctica.
-            if competencia in [
-                "mantenimiento industrial",
-                "diagnóstico de fallas",
-                "instrumentación",
-                "neumática",
-                "hidráulica"
-            ]:
-                brechas_practicas.append(competencia)
-
-            continue
-
-        # ----------------------------------------------------
-        # COMPETENCIA NO RESPALDADA POR EL PERFIL
-        # ----------------------------------------------------
-
-        if competencia in [
-            "PLC",
-            "HMI",
-            "SCADA",
-            "automatización",
-            "variadores de frecuencia",
-            "lectura de planos"
-        ]:
-
-            aprendizaje_rapido.append(competencia)
+            aprendizaje_rapido.append(
+                competencia
+            )
 
         else:
 
-            brechas_practicas.append(competencia)
+            brechas_practicas.append(
+                competencia
+            )
 
     return {
-        "conocimientos_relacionados": conocimientos,
+        "conocimientos_relacionados": relacionados,
         "aprendizaje_rapido": aprendizaje_rapido,
-        "brechas_practicas": brechas_practicas
+        "brechas_practicas": brechas_practicas,
     }
 
 
 # ============================================================
-# ANALIZAR UNA OFERTA
+# DETERMINAR BRECHA DE EXPERIENCIA
 # ============================================================
 
-def analizar_oferta(oferta, perfil):
+def analizar_brecha_experiencia(
+    anos_solicitados,
+    experiencia_perfil
+):
 
-    texto = ""
+    if anos_solicitados is None:
+        return None
 
-    for campo in [
-        "titulo",
-        "empresa",
-        "ubicacion",
-        "descripcion",
-        "requisitos"
-    ]:
+    anos_perfil = experiencia_perfil[
+        "anos_aproximados"
+    ]
 
-        valor = oferta.get(campo, "")
-
-        if valor:
-            texto += " " + str(valor)
-
-    competencias = detectar_competencias(texto)
-
-    experiencia = detectar_experiencia(texto)
-
-    anos_solicitados = extraer_anos_experiencia(texto)
-
-    meses_perfil = obtener_meses_experiencia(perfil)
-
-    clasificacion = clasificar_competencias(
-        competencias,
-        perfil
-    )
-
-    ubicacion = analizar_ubicacion(
-        oferta,
-        perfil
-    )
-
-    cargos = analizar_cargo(
-        oferta,
-        perfil
+    diferencia = max(
+        0,
+        anos_solicitados - anos_perfil
     )
 
     return {
-        "competencias_detectadas": competencias,
-        "experiencia_detectada": experiencia,
-        "anos_experiencia_solicitados": anos_solicitados,
-        "experiencia_perfil": {
-            "meses_aproximados": meses_perfil,
-            "anos_aproximados": round(meses_perfil / 12, 2)
-        },
-        "ubicacion": ubicacion,
-        "cargos_coincidentes": cargos,
-        **clasificacion
+        "anos_solicitados": anos_solicitados,
+        "anos_perfil": anos_perfil,
+        "diferencia_anos": round(
+            diferencia,
+            2
+        ),
+        "diferencia_meses": round(
+            diferencia * 12,
+            1
+        ),
     }
 
 
 # ============================================================
-# CALCULAR COMPATIBILIDAD
+# GENERAR FORTALEZAS
 # ============================================================
 
-def calcular_compatibilidad(oferta, analisis, perfil):
-
-    puntaje = 0
+def generar_fortalezas(
+    perfil,
+    competencias,
+    ubicacion,
+    cargos
+):
 
     fortalezas = []
-    brechas = []
 
-    competencias = analisis["competencias_detectadas"]
-
-    conocimientos = analisis["conocimientos_relacionados"]
-
-    aprendizaje = analisis["aprendizaje_rapido"]
-
-    brechas_practicas = analisis["brechas_practicas"]
-
-    # --------------------------------------------------------
-    # FORMACIÓN
-    # --------------------------------------------------------
-
-    profesion = normalizar(
-        perfil.get("profesion", "")
+    profesion = perfil.get(
+        "profesion",
+        ""
     )
 
-    titulo = normalizar(
-        oferta.get("titulo", "")
-    )
-
-    if any(
-        palabra in titulo
-        for palabra in [
-            "electrico",
-            "automatizacion",
-            "mantenimiento",
-            "instrumentacion",
-            "electromecanico"
-        ]
-    ):
-
-        puntaje += 15
-
+    if profesion:
         fortalezas.append(
-            "La formación técnica está relacionada con el tipo de cargo."
+            "La formación técnica está relacionada con el área del cargo."
         )
-
-    elif profesion:
-
-        puntaje += 8
-
-        fortalezas.append(
-            "El perfil cuenta con formación técnica relacionada."
-        )
-
-    # --------------------------------------------------------
-    # SEC
-    # --------------------------------------------------------
 
     certificacion = perfil.get(
         "certificacion_electrica",
@@ -684,205 +561,543 @@ def calcular_compatibilidad(oferta, analisis, perfil):
 
     if certificacion:
 
-        texto_certificacion = normalizar(
-            str(certificacion)
-        )
+        if isinstance(
+            certificacion,
+            dict
+        ):
 
-        if "clase d" in texto_certificacion:
-
-            puntaje += 5
-
-            fortalezas.append(
-                "El perfil cuenta con preparación para SEC Clase D; "
-                "la certificación todavía está en trámite."
+            tipo = certificacion.get(
+                "tipo",
+                "certificación eléctrica"
             )
 
-    # --------------------------------------------------------
-    # COMPETENCIAS
-    # --------------------------------------------------------
+            estado = certificacion.get(
+                "estado",
+                ""
+            )
 
-    for competencia in conocimientos:
+            if normalizar(estado) == "en tramite":
 
-        if competencia in competencias:
+                fortalezas.append(
+                    f"{tipo}: en trámite. "
+                    "La certificación todavía no se considera obtenida."
+                )
 
-            puntaje += 8
+            else:
+
+                fortalezas.append(
+                    f"El perfil cuenta con {tipo}."
+                )
+
+        else:
+
+            fortalezas.append(
+                f"El perfil contempla {certificacion}."
+            )
+
+    for competencia in competencias:
+
+        tipo = clasificar_conocimiento(
+            competencia
+        )
+
+        if tipo in [
+            "practico",
+            "formacion"
+        ]:
 
             fortalezas.append(
                 f"El perfil presenta conocimientos relacionados con {competencia}."
             )
 
+    if ubicacion["zona_prioritaria"]:
+
+        fortalezas.append(
+            f"La ubicación ({ubicacion['ubicacion_oferta']}) "
+            "está dentro de las zonas prioritarias."
+        )
+
+    if cargos:
+
+        fortalezas.append(
+            "El tipo de cargo coincide con uno o más "
+            "cargos prioritarios del perfil."
+        )
+
+    return fortalezas
+
+
+# ============================================================
+# GENERAR RECOMENDACIÓN
+# ============================================================
+
+def generar_recomendacion(
+    puntaje,
+    anos_solicitados,
+    diferencia_meses,
+    cargos,
+    ubicacion
+):
+
+    if puntaje >= 80:
+
+        prioridad = "ALTA"
+        probabilidad = "ALTA"
+
+    elif puntaje >= 65:
+
+        prioridad = "MEDIA-ALTA"
+        probabilidad = "MEDIA"
+
+    elif puntaje >= 50:
+
+        prioridad = "MEDIA"
+        probabilidad = "MEDIA"
+
+    else:
+
+        prioridad = "BAJA"
+        probabilidad = "BAJA"
+
+    if not ubicacion["zona_prioritaria"]:
+
+        if prioridad == "ALTA":
+            prioridad = "MEDIA-ALTA"
+
+        elif prioridad == "MEDIA-ALTA":
+            prioridad = "MEDIA"
+
+    if cargos and prioridad == "BAJA":
+
+        prioridad = "MEDIA"
+
+    if anos_solicitados is not None:
+
+        if diferencia_meses <= 6:
+
+            recomendacion = (
+                "POSTULAR. La diferencia de experiencia "
+                "es relativamente pequeña."
+            )
+
+        elif diferencia_meses <= 12:
+
+            recomendacion = (
+                "POSTULAR SI EL CARGO ACEPTA PERFILES "
+                "JUNIOR O EXPERIENCIA EQUIVALENTE."
+            )
+
+        else:
+
+            recomendacion = (
+                "CONSIDERAR COMO POSTULACIÓN SECUNDARIA "
+                "SI EL EMPLEADOR ES FLEXIBLE CON LA EXPERIENCIA."
+            )
+
+    else:
+
+        recomendacion = (
+            "POSTULAR SI EL RESTO DE LOS REQUISITOS ENCAJA."
+        )
+
+    return {
+        "probabilidad_ajuste": probabilidad,
+        "prioridad_postulacion": prioridad,
+        "recomendacion": recomendacion,
+    }
+
+
+# ============================================================
+# CALCULAR COMPATIBILIDAD
+# ============================================================
+
+def calcular_compatibilidad(
+    perfil,
+    competencias,
+    ubicacion,
+    cargos,
+    anos_solicitados
+):
+
+    experiencia_perfil = obtener_experiencia_perfil(
+        perfil
+    )
+
+    anos_perfil = experiencia_perfil[
+        "anos_aproximados"
+    ]
+
+    puntaje = 0
+
+    # --------------------------------------------------------
+    # FORMACIÓN
+    # --------------------------------------------------------
+
+    if perfil.get("profesion"):
+
+        puntaje += 20
+
     # --------------------------------------------------------
     # UBICACIÓN
     # --------------------------------------------------------
 
-    if analisis["ubicacion"]["zona_prioritaria"]:
+    if ubicacion["zona_prioritaria"]:
 
-        puntaje += 10
-
-        fortalezas.append(
-            f"La ubicación ({analisis['ubicacion']['ubicacion_oferta']}) "
-            "está dentro de las zonas prioritarias."
-        )
+        puntaje += 15
 
     # --------------------------------------------------------
     # CARGO
     # --------------------------------------------------------
 
-    if analisis["cargos_coincidentes"]:
+    if cargos:
 
-        puntaje += 10
+        puntaje += 15
 
-        fortalezas.append(
-            "El tipo de cargo coincide con uno o más cargos "
-            "prioritarios del perfil."
+    # --------------------------------------------------------
+    # COMPETENCIAS
+    # --------------------------------------------------------
+
+    for competencia in competencias:
+
+        tipo = clasificar_conocimiento(
+            competencia
         )
+
+        if tipo == "practico":
+
+            puntaje += 8
+
+        elif tipo == "formacion":
+
+            puntaje += 5
+
+        elif tipo == "estudio":
+
+            puntaje += 2
 
     # --------------------------------------------------------
     # EXPERIENCIA
     # --------------------------------------------------------
 
-    meses_perfil = analisis["experiencia_perfil"][
-        "meses_aproximados"
-    ]
+    if anos_solicitados is not None:
 
-    anos_solicitados = analisis[
-        "anos_experiencia_solicitados"
-    ]
+        if anos_solicitados <= anos_perfil:
+
+            puntaje += 20
+
+        elif anos_solicitados - anos_perfil <= 0.5:
+
+            puntaje += 12
+
+        elif anos_solicitados - anos_perfil <= 1:
+
+            puntaje += 6
+
+        else:
+
+            puntaje += 0
+
+    else:
+
+        puntaje += 10
+
+    # Limitar
+    puntaje = min(
+        100,
+        puntaje
+    )
+
+    brecha = analizar_brecha_experiencia(
+        anos_solicitados,
+        experiencia_perfil
+    )
+
+    diferencia_meses = (
+        brecha["diferencia_meses"]
+        if brecha
+        else 0
+    )
+
+    recomendacion = generar_recomendacion(
+        puntaje,
+        anos_solicitados,
+        diferencia_meses,
+        cargos,
+        ubicacion
+    )
+
+    return {
+        "puntaje": puntaje,
+        **recomendacion,
+        "experiencia": brecha,
+    }
+
+
+# ============================================================
+# ANALIZAR UNA OFERTA
+# ============================================================
+
+def analizar_oferta(
+    oferta,
+    perfil
+):
+
+    texto = ""
+
+    for campo in [
+        "titulo",
+        "empresa",
+        "ubicacion",
+        "descripcion",
+        "requisitos",
+    ]:
+
+        valor = oferta.get(
+            campo,
+            ""
+        )
+
+        if valor:
+
+            texto += " " + str(valor)
+
+    competencias = detectar_competencias(
+        texto
+    )
+
+    experiencia_detectada = []
+
+    anos_solicitados = detectar_anos_experiencia(
+        oferta.get(
+            "requisitos",
+            ""
+        )
+    )
 
     if anos_solicitados is not None:
 
-        meses_solicitados = anos_solicitados * 12
+        if anos_solicitados == 1:
 
-        if meses_perfil >= meses_solicitados:
+            experiencia_detectada.append(
+                "1 año"
+            )
 
-            puntaje += 15
+        elif anos_solicitados == 2:
 
-            fortalezas.append(
-                "La experiencia disponible cumple aproximadamente "
-                "con la experiencia solicitada."
+            experiencia_detectada.append(
+                "2 años"
+            )
+
+        elif anos_solicitados >= 3:
+
+            experiencia_detectada.append(
+                "3 años o más"
             )
 
         else:
 
-            diferencia = meses_solicitados - meses_perfil
+            experiencia_detectada.append(
+                f"{anos_solicitados} años"
+            )
+
+    ubicacion = analizar_ubicacion(
+        oferta,
+        perfil
+    )
+
+    cargos = analizar_cargos(
+        oferta,
+        perfil
+    )
+
+    conocimientos = analizar_conocimientos(
+        competencias
+    )
+
+    compatibilidad = calcular_compatibilidad(
+        perfil,
+        competencias,
+        ubicacion,
+        cargos,
+        anos_solicitados
+    )
+
+    fortalezas = generar_fortalezas(
+        perfil,
+        competencias,
+        ubicacion,
+        cargos
+    )
+
+    brechas = []
+
+    # --------------------------------------------------------
+    # BRECHA DE EXPERIENCIA
+    # --------------------------------------------------------
+
+    if compatibilidad["experiencia"]:
+
+        diferencia = compatibilidad[
+            "experiencia"
+        ]
+
+        if diferencia["diferencia_meses"] > 0:
 
             brechas.append(
                 f"La oferta solicita aproximadamente "
-                f"{anos_solicitados:g} año(s) de experiencia; "
-                f"el perfil registra aproximadamente "
-                f"{meses_perfil:g} meses."
+                f"{diferencia['anos_solicitados']} año(s) "
+                f"de experiencia; el perfil registra "
+                f"aproximadamente "
+                f"{diferencia['anos_perfil'] * 12:g} meses."
             )
 
-            # Penalización progresiva.
-            if diferencia <= 6:
-                puntaje -= 5
-
-            elif diferencia <= 12:
-                puntaje -= 12
-
-            elif diferencia <= 24:
-                puntaje -= 20
-
-            else:
-                puntaje -= 30
-
     # --------------------------------------------------------
-    # BRECHAS PRÁCTICAS
+    # COMPETENCIAS NO PRACTICADAS
     # --------------------------------------------------------
 
-    for competencia in brechas_practicas:
+    for competencia in competencias:
 
-        brechas.append(competencia)
+        tipo = clasificar_conocimiento(
+            competencia
+        )
+
+        if tipo == "estudio":
+
+            if competencia not in brechas:
+
+                brechas.append(
+                    f"{competencia}: conviene reforzarla."
+                )
+
+        elif tipo == "desconocido":
+
+            if competencia not in brechas:
+
+                brechas.append(
+                    competencia
+                )
+
+    # --------------------------------------------------------
+    # DETALLE DE EXPERIENCIA PRÁCTICA
+    # --------------------------------------------------------
+
+    brechas_practicas = list(
+        conocimientos[
+            "brechas_practicas"
+        ]
+    )
+
+    for competencia in competencias:
+
+        if competencia in [
+            "mantenimiento industrial",
+            "mantenimiento preventivo",
+            "diagnóstico de fallas",
+            "instrumentación",
+        ]:
+
+            if competencia not in brechas_practicas:
+
+                tipo = clasificar_conocimiento(
+                    competencia
+                )
+
+                if tipo != "practico":
+
+                    brechas_practicas.append(
+                        competencia
+                    )
 
     # --------------------------------------------------------
     # APRENDIZAJE RÁPIDO
     # --------------------------------------------------------
 
-    if anos_solicitados is not None:
-
-        diferencia_meses = (
-            anos_solicitados * 12
-        ) - meses_perfil
-
-        if 0 < diferencia_meses <= 12:
-
-            aprendizaje.insert(
-                0,
-                "La diferencia de experiencia no es demasiado grande; "
-                "conviene postular igualmente si el resto de los "
-                "requisitos encaja."
-            )
-
-    # --------------------------------------------------------
-    # LIMITAR PUNTAJE
-    # --------------------------------------------------------
-
-    puntaje = max(
-        0,
-        min(100, puntaje)
+    aprendizaje_rapido = list(
+        conocimientos[
+            "aprendizaje_rapido"
+        ]
     )
 
     # --------------------------------------------------------
-    # PROBABILIDAD
+    # EXPERIENCIA PRÁCTICA DEL PERFIL
     # --------------------------------------------------------
 
-    if puntaje >= 75:
-
-        probabilidad = "ALTA"
-
-    elif puntaje >= 55:
-
-        probabilidad = "MEDIA"
-
-    else:
-
-        probabilidad = "BAJA"
+    experiencia_perfil = obtener_experiencia_perfil(
+        perfil
+    )
 
     # --------------------------------------------------------
-    # PRIORIDAD
-    # --------------------------------------------------------
-
-    if puntaje >= 80:
-
-        prioridad = "ALTA"
-        recomendacion = "POSTULAR"
-
-    elif puntaje >= 65:
-
-        prioridad = "MEDIA-ALTA"
-        recomendacion = (
-            "POSTULAR SI EL CARGO ACEPTA PERFILES JUNIOR "
-            "O EN DESARROLLO"
-        )
-
-    elif puntaje >= 50:
-
-        prioridad = "MEDIA"
-        recomendacion = (
-            "POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES"
-        )
-
-    else:
-
-        prioridad = "BAJA"
-        recomendacion = (
-            "PRIORIZAR OTRAS OFERTAS CON MAYOR COMPATIBILIDAD"
-        )
-
-    # --------------------------------------------------------
-    # DEVOLVER RESULTADO
+    # RESULTADO
     # --------------------------------------------------------
 
     return {
-        "puntaje": puntaje,
-        "probabilidad_ajuste": probabilidad,
-        "prioridad_postulacion": prioridad,
-        "recomendacion": recomendacion,
-        "fortalezas": fortalezas,
-        "conocimientos_relacionados": conocimientos,
-        "brechas": brechas,
-        "aprendizaje_rapido": aprendizaje,
-        "brechas_practicas": brechas_practicas
+
+        "competencias_detectadas":
+            competencias,
+
+        "experiencia_detectada":
+            experiencia_detectada,
+
+        "anos_experiencia_solicitados":
+            anos_solicitados,
+
+        "experiencia_perfil":
+            experiencia_perfil,
+
+        "ubicacion":
+            ubicacion,
+
+        "cargos_coincidentes":
+            cargos,
+
+        "conocimientos_relacionados":
+            conocimientos[
+                "conocimientos_relacionados"
+            ],
+
+        "aprendizaje_rapido":
+            aprendizaje_rapido,
+
+        "brechas_practicas":
+            brechas_practicas,
+
+        "compatibilidad": {
+
+            "puntaje":
+                compatibilidad["puntaje"],
+
+            "probabilidad_ajuste":
+                compatibilidad[
+                    "probabilidad_ajuste"
+                ],
+
+            "prioridad_postulacion":
+                compatibilidad[
+                    "prioridad_postulacion"
+                ],
+
+            "recomendacion":
+                compatibilidad[
+                    "recomendacion"
+                ],
+
+            "fortalezas":
+                fortalezas,
+
+            "conocimientos_relacionados":
+                conocimientos[
+                    "conocimientos_relacionados"
+                ],
+
+            "brechas":
+                brechas,
+
+            "aprendizaje_rapido":
+                aprendizaje_rapido,
+
+            "brechas_practicas":
+                brechas_practicas,
+        },
     }
 
 
@@ -900,11 +1115,16 @@ def analizar_historial():
             encoding="utf-8"
         ) as archivo:
 
-            historial = json.load(archivo)
+            historial = json.load(
+                archivo
+            )
 
     except FileNotFoundError:
 
-        print("No se encontró historial.json")
+        print(
+            "No se encontró historial.json"
+        )
+
         return
 
     perfil = cargar_perfil()
@@ -923,26 +1143,14 @@ def analizar_historial():
 
     for oferta in ofertas:
 
-        analisis = analizar_oferta(
+        resultado = analizar_oferta(
             oferta,
             perfil
         )
 
-        compatibilidad = calcular_compatibilidad(
-            oferta,
-            analisis,
-            perfil
-        )
+        oferta["analisis"] = resultado
 
-        analisis["compatibilidad"] = compatibilidad
-
-        oferta["analisis"] = analisis
-
-        # ----------------------------------------------------
-        # TENDENCIAS
-        # ----------------------------------------------------
-
-        for competencia in analisis[
+        for competencia in resultado[
             "competencias_detectadas"
         ]:
 
@@ -950,7 +1158,7 @@ def analizar_historial():
                 competencia
             ] += 1
 
-        for experiencia in analisis[
+        for experiencia in resultado[
             "experiencia_detectada"
         ]:
 
@@ -959,8 +1167,7 @@ def analizar_historial():
             ] += 1
 
         ubicacion = oferta.get(
-            "ubicacion",
-            ""
+            "ubicacion"
         )
 
         if ubicacion:
@@ -970,8 +1177,7 @@ def analizar_historial():
             ] += 1
 
         titulo = oferta.get(
-            "titulo",
-            ""
+            "titulo"
         )
 
         if titulo:
@@ -983,7 +1189,7 @@ def analizar_historial():
         ofertas_analizadas += 1
 
     # ========================================================
-    # GUARDAR TENDENCIAS
+    # TENDENCIAS
     # ========================================================
 
     historial.setdefault(
@@ -993,25 +1199,33 @@ def analizar_historial():
 
     historial[
         "tendencias"
-    ]["competencias"] = dict(
+    ][
+        "competencias"
+    ] = dict(
         contador_competencias.most_common()
     )
 
     historial[
         "tendencias"
-    ]["experiencia_requerida"] = dict(
+    ][
+        "experiencia_requerida"
+    ] = dict(
         contador_experiencia.most_common()
     )
 
     historial[
         "tendencias"
-    ]["ubicaciones"] = dict(
+    ][
+        "ubicaciones"
+    ] = dict(
         contador_ubicaciones.most_common()
     )
 
     historial[
         "tendencias"
-    ]["cargos"] = dict(
+    ][
+        "cargos"
+    ] = dict(
         contador_cargos.most_common()
     )
 
@@ -1028,7 +1242,9 @@ def analizar_historial():
 
         "competencias_mas_solicitadas":
             dict(
-                contador_competencias.most_common(10)
+                contador_competencias.most_common(
+                    15
+                )
             ),
 
         "experiencia_mas_solicitada":
@@ -1038,21 +1254,25 @@ def analizar_historial():
 
         "ubicaciones_mas_repetidas":
             dict(
-                contador_ubicaciones.most_common(10)
+                contador_ubicaciones.most_common()
             ),
 
         "cargos_mas_repetidos":
             dict(
-                contador_cargos.most_common(10)
-            )
+                contador_cargos.most_common()
+            ),
     }
+
+    # ========================================================
+    # ACTUALIZAR FECHA
+    # ========================================================
 
     historial[
         "ultima_actualizacion"
     ] = "actualizado automáticamente"
 
     # ========================================================
-    # GUARDAR JSON
+    # GUARDAR
     # ========================================================
 
     with open(
@@ -1085,7 +1305,8 @@ def analizar_historial():
     )
 
     print(
-        f"Ofertas analizadas: {ofertas_analizadas}"
+        f"Ofertas analizadas: "
+        f"{ofertas_analizadas}"
     )
 
     print(
