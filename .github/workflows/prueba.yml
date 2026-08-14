@@ -21,8 +21,12 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Instalar librerías
+        run: |
+          pip install requests beautifulsoup4
+
       - name: Obtener ofertas
-        run: python ofertas.py
+        run: python recolector.py
 
       - name: Ejecutar analizador
         run: python analizador.py
