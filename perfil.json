@@ -1,0 +1,53 @@
+{
+  "profesion": "Técnico en Automatización Industrial",
+  "certificacion_electrica": "SEC Clase D",
+  "experiencia": {
+    "nivel": "Recién egresado",
+    "meses_aproximados": 6,
+    "tipo": [
+      "Trabajos eléctricos",
+      "Cableado",
+      "Instalaciones eléctricas",
+      "Tareas básicas de mantenimiento"
+    ]
+  },
+  "objetivo": {
+    "principal": "Conseguir experiencia práctica en terreno y crecer hacia automatización y mantenimiento industrial",
+    "zona_prioritaria": [
+      "Curicó",
+      "Molina",
+      "Lontué",
+      "Talca",
+      "Linares"
+    ]
+  },
+  "tipo_de_cargo_prioritario": [
+    "Técnico eléctrico junior",
+    "Técnico de mantenimiento junior",
+    "Técnico en automatización junior",
+    "Ayudante eléctrico",
+    "Ayudante de mantenimiento",
+    "Técnico electromecánico junior",
+    "Técnico de instrumentación junior"
+  ],
+  "priorizar": [
+    "Cargos donde acepten recién egresados",
+    "Cargos con poca experiencia requerida",
+    "Capacitación en terreno",
+    "Mantenimiento industrial",
+    "Electricidad industrial",
+    "Automatización",
+    "Tableros eléctricos",
+    "Diagnóstico de fallas",
+    "PLC",
+    "Variadores de frecuencia",
+    "Instrumentación"
+  ],
+  "evitar_por_ahora": [
+    "Jefaturas",
+    "Supervisión",
+    "Cargos senior",
+    "Cargos que exijan 3 o más años de experiencia",
+    "Cargos donde se requiera experiencia avanzada que no pueda compensarse con formación"
+  ]
+}
