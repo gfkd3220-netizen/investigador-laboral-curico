@@ -1,4 +1,4 @@
-namename: Investigador laboral
+name: Investigador laboral
 
 on:
   workflow_dispatch:
