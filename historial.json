@@ -17,6 +17,7 @@
           "diagnóstico de fallas"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -67,6 +68,7 @@
           "PLC"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -122,6 +124,10 @@
           "PLC Allen-Bradley",
           "SCADA"
         ],
+        "plc_marcas_detectadas": [
+          "Allen-Bradley",
+          "Schneider"
+        ],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -168,6 +174,7 @@
           "neumática"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -221,6 +228,7 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -267,6 +275,7 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
           "meses": 60.0
@@ -314,6 +323,7 @@
           "diagnóstico de fallas"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -358,6 +368,7 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -403,6 +414,7 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -458,6 +470,7 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -509,6 +522,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -556,6 +570,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -608,6 +623,7 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -660,6 +676,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -702,6 +719,7 @@
           "automatización industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -746,6 +764,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -797,6 +816,7 @@
         "tecnologias_detectadas": [
           "AutoCAD"
         ],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -848,6 +868,7 @@
         "tecnologias_detectadas": [
           "SCADA"
         ],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
           "meses": 60.0
@@ -895,6 +916,7 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 10.0,
           "meses": 120.0
@@ -945,6 +967,7 @@
           "neumática"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -997,6 +1020,10 @@
           "PLC Allen-Bradley",
           "SCADA"
         ],
+        "plc_marcas_detectadas": [
+          "Allen-Bradley",
+          "Schneider"
+        ],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -1044,6 +1071,7 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 10.0,
           "meses": 120.0
@@ -1088,6 +1116,7 @@
           "control industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -1133,6 +1162,7 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -1179,6 +1209,7 @@
           "automatización industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -1217,6 +1248,7 @@
       "analisis": {
         "competencias_detectadas": [],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -1258,6 +1290,7 @@
           "control industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -1302,6 +1335,10 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [
+          "Siemens",
+          "Schneider"
+        ],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -1344,6 +1381,7 @@
           "control industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -1388,6 +1426,7 @@
           "diagnóstico de fallas"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 4.0,
           "meses": 48.0
@@ -1441,6 +1480,12 @@
           "PLC Allen-Bradley",
           "TIA Portal"
         ],
+        "plc_marcas_detectadas": [
+          "Siemens",
+          "Allen-Bradley",
+          "Schneider",
+          "ABB"
+        ],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -1493,6 +1538,7 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -1546,6 +1592,7 @@
           "neumática"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -1595,6 +1642,7 @@
           "diagnóstico de fallas"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -1645,6 +1693,7 @@
           "hidráulica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -1689,6 +1738,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 10.0,
           "meses": 120.0
@@ -1732,6 +1782,7 @@
           "mantenimiento industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
           "meses": 60.0
@@ -1774,6 +1825,7 @@
           "mantenimiento industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
           "meses": 60.0
@@ -1821,6 +1873,7 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -1870,6 +1923,7 @@
           "mantenimiento industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
           "meses": 60.0
@@ -1918,6 +1972,7 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -1967,6 +2022,7 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 10.0,
           "meses": 120.0
@@ -2012,6 +2068,7 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -2057,6 +2114,7 @@
           "hidráulica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -2109,6 +2167,7 @@
           "diagnóstico de fallas"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -2153,6 +2212,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 0,
           "meses": 0
@@ -2197,6 +2257,7 @@
           "mantenimiento industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
           "meses": 60.0
@@ -2240,6 +2301,7 @@
           "mantenimiento industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -2286,6 +2348,7 @@
           "hidráulica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 6.0,
           "meses": 72.0
@@ -2331,6 +2394,7 @@
           "mantenimiento industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -2371,6 +2435,7 @@
           "mantenimiento industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
           "meses": 60.0
@@ -2414,6 +2479,7 @@
           "mantenimiento preventivo"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 15.0,
           "meses": 180.0
@@ -2459,6 +2525,7 @@
           "hidráulica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -2508,6 +2575,7 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -2552,6 +2620,7 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -2594,6 +2663,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -2640,6 +2710,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -2680,6 +2751,7 @@
       "analisis": {
         "competencias_detectadas": [],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -2721,6 +2793,7 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -2765,6 +2838,7 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -2810,6 +2884,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -2854,6 +2929,7 @@
           "instrumentación industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -2898,6 +2974,7 @@
       "analisis": {
         "competencias_detectadas": [],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -2937,6 +3014,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -2976,6 +3054,7 @@
       "analisis": {
         "competencias_detectadas": [],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -3019,6 +3098,7 @@
         "tecnologias_detectadas": [
           "AutoCAD"
         ],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
           "meses": 60.0
@@ -3060,6 +3140,7 @@
       "analisis": {
         "competencias_detectadas": [],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -3105,6 +3186,7 @@
           "mantenimiento preventivo"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -3154,6 +3236,7 @@
           "motores eléctricos"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -3201,6 +3284,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 20.0,
           "meses": 240.0
@@ -3246,6 +3330,7 @@
       "analisis": {
         "competencias_detectadas": [],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -3292,6 +3377,7 @@
           "hidráulica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -3338,6 +3424,7 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -3380,6 +3467,7 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -3423,6 +3511,7 @@
           "diagnóstico de fallas"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -3469,6 +3558,7 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -3518,6 +3608,7 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -3571,6 +3662,7 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -3620,6 +3712,7 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -3665,6 +3758,7 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -3714,6 +3808,7 @@
         "tecnologias_detectadas": [
           "AutoCAD"
         ],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -3758,6 +3853,7 @@
       "analisis": {
         "competencias_detectadas": [],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -3800,6 +3896,7 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -3849,6 +3946,7 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -3898,6 +3996,7 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -3941,6 +4040,7 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -3984,6 +4084,7 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 4.0,
           "meses": 48.0
@@ -4035,6 +4136,7 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -4085,6 +4187,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -4135,6 +4238,7 @@
         "tecnologias_detectadas": [
           "AutoCAD"
         ],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -4181,6 +4285,7 @@
           "instrumentación industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 0,
           "meses": 0
@@ -4230,6 +4335,10 @@
           "PLC Allen-Bradley",
           "TIA Portal"
         ],
+        "plc_marcas_detectadas": [
+          "Siemens",
+          "Allen-Bradley"
+        ],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -4274,6 +4383,7 @@
           "diagnóstico de fallas"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -4321,6 +4431,7 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -4363,6 +4474,7 @@
           "instrumentación industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -4408,6 +4520,7 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -4451,6 +4564,9 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [
+          "Siemens"
+        ],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -4492,6 +4608,7 @@
       "analisis": {
         "competencias_detectadas": [],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -4529,6 +4646,7 @@
       "analisis": {
         "competencias_detectadas": [],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -4566,6 +4684,7 @@
       "analisis": {
         "competencias_detectadas": [],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
           "meses": 60.0
@@ -4607,6 +4726,7 @@
           "mantenimiento correctivo"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -4646,6 +4766,7 @@
       "analisis": {
         "competencias_detectadas": [],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -4695,7 +4816,14 @@
           "HMI",
           "puesta en marcha"
         ],
-        "tecnologias_detectadas": [],
+        "tecnologias_detectadas": [
+          "PLC Allen-Bradley"
+        ],
+        "plc_marcas_detectadas": [
+          "Allen-Bradley",
+          "Schneider",
+          "ABB"
+        ],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -4743,6 +4871,7 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -4797,6 +4926,7 @@
           "neumática"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -4842,6 +4972,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -4886,6 +5017,7 @@
           "hidráulica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -4928,6 +5060,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -4971,6 +5104,7 @@
           "hidráulica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -5016,6 +5150,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -5062,6 +5197,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 4.0,
           "meses": 48.0
@@ -5105,6 +5241,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 0,
           "meses": 0
@@ -5147,6 +5284,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -5189,6 +5327,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -5231,6 +5370,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -5278,6 +5418,7 @@
         "tecnologias_detectadas": [
           "SCADA"
         ],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -5325,6 +5466,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -5367,6 +5509,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -5416,6 +5559,7 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -5463,6 +5607,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -5506,6 +5651,7 @@
           "mantenimiento industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -5550,6 +5696,7 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -5603,6 +5750,7 @@
           "hidráulica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -5652,6 +5800,7 @@
           "instrumentación industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -5698,6 +5847,7 @@
         "tecnologias_detectadas": [
           "SCADA"
         ],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -5746,6 +5896,7 @@
         "tecnologias_detectadas": [
           "SCADA"
         ],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -5795,6 +5946,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -5844,6 +5996,7 @@
         "tecnologias_detectadas": [
           "SCADA"
         ],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -5888,6 +6041,7 @@
           "instrumentación industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -5934,6 +6088,7 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -5986,6 +6141,7 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -6036,6 +6192,7 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -6090,6 +6247,7 @@
           "neumática"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -6139,6 +6297,7 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
           "meses": 60.0
@@ -6183,6 +6342,7 @@
           "automatización industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -6234,6 +6394,7 @@
           "hidráulica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -6286,6 +6447,7 @@
           "instrumentación industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 10.0,
           "meses": 120.0
@@ -6330,6 +6492,7 @@
           "instrumentación industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -6384,6 +6547,7 @@
           "seguridad eléctrica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -6434,6 +6598,7 @@
           "diagnóstico de fallas"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -6479,6 +6644,7 @@
           "PLC"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -6523,6 +6689,7 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -6572,6 +6739,7 @@
           "hidráulica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 0,
           "meses": 0
@@ -6625,6 +6793,7 @@
           "instrumentación industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -6667,6 +6836,7 @@
           "PLC"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -6709,6 +6879,9 @@
         ],
         "tecnologias_detectadas": [
           "EcoStruxure"
+        ],
+        "plc_marcas_detectadas": [
+          "Schneider"
         ],
         "experiencia_solicitada": {
           "anos": null,
@@ -6756,6 +6929,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -6804,6 +6978,7 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 0,
           "meses": 0
@@ -6851,6 +7026,7 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -6898,6 +7074,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -6952,6 +7129,7 @@
         "tecnologias_detectadas": [
           "SCADA"
         ],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 8.0,
           "meses": 96.0
@@ -7005,6 +7183,10 @@
           "PLC Allen-Bradley",
           "SCADA"
         ],
+        "plc_marcas_detectadas": [
+          "Siemens",
+          "Allen-Bradley"
+        ],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -7050,6 +7232,7 @@
           "PLC"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -7098,6 +7281,7 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -7157,6 +7341,9 @@
           "WinCC",
           "SCADA"
         ],
+        "plc_marcas_detectadas": [
+          "Siemens"
+        ],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -7203,6 +7390,7 @@
           "PLC"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -7248,6 +7436,7 @@
           "hidráulica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
           "meses": 36.0
@@ -7300,6 +7489,7 @@
           "instrumentación industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -7344,6 +7534,7 @@
           "electricidad industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -7386,6 +7577,7 @@
           "instrumentación industrial"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
           "meses": 60.0
@@ -7431,6 +7623,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -7474,6 +7667,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
           "meses": 12.0
@@ -7519,6 +7713,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -7566,6 +7761,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
           "meses": 24.0
@@ -7614,6 +7810,7 @@
           "hidráulica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
           "meses": 60.0
@@ -7665,6 +7862,7 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 10.0,
           "meses": 120.0
@@ -7718,6 +7916,7 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null
@@ -7739,6 +7938,55 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: electricidad industrial",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "electromecánica"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "Supervisor Electromecánico",
+      "empresa": "Postular Sé de los primeros en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Supervisor Electromecánico - Santiago | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Profesionales y Técnicos Supervisor Electromecánico Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Supervisor Electromecánico ID 3870087 Buscado GL Events Chile Fecha 2026-08-13 10:35:15 Expira 2026-10-27 (en 74 días) Ubicación Santiago CL Categoría Profesionales y Técnicos Duración Indefinido Tipo Full-time Ley inclusión Postular Sé de los primeros en postular! Guardar Compartir El anuncio ha sido visto: 293 veces Interesados: 5 PUBLICIDAD Supervisor Electromecánico GL Events Chile , Santiago 13 de Agosto de 2026 Descripción oferta de trabajo hoy Full-time Buscamos incorporar a nuestro equipo de trabajo a un/a Supervisor Electromecánico para nuestra filial. Las funciones de la vacante son: - Supervisar al equipo de técnicos electromecánicos y empresas contratistas. - Planificar y controlar los programas de mantenimiento preventivo y correctivo. - Coordinar la atención de contingencias durante la operación de eventos. - Supervisar el correcto funcionamiento de equipos eléctricos, mecánicos, hidráulicos y climatización. - Gestionar recursos, materiales y herramientas necesarios para las intervenciones. - Verificar el cumplimiento de normas de seguridad y procedimientos internos. - Realizar inspecciones periódicas de infraestructura y equipamiento. - Elaborar informes técnicos y reportes de mantenimiento, a través de KPI’s de Mantenimiento, para cada equipo crítico del recinto. - Coordinar trabajos con proveedores externos cuando corresponda. - Proponer mejoras orientadas a optimizar la disponibilidad y confiabilidad de los equipos. Requisitos Excluyentes: - Disponibilidad para trabajar en la comuna de Huechuraba. - Ingeniería en Electricidad, Mecánica Industrial, Electromecánica, Automatización Industrial o carrera a fin. Beneficios Día de cumpleaños libre El día de tu cumpleaños es canjeable por un día completo de vacaciones. Caja de compensación La empresa esta adscrita a una caja de compensación Casino La empresa incluye casino para la alimentación Profesionales y Técnicos Santiago supervisor mantenimiento técnicos Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 293 veces Interesados: 5 Publicado: hoy Expiración: En 74 días Compartir enlace Denunciar oferta Trabajos Relacionados Jefe Producción Eléctrica Industrial (Ing. en… Tch, Colina 03 de Agosto de 2026 Resumen: • buscamos jefe de producción industrial eléctrica altamente calificado, con experiencia en… Ver más 100% Similar R INGENIERO ELECTRICO Rhoelec, Santiago 27 de Julio de 2026 Principales funciones: • supervisa, controla y verifica las actividades del programa de mantenimiento… Ver más 100% Similar Técnico / Ingeniero en Electricidad para… Tch, Santiago 06 de Agosto de 2026 Resumen: • empresa de fabricación de transformadores eléctricos ubicada en colina, solicita técnico… Ver más 100% Similar Técnico Mantenimiento Eléctrico – Transformadores en… Telesystems spa, Santiago 27 de Julio de 2026 DescripciÓn del cargo telesystems spa, empresa de ingeniería eléctrica y sistemas integrados, requiere… Ver más 100% Similar INGENIERO (A) REPARABLES Capstone copper, La serena 21 de Julio de 2026 Nuestro importante cliente, requiere contratar en la ciudad de antofagasta ingeniero /a planificación… Ver más 100% Similar G Inspector(a) Técnico(a) de Especialidades - Región… Geproc, Santiago 29 de Julio de 2026 En geproc - gestión de proyectos de construcción estamos en búsqueda de un(a)… Ver más 100% Similar Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Profesionales y Técnicos Trabajos de Profesionales y Técnicos en Santiago Trabajos de Profesionales y Técnicos Full-time en Santiago Trabajos de Profesionales y Técnicos Full-time Trabajos en Santiago Trabajos Full-time en Santiago Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/supervisor-electromecanico-3870087",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "automatizacion industrial",
+      "fecha_recoleccion": "2026-08-14T13:41:42.691445",
+      "terminos_tecnicos_detectados": 4,
+      "analisis": {
+        "competencias_detectadas": [
+          "electricidad industrial",
+          "mantenimiento preventivo",
+          "automatización industrial",
+          "electromecánica"
+        ],
+        "tecnologias_detectadas": [],
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": null,
+          "meses": null
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "no_especificada",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [],
+        "compatibilidad": {
+          "puntaje": 39,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: electricidad industrial, mantenimiento preventivo, automatización industrial",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -7815,14 +8063,14 @@
     }
   },
   "resumen_mercado": {
-    "ofertas_analizadas": 167,
+    "ofertas_analizadas": 168,
     "competencias_mas_solicitadas": {
-      "electromecánica": 79,
-      "mantenimiento preventivo": 57,
+      "electromecánica": 80,
+      "mantenimiento preventivo": 58,
       "mantenimiento industrial": 46,
       "PLC": 43,
-      "automatización industrial": 41,
-      "electricidad industrial": 39,
+      "automatización industrial": 42,
+      "electricidad industrial": 40,
       "instrumentación industrial": 37,
       "lectura de planos": 36,
       "puesta en marcha": 26,
@@ -7834,22 +8082,51 @@
       "neumática": 13,
       "hidráulica": 13,
       "motores eléctricos": 11,
-      "HMI": 10,
       "SCADA": 10,
+      "HMI": 10,
       "mantenimiento correctivo": 6,
       "seguridad eléctrica": 4
     },
     "tecnologias_especificas": {
       "SCADA": 10,
-      "PLC Allen-Bradley": 5,
+      "PLC Allen-Bradley": 6,
       "AutoCAD": 4,
       "TIA Portal": 2,
       "EcoStruxure": 1,
       "PLC Siemens": 1,
       "WinCC": 1
     },
+    "plc_por_marca": {
+      "Schneider": 6,
+      "Allen-Bradley": 6,
+      "Siemens": 6,
+      "ABB": 2
+    },
+    "electromecanica": {
+      "ofertas_electromecanica": 80,
+      "competencias_dentro_electromecanica": {
+        "mantenimiento preventivo": 35,
+        "mantenimiento industrial": 33,
+        "electricidad industrial": 27,
+        "automatización industrial": 23,
+        "PLC": 22,
+        "instrumentación industrial": 20,
+        "sensores": 19,
+        "lectura de planos": 19,
+        "tableros eléctricos": 18,
+        "diagnóstico de fallas": 12,
+        "variadores de frecuencia": 11,
+        "puesta en marcha": 10,
+        "neumática": 10,
+        "motores eléctricos": 10,
+        "hidráulica": 10,
+        "HMI": 7,
+        "SCADA": 5,
+        "mantenimiento correctivo": 4
+      }
+    },
     "experiencia_requerida": {
-      "no especificada": 59,
+      "no especificada": 60,
       "3 años": 28,
       "2 años": 26,
       "más de 3 años": 25,
@@ -7882,7 +8159,7 @@
     }
   },
   "plan_desarrollo": {
-    "electromecánica": 79,
+    "electromecánica": 80,
     "instrumentación industrial": 37,
     "puesta en marcha": 26,
     "sensores": 26,
