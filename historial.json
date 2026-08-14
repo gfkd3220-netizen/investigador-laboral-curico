@@ -134,8 +134,7 @@
           "SCADA"
         ],
         "tecnologias_plc_detectadas": [
-          "PLC Allen-Bradley",
-          "SCADA"
+          "PLC Allen-Bradley"
         ],
         "plc_detectado": true,
         "plc_marcas_detectadas": [
@@ -164,9 +163,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC, automatización industrial, HMI",
-            "Se detectó requerimiento relacionado con PLC.",
             "PLC detectado: Allen-Bradley, Schneider",
-            "Tecnologías PLC: PLC Allen-Bradley, SCADA",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -948,9 +945,7 @@
         "tecnologias_detectadas": [
           "SCADA"
         ],
-        "tecnologias_plc_detectadas": [
-          "SCADA"
-        ],
+        "tecnologias_plc_detectadas": [],
         "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
@@ -976,7 +971,6 @@
           "fortalezas": [
             "Coincide con: mantenimiento preventivo, PLC, automatización industrial",
             "Se detectó requerimiento relacionado con PLC.",
-            "Tecnologías PLC: SCADA",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -1115,8 +1109,7 @@
           "SCADA"
         ],
         "tecnologias_plc_detectadas": [
-          "PLC Allen-Bradley",
-          "SCADA"
+          "PLC Allen-Bradley"
         ],
         "plc_detectado": true,
         "plc_marcas_detectadas": [
@@ -1145,9 +1138,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC, automatización industrial, HMI",
-            "Se detectó requerimiento relacionado con PLC.",
             "PLC detectado: Allen-Bradley, Schneider",
-            "Tecnologías PLC: PLC Allen-Bradley, SCADA",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -1645,9 +1636,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: electricidad industrial, PLC, automatización industrial, control industrial, variadores de frecuencia",
-            "Se detectó requerimiento relacionado con PLC.",
             "PLC detectado: Siemens, Allen-Bradley, Schneider, ABB",
-            "Tecnologías PLC: PLC Allen-Bradley, TIA Portal",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -4574,9 +4563,7 @@
         "tecnologias_detectadas": [
           "AutoCAD"
         ],
-        "tecnologias_plc_detectadas": [
-          "AutoCAD"
-        ],
+        "tecnologias_plc_detectadas": [],
         "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
@@ -4604,7 +4591,6 @@
           "fortalezas": [
             "Coincide con: mantenimiento preventivo, PLC, control industrial",
             "Se detectó requerimiento relacionado con PLC.",
-            "Tecnologías PLC: AutoCAD",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
@@ -4713,9 +4699,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: automatización industrial, PLC",
-            "Se detectó requerimiento relacionado con PLC.",
             "PLC detectado: Siemens, Allen-Bradley",
-            "Tecnologías PLC: PLC Allen-Bradley, TIA Portal",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -5239,9 +5223,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC, control industrial, HMI",
-            "Se detectó requerimiento relacionado con PLC.",
             "PLC detectado: Allen-Bradley, Schneider, ABB",
-            "Tecnologías PLC: PLC Allen-Bradley",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -6496,9 +6478,7 @@
         "tecnologias_detectadas": [
           "SCADA"
         ],
-        "tecnologias_plc_detectadas": [
-          "SCADA"
-        ],
+        "tecnologias_plc_detectadas": [],
         "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
@@ -6524,7 +6504,6 @@
           "fortalezas": [
             "Coincide con: PLC, automatización industrial, control industrial",
             "Se detectó requerimiento relacionado con PLC.",
-            "Tecnologías PLC: SCADA",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -7492,9 +7471,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC",
-            "Se detectó requerimiento relacionado con PLC.",
             "PLC detectado: Schneider",
-            "Tecnologías PLC: EcoStruxure",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -7742,9 +7719,7 @@
         "tecnologias_detectadas": [
           "SCADA"
         ],
-        "tecnologias_plc_detectadas": [
-          "SCADA"
-        ],
+        "tecnologias_plc_detectadas": [],
         "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
@@ -7770,7 +7745,6 @@
           "fortalezas": [
             "Coincide con: PLC, lectura de planos",
             "Se detectó requerimiento relacionado con PLC.",
-            "Tecnologías PLC: SCADA",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -7805,8 +7779,7 @@
         ],
         "tecnologias_plc_detectadas": [
           "PLC Siemens",
-          "PLC Allen-Bradley",
-          "SCADA"
+          "PLC Allen-Bradley"
         ],
         "plc_detectado": true,
         "plc_marcas_detectadas": [
@@ -7835,9 +7808,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC, automatización industrial, HMI",
-            "Se detectó requerimiento relacionado con PLC.",
             "PLC detectado: Siemens, Allen-Bradley",
-            "Tecnologías PLC: PLC Siemens, PLC Allen-Bradley, SCADA",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -7983,8 +7954,7 @@
           "SCADA"
         ],
         "tecnologias_plc_detectadas": [
-          "WinCC",
-          "SCADA"
+          "WinCC"
         ],
         "plc_detectado": true,
         "plc_marcas_detectadas": [
@@ -8012,9 +7982,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: mantenimiento preventivo, PLC, automatización industrial, variadores de frecuencia, HMI",
-            "Se detectó requerimiento relacionado con PLC.",
             "PLC detectado: Siemens",
-            "Tecnologías PLC: WinCC, SCADA",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -8856,11 +8824,11 @@
           "ofertas": 19,
           "porcentaje": 24.1
         },
-        "instrumentación industrial": {
+        "tableros eléctricos": {
           "ofertas": 18,
           "porcentaje": 22.8
         },
-        "tableros eléctricos": {
+        "instrumentación industrial": {
           "ofertas": 18,
           "porcentaje": 22.8
         },
@@ -8936,48 +8904,23 @@
     },
     "plan_desarrollo": [
       {
+        "tipo": "competencia",
         "competencia": "instrumentación industrial",
         "ofertas": 56,
-        "estado": "BRECHA",
-        "es_objetivo": true,
-        "prioridad": 12
-      },
-      {
-        "competencia": "sensores",
-        "ofertas": 26,
         "estado": "BRECHA",
         "es_objetivo": true,
         "prioridad": 10
       },
       {
-        "competencia": "diagnóstico de fallas",
-        "ofertas": 19,
-        "estado": "BRECHA",
-        "es_objetivo": true,
-        "prioridad": 9
-      },
-      {
-        "competencia": "SCADA",
-        "ofertas": 10,
-        "estado": "BRECHA",
-        "es_objetivo": true,
-        "prioridad": 9
-      },
-      {
-        "competencia": "neumática",
-        "ofertas": 10,
+        "tipo": "competencia",
+        "competencia": "sensores",
+        "ofertas": 26,
         "estado": "BRECHA",
         "es_objetivo": true,
         "prioridad": 8
       },
       {
-        "competencia": "hidráulica",
-        "ofertas": 10,
-        "estado": "BRECHA",
-        "es_objetivo": true,
-        "prioridad": 8
-      },
-      {
+        "tipo": "competencia",
         "competencia": "electromecánica",
         "ofertas": 79,
         "estado": "BRECHA",
@@ -8985,13 +8928,71 @@
         "prioridad": 7
       },
       {
-        "competencia": "puesta en marcha",
-        "ofertas": 26,
+        "tipo": "competencia",
+        "competencia": "diagnóstico de fallas",
+        "ofertas": 19,
         "estado": "BRECHA",
-        "es_objetivo": false,
+        "es_objetivo": true,
+        "prioridad": 7
+      },
+      {
+        "tipo": "competencia",
+        "competencia": "SCADA",
+        "ofertas": 10,
+        "estado": "BRECHA",
+        "es_objetivo": true,
+        "prioridad": 7
+      },
+      {
+        "tipo": "competencia",
+        "competencia": "neumática",
+        "ofertas": 10,
+        "estado": "BRECHA",
+        "es_objetivo": true,
+        "prioridad": 7
+      },
+      {
+        "tipo": "competencia",
+        "competencia": "hidráulica",
+        "ofertas": 10,
+        "estado": "BRECHA",
+        "es_objetivo": true,
+        "prioridad": 7
+      },
+      {
+        "tipo": "tecnologia",
+        "competencia": "PLC Allen-Bradley",
+        "ofertas": 6,
+        "estado": "BRECHA",
+        "es_objetivo": true,
         "prioridad": 6
       },
       {
+        "tipo": "tecnologia",
+        "competencia": "AutoCAD",
+        "ofertas": 4,
+        "estado": "BRECHA",
+        "es_objetivo": true,
+        "prioridad": 6
+      },
+      {
+        "tipo": "tecnologia",
+        "competencia": "TIA Portal",
+        "ofertas": 2,
+        "estado": "BRECHA",
+        "es_objetivo": true,
+        "prioridad": 6
+      },
+      {
+        "tipo": "tecnologia",
+        "competencia": "PLC Siemens",
+        "ofertas": 1,
+        "estado": "BRECHA",
+        "es_objetivo": true,
+        "prioridad": 6
+      },
+      {
+        "tipo": "competencia",
         "competencia": "mantenimiento preventivo",
         "ofertas": 58,
         "estado": "YA_EN_PERFIL",
@@ -8999,6 +9000,7 @@
         "prioridad": 5
       },
       {
+        "tipo": "competencia",
         "competencia": "mantenimiento industrial",
         "ofertas": 51,
         "estado": "YA_EN_PERFIL",
@@ -9006,6 +9008,15 @@
         "prioridad": 5
       },
       {
+        "tipo": "competencia",
+        "competencia": "puesta en marcha",
+        "ofertas": 26,
+        "estado": "BRECHA",
+        "es_objetivo": false,
+        "prioridad": 5
+      },
+      {
+        "tipo": "competencia",
         "competencia": "PLC",
         "ofertas": 44,
         "estado": "YA_EN_PERFIL",
@@ -9013,6 +9024,7 @@
         "prioridad": 4
       },
       {
+        "tipo": "competencia",
         "competencia": "automatización industrial",
         "ofertas": 42,
         "estado": "YA_EN_PERFIL",
@@ -9020,6 +9032,7 @@
         "prioridad": 4
       },
       {
+        "tipo": "competencia",
         "competencia": "electricidad industrial",
         "ofertas": 40,
         "estado": "YA_EN_PERFIL",
@@ -9027,6 +9040,7 @@
         "prioridad": 4
       },
       {
+        "tipo": "competencia",
         "competencia": "lectura de planos",
         "ofertas": 36,
         "estado": "YA_EN_PERFIL",
@@ -9034,6 +9048,7 @@
         "prioridad": 4
       },
       {
+        "tipo": "competencia",
         "competencia": "tableros eléctricos",
         "ofertas": 21,
         "estado": "YA_EN_PERFIL",
@@ -9041,6 +9056,7 @@
         "prioridad": 3
       },
       {
+        "tipo": "competencia",
         "competencia": "control industrial",
         "ofertas": 20,
         "estado": "YA_EN_PERFIL",
@@ -9048,6 +9064,7 @@
         "prioridad": 3
       },
       {
+        "tipo": "competencia",
         "competencia": "mantenimiento correctivo",
         "ofertas": 6,
         "estado": "BRECHA",
@@ -9055,6 +9072,7 @@
         "prioridad": 3
       },
       {
+        "tipo": "competencia",
         "competencia": "seguridad eléctrica",
         "ofertas": 4,
         "estado": "BRECHA",
@@ -9062,6 +9080,7 @@
         "prioridad": 3
       },
       {
+        "tipo": "competencia",
         "competencia": "variadores de frecuencia",
         "ofertas": 15,
         "estado": "YA_EN_PERFIL",
@@ -9069,6 +9088,7 @@
         "prioridad": 2
       },
       {
+        "tipo": "competencia",
         "competencia": "motores eléctricos",
         "ofertas": 11,
         "estado": "YA_EN_PERFIL",
@@ -9076,6 +9096,7 @@
         "prioridad": 2
       },
       {
+        "tipo": "competencia",
         "competencia": "HMI",
         "ofertas": 10,
         "estado": "YA_EN_PERFIL",
@@ -9085,12 +9106,13 @@
     ],
     "recomendaciones": [
       "Priorizar formación práctica en PLC. Las marcas detectadas con mayor frecuencia son: Allen-Bradley, Schneider, Siemens.",
+      "Hay 27 ofertas que solicitan PLC pero no especifican una marca; no deben descartarse por no identificar fabricante.",
       "Considerar electromecánica como línea importante de búsqueda: 79 ofertas (47.0% del conjunto analizado).",
       "Mantener como núcleo profesional: electromecánica, mantenimiento preventivo, instrumentación industrial, mantenimiento industrial, PLC.",
       "Buscar especialmente cargos que combinen mantenimiento industrial + electricidad industrial + PLC/automatización.",
       "No limitar la búsqueda a cargos que exijan experiencia: también seguir las ofertas que aceptan candidatos sin experiencia.",
       "Dar prioridad adicional a ofertas donde la experiencia no está especificada, porque no presentan una barrera explícita de años de experiencia.",
-      "Para cerrar brechas, comenzar por: instrumentación industrial, sensores, diagnóstico de fallas, SCADA, neumática."
+      "Para cerrar brechas, comenzar por: instrumentación industrial, sensores, electromecánica, diagnóstico de fallas, SCADA."
     ]
   },
   "plan_desarrollo": {
