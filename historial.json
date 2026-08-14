@@ -9643,7 +9643,7 @@
           "ofertas": 22,
           "porcentaje": 33.3
         },
-        "tableros eléctricos": {
+        "sensores": {
           "ofertas": 15,
           "porcentaje": 22.7
         },
@@ -9651,7 +9651,7 @@
           "ofertas": 15,
           "porcentaje": 22.7
         },
-        "sensores": {
+        "tableros eléctricos": {
           "ofertas": 15,
           "porcentaje": 22.7
         },
@@ -9691,11 +9691,11 @@
           "ofertas": 5,
           "porcentaje": 7.6
         },
-        "HMI": {
+        "mantenimiento correctivo": {
           "ofertas": 3,
           "porcentaje": 4.5
         },
-        "mantenimiento correctivo": {
+        "HMI": {
           "ofertas": 3,
           "porcentaje": 4.5
         },
