@@ -1,5 +1,4 @@
 import json
-import re
 from collections import Counter
 
 
@@ -143,26 +142,38 @@ PATRONES_EXPERIENCIA = {
         "sin experiencia",
         "no requiere experiencia",
         "recién egresado",
-        "recien egresado"
+        "recien egresado",
+        "sin requerir experiencia",
+        "no se requiere experiencia"
     ],
 
     "experiencia menor a 1 año": [
         "6 meses de experiencia",
         "6 meses experiencia",
         "menos de 1 año",
-        "menos de un año"
+        "menos de un año",
+        "experiencia de 6 meses",
+        "experiencia 6 meses"
     ],
 
     "1 año": [
         "1 año de experiencia",
         "1 año experiencia",
-        "un año de experiencia"
+        "un año de experiencia",
+        "experiencia de 1 año",
+        "experiencia 1 año",
+        "experiencia mínima de 1 año",
+        "experiencia minima de 1 año"
     ],
 
     "2 años": [
         "2 años de experiencia",
         "2 años experiencia",
-        "dos años de experiencia"
+        "dos años de experiencia",
+        "experiencia de 2 años",
+        "experiencia 2 años",
+        "experiencia mínima de 2 años",
+        "experiencia minima de 2 años"
     ],
 
     "3 años o más": [
@@ -172,8 +183,13 @@ PATRONES_EXPERIENCIA = {
         "3 años experiencia",
         "4 años experiencia",
         "5 años experiencia",
+        "experiencia de 3 años",
+        "experiencia de 4 años",
+        "experiencia de 5 años",
         "más de 3 años",
-        "mas de 3 años"
+        "mas de 3 años",
+        "experiencia mínima de 3 años",
+        "experiencia minima de 3 años"
     ]
 }
 
@@ -183,7 +199,8 @@ PATRONES_EXPERIENCIA = {
 # ============================================================
 
 def normalizar(texto):
-    texto = texto.lower()
+
+    texto = str(texto).lower()
 
     reemplazos = {
         "á": "a",
@@ -311,6 +328,8 @@ def analizar_historial():
             contador_experiencia[experiencia] += 1
 
         ofertas_analizadas += 1
+
+    historial.setdefault("tendencias", {})
 
     historial["tendencias"]["competencias"] = dict(
         contador_competencias.most_common()
