@@ -3,6 +3,31 @@ import json
 ARCHIVO_HISTORIAL = "historial.json"
 
 
+def oferta_ya_existe(ofertas, nueva_oferta):
+
+    for oferta in ofertas:
+
+        mismo_titulo = (
+            oferta.get("titulo", "").strip().lower()
+            == nueva_oferta.get("titulo", "").strip().lower()
+        )
+
+        misma_empresa = (
+            oferta.get("empresa", "").strip().lower()
+            == nueva_oferta.get("empresa", "").strip().lower()
+        )
+
+        misma_ubicacion = (
+            oferta.get("ubicacion", "").strip().lower()
+            == nueva_oferta.get("ubicacion", "").strip().lower()
+        )
+
+        if mismo_titulo and misma_empresa and misma_ubicacion:
+            return True
+
+    return False
+
+
 def agregar_oferta(oferta):
 
     with open(ARCHIVO_HISTORIAL, "r", encoding="utf-8") as archivo:
@@ -10,9 +35,17 @@ def agregar_oferta(oferta):
 
     historial.setdefault("ofertas", [])
 
-    historial["ofertas"].append(oferta)
+    ofertas = historial["ofertas"]
+
+    if oferta_ya_existe(ofertas, oferta):
+
+        print("La oferta ya existe. No se agregó nuevamente.")
+        return
+
+    ofertas.append(oferta)
 
     with open(ARCHIVO_HISTORIAL, "w", encoding="utf-8") as archivo:
+
         json.dump(
             historial,
             archivo,
