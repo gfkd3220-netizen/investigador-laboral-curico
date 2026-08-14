@@ -1,19 +1,33 @@
-name: Prueba investigador laboral
+name: Investigador laboral
 
 on:
   workflow_dispatch:
   schedule:
     - cron: "0 12 * * *"
 
+permissions:
+  contents: write
+
 jobs:
-  prueba:
+  analizar:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Ejecutar prueba
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Ejecutar analizador
+        run: python analizador.py
+
+      - name: Guardar cambios
         run: |
-          echo "================================"
-          echo "INVESTIGADOR LABORAL FUNCIONANDO"
-          echo "Fecha:"
-          date
-          echo "================================"
+          git config user.name "Investigador Laboral"
+          git config user.email "actions@github.com"
+          git add historial.json
+          git diff --cached --quiet || git commit -m "Actualizar análisis laboral"
+          git push
