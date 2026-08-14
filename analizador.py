@@ -568,7 +568,7 @@ ELECTROMECANICA_DESGLOSE = {
 
 def normalizar(texto):
 
-    texto = str(texto).lower().strip()
+    texto = str(texto or "").lower().strip()
 
     texto = unicodedata.normalize(
         "NFD",
@@ -590,11 +590,6 @@ def normalizar(texto):
 
 # ============================================================
 # BUSCAR TÉRMINO
-#
-# Evita problemas como:
-#
-# "sensor" encontrando palabras extrañas.
-# "abb" dentro de otra palabra.
 # ============================================================
 
 def contiene_termino(texto, termino):
@@ -656,9 +651,7 @@ def detectar_categorias(texto, catalogo):
                 encontradas.append(nombre)
                 break
 
-    return list(
-        dict.fromkeys(encontradas)
-    )
+    return encontradas
 
 
 # ============================================================
@@ -673,7 +666,6 @@ def tiene_contexto_plc(texto):
         "programacion plc",
         "programacion de plc",
         "programar plc",
-        "automatizacion",
         "automatizacion industrial",
         "control industrial",
         "sistema de control",
@@ -710,139 +702,6 @@ def tiene_contexto_plc(texto):
 
 
 # ============================================================
-# DETECTAR MARCAS PLC
-#
-# Regla:
-#
-# 1. Si aparece modelo/software específico,
-#    la marca queda confirmada.
-#
-# 2. Si solamente aparece una marca genérica,
-#    se exige contexto PLC/automatización.
-# ============================================================
-
-def detectar_marcas_plc(texto):
-
-    marcas = []
-
-    texto_normalizado = normalizar(
-        texto
-    )
-
-    if not tiene_contexto_plc(
-        texto_normalizado
-    ):
-        return []
-
-    evidencia_directa = {
-
-        "Siemens": [
-            "s7-1200",
-            "s7 1200",
-            "s7-1500",
-            "s7 1500",
-            "s7-300",
-            "s7 300",
-            "s7-400",
-            "s7 400",
-            "logo!",
-            "logo 8",
-            "tia portal",
-            "step 7",
-            "wincc",
-            "simatic",
-            "sinamics"
-        ],
-
-        "Allen-Bradley": [
-            "allen-bradley",
-            "allen bradley",
-            "rockwell automation",
-            "controllogix",
-            "compactlogix",
-            "micrologix",
-            "studio 5000",
-            "studio5000",
-            "rslogix",
-            "factorytalk"
-        ],
-
-        "Schneider": [
-            "schneider electric",
-            "modicon",
-            "m221",
-            "m251",
-            "m241",
-            "m340",
-            "m580",
-            "unity pro",
-            "unitypro",
-            "ecostruxure",
-            "eco struxure",
-            "plantstruxure"
-        ],
-
-        "Mitsubishi": [
-            "mitsubishi electric",
-            "fx3u",
-            "fx5u",
-            "gx works",
-            "gx works2",
-            "gx works3"
-        ],
-
-        "Omron": [
-            "omron",
-            "cx-programmer",
-            "cx programmer",
-            "nx1p",
-            "cj2",
-            "cj1"
-        ],
-
-        "ABB": [
-            "abb",
-            "800xa",
-            "abb acs"
-        ],
-
-        "Panasonic": [
-            "panasonic",
-            "matsushita"
-        ],
-
-        "GE / Fanuc": [
-            "ge fanuc",
-            "ge/fanuc",
-            "gefanuc",
-            "fanuc"
-        ],
-
-        "Beckhoff": [
-            "beckhoff",
-            "twincat",
-            "twin cat"
-        ]
-    }
-
-    for marca, variantes in evidencia_directa.items():
-
-        for variante in variantes:
-
-            if contiene_termino(
-                texto_normalizado,
-                variante
-            ):
-
-                marcas.append(marca)
-                break
-
-    return list(
-        dict.fromkeys(marcas)
-    )
-
-
-# ============================================================
 # DETECTAR PLC
 # ============================================================
 
@@ -858,7 +717,43 @@ def tiene_plc(texto):
             texto,
             "controlador logico programable"
         )
+        or tiene_contexto_plc(texto)
     )
+
+
+# ============================================================
+# DETECTAR MARCAS PLC
+#
+# Importante:
+# Se usa esta misma función en TODO el analizador.
+# Así no tendremos una cifra en "desglose" y otra
+# distinta en "análisis del mercado".
+# ============================================================
+
+def detectar_marcas_plc(texto):
+
+    texto_normalizado = normalizar(texto)
+
+    if not tiene_contexto_plc(
+        texto_normalizado
+    ):
+        return []
+
+    marcas = []
+
+    for marca, variantes in PLC_MARCAS.items():
+
+        for variante in variantes:
+
+            if contiene_termino(
+                texto_normalizado,
+                variante
+            ):
+
+                marcas.append(marca)
+                break
+
+    return marcas
 
 
 # ============================================================
@@ -878,7 +773,8 @@ def detectar_experiencia(texto):
         "no requiere experiencia",
         "sin experiencia previa",
         "sin experiencia laboral",
-        "no se requiere experiencia"
+        "no se requiere experiencia",
+        "no requiere de experiencia"
     ]
 
     if any(
@@ -895,138 +791,16 @@ def detectar_experiencia(texto):
     encontrados = []
 
     # --------------------------------------------------------
-    # RANGOS:
-    #
-    # 1 a 2 años
-    # 1-2 años
-    # 2 a 3 años
+    # MÁS DE X AÑOS
     # --------------------------------------------------------
 
-    patron_rango = (
-        r"(\d+(?:[.,]\d+)?)"
-        r"\s*(?:a|-|hasta)\s*"
-        r"(\d+(?:[.,]\d+)?)"
-        r"\s*(anos?|mes(?:es)?)"
-    )
-
-    for minimo, maximo, unidad in re.findall(
-        patron_rango,
-        texto
-    ):
-
-        minimo = float(
-            minimo.replace(",", ".")
-        )
-
-        maximo = float(
-            maximo.replace(",", ".")
-        )
-
-        if unidad.startswith("ano"):
-
-            meses = maximo * 12
-
-        else:
-
-            meses = maximo
-
-        if meses <= 240:
-
-            encontrados.append(
-                meses
-            )
-
-    # --------------------------------------------------------
-    # "experiencia de 2 años"
-    # "experiencia mínima de 2 años"
-    # "experiencia laboral de 6 meses"
-    # --------------------------------------------------------
-
-    patron_experiencia = (
-        r"experiencia"
-        r"[^.\n]{0,80}?"
-        r"(\d+(?:[.,]\d+)?)"
-        r"\s*"
-        r"(anos?|mes(?:es)?)"
-    )
-
-    for numero, unidad in re.findall(
-        patron_experiencia,
-        texto
-    ):
-
-        numero = float(
-            numero.replace(",", ".")
-        )
-
-        if unidad.startswith("ano"):
-
-            meses = numero * 12
-
-        else:
-
-            meses = numero
-
-        if meses <= 240:
-
-            encontrados.append(
-                meses
-            )
-
-    # --------------------------------------------------------
-    # "2 años de experiencia"
-    # "6 meses de experiencia"
-    # --------------------------------------------------------
-
-    patron_numero_experiencia = (
-        r"(\d+(?:[.,]\d+)?)"
-        r"\s*"
-        r"(anos?|mes(?:es)?)"
-        r"\s*(?:de\s*)?"
-        r"experiencia"
-    )
-
-    for numero, unidad in re.findall(
-        patron_numero_experiencia,
-        texto
-    ):
-
-        numero = float(
-            numero.replace(",", ".")
-        )
-
-        if unidad.startswith("ano"):
-
-            meses = numero * 12
-
-        else:
-
-            meses = numero
-
-        if meses <= 240:
-
-            encontrados.append(
-                meses
-            )
-
-    # --------------------------------------------------------
-    # "más de 3 años"
-    #
-    # Para efectos del filtro:
-    # si dice más de 3 años, usamos 36 meses
-    # como mínimo solicitado.
-    # --------------------------------------------------------
-
-    patron_mas = (
+    patron_mas = re.compile(
         r"mas\s+de\s+"
         r"(\d+(?:[.,]\d+)?)"
         r"\s*anos?"
     )
 
-    for numero in re.findall(
-        patron_mas,
-        texto
-    ):
+    for numero in patron_mas.findall(texto):
 
         numero = float(
             numero.replace(",", ".")
@@ -1035,25 +809,22 @@ def detectar_experiencia(texto):
         meses = numero * 12
 
         if meses <= 240:
-
-            encontrados.append(
-                meses
-            )
+            encontrados.append({
+                "meses": meses,
+                "tipo": "mas_de"
+            })
 
     # --------------------------------------------------------
-    # "menos de 1 año"
+    # MENOS DE X AÑOS
     # --------------------------------------------------------
 
-    patron_menos = (
+    patron_menos = re.compile(
         r"menos\s+de\s+"
         r"(\d+(?:[.,]\d+)?)"
         r"\s*anos?"
     )
 
-    for numero in re.findall(
-        patron_menos,
-        texto
-    ):
+    for numero in patron_menos.findall(texto):
 
         numero = float(
             numero.replace(",", ".")
@@ -1065,13 +836,101 @@ def detectar_experiencia(texto):
         )
 
         if meses <= 240:
-
-            encontrados.append(
-                meses
-            )
+            encontrados.append({
+                "meses": meses,
+                "tipo": "menos_de"
+            })
 
     # --------------------------------------------------------
-    # RESULTADO
+    # RANGOS
+    # --------------------------------------------------------
+
+    patron_rango = re.compile(
+        r"(\d+(?:[.,]\d+)?)"
+        r"\s*(?:a|-|hasta)\s*"
+        r"(\d+(?:[.,]\d+)?)"
+        r"\s*(anos?|mes(?:es)?)"
+    )
+
+    for minimo, maximo, unidad in patron_rango.findall(texto):
+
+        maximo = float(
+            maximo.replace(",", ".")
+        )
+
+        if unidad.startswith("ano"):
+            meses = maximo * 12
+        else:
+            meses = maximo
+
+        if meses <= 240:
+
+            encontrados.append({
+                "meses": meses,
+                "tipo": "rango"
+            })
+
+    # --------------------------------------------------------
+    # "experiencia de 2 años"
+    # "experiencia mínima de 2 años"
+    # --------------------------------------------------------
+
+    patron_experiencia = re.compile(
+        r"(?:experiencia|experiencia\s+laboral)"
+        r"[^.\n]{0,50}?"
+        r"(\d+(?:[.,]\d+)?)"
+        r"\s*(anos?|mes(?:es)?)"
+    )
+
+    for numero, unidad in patron_experiencia.findall(texto):
+
+        numero = float(
+            numero.replace(",", ".")
+        )
+
+        if unidad.startswith("ano"):
+            meses = numero * 12
+        else:
+            meses = numero
+
+        if meses <= 240:
+
+            encontrados.append({
+                "meses": meses,
+                "tipo": "especificada"
+            })
+
+    # --------------------------------------------------------
+    # "2 años de experiencia"
+    # --------------------------------------------------------
+
+    patron_numero = re.compile(
+        r"(\d+(?:[.,]\d+)?)"
+        r"\s*(anos?|mes(?:es)?)"
+        r"\s*(?:de\s*)?"
+        r"experiencia"
+    )
+
+    for numero, unidad in patron_numero.findall(texto):
+
+        numero = float(
+            numero.replace(",", ".")
+        )
+
+        if unidad.startswith("ano"):
+            meses = numero * 12
+        else:
+            meses = numero
+
+        if meses <= 240:
+
+            encontrados.append({
+                "meses": meses,
+                "tipo": "especificada"
+            })
+
+    # --------------------------------------------------------
+    # SIN RESULTADOS
     # --------------------------------------------------------
 
     if not encontrados:
@@ -1082,8 +941,16 @@ def detectar_experiencia(texto):
             "tipo": "no_especificada"
         }
 
-    # Si hay varias menciones, usamos el requisito mayor.
-    meses = max(encontrados)
+    # --------------------------------------------------------
+    # EL REQUISITO MÁS EXIGENTE
+    # --------------------------------------------------------
+
+    requisito = max(
+        encontrados,
+        key=lambda x: x["meses"]
+    )
+
+    meses = requisito["meses"]
 
     return {
         "anos": round(
@@ -1091,7 +958,7 @@ def detectar_experiencia(texto):
             2
         ),
         "meses": meses,
-        "tipo": "especificada"
+        "tipo": requisito["tipo"]
     }
 
 
@@ -1100,10 +967,6 @@ def detectar_experiencia(texto):
 # ============================================================
 
 def analizar_ubicacion(ubicacion):
-
-    ubicacion = str(
-        ubicacion or ""
-    )
 
     ubicacion_normalizada = normalizar(
         ubicacion
@@ -1133,9 +996,7 @@ def analizar_ubicacion(ubicacion):
 
 def detectar_cargo(titulo):
 
-    titulo = normalizar(
-        titulo
-    )
+    titulo = normalizar(titulo)
 
     encontrados = []
 
@@ -1165,8 +1026,8 @@ def detectar_cargo(titulo):
 
                 coincidencias += 1
 
-        # Cargos cortos:
-        # deben coincidir todas las palabras.
+        # Para cargos de 1-2 palabras:
+        # deben coincidir todas.
         if len(palabras) <= 2:
 
             minimo = len(palabras)
@@ -1197,15 +1058,12 @@ def comparar_experiencia(meses_solicitados):
     ]
 
     if meses_solicitados is None:
-
         return "no_especificada"
 
     if meses_solicitados == 0:
-
         return "sin_experiencia"
 
     if meses_solicitados <= meses_perfil:
-
         return "cumple"
 
     diferencia = (
@@ -1214,11 +1072,9 @@ def comparar_experiencia(meses_solicitados):
     )
 
     if diferencia <= 6:
-
         return "brecha_pequena"
 
     if diferencia <= 12:
-
         return "brecha_moderada"
 
     return "brecha_alta"
@@ -1247,7 +1103,6 @@ def calcular_puntaje(
         if competencia in PERFIL["competencias"]
     )
 
-    # Máximo 40 puntos.
     puntaje += min(
         coincidencias * 5,
         40
@@ -1257,10 +1112,7 @@ def calcular_puntaje(
     # UBICACIÓN
     # --------------------------------------------------------
 
-    if ubicacion[
-        "zona_prioritaria"
-    ]:
-
+    if ubicacion["zona_prioritaria"]:
         puntaje += 20
 
     # --------------------------------------------------------
@@ -1268,7 +1120,6 @@ def calcular_puntaje(
     # --------------------------------------------------------
 
     if cargos:
-
         puntaje += 20
 
     # --------------------------------------------------------
@@ -1276,26 +1127,22 @@ def calcular_puntaje(
     # --------------------------------------------------------
 
     if experiencia == "cumple":
-
         puntaje += 20
 
     elif experiencia == "sin_experiencia":
-
-        # No penalizamos una oferta que explícitamente
-        # acepta personas sin experiencia.
         puntaje += 20
 
     elif experiencia == "no_especificada":
-
         puntaje += 15
 
     elif experiencia == "brecha_pequena":
-
         puntaje += 10
 
     elif experiencia == "brecha_moderada":
-
         puntaje += 5
+
+    elif experiencia == "brecha_alta":
+        puntaje += 0
 
     return min(
         puntaje,
@@ -1396,6 +1243,10 @@ def analizar_oferta(oferta):
         if competencia in PERFIL["competencias"]
     ]
 
+    # --------------------------------------------------------
+    # FORTALEZAS
+    # --------------------------------------------------------
+
     fortalezas = []
 
     if coincidencias_perfil:
@@ -1416,9 +1267,7 @@ def analizar_oferta(oferta):
             )
         )
 
-    if ubicacion[
-        "zona_prioritaria"
-    ]:
+    if ubicacion["zona_prioritaria"]:
 
         fortalezas.append(
             "Ubicación dentro de las zonas prioritarias."
@@ -1430,17 +1279,21 @@ def analizar_oferta(oferta):
             "El cargo coincide con el perfil."
         )
 
-    fortalezas.append(
-        "SEC Clase D en trámite."
-    )
+    if PERFIL["certificacion_estado"] == "En trámite":
+
+        fortalezas.append(
+            "SEC Clase D en trámite."
+        )
+
+    # --------------------------------------------------------
+    # BRECHAS
+    # --------------------------------------------------------
 
     brechas = []
 
     if (
         meses_solicitados is not None
-        and meses_solicitados > 0
-        and meses_solicitados
-        > PERFIL["experiencia_meses"]
+        and meses_solicitados > PERFIL["experiencia_meses"]
     ):
 
         brechas.append(
@@ -1550,7 +1403,7 @@ def analizar_oferta(oferta):
 
 
 # ============================================================
-# PLC POR MARCA
+# ANALIZAR PLC POR MARCA
 # ============================================================
 
 def analizar_plc_por_marca(ofertas):
@@ -1559,12 +1412,14 @@ def analizar_plc_por_marca(ofertas):
 
     for oferta in ofertas:
 
-        texto = texto_oferta(
-            oferta
+        analisis = oferta.get(
+            "analisis",
+            {}
         )
 
-        marcas = detectar_marcas_plc(
-            texto
+        marcas = analisis.get(
+            "plc_marcas_detectadas",
+            []
         )
 
         for marca in set(marcas):
@@ -1578,6 +1433,9 @@ def analizar_plc_por_marca(ofertas):
 
 # ============================================================
 # ANÁLISIS DETALLADO DE PLC
+#
+# Ahora utiliza el análisis ya calculado de cada oferta.
+# Esto evita diferencias entre las distintas secciones.
 # ============================================================
 
 def analizar_mercado_plc(ofertas):
@@ -1587,60 +1445,63 @@ def analizar_mercado_plc(ofertas):
     marcas = Counter()
     tecnologias = Counter()
 
+    tecnologias_validas = {
+        "PLC Siemens",
+        "PLC Allen-Bradley",
+        "PLC Schneider",
+        "PLC Mitsubishi",
+        "PLC Omron",
+        "PLC ABB",
+        "TIA Portal",
+        "Step 7",
+        "Studio 5000",
+        "FactoryTalk",
+        "WinCC",
+        "EcoStruxure"
+    }
+
     for oferta in ofertas:
 
-        texto = texto_oferta(
-            oferta
+        analisis = oferta.get(
+            "analisis",
+            {}
         )
 
-        if not tiene_plc(texto):
+        competencias = analisis.get(
+            "competencias_detectadas",
+            []
+        )
 
+        tecnologias_oferta = analisis.get(
+            "tecnologias_detectadas",
+            []
+        )
+
+        marcas_oferta = analisis.get(
+            "plc_marcas_detectadas",
+            []
+        )
+
+        if "PLC" not in competencias:
             continue
 
         ofertas_plc += 1
 
-        # ----------------------------------------------------
-        # MARCAS
-        # ----------------------------------------------------
-
-        for marca in detectar_marcas_plc(
-            texto
+        for marca in set(
+            marcas_oferta
         ):
 
             marcas[marca] += 1
 
-        # ----------------------------------------------------
-        # TECNOLOGÍAS
-        # ----------------------------------------------------
-
-        tecnologias_oferta = detectar_categorias(
-            texto,
-            TECNOLOGIAS
-        )
-
-        tecnologias_validas = [
-            tecnologia
-            for tecnologia in tecnologias_oferta
-            if (
-                tecnologia.startswith("PLC ")
-                or tecnologia in [
-                    "TIA Portal",
-                    "Step 7",
-                    "Studio 5000",
-                    "FactoryTalk",
-                    "WinCC",
-                    "EcoStruxure"
-                ]
-            )
-        ]
-
         for tecnologia in set(
-            tecnologias_validas
+            tecnologias_oferta
         ):
 
-            tecnologias[
-                tecnologia
-            ] += 1
+            if tecnologia in tecnologias_validas:
+
+                tecnologias[
+                    tecnologia
+                ] += 1
 
     return {
 
@@ -1671,34 +1532,29 @@ def analizar_electromecanica(ofertas):
 
     for oferta in ofertas:
 
-        texto = texto_oferta(
-            oferta
+        analisis = oferta.get(
+            "analisis",
+            {}
         )
 
-        es_electromecanica = (
-            contiene_termino(
-                texto,
-                "electromecanica"
-            )
-            or contiene_termino(
-                texto,
-                "electromecanico"
-            )
+        competencias = analisis.get(
+            "competencias_detectadas",
+            []
         )
 
-        if not es_electromecanica:
+        if "electromecánica" not in competencias:
 
             continue
 
         ofertas_electromecanica += 1
 
-        competencias = detectar_categorias(
-            texto,
+        competencias_electro = detectar_categorias(
+            texto_oferta(oferta),
             ELECTROMECANICA_DESGLOSE
         )
 
         for competencia in set(
-            competencias
+            competencias_electro
         ):
 
             contador[
@@ -1720,8 +1576,12 @@ def analizar_electromecanica(ofertas):
         )
 
         desglose[competencia] = {
-            "ofertas": cantidad,
-            "porcentaje": porcentaje
+
+            "ofertas":
+                cantidad,
+
+            "porcentaje":
+                porcentaje
         }
 
     return {
@@ -1735,7 +1595,7 @@ def analizar_electromecanica(ofertas):
 
 
 # ============================================================
-# GENERAR PRIORIDADES DE DESARROLLO
+# GENERAR PLAN DE DESARROLLO
 # ============================================================
 
 def generar_plan_desarrollo(mercado):
@@ -1760,13 +1620,13 @@ def generar_plan_desarrollo(mercado):
         es_objetivo = any(
             normalizar(competencia)
             == normalizar(objetivo)
-            or normalizar(competencia)
-            in normalizar(objetivo)
-            or normalizar(objetivo)
-            in normalizar(competencia)
             for objetivo
             in PERFIL["objetivos_desarrollo"]
         )
+
+        # ----------------------------------------------------
+        # ESTADO
+        # ----------------------------------------------------
 
         if esta_en_perfil:
 
@@ -1780,12 +1640,18 @@ def generar_plan_desarrollo(mercado):
 
             prioridad_base = 3
 
-        # Objetivo personal.
+        # ----------------------------------------------------
+        # OBJETIVO PERSONAL
+        # ----------------------------------------------------
+
         if es_objetivo:
 
-            prioridad_base += 2
+            prioridad_base += 3
 
-        # Demanda de mercado.
+        # ----------------------------------------------------
+        # DEMANDA
+        # ----------------------------------------------------
+
         if cantidad >= 50:
 
             prioridad_base += 4
@@ -1902,7 +1768,7 @@ def generar_recomendaciones(mercado):
         )
 
     # --------------------------------------------------------
-    # COMPETENCIAS TOP
+    # TOP COMPETENCIAS
     # --------------------------------------------------------
 
     top = list(
@@ -1977,7 +1843,7 @@ def generar_recomendaciones(mercado):
         )
 
     # --------------------------------------------------------
-    # DESARROLLO
+    # PLAN DE DESARROLLO
     # --------------------------------------------------------
 
     plan = mercado.get(
@@ -2033,18 +1899,29 @@ def analizar_mercado(ofertas):
 
     for oferta in ofertas:
 
-        texto = texto_oferta(
-            oferta
+        analisis = oferta.get(
+            "analisis",
+            {}
+        )
+
+        competencias = analisis.get(
+            "competencias_detectadas",
+            []
+        )
+
+        tecnologias = analisis.get(
+            "tecnologias_detectadas",
+            []
+        )
+
+        experiencia = analisis.get(
+            "experiencia_solicitada",
+            {}
         )
 
         # ----------------------------------------------------
         # COMPETENCIAS
         # ----------------------------------------------------
-
-        competencias = detectar_categorias(
-            texto,
-            COMPETENCIAS
-        )
 
         for competencia in set(
             competencias
@@ -2058,11 +1935,6 @@ def analizar_mercado(ofertas):
         # TECNOLOGÍAS
         # ----------------------------------------------------
 
-        tecnologias = detectar_categorias(
-            texto,
-            TECNOLOGIAS
-        )
-
         for tecnologia in set(
             tecnologias
         ):
@@ -2075,11 +1947,9 @@ def analizar_mercado(ofertas):
         # EXPERIENCIA
         # ----------------------------------------------------
 
-        experiencia = detectar_experiencia(
-            texto
+        meses = experiencia.get(
+            "meses"
         )
-
-        meses = experiencia["meses"]
 
         if meses is None:
 
@@ -2162,7 +2032,7 @@ def analizar_mercado(ofertas):
             ] += 1
 
     # --------------------------------------------------------
-    # EXPERIENCIA
+    # ESTADÍSTICAS EXPERIENCIA
     # --------------------------------------------------------
 
     if experiencias:
@@ -2263,19 +2133,11 @@ def analizar_mercado(ofertas):
             )
     }
 
-    # --------------------------------------------------------
-    # PLAN
-    # --------------------------------------------------------
-
     mercado[
         "plan_desarrollo"
     ] = generar_plan_desarrollo(
         mercado
     )
-
-    # --------------------------------------------------------
-    # RECOMENDACIONES
-    # --------------------------------------------------------
 
     mercado[
         "recomendaciones"
@@ -2339,19 +2201,17 @@ def analizar_historial():
         return
 
     # ========================================================
-    # 1. ANALIZAR CADA OFERTA
+    # ANALIZAR CADA OFERTA UNA SOLA VEZ
     # ========================================================
 
     for oferta in ofertas:
 
-        oferta["analisis"] = (
-            analizar_oferta(
-                oferta
-            )
+        oferta["analisis"] = analizar_oferta(
+            oferta
         )
 
     # ========================================================
-    # 2. ANALIZAR MERCADO
+    # ANALIZAR MERCADO
     # ========================================================
 
     mercado = analizar_mercado(
@@ -2363,7 +2223,7 @@ def analizar_historial():
     ] = mercado
 
     # ========================================================
-    # 3. GUARDAR PERFIL
+    # GUARDAR PERFIL
     # ========================================================
 
     historial["perfil"] = {
@@ -2403,9 +2263,7 @@ def analizar_historial():
                 PERFIL["certificacion"],
 
             "estado":
-                PERFIL[
-                    "certificacion_estado"
-                ]
+                PERFIL["certificacion_estado"]
         },
 
         "objetivo":
@@ -2420,7 +2278,7 @@ def analizar_historial():
     ] = "actualizado automáticamente"
 
     # ========================================================
-    # 4. GUARDAR
+    # GUARDAR
     # ========================================================
 
     with open(
@@ -2448,9 +2306,7 @@ def analizar_historial():
     print()
     print(
         "Ofertas analizadas:",
-        mercado[
-            "ofertas_analizadas"
-        ]
+        mercado["ofertas_analizadas"]
     )
 
     # ========================================================
