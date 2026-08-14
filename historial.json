@@ -17,6 +17,8 @@
           "diagnóstico de fallas"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -43,6 +45,7 @@
           "recomendacion": "EVALUAR Y POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES",
           "fortalezas": [
             "Coincide con: electricidad industrial, mantenimiento industrial, mantenimiento preventivo, tableros eléctricos, PLC",
+            "Se detectó requerimiento relacionado con PLC.",
             "Ubicación dentro de las zonas prioritarias.",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
@@ -69,6 +72,8 @@
           "PLC"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -95,6 +100,7 @@
           "recomendacion": "EVALUAR Y POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES",
           "fortalezas": [
             "Coincide con: electricidad industrial, mantenimiento industrial, mantenimiento preventivo, tableros eléctricos, PLC",
+            "Se detectó requerimiento relacionado con PLC.",
             "Ubicación dentro de las zonas prioritarias.",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
@@ -127,6 +133,11 @@
           "PLC Allen-Bradley",
           "SCADA"
         ],
+        "tecnologias_plc_detectadas": [
+          "PLC Allen-Bradley",
+          "SCADA"
+        ],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [
           "Allen-Bradley",
           "Schneider"
@@ -153,7 +164,9 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC, automatización industrial, HMI",
+            "Se detectó requerimiento relacionado con PLC.",
             "PLC detectado: Allen-Bradley, Schneider",
+            "Tecnologías PLC: PLC Allen-Bradley, SCADA",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -180,6 +193,8 @@
           "neumática"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -238,6 +253,8 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -261,6 +278,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: electricidad industrial, mantenimiento preventivo, tableros eléctricos, PLC, automatización industrial, variadores de frecuencia, motores eléctricos, lectura de planos",
+            "Se detectó requerimiento relacionado con PLC.",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -287,6 +305,8 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
@@ -337,6 +357,8 @@
           "diagnóstico de fallas"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -384,6 +406,8 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -432,6 +456,8 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -490,6 +516,8 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -516,6 +544,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: mantenimiento preventivo, PLC, automatización industrial, control industrial, lectura de planos",
+            "Se detectó requerimiento relacionado con PLC.",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
@@ -547,6 +576,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -570,6 +601,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: electricidad industrial, mantenimiento industrial, mantenimiento preventivo, PLC, automatización industrial",
+            "Se detectó requerimiento relacionado con PLC.",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -596,6 +628,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -651,6 +685,8 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -705,6 +741,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -749,6 +787,8 @@
           "automatización industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -795,6 +835,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -849,6 +891,8 @@
         "tecnologias_detectadas": [
           "AutoCAD"
         ],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -904,6 +948,10 @@
         "tecnologias_detectadas": [
           "SCADA"
         ],
+        "tecnologias_plc_detectadas": [
+          "SCADA"
+        ],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
@@ -927,6 +975,8 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: mantenimiento preventivo, PLC, automatización industrial",
+            "Se detectó requerimiento relacionado con PLC.",
+            "Tecnologías PLC: SCADA",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -954,6 +1004,8 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 10.0,
@@ -1006,6 +1058,8 @@
           "neumática"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -1060,6 +1114,11 @@
           "PLC Allen-Bradley",
           "SCADA"
         ],
+        "tecnologias_plc_detectadas": [
+          "PLC Allen-Bradley",
+          "SCADA"
+        ],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [
           "Allen-Bradley",
           "Schneider"
@@ -1086,7 +1145,9 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC, automatización industrial, HMI",
+            "Se detectó requerimiento relacionado con PLC.",
             "PLC detectado: Allen-Bradley, Schneider",
+            "Tecnologías PLC: PLC Allen-Bradley, SCADA",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -1114,6 +1175,8 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 10.0,
@@ -1161,6 +1224,8 @@
           "control industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -1208,6 +1273,8 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -1234,6 +1301,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC, automatización industrial, control industrial",
+            "Se detectó requerimiento relacionado con PLC.",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
@@ -1256,6 +1324,8 @@
           "automatización industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -1296,6 +1366,8 @@
       "analisis": {
         "competencias_detectadas": [],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -1340,6 +1412,8 @@
           "instrumentación industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -1387,10 +1461,9 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
-        "plc_marcas_detectadas": [
-          "Siemens",
-          "Schneider"
-        ],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
           "meses": null,
@@ -1413,7 +1486,6 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: control industrial, lectura de planos",
-            "PLC detectado: Siemens, Schneider",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -1435,6 +1507,8 @@
           "control industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -1481,6 +1555,8 @@
           "diagnóstico de fallas"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 4.0,
@@ -1536,6 +1612,11 @@
           "PLC Allen-Bradley",
           "TIA Portal"
         ],
+        "tecnologias_plc_detectadas": [
+          "PLC Allen-Bradley",
+          "TIA Portal"
+        ],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [
           "Siemens",
           "Allen-Bradley",
@@ -1564,7 +1645,9 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: electricidad industrial, PLC, automatización industrial, control industrial, variadores de frecuencia",
+            "Se detectó requerimiento relacionado con PLC.",
             "PLC detectado: Siemens, Allen-Bradley, Schneider, ABB",
+            "Tecnologías PLC: PLC Allen-Bradley, TIA Portal",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -1597,6 +1680,8 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -1653,6 +1738,8 @@
           "neumática"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -1676,6 +1763,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: mantenimiento industrial, mantenimiento preventivo, PLC, variadores de frecuencia, HMI",
+            "Se detectó requerimiento relacionado con PLC.",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -1705,6 +1793,8 @@
           "diagnóstico de fallas"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -1756,6 +1846,8 @@
           "hidráulica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -1802,6 +1894,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 10.0,
@@ -1847,6 +1941,8 @@
           "mantenimiento industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
@@ -1891,6 +1987,8 @@
           "mantenimiento industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
@@ -1939,6 +2037,8 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -1984,6 +2084,8 @@
           "mantenimiento industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
@@ -2034,6 +2136,8 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -2086,6 +2190,8 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 10.0,
@@ -2134,6 +2240,8 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -2184,6 +2292,8 @@
           "hidráulica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -2238,6 +2348,8 @@
           "diagnóstico de fallas"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -2284,6 +2396,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 0,
@@ -2331,6 +2445,8 @@
           "mantenimiento industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
@@ -2376,6 +2492,8 @@
           "mantenimiento industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -2424,6 +2542,8 @@
           "hidráulica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 6.0,
@@ -2471,6 +2591,8 @@
           "mantenimiento industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -2513,6 +2635,8 @@
           "mantenimiento industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
@@ -2558,6 +2682,8 @@
           "mantenimiento preventivo"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 15.0,
@@ -2605,6 +2731,8 @@
           "hidráulica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -2657,6 +2785,8 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -2706,6 +2836,8 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -2750,6 +2882,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -2798,6 +2932,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -2840,6 +2976,8 @@
       "analisis": {
         "competencias_detectadas": [],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -2883,6 +3021,8 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -2930,6 +3070,8 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -2980,6 +3122,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -3025,6 +3169,8 @@
           "instrumentación industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -3071,6 +3217,8 @@
       "analisis": {
         "competencias_detectadas": [],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -3112,6 +3260,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -3153,6 +3303,8 @@
       "analisis": {
         "competencias_detectadas": [],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -3198,6 +3350,8 @@
         "tecnologias_detectadas": [
           "AutoCAD"
         ],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
@@ -3241,6 +3395,8 @@
       "analisis": {
         "competencias_detectadas": [],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -3288,6 +3444,8 @@
           "mantenimiento preventivo"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -3339,6 +3497,8 @@
           "motores eléctricos"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -3388,6 +3548,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 20.0,
@@ -3435,6 +3597,8 @@
       "analisis": {
         "competencias_detectadas": [],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -3483,6 +3647,8 @@
           "hidráulica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -3531,6 +3697,8 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -3575,6 +3743,8 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -3620,6 +3790,8 @@
           "diagnóstico de fallas"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -3668,6 +3840,8 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -3719,6 +3893,8 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -3776,6 +3952,8 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -3827,6 +4005,8 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -3874,6 +4054,8 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -3926,6 +4108,8 @@
         "tecnologias_detectadas": [
           "AutoCAD"
         ],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -3973,6 +4157,8 @@
       "analisis": {
         "competencias_detectadas": [],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -4017,6 +4203,8 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -4045,6 +4233,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: mantenimiento preventivo, PLC, lectura de planos",
+            "Se detectó requerimiento relacionado con PLC.",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
@@ -4068,6 +4257,8 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -4119,6 +4310,8 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -4164,6 +4357,8 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -4210,6 +4405,8 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 4.0,
@@ -4264,6 +4461,8 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -4290,6 +4489,7 @@
           "recomendacion": "EVALUAR Y POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES",
           "fortalezas": [
             "Coincide con: mantenimiento industrial, PLC, automatización industrial, variadores de frecuencia, HMI, lectura de planos",
+            "Se detectó requerimiento relacionado con PLC.",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
@@ -4317,6 +4517,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -4372,6 +4574,10 @@
         "tecnologias_detectadas": [
           "AutoCAD"
         ],
+        "tecnologias_plc_detectadas": [
+          "AutoCAD"
+        ],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -4397,6 +4603,8 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: mantenimiento preventivo, PLC, control industrial",
+            "Se detectó requerimiento relacionado con PLC.",
+            "Tecnologías PLC: AutoCAD",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
@@ -4422,6 +4630,8 @@
           "mantenimiento preventivo"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 0,
@@ -4465,12 +4675,18 @@
       "fuente": "Chiletrabajos",
       "analisis": {
         "competencias_detectadas": [
-          "automatización industrial"
+          "automatización industrial",
+          "PLC"
         ],
         "tecnologias_detectadas": [
           "PLC Allen-Bradley",
           "TIA Portal"
         ],
+        "tecnologias_plc_detectadas": [
+          "PLC Allen-Bradley",
+          "TIA Portal"
+        ],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [
           "Siemens",
           "Allen-Bradley"
@@ -4491,13 +4707,15 @@
         },
         "cargos_coincidentes": [],
         "compatibilidad": {
-          "puntaje": 15,
+          "puntaje": 20,
           "nivel": "BAJA",
           "prioridad": "BAJA",
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
-            "Coincide con: automatización industrial",
+            "Coincide con: automatización industrial, PLC",
+            "Se detectó requerimiento relacionado con PLC.",
             "PLC detectado: Siemens, Allen-Bradley",
+            "Tecnologías PLC: PLC Allen-Bradley, TIA Portal",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -4522,6 +4740,8 @@
           "diagnóstico de fallas"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -4572,6 +4792,8 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -4616,6 +4838,8 @@
           "instrumentación industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -4663,6 +4887,8 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -4708,6 +4934,8 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -4754,6 +4982,8 @@
       "analisis": {
         "competencias_detectadas": [],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 0,
@@ -4793,6 +5023,8 @@
       "analisis": {
         "competencias_detectadas": [],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -4832,6 +5064,8 @@
       "analisis": {
         "competencias_detectadas": [],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
@@ -4875,6 +5109,8 @@
           "mantenimiento correctivo"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -4916,6 +5152,8 @@
       "analisis": {
         "competencias_detectadas": [],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -4970,6 +5208,10 @@
         "tecnologias_detectadas": [
           "PLC Allen-Bradley"
         ],
+        "tecnologias_plc_detectadas": [
+          "PLC Allen-Bradley"
+        ],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [
           "Allen-Bradley",
           "Schneider",
@@ -4997,7 +5239,9 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC, control industrial, HMI",
+            "Se detectó requerimiento relacionado con PLC.",
             "PLC detectado: Allen-Bradley, Schneider, ABB",
+            "Tecnologías PLC: PLC Allen-Bradley",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -5023,6 +5267,8 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -5079,6 +5325,8 @@
           "neumática"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -5104,6 +5352,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: electricidad industrial, mantenimiento preventivo, PLC",
+            "Se detectó requerimiento relacionado con PLC.",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
@@ -5128,6 +5377,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -5175,6 +5426,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -5218,6 +5471,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -5266,6 +5521,8 @@
           "hidráulica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -5313,6 +5570,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -5362,6 +5621,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 4.0,
@@ -5410,6 +5671,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 0,
@@ -5455,6 +5718,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -5499,6 +5764,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -5546,6 +5813,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -5595,6 +5864,8 @@
         "tecnologias_detectadas": [
           "SCADA"
         ],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -5645,6 +5916,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -5689,6 +5962,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -5741,6 +6016,8 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -5795,6 +6072,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -5845,6 +6124,8 @@
           "instrumentación industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -5893,6 +6174,8 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -5947,6 +6230,8 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -5970,6 +6255,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: electricidad industrial, mantenimiento industrial, PLC, automatización industrial, variadores de frecuencia, motores eléctricos, lectura de planos",
+            "Se detectó requerimiento relacionado con PLC.",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -5996,6 +6282,8 @@
           "instrumentación industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 0,
@@ -6045,6 +6333,8 @@
         "tecnologias_detectadas": [
           "SCADA"
         ],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -6097,6 +6387,8 @@
         "tecnologias_detectadas": [
           "SCADA"
         ],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -6150,6 +6442,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -6202,6 +6496,10 @@
         "tecnologias_detectadas": [
           "SCADA"
         ],
+        "tecnologias_plc_detectadas": [
+          "SCADA"
+        ],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -6225,6 +6523,8 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC, automatización industrial, control industrial",
+            "Se detectó requerimiento relacionado con PLC.",
+            "Tecnologías PLC: SCADA",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -6248,6 +6548,8 @@
           "instrumentación industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -6296,6 +6598,8 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -6354,6 +6658,8 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -6379,6 +6685,7 @@
           "recomendacion": "EVALUAR Y POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES",
           "fortalezas": [
             "Coincide con: mantenimiento preventivo, PLC, automatización industrial, control industrial, variadores de frecuencia, lectura de planos",
+            "Se detectó requerimiento relacionado con PLC.",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
@@ -6409,6 +6716,8 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -6464,6 +6773,8 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -6489,6 +6800,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: electricidad industrial, mantenimiento industrial, mantenimiento preventivo, tableros eléctricos, PLC, automatización industrial, HMI",
+            "Se detectó requerimiento relacionado con PLC.",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
@@ -6518,6 +6830,8 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
@@ -6541,6 +6855,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: electricidad industrial, PLC, control industrial",
+            "Se detectó requerimiento relacionado con PLC.",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -6566,6 +6881,8 @@
           "instrumentación industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -6621,6 +6938,8 @@
           "hidráulica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -6647,6 +6966,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: electricidad industrial, mantenimiento industrial, PLC, variadores de frecuencia, motores eléctricos, lectura de planos",
+            "Se detectó requerimiento relacionado con PLC.",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
@@ -6675,6 +6995,8 @@
           "instrumentación industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 10.0,
@@ -6721,6 +7043,8 @@
           "instrumentación industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -6744,6 +7068,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC, variadores de frecuencia",
+            "Se detectó requerimiento relacionado con PLC.",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -6777,6 +7102,8 @@
           "seguridad eléctrica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -6802,6 +7129,7 @@
           "recomendacion": "EVALUAR Y POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES",
           "fortalezas": [
             "Coincide con: electricidad industrial, mantenimiento preventivo, tableros eléctricos, PLC, automatización industrial, control industrial, variadores de frecuencia, motores eléctricos, lectura de planos",
+            "Se detectó requerimiento relacionado con PLC.",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
@@ -6832,6 +7160,8 @@
           "diagnóstico de fallas"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -6855,6 +7185,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: mantenimiento preventivo, PLC, variadores de frecuencia",
+            "Se detectó requerimiento relacionado con PLC.",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -6879,6 +7210,8 @@
           "PLC"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -6902,6 +7235,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: mantenimiento industrial, PLC",
+            "Se detectó requerimiento relacionado con PLC.",
             "SEC Clase D en trámite."
           ],
           "brechas": []
@@ -6925,6 +7259,8 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -6948,6 +7284,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC, lectura de planos",
+            "Se detectó requerimiento relacionado con PLC.",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -6976,6 +7313,8 @@
           "hidráulica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 0,
@@ -7004,6 +7343,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: mantenimiento preventivo, PLC, variadores de frecuencia",
+            "Se detectó requerimiento relacionado con PLC.",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
@@ -7030,6 +7370,8 @@
           "HMI"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -7053,6 +7395,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: mantenimiento preventivo, PLC, automatización industrial, HMI",
+            "Se detectó requerimiento relacionado con PLC.",
             "SEC Clase D en trámite."
           ],
           "brechas": []
@@ -7072,6 +7415,8 @@
           "PLC"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -7095,6 +7440,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC",
+            "Se detectó requerimiento relacionado con PLC.",
             "SEC Clase D en trámite."
           ],
           "brechas": []
@@ -7117,6 +7463,10 @@
         "tecnologias_detectadas": [
           "EcoStruxure"
         ],
+        "tecnologias_plc_detectadas": [
+          "EcoStruxure"
+        ],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [
           "Schneider"
         ],
@@ -7142,7 +7492,9 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC",
+            "Se detectó requerimiento relacionado con PLC.",
             "PLC detectado: Schneider",
+            "Tecnologías PLC: EcoStruxure",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -7168,6 +7520,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -7191,6 +7545,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: mantenimiento industrial, mantenimiento preventivo, PLC",
+            "Se detectó requerimiento relacionado con PLC.",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -7219,6 +7574,8 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 0,
@@ -7242,6 +7599,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: electricidad industrial, tableros eléctricos, PLC, lectura de planos",
+            "Se detectó requerimiento relacionado con PLC.",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -7269,6 +7627,8 @@
           "sensores"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -7294,6 +7654,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: tableros eléctricos, PLC, variadores de frecuencia, motores eléctricos",
+            "Se detectó requerimiento relacionado con PLC.",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
@@ -7321,6 +7682,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -7347,6 +7710,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC",
+            "Se detectó requerimiento relacionado con PLC.",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
@@ -7378,6 +7742,10 @@
         "tecnologias_detectadas": [
           "SCADA"
         ],
+        "tecnologias_plc_detectadas": [
+          "SCADA"
+        ],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 8.0,
@@ -7401,6 +7769,8 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC, lectura de planos",
+            "Se detectó requerimiento relacionado con PLC.",
+            "Tecnologías PLC: SCADA",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -7433,6 +7803,12 @@
           "PLC Allen-Bradley",
           "SCADA"
         ],
+        "tecnologias_plc_detectadas": [
+          "PLC Siemens",
+          "PLC Allen-Bradley",
+          "SCADA"
+        ],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [
           "Siemens",
           "Allen-Bradley"
@@ -7459,7 +7835,9 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC, automatización industrial, HMI",
+            "Se detectó requerimiento relacionado con PLC.",
             "PLC detectado: Siemens, Allen-Bradley",
+            "Tecnologías PLC: PLC Siemens, PLC Allen-Bradley, SCADA",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -7484,6 +7862,8 @@
           "instrumentación industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -7507,6 +7887,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: mantenimiento preventivo, PLC",
+            "Se detectó requerimiento relacionado con PLC.",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -7536,6 +7917,8 @@
           "puesta en marcha"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -7562,6 +7945,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: electricidad industrial, mantenimiento industrial, tableros eléctricos, PLC, variadores de frecuencia, lectura de planos",
+            "Se detectó requerimiento relacionado con PLC.",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
@@ -7598,6 +7982,11 @@
           "WinCC",
           "SCADA"
         ],
+        "tecnologias_plc_detectadas": [
+          "WinCC",
+          "SCADA"
+        ],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [
           "Siemens"
         ],
@@ -7623,7 +8012,9 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: mantenimiento preventivo, PLC, automatización industrial, variadores de frecuencia, HMI",
+            "Se detectó requerimiento relacionado con PLC.",
             "PLC detectado: Siemens",
+            "Tecnologías PLC: WinCC, SCADA",
             "SEC Clase D en trámite."
           ],
           "brechas": [
@@ -7649,6 +8040,8 @@
           "PLC"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -7672,6 +8065,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: PLC",
+            "Se detectó requerimiento relacionado con PLC.",
             "SEC Clase D en trámite."
           ],
           "brechas": []
@@ -7696,6 +8090,8 @@
           "hidráulica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 3.0,
@@ -7722,6 +8118,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: mantenimiento preventivo, PLC, automatización industrial",
+            "Se detectó requerimiento relacionado con PLC.",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
@@ -7751,6 +8148,8 @@
           "instrumentación industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -7776,6 +8175,7 @@
           "recomendacion": "PRIORIZAR OTRAS OFERTAS",
           "fortalezas": [
             "Coincide con: mantenimiento preventivo, PLC, HMI",
+            "Se detectó requerimiento relacionado con PLC.",
             "El cargo coincide con el perfil.",
             "SEC Clase D en trámite."
           ],
@@ -7800,6 +8200,8 @@
           "electricidad industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -7844,6 +8246,8 @@
           "instrumentación industrial"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
@@ -7891,6 +8295,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -7937,6 +8343,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 1.0,
@@ -7985,6 +8393,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -8037,6 +8447,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 2.0,
@@ -8087,6 +8499,8 @@
           "hidráulica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 5.0,
@@ -8140,6 +8554,8 @@
           "lectura de planos"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": 10.0,
@@ -8195,6 +8611,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -8248,6 +8666,8 @@
           "electromecánica"
         ],
         "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
         "plc_marcas_detectadas": [],
         "experiencia_solicitada": {
           "anos": null,
@@ -8356,7 +8776,7 @@
       "mantenimiento preventivo": 58,
       "instrumentación industrial": 56,
       "mantenimiento industrial": 51,
-      "PLC": 43,
+      "PLC": 44,
       "automatización industrial": 42,
       "electricidad industrial": 40,
       "lectura de planos": 36,
@@ -8367,8 +8787,8 @@
       "diagnóstico de fallas": 19,
       "variadores de frecuencia": 15,
       "motores eléctricos": 11,
-      "SCADA": 10,
       "HMI": 10,
+      "SCADA": 10,
       "neumática": 10,
       "hidráulica": 10,
       "mantenimiento correctivo": 6,
@@ -8384,22 +8804,22 @@
       "WinCC": 1
     },
     "plc_por_marca": {
-      "Schneider": 6,
       "Allen-Bradley": 6,
-      "Siemens": 5,
+      "Schneider": 5,
+      "Siemens": 4,
       "ABB": 2
     },
     "analisis_PLC": {
-      "ofertas_con_PLC": 43,
+      "ofertas_con_PLC": 44,
       "marcas_PLC": {
+        "Allen-Bradley": 6,
         "Schneider": 5,
-        "Allen-Bradley": 5,
-        "Siemens": 3,
+        "Siemens": 4,
         "ABB": 2
       },
       "tecnologias_PLC": {
-        "PLC Allen-Bradley": 5,
-        "TIA Portal": 1,
+        "PLC Allen-Bradley": 6,
+        "TIA Portal": 2,
         "EcoStruxure": 1,
         "PLC Siemens": 1,
         "WinCC": 1
@@ -8452,11 +8872,11 @@
           "ofertas": 10,
           "porcentaje": 12.7
         },
-        "variadores de frecuencia": {
+        "motores eléctricos": {
           "ofertas": 10,
           "porcentaje": 12.7
         },
-        "motores eléctricos": {
+        "variadores de frecuencia": {
           "ofertas": 10,
           "porcentaje": 12.7
         },
@@ -8520,11 +8940,39 @@
         "ofertas": 56,
         "estado": "BRECHA",
         "es_objetivo": true,
-        "prioridad": 10
+        "prioridad": 12
       },
       {
         "competencia": "sensores",
         "ofertas": 26,
+        "estado": "BRECHA",
+        "es_objetivo": true,
+        "prioridad": 10
+      },
+      {
+        "competencia": "diagnóstico de fallas",
+        "ofertas": 19,
+        "estado": "BRECHA",
+        "es_objetivo": true,
+        "prioridad": 9
+      },
+      {
+        "competencia": "SCADA",
+        "ofertas": 10,
+        "estado": "BRECHA",
+        "es_objetivo": true,
+        "prioridad": 9
+      },
+      {
+        "competencia": "neumática",
+        "ofertas": 10,
+        "estado": "BRECHA",
+        "es_objetivo": true,
+        "prioridad": 8
+      },
+      {
+        "competencia": "hidráulica",
+        "ofertas": 10,
         "estado": "BRECHA",
         "es_objetivo": true,
         "prioridad": 8
@@ -8537,32 +8985,11 @@
         "prioridad": 7
       },
       {
-        "competencia": "diagnóstico de fallas",
-        "ofertas": 19,
+        "competencia": "puesta en marcha",
+        "ofertas": 26,
         "estado": "BRECHA",
-        "es_objetivo": true,
-        "prioridad": 7
-      },
-      {
-        "competencia": "SCADA",
-        "ofertas": 10,
-        "estado": "BRECHA",
-        "es_objetivo": true,
-        "prioridad": 7
-      },
-      {
-        "competencia": "neumática",
-        "ofertas": 10,
-        "estado": "BRECHA",
-        "es_objetivo": true,
-        "prioridad": 7
-      },
-      {
-        "competencia": "hidráulica",
-        "ofertas": 10,
-        "estado": "BRECHA",
-        "es_objetivo": true,
-        "prioridad": 7
+        "es_objetivo": false,
+        "prioridad": 6
       },
       {
         "competencia": "mantenimiento preventivo",
@@ -8579,15 +9006,8 @@
         "prioridad": 5
       },
       {
-        "competencia": "puesta en marcha",
-        "ofertas": 26,
-        "estado": "BRECHA",
-        "es_objetivo": false,
-        "prioridad": 5
-      },
-      {
         "competencia": "PLC",
-        "ofertas": 43,
+        "ofertas": 44,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 4
@@ -8664,13 +9084,13 @@
       }
     ],
     "recomendaciones": [
-      "Priorizar formación práctica en PLC. Las marcas detectadas con mayor frecuencia son: Schneider, Allen-Bradley, Siemens.",
+      "Priorizar formación práctica en PLC. Las marcas detectadas con mayor frecuencia son: Allen-Bradley, Schneider, Siemens.",
       "Considerar electromecánica como línea importante de búsqueda: 79 ofertas (47.0% del conjunto analizado).",
       "Mantener como núcleo profesional: electromecánica, mantenimiento preventivo, instrumentación industrial, mantenimiento industrial, PLC.",
       "Buscar especialmente cargos que combinen mantenimiento industrial + electricidad industrial + PLC/automatización.",
       "No limitar la búsqueda a cargos que exijan experiencia: también seguir las ofertas que aceptan candidatos sin experiencia.",
       "Dar prioridad adicional a ofertas donde la experiencia no está especificada, porque no presentan una barrera explícita de años de experiencia.",
-      "Para cerrar brechas, comenzar por: instrumentación industrial, sensores, electromecánica, diagnóstico de fallas, SCADA."
+      "Para cerrar brechas, comenzar por: instrumentación industrial, sensores, diagnóstico de fallas, SCADA, neumática."
     ]
   },
   "plan_desarrollo": {
