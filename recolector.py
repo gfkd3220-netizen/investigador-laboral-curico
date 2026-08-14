@@ -2,6 +2,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import quote
+from datetime import datetime
 
 
 ARCHIVO = "historial.json"
@@ -9,6 +10,10 @@ ARCHIVO = "historial.json"
 
 # ============================================================
 # BÚSQUEDAS
+#
+# Buscamos términos amplios del área.
+# No filtramos por junior/senior porque queremos estudiar
+# qué pide el mercado completo.
 # ============================================================
 
 BUSQUEDAS = [
@@ -19,67 +24,97 @@ BUSQUEDAS = [
     "electromecanico",
     "instrumentacion industrial",
     "PLC",
-    "electricidad industrial"
+    "electricidad industrial",
+    "control industrial",
+    "electricista industrial",
+    "mantenimiento electrico"
 ]
 
 
 # ============================================================
-# PALABRAS QUE IDENTIFICAN EL CARGO
+# TÉRMINOS DEL ÁREA
 #
-# Estas palabras deben aparecer en el título para considerar
-# que el cargo pertenece claramente a nuestra área.
+# Se utilizan para evitar guardar ofertas que no tengan
+# relación real con electricidad, mantenimiento,
+# automatización, control o electromecánica.
 # ============================================================
 
 PALABRAS_TITULO = [
     "automatizacion",
+    "automatización",
     "mantenimiento industrial",
+    "mantenimiento",
     "tecnico electrico",
+    "técnico eléctrico",
     "tecnico automatizacion",
+    "técnico automatización",
     "tecnico de mantenimiento",
+    "técnico de mantenimiento",
     "tecnico electromecanico",
-    "tecnico instrumentacion",
+    "técnico electromecánico",
     "electromecanico",
-    "instrumentacion industrial",
+    "electromecánico",
+    "instrumentacion",
+    "instrumentación",
+    "instrumentista",
     "electricista industrial",
     "electricidad industrial",
+    "electrico industrial",
+    "eléctrico industrial",
     "control industrial",
-    "tablerista industrial",
+    "tablerista",
     "planner de mantenimiento",
-    "mantenimiento",
-    "electrico industrial"
+    "tecnico en electricidad",
+    "técnico en electricidad"
 ]
 
 
-# ============================================================
-# CONOCIMIENTOS DEL ÁREA
-#
-# Se utilizan para comprobar que el contenido de la oferta
-# realmente tenga relación con el área técnica.
-# ============================================================
-
 PALABRAS_TECNICAS = [
     "automatizacion",
+    "automatización",
     "mantenimiento industrial",
     "mantenimiento preventivo",
     "mantenimiento correctivo",
+    "mantencion industrial",
+    "mantención industrial",
     "diagnostico de fallas",
+    "diagnóstico de fallas",
     "electricidad industrial",
     "electrico",
+    "eléctrico",
     "electromecanico",
+    "electromecánico",
     "instrumentacion",
+    "instrumentación",
     "plc",
     "control industrial",
     "control automatico",
+    "control automático",
     "tableros electricos",
+    "tableros eléctricos",
     "variadores",
+    "variadores de frecuencia",
     "hmi",
     "scada",
     "sensores",
     "motores electricos",
+    "motores eléctricos",
     "lectura de planos",
+    "planos electricos",
+    "planos eléctricos",
     "puesta en marcha",
     "neumatica",
-    "hidraulica"
+    "neumática",
+    "hidraulica",
+    "hidráulica",
+    "vfd",
+    "contactor",
+    "relé",
+    "rele",
+    "multimetro",
+    "multímetro",
+    "mediciones electricas",
+    "mediciones eléctricas"
 ]
 
 
@@ -134,7 +169,7 @@ def guardar_historial(historial):
 
 
 # ============================================================
-# NORMALIZAR
+# NORMALIZAR TEXTO
 # ============================================================
 
 def normalizar(texto):
@@ -180,10 +215,10 @@ def titulo_es_relevante(titulo):
 
 
 # ============================================================
-# COMPROBAR CONTENIDO
+# COMPROBAR CONTENIDO TÉCNICO
 # ============================================================
 
-def contenido_es_relevante(
+def contar_terminos_tecnicos(
     titulo,
     descripcion
 ):
@@ -192,22 +227,38 @@ def contenido_es_relevante(
         titulo + " " + descripcion
     )
 
-    coincidencias = 0
+    encontrados = set()
 
     for palabra in PALABRAS_TECNICAS:
 
-        if normalizar(palabra) in texto:
+        palabra_normalizada = normalizar(
+            palabra
+        )
 
-            coincidencias += 1
+        if palabra_normalizada in texto:
 
-    # Necesitamos al menos dos elementos técnicos
-    # para evitar falsos positivos.
+            encontrados.add(
+                palabra_normalizada
+            )
+
+    return len(encontrados)
+
+
+def contenido_es_relevante(
+    titulo,
+    descripcion
+):
+
+    coincidencias = contar_terminos_tecnicos(
+        titulo,
+        descripcion
+    )
 
     return coincidencias >= 2
 
 
 # ============================================================
-# COMPROBAR OFERTA COMPLETA
+# FILTRO FINAL
 # ============================================================
 
 def es_de_nuestra_area(
@@ -215,19 +266,15 @@ def es_de_nuestra_area(
     descripcion
 ):
 
-    # Primero revisamos el título.
-    #
-    # Esto evita guardar cosas como:
-    # "Operario de fábrica"
-    # simplemente porque la página contiene
-    # la palabra electricidad en alguna parte.
+    # El título debe indicar claramente que el cargo
+    # pertenece al área.
 
     if not titulo_es_relevante(titulo):
 
         return False
 
-    # Después comprobamos que el contenido
-    # tenga relación técnica real.
+    # Además, el contenido debe tener suficiente
+    # vocabulario técnico.
 
     if not contenido_es_relevante(
         titulo,
@@ -320,10 +367,115 @@ def buscar_chiletrabajos(termino):
 
 
 # ============================================================
+# EXTRAER TEXTO LIMPIO
+# ============================================================
+
+def limpiar_texto(soup):
+
+    # Eliminamos elementos que no aportan información
+    # laboral y contaminan el análisis.
+
+    for elemento in soup([
+        "script",
+        "style",
+        "nav",
+        "footer",
+        "header",
+        "form"
+    ]):
+
+        elemento.decompose()
+
+    texto = soup.get_text(
+        " ",
+        strip=True
+    )
+
+    # Evitar espacios repetidos.
+
+    texto = " ".join(
+        texto.split()
+    )
+
+    return texto
+
+
+# ============================================================
+# INTENTAR EXTRAER EMPRESA
+# ============================================================
+
+def extraer_empresa(soup):
+
+    selectores = [
+        "[class*='empresa']",
+        "[class*='company']",
+        "[id*='empresa']",
+        "[id*='company']"
+    ]
+
+    for selector in selectores:
+
+        elemento = soup.select_one(
+            selector
+        )
+
+        if elemento:
+
+            texto = elemento.get_text(
+                " ",
+                strip=True
+            )
+
+            if texto and len(texto) < 150:
+
+                return texto
+
+    return ""
+
+
+# ============================================================
+# INTENTAR EXTRAER UBICACIÓN
+# ============================================================
+
+def extraer_ubicacion(soup):
+
+    selectores = [
+        "[class*='ubicacion']",
+        "[class*='location']",
+        "[class*='comuna']",
+        "[class*='region']",
+        "[id*='ubicacion']",
+        "[id*='location']"
+    ]
+
+    for selector in selectores:
+
+        elemento = soup.select_one(
+            selector
+        )
+
+        if elemento:
+
+            texto = elemento.get_text(
+                " ",
+                strip=True
+            )
+
+            if texto and len(texto) < 150:
+
+                return texto
+
+    return ""
+
+
+# ============================================================
 # OBTENER DETALLE
 # ============================================================
 
-def obtener_detalle(oferta):
+def obtener_detalle(
+    oferta,
+    termino_busqueda
+):
 
     headers = {
         "User-Agent": (
@@ -359,17 +511,13 @@ def obtener_detalle(oferta):
         "html.parser"
     )
 
-    texto = soup.get_text(
-        " ",
-        strip=True
-    )
-
     titulo = oferta["titulo"]
 
+    texto = limpiar_texto(
+        soup
+    )
 
-    # --------------------------------------------------------
-    # Filtro final
-    # --------------------------------------------------------
+    # Filtro final.
 
     if not es_de_nuestra_area(
         titulo,
@@ -378,14 +526,28 @@ def obtener_detalle(oferta):
 
         return None
 
+    empresa = extraer_empresa(
+        soup
+    )
+
+    ubicacion = extraer_ubicacion(
+        soup
+    )
+
+    coincidencias_tecnicas = (
+        contar_terminos_tecnicos(
+            titulo,
+            texto
+        )
+    )
 
     return {
 
         "titulo": titulo,
 
-        "empresa": "",
+        "empresa": empresa,
 
-        "ubicacion": "",
+        "ubicacion": ubicacion,
 
         "descripcion": texto,
 
@@ -393,7 +555,17 @@ def obtener_detalle(oferta):
 
         "url": oferta["url"],
 
-        "fuente": "Chiletrabajos"
+        "fuente": "Chiletrabajos",
+
+        "busqueda_origen": termino_busqueda,
+
+        "fecha_recoleccion": (
+            datetime.now().isoformat()
+        ),
+
+        "terminos_tecnicos_detectados": (
+            coincidencias_tecnicas
+        )
     }
 
 
@@ -429,10 +601,12 @@ def ejecutar():
 
     descartadas = 0
 
+    duplicadas = 0
 
-    # --------------------------------------------------------
+
+    # ========================================================
     # BUSCAR
-    # --------------------------------------------------------
+    # ========================================================
 
     for termino in BUSQUEDAS:
 
@@ -458,20 +632,16 @@ def ejecutar():
             continue
 
 
-        # ----------------------------------------------------
+        # ====================================================
         # PROCESAR RESULTADOS
-        # ----------------------------------------------------
+        # ====================================================
 
         for resultado in resultados:
 
             encontradas += 1
 
-
             # -----------------------------------------------
-            # Primero filtramos por título.
-            #
-            # Así no descargamos cientos de ofertas
-            # claramente irrelevantes.
+            # Filtro rápido por título
             # -----------------------------------------------
 
             if not titulo_es_relevante(
@@ -484,7 +654,7 @@ def ejecutar():
 
 
             # -----------------------------------------------
-            # Evitar duplicados
+            # Duplicados
             # -----------------------------------------------
 
             if existe_oferta(
@@ -492,17 +662,19 @@ def ejecutar():
                 resultado["url"]
             ):
 
+                duplicadas += 1
+
                 continue
 
 
             # -----------------------------------------------
-            # Descargar detalle
+            # Obtener detalle
             # -----------------------------------------------
 
             detalle = obtener_detalle(
-                resultado
+                resultado,
+                termino
             )
-
 
             if detalle is None:
 
@@ -528,12 +700,12 @@ def ejecutar():
 
 
     # ========================================================
-    # ACTUALIZAR
+    # ACTUALIZAR HISTORIAL
     # ========================================================
 
     historial[
         "ultima_actualizacion"
-    ] = "actualizado automáticamente"
+    ] = datetime.now().isoformat()
 
 
     guardar_historial(
@@ -567,6 +739,11 @@ def ejecutar():
     print(
         "Ofertas descartadas:",
         descartadas
+    )
+
+    print(
+        "Duplicadas:",
+        duplicadas
     )
 
     print(
