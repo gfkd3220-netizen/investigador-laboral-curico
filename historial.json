@@ -20,16 +20,33 @@
           "2 años"
         ]
       }
+    },
+    {
+      "titulo": "Técnico Eléctrico Industrial",
+      "empresa": "Empresa de Prueba 2",
+      "ubicacion": "Curicó",
+      "descripcion": "Mantenimiento industrial, electricidad y tableros eléctricos.",
+      "requisitos": "Experiencia de 1 año. Conocimientos de PLC y mantenimiento preventivo.",
+      "analisis": {
+        "competencias_detectadas": [
+          "electricidad industrial",
+          "mantenimiento industrial",
+          "tableros eléctricos",
+          "PLC",
+          "mantenimiento preventivo"
+        ],
+        "experiencia_detectada": []
+      }
     }
   ],
   "tendencias": {
     "competencias": {
-      "electricidad industrial": 1,
-      "mantenimiento industrial": 1,
-      "tableros eléctricos": 1,
-      "PLC": 1,
-      "diagnóstico de fallas": 1,
-      "mantenimiento preventivo": 1
+      "electricidad industrial": 2,
+      "mantenimiento industrial": 2,
+      "tableros eléctricos": 2,
+      "PLC": 2,
+      "mantenimiento preventivo": 2,
+      "diagnóstico de fallas": 1
     },
     "experiencia_requerida": {
       "2 años": 1
