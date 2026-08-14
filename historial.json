@@ -18,9 +18,9 @@
         ],
         "experiencia_detectada": {
           "meses": null,
-          "anos": null
+          "anos": 2.0
         },
-        "anos_experiencia_solicitados": null,
+        "anos_experiencia_solicitados": 2.0,
         "experiencia_perfil": {
           "meses_aproximados": 6,
           "anos_aproximados": 0.5
@@ -49,7 +49,11 @@
             "tableros eléctricos",
             "PLC"
           ],
-          "aprendizaje_rapido": [],
+          "aprendizaje_rapido": [
+            "mantenimiento preventivo",
+            "tableros eléctricos",
+            "PLC"
+          ],
           "requieren_practica": [
             "mantenimiento industrial",
             "mantenimiento preventivo",
@@ -58,15 +62,15 @@
           "no_confirmados": []
         },
         "compatibilidad": {
-          "puntaje": 81,
-          "probabilidad_ajuste": "ALTA",
-          "prioridad_postulacion": "MUY ALTA",
-          "recomendacion": "POSTULAR PRIORITARIAMENTE",
+          "puntaje": 49,
+          "probabilidad_ajuste": "BAJA",
+          "prioridad_postulacion": "MEDIA",
+          "recomendacion": "POSTULAR COMO OPCIÓN SECUNDARIA",
           "fortalezas": [
             "La formación técnica está relacionada con automatización, control industrial y electricidad.",
             "SEC Clase D: en trámite. La certificación todavía no se considera obtenida.",
             "Cuenta con experiencia práctica relacionada con electricidad industrial.",
-            "La oferta no especifica claramente una cantidad mínima de años de experiencia.",
+            "Cuenta con conocimientos académicos relacionados con tableros eléctricos, PLC.",
             "La ubicación (Curicó) está dentro de las zonas prioritarias.",
             "El tipo de cargo coincide con uno o más cargos prioritarios del perfil."
           ],
@@ -80,23 +84,32 @@
           "conocimientos_relacionados": [
             "electricidad industrial",
             "tableros eléctricos",
+            "PLC",
+            "mantenimiento preventivo",
+            "tableros eléctricos",
             "PLC"
           ],
           "brechas": [
+            "La oferta solicita aproximadamente 2 año(s) de experiencia; el perfil registra aproximadamente 6 meses.",
             "mantenimiento industrial",
             "mantenimiento preventivo",
             "diagnóstico de fallas"
           ],
-          "aprendizaje_rapido": [],
+          "aprendizaje_rapido": [
+            "mantenimiento preventivo",
+            "tableros eléctricos",
+            "PLC"
+          ],
           "brechas_practicas": [
             "mantenimiento industrial",
             "mantenimiento preventivo",
             "diagnóstico de fallas"
           ],
           "experiencia": {
-            "ajuste": "no_especificada",
+            "ajuste": "brecha_alta",
             "meses_perfil": 6,
-            "meses_solicitados": null
+            "meses_solicitados": 24.0,
+            "diferencia_meses": 18.0
           }
         }
       }
@@ -117,9 +130,9 @@
         ],
         "experiencia_detectada": {
           "meses": null,
-          "anos": null
+          "anos": 1.0
         },
-        "anos_experiencia_solicitados": null,
+        "anos_experiencia_solicitados": 1.0,
         "experiencia_perfil": {
           "meses_aproximados": 6,
           "anos_aproximados": 0.5
@@ -148,7 +161,11 @@
             "tableros eléctricos",
             "PLC"
           ],
-          "aprendizaje_rapido": [],
+          "aprendizaje_rapido": [
+            "mantenimiento preventivo",
+            "tableros eléctricos",
+            "PLC"
+          ],
           "requieren_practica": [
             "mantenimiento industrial",
             "mantenimiento preventivo"
@@ -156,15 +173,15 @@
           "no_confirmados": []
         },
         "compatibilidad": {
-          "puntaje": 81,
-          "probabilidad_ajuste": "ALTA",
-          "prioridad_postulacion": "MUY ALTA",
-          "recomendacion": "POSTULAR PRIORITARIAMENTE",
+          "puntaje": 64,
+          "probabilidad_ajuste": "MEDIA",
+          "prioridad_postulacion": "MEDIA-ALTA",
+          "recomendacion": "POSTULAR SI EL CARGO ACEPTA PERFILES JUNIOR O EN DESARROLLO",
           "fortalezas": [
             "La formación técnica está relacionada con automatización, control industrial y electricidad.",
             "SEC Clase D: en trámite. La certificación todavía no se considera obtenida.",
             "Cuenta con experiencia práctica relacionada con electricidad industrial.",
-            "La oferta no especifica claramente una cantidad mínima de años de experiencia.",
+            "Cuenta con conocimientos académicos relacionados con tableros eléctricos, PLC.",
             "La ubicación (Curicó) está dentro de las zonas prioritarias.",
             "El tipo de cargo coincide con uno o más cargos prioritarios del perfil."
           ],
@@ -178,21 +195,31 @@
           "conocimientos_relacionados": [
             "electricidad industrial",
             "tableros eléctricos",
+            "PLC",
+            "mantenimiento preventivo",
+            "tableros eléctricos",
             "PLC"
           ],
           "brechas": [
+            "La oferta solicita aproximadamente 1 año(s) de experiencia; el perfil registra aproximadamente 6 meses.",
             "mantenimiento industrial",
             "mantenimiento preventivo"
           ],
-          "aprendizaje_rapido": [],
+          "aprendizaje_rapido": [
+            "La diferencia de experiencia no es demasiado grande; conviene postular igualmente si el resto de los requisitos encaja.",
+            "mantenimiento preventivo",
+            "tableros eléctricos",
+            "PLC"
+          ],
           "brechas_practicas": [
             "mantenimiento industrial",
             "mantenimiento preventivo"
           ],
           "experiencia": {
-            "ajuste": "no_especificada",
+            "ajuste": "brecha_pequena",
             "meses_perfil": 6,
-            "meses_solicitados": null
+            "meses_solicitados": 12.0,
+            "diferencia_meses": 6.0
           }
         }
       }
@@ -207,7 +234,10 @@
       "PLC": 2,
       "diagnóstico de fallas": 1
     },
-    "experiencia_requerida": {},
+    "experiencia_requerida": {
+      "2 año(s)": 1,
+      "1 año(s)": 1
+    },
     "ubicaciones": {
       "Curicó": 2
     },
@@ -226,7 +256,10 @@
       "PLC": 2,
       "diagnóstico de fallas": 1
     },
-    "experiencia_mas_solicitada": {},
+    "experiencia_mas_solicitada": {
+      "2 año(s)": 1,
+      "1 año(s)": 1
+    },
     "ubicaciones_mas_repetidas": {
       "Curicó": 2
     },
