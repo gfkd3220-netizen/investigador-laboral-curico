@@ -16,74 +16,88 @@
           "PLC",
           "diagnóstico de fallas"
         ],
-        "experiencia_detectada": [],
+        "experiencia_detectada": {
+          "meses": null,
+          "anos": null
+        },
         "anos_experiencia_solicitados": null,
         "experiencia_perfil": {
-          "meses_aproximados": 6.0,
+          "meses_aproximados": 6,
           "anos_aproximados": 0.5
         },
         "ubicacion": {
           "ubicacion_oferta": "Curicó",
           "zona_prioritaria": true,
-          "zona_coincidente": "Curicó"
+          "zona_coincidente": "curico"
         },
         "cargos_coincidentes": [
-          "Técnico eléctrico junior",
-          "Técnico de mantenimiento junior",
-          "Técnico en automatización junior",
-          "Ayudante de mantenimiento",
-          "Técnico electromecánico junior",
-          "Técnico de instrumentación junior"
+          "técnico eléctrico junior",
+          "técnico de mantenimiento junior",
+          "técnico en automatización junior",
+          "ayudante de mantenimiento",
+          "técnico electromecánico junior",
+          "técnico de instrumentación junior",
+          "técnico eléctrico",
+          "técnico de mantenimiento",
+          "técnico en automatización"
         ],
-        "conocimientos_relacionados": [
-          "electricidad industrial",
-          "mantenimiento industrial",
-          "mantenimiento preventivo",
-          "tableros eléctricos",
-          "PLC"
-        ],
-        "aprendizaje_rapido": [
-          "diagnóstico de fallas"
-        ],
-        "brechas_practicas": [
-          "mantenimiento industrial",
-          "mantenimiento preventivo",
-          "diagnóstico de fallas"
-        ],
+        "clasificacion_conocimientos": {
+          "practicos": [
+            "electricidad industrial"
+          ],
+          "academicos": [
+            "tableros eléctricos",
+            "PLC"
+          ],
+          "aprendizaje_rapido": [],
+          "requieren_practica": [
+            "mantenimiento industrial",
+            "mantenimiento preventivo",
+            "diagnóstico de fallas"
+          ],
+          "no_confirmados": []
+        },
         "compatibilidad": {
-          "puntaje": 87,
+          "puntaje": 81,
           "probabilidad_ajuste": "ALTA",
-          "prioridad_postulacion": "ALTA",
-          "recomendacion": "POSTULAR SI EL RESTO DE LOS REQUISITOS ENCAJA.",
+          "prioridad_postulacion": "MUY ALTA",
+          "recomendacion": "POSTULAR PRIORITARIAMENTE",
           "fortalezas": [
-            "La formación técnica está relacionada con el área del cargo.",
+            "La formación técnica está relacionada con automatización, control industrial y electricidad.",
             "SEC Clase D: en trámite. La certificación todavía no se considera obtenida.",
-            "El perfil presenta conocimientos relacionados con electricidad industrial.",
-            "El perfil presenta conocimientos relacionados con mantenimiento industrial.",
-            "El perfil presenta conocimientos relacionados con mantenimiento preventivo.",
-            "El perfil presenta conocimientos relacionados con tableros eléctricos.",
-            "El perfil presenta conocimientos relacionados con PLC.",
+            "Cuenta con experiencia práctica relacionada con electricidad industrial.",
+            "La oferta no especifica claramente una cantidad mínima de años de experiencia.",
             "La ubicación (Curicó) está dentro de las zonas prioritarias.",
             "El tipo de cargo coincide con uno o más cargos prioritarios del perfil."
           ],
+          "conocimientos_practicos": [
+            "electricidad industrial"
+          ],
+          "conocimientos_academicos": [
+            "tableros eléctricos",
+            "PLC"
+          ],
           "conocimientos_relacionados": [
             "electricidad industrial",
-            "mantenimiento industrial",
-            "mantenimiento preventivo",
             "tableros eléctricos",
             "PLC"
           ],
           "brechas": [
-            "diagnóstico de fallas: conviene reforzarla."
-          ],
-          "aprendizaje_rapido": [
+            "mantenimiento industrial",
+            "mantenimiento preventivo",
             "diagnóstico de fallas"
           ],
+          "aprendizaje_rapido": [],
           "brechas_practicas": [
             "mantenimiento industrial",
             "mantenimiento preventivo",
             "diagnóstico de fallas"
-          ]
+          ],
+          "experiencia": {
+            "ajuste": "no_especificada",
+            "meses_perfil": 6,
+            "meses_solicitados": null
+          }
         }
       }
     },
@@ -101,66 +115,85 @@
           "tableros eléctricos",
           "PLC"
         ],
-        "experiencia_detectada": [],
+        "experiencia_detectada": {
+          "meses": null,
+          "anos": null
+        },
         "anos_experiencia_solicitados": null,
         "experiencia_perfil": {
-          "meses_aproximados": 6.0,
+          "meses_aproximados": 6,
           "anos_aproximados": 0.5
         },
         "ubicacion": {
           "ubicacion_oferta": "Curicó",
           "zona_prioritaria": true,
-          "zona_coincidente": "Curicó"
+          "zona_coincidente": "curico"
         },
         "cargos_coincidentes": [
-          "Técnico eléctrico junior",
-          "Técnico de mantenimiento junior",
-          "Técnico en automatización junior",
-          "Ayudante eléctrico",
-          "Técnico electromecánico junior",
-          "Técnico de instrumentación junior"
+          "técnico eléctrico junior",
+          "técnico de mantenimiento junior",
+          "técnico en automatización junior",
+          "ayudante eléctrico",
+          "técnico electromecánico junior",
+          "técnico de instrumentación junior",
+          "técnico eléctrico",
+          "técnico de mantenimiento",
+          "técnico en automatización"
         ],
-        "conocimientos_relacionados": [
-          "electricidad industrial",
-          "mantenimiento industrial",
-          "mantenimiento preventivo",
-          "tableros eléctricos",
-          "PLC"
-        ],
-        "aprendizaje_rapido": [],
-        "brechas_practicas": [
-          "mantenimiento industrial",
-          "mantenimiento preventivo"
-        ],
-        "compatibilidad": {
-          "puntaje": 85,
-          "probabilidad_ajuste": "ALTA",
-          "prioridad_postulacion": "ALTA",
-          "recomendacion": "POSTULAR SI EL RESTO DE LOS REQUISITOS ENCAJA.",
-          "fortalezas": [
-            "La formación técnica está relacionada con el área del cargo.",
-            "SEC Clase D: en trámite. La certificación todavía no se considera obtenida.",
-            "El perfil presenta conocimientos relacionados con electricidad industrial.",
-            "El perfil presenta conocimientos relacionados con mantenimiento industrial.",
-            "El perfil presenta conocimientos relacionados con mantenimiento preventivo.",
-            "El perfil presenta conocimientos relacionados con tableros eléctricos.",
-            "El perfil presenta conocimientos relacionados con PLC.",
-            "La ubicación (Curicó) está dentro de las zonas prioritarias.",
-            "El tipo de cargo coincide con uno o más cargos prioritarios del perfil."
+        "clasificacion_conocimientos": {
+          "practicos": [
+            "electricidad industrial"
           ],
-          "conocimientos_relacionados": [
-            "electricidad industrial",
-            "mantenimiento industrial",
-            "mantenimiento preventivo",
+          "academicos": [
             "tableros eléctricos",
             "PLC"
           ],
-          "brechas": [],
+          "aprendizaje_rapido": [],
+          "requieren_practica": [
+            "mantenimiento industrial",
+            "mantenimiento preventivo"
+          ],
+          "no_confirmados": []
+        },
+        "compatibilidad": {
+          "puntaje": 81,
+          "probabilidad_ajuste": "ALTA",
+          "prioridad_postulacion": "MUY ALTA",
+          "recomendacion": "POSTULAR PRIORITARIAMENTE",
+          "fortalezas": [
+            "La formación técnica está relacionada con automatización, control industrial y electricidad.",
+            "SEC Clase D: en trámite. La certificación todavía no se considera obtenida.",
+            "Cuenta con experiencia práctica relacionada con electricidad industrial.",
+            "La oferta no especifica claramente una cantidad mínima de años de experiencia.",
+            "La ubicación (Curicó) está dentro de las zonas prioritarias.",
+            "El tipo de cargo coincide con uno o más cargos prioritarios del perfil."
+          ],
+          "conocimientos_practicos": [
+            "electricidad industrial"
+          ],
+          "conocimientos_academicos": [
+            "tableros eléctricos",
+            "PLC"
+          ],
+          "conocimientos_relacionados": [
+            "electricidad industrial",
+            "tableros eléctricos",
+            "PLC"
+          ],
+          "brechas": [
+            "mantenimiento industrial",
+            "mantenimiento preventivo"
+          ],
           "aprendizaje_rapido": [],
           "brechas_practicas": [
             "mantenimiento industrial",
             "mantenimiento preventivo"
-          ]
+          ],
+          "experiencia": {
+            "ajuste": "no_especificada",
+            "meses_perfil": 6,
+            "meses_solicitados": null
+          }
         }
       }
     }
@@ -201,5 +234,19 @@
       "Técnico de Mantenimiento Industrial": 1,
       "Técnico Eléctrico Industrial": 1
     }
+  },
+  "plan_desarrollo": {
+    "mantenimiento industrial": 2,
+    "mantenimiento preventivo": 2,
+    "diagnóstico de fallas": 1
+  },
+  "perfil_analizado": {
+    "profesion": "Técnico en Automatización y Control Industrial",
+    "experiencia_meses": 6,
+    "certificacion_electrica": {
+      "tipo": "SEC Clase D",
+      "estado": "En trámite"
+    },
+    "objetivo": "Conseguir experiencia práctica en terreno y crecer hacia automatización y mantenimiento industrial."
   }
 }
