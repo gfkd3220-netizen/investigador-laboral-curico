@@ -1,5 +1,6 @@
 import json
 import re
+from collections import Counter
 
 
 # ============================================================
@@ -10,7 +11,7 @@ ARCHIVO_HISTORIAL = "historial.json"
 
 
 # ============================================================
-# PERFIL
+# PERFIL PERSONAL
 # ============================================================
 
 PERFIL = {
@@ -58,10 +59,16 @@ PERFIL = {
 
 
 # ============================================================
-# COMPETENCIAS QUE BUSCA EL PROGRAMA
+# COMPETENCIAS DEL MERCADO
+#
+# IMPORTANTE:
+# Estas competencias se utilizan para medir qué pide el
+# mercado, independientemente de si la oferta es junior,
+# senior o de otro nivel.
 # ============================================================
 
 COMPETENCIAS = {
+
     "electricidad industrial": [
         "electricidad industrial",
         "eléctrica industrial",
@@ -79,6 +86,11 @@ COMPETENCIAS = {
         "mantención preventiva"
     ],
 
+    "mantenimiento correctivo": [
+        "mantenimiento correctivo",
+        "mantención correctiva"
+    ],
+
     "tableros eléctricos": [
         "tablero eléctrico",
         "tableros eléctricos",
@@ -87,7 +99,8 @@ COMPETENCIAS = {
 
     "PLC": [
         "plc",
-        "controlador lógico programable"
+        "controlador lógico programable",
+        "controlador logico programable"
     ],
 
     "automatización": [
@@ -109,11 +122,28 @@ COMPETENCIAS = {
         "hmi"
     ],
 
+    "SCADA": [
+        "scada"
+    ],
+
     "motores eléctricos": [
         "motor eléctrico",
         "motores eléctricos",
         "motor electrico",
         "motores electricos"
+    ],
+
+    "instrumentación": [
+        "instrumentación",
+        "instrumentacion",
+        "instrumentista"
+    ],
+
+    "electromecánica": [
+        "electromecánica",
+        "electromecanica",
+        "electromecánico",
+        "electromecanico"
     ],
 
     "lectura de planos": [
@@ -130,15 +160,41 @@ COMPETENCIAS = {
         "detección de fallas",
         "deteccion de fallas",
         "troubleshooting"
+    ],
+
+    "sensores": [
+        "sensores",
+        "sensor industrial"
+    ],
+
+    "neumática": [
+        "neumática",
+        "neumatica"
+    ],
+
+    "hidráulica": [
+        "hidráulica",
+        "hidraulica"
+    ],
+
+    "mantenimiento preventivo": [
+        "mantenimiento preventivo",
+        "mantención preventiva"
+    ],
+
+    "seguridad eléctrica": [
+        "seguridad eléctrica",
+        "seguridad electrica"
     ]
 }
 
 
 # ============================================================
-# NORMALIZAR
+# NORMALIZAR TEXTO
 # ============================================================
 
 def normalizar(texto):
+
     texto = str(texto).lower()
 
     reemplazos = {
@@ -157,6 +213,25 @@ def normalizar(texto):
 
 
 # ============================================================
+# TEXTO DE UNA OFERTA
+# ============================================================
+
+def texto_oferta(oferta):
+
+    partes = [
+        oferta.get("titulo", ""),
+        oferta.get("descripcion", ""),
+        oferta.get("requisitos", "")
+    ]
+
+    return " ".join(
+        str(parte)
+        for parte in partes
+        if parte
+    )
+
+
+# ============================================================
 # DETECTAR COMPETENCIAS
 # ============================================================
 
@@ -171,7 +246,9 @@ def detectar_competencias(texto):
         for variante in variantes:
 
             if normalizar(variante) in texto:
+
                 encontradas.append(nombre)
+
                 break
 
     return encontradas
@@ -185,16 +262,25 @@ def detectar_experiencia(texto):
 
     texto = normalizar(texto)
 
-    # Ejemplo:
-    # "experiencia de 2 años"
-    # "2 años de experiencia"
-    # "experiencia de 6 meses"
+    patron_anos = (
+        r'(\d+(?:[.,]\d+)?)\s*'
+        r'a(?:n|ñ)o(?:s)?'
+    )
 
-    patron_anos = r'(\d+(?:[.,]\d+)?)\s*a(?:n|ñ)o(?:s)?'
-    patron_meses = r'(\d+(?:[.,]\d+)?)\s*mes(?:es)?'
+    patron_meses = (
+        r'(\d+(?:[.,]\d+)?)\s*'
+        r'mes(?:es)?'
+    )
 
-    anos = re.findall(patron_anos, texto)
-    meses = re.findall(patron_meses, texto)
+    anos = re.findall(
+        patron_anos,
+        texto
+    )
+
+    meses = re.findall(
+        patron_meses,
+        texto
+    )
 
     anos = [
         float(x.replace(",", "."))
@@ -206,7 +292,6 @@ def detectar_experiencia(texto):
         for x in meses
     ]
 
-    # Preferimos años si existen.
     if anos:
 
         solicitado = max(anos)
@@ -225,7 +310,6 @@ def detectar_experiencia(texto):
             "meses": solicitado
         }
 
-    # Si dice explícitamente sin experiencia.
     if (
         "sin experiencia" in texto
         or "no requiere experiencia" in texto
@@ -249,7 +333,9 @@ def detectar_experiencia(texto):
 
 def analizar_ubicacion(ubicacion):
 
-    ubicacion_original = str(ubicacion)
+    ubicacion_original = str(
+        ubicacion
+    )
 
     ubicacion_normalizada = normalizar(
         ubicacion_original
@@ -282,7 +368,9 @@ def detectar_cargo(titulo):
 
     for cargo in PERFIL["cargos"]:
 
-        cargo_normalizado = normalizar(cargo)
+        cargo_normalizado = normalizar(
+            cargo
+        )
 
         palabras = cargo_normalizado.split()
 
@@ -290,7 +378,11 @@ def detectar_cargo(titulo):
 
         for palabra in palabras:
 
-            if len(palabra) >= 4 and palabra in titulo:
+            if (
+                len(palabra) >= 4
+                and palabra in titulo
+            ):
+
                 coincidencias += 1
 
         if coincidencias >= 2:
@@ -301,12 +393,16 @@ def detectar_cargo(titulo):
 
 
 # ============================================================
-# COMPARAR EXPERIENCIA
+# COMPARAR EXPERIENCIA CON EL PERFIL
 # ============================================================
 
-def comparar_experiencia(meses_solicitados):
+def comparar_experiencia(
+    meses_solicitados
+):
 
-    meses_perfil = PERFIL["experiencia_meses"]
+    meses_perfil = (
+        PERFIL["experiencia_meses"]
+    )
 
     if meses_solicitados is None:
 
@@ -316,7 +412,10 @@ def comparar_experiencia(meses_solicitados):
 
         return "cumple"
 
-    diferencia = meses_solicitados - meses_perfil
+    diferencia = (
+        meses_solicitados
+        - meses_perfil
+    )
 
     if diferencia <= 6:
 
@@ -330,7 +429,7 @@ def comparar_experiencia(meses_solicitados):
 
 
 # ============================================================
-# PUNTAJE
+# PUNTAJE PERSONAL
 # ============================================================
 
 def calcular_puntaje(
@@ -342,39 +441,47 @@ def calcular_puntaje(
 
     puntaje = 0
 
-    # Competencias
     for competencia in competencias:
 
         if competencia in PERFIL["competencias"]:
+
             puntaje += 8
 
-    # Máximo por competencias
-    puntaje = min(puntaje, 40)
+    puntaje = min(
+        puntaje,
+        40
+    )
 
-    # Ubicación
-    if ubicacion["zona_prioritaria"]:
+    if ubicacion[
+        "zona_prioritaria"
+    ]:
+
         puntaje += 20
 
-    # Cargo
     if cargos:
+
         puntaje += 20
 
-    # Experiencia
     if experiencia == "cumple":
+
         puntaje += 20
 
     elif experiencia == "no_especificada":
+
         puntaje += 15
 
     elif experiencia == "brecha_pequena":
+
         puntaje += 10
 
     elif experiencia == "brecha_moderada":
+
         puntaje += 5
 
-    puntaje = min(puntaje, 100)
-
-    return puntaje
+    return min(
+        puntaje,
+        100
+    )
 
 
 # ============================================================
@@ -384,9 +491,11 @@ def calcular_puntaje(
 def nivel(puntaje):
 
     if puntaje >= 80:
+
         return "ALTA"
 
     if puntaje >= 60:
+
         return "MEDIA"
 
     return "BAJA"
@@ -399,44 +508,58 @@ def nivel(puntaje):
 def prioridad(puntaje):
 
     if puntaje >= 80:
+
         return "ALTA"
 
     if puntaje >= 60:
+
         return "MEDIA"
 
     return "BAJA"
 
 
 # ============================================================
-# ANALIZAR OFERTA
+# ANALIZAR UNA OFERTA PARA EL PERFIL
 # ============================================================
 
 def analizar_oferta(oferta):
 
-    texto = " ".join([
-        str(oferta.get("titulo", "")),
-        str(oferta.get("descripcion", "")),
-        str(oferta.get("requisitos", ""))
-    ])
-
-    competencias = detectar_competencias(texto)
-
-    experiencia_detectada = detectar_experiencia(
-        oferta.get("requisitos", "")
+    texto = texto_oferta(
+        oferta
     )
 
-    meses_solicitados = experiencia_detectada["meses"]
+    competencias = detectar_competencias(
+        texto
+    )
+
+    experiencia_detectada = detectar_experiencia(
+        oferta.get(
+            "requisitos",
+            ""
+        )
+        or texto
+    )
+
+    meses_solicitados = (
+        experiencia_detectada["meses"]
+    )
 
     ajuste_experiencia = comparar_experiencia(
         meses_solicitados
     )
 
     ubicacion = analizar_ubicacion(
-        oferta.get("ubicacion", "")
+        oferta.get(
+            "ubicacion",
+            ""
+        )
     )
 
     cargos = detectar_cargo(
-        oferta.get("titulo", "")
+        oferta.get(
+            "titulo",
+            ""
+        )
     )
 
     puntaje = calcular_puntaje(
@@ -449,17 +572,34 @@ def analizar_oferta(oferta):
     fortalezas = []
 
     if competencias:
-        fortalezas.append(
-            "Coincide con: "
-            + ", ".join(competencias)
-        )
 
-    if ubicacion["zona_prioritaria"]:
+        coincidencias_perfil = [
+            competencia
+            for competencia in competencias
+            if competencia
+            in PERFIL["competencias"]
+        ]
+
+        if coincidencias_perfil:
+
+            fortalezas.append(
+                "Coincide con: "
+                + ", ".join(
+                    coincidencias_perfil
+                )
+            )
+
+    if ubicacion[
+        "zona_prioritaria"
+    ]:
+
         fortalezas.append(
-            "La ubicación está dentro de las zonas prioritarias."
+            "La ubicación está dentro "
+            "de las zonas prioritarias."
         )
 
     if cargos:
+
         fortalezas.append(
             "El cargo coincide con el perfil."
         )
@@ -470,18 +610,18 @@ def analizar_oferta(oferta):
 
     brechas = []
 
-    if meses_solicitados is not None:
+    if (
+        meses_solicitados is not None
+        and meses_solicitados
+        > PERFIL["experiencia_meses"]
+    ):
 
-        if meses_solicitados > PERFIL["experiencia_meses"]:
+        brechas.append(
+            f"Solicita {meses_solicitados:g} meses "
+            f"de experiencia y el perfil tiene "
+            f"{PERFIL['experiencia_meses']} meses."
+        )
 
-            brechas.append(
-                f"Solicita {meses_solicitados:g} meses "
-                f"de experiencia y el perfil tiene "
-                f"{PERFIL['experiencia_meses']} meses."
-            )
-
-    # Competencias que aparecen en la oferta
-    # pero no están en el perfil.
     for competencia in competencias:
 
         if competencia not in PERFIL["competencias"]:
@@ -496,62 +636,387 @@ def analizar_oferta(oferta):
 
     elif puntaje >= 60:
 
-        recomendacion = "EVALUAR Y POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES"
+        recomendacion = (
+            "EVALUAR Y POSTULAR SI LOS "
+            "REQUISITOS NO SON EXCLUYENTES"
+        )
 
     else:
 
-        recomendacion = "PRIORIZAR OTRAS OFERTAS"
+        recomendacion = (
+            "PRIORIZAR OTRAS OFERTAS"
+        )
 
     return {
 
-        "competencias_detectadas": competencias,
+        "competencias_detectadas":
+            competencias,
 
         "experiencia_solicitada": {
-            "anos": (
-                experiencia_detectada["anos"]
-                if experiencia_detectada["anos"] is not None
-                else None
-            ),
-            "meses": (
-                experiencia_detectada["meses"]
-                if experiencia_detectada["meses"] is not None
-                else None
-            )
+
+            "anos":
+                experiencia_detectada[
+                    "anos"
+                ],
+
+            "meses":
+                experiencia_detectada[
+                    "meses"
+                ]
         },
 
         "experiencia_perfil": {
-            "meses": PERFIL["experiencia_meses"],
-            "anos": round(
-                PERFIL["experiencia_meses"] / 12,
-                2
-            )
+
+            "meses":
+                PERFIL[
+                    "experiencia_meses"
+                ],
+
+            "anos":
+                round(
+                    PERFIL[
+                        "experiencia_meses"
+                    ] / 12,
+                    2
+                )
         },
 
-        "ajuste_experiencia": ajuste_experiencia,
+        "ajuste_experiencia":
+            ajuste_experiencia,
 
-        "ubicacion": ubicacion,
+        "ubicacion":
+            ubicacion,
 
-        "cargos_coincidentes": cargos,
+        "cargos_coincidentes":
+            cargos,
 
         "compatibilidad": {
 
-            "puntaje": puntaje,
+            "puntaje":
+                puntaje,
 
-            "nivel": nivel(puntaje),
+            "nivel":
+                nivel(puntaje),
 
-            "prioridad": prioridad(puntaje),
+            "prioridad":
+                prioridad(puntaje),
 
-            "recomendacion": recomendacion,
+            "recomendacion":
+                recomendacion,
 
-            "fortalezas": fortalezas,
+            "fortalezas":
+                fortalezas,
 
-            "brechas": list(dict.fromkeys(brechas))
+            "brechas":
+                list(
+                    dict.fromkeys(
+                        brechas
+                    )
+                )
         }
     }
 
 
 # ============================================================
-# PROCESAR HISTORIAL
+# ANÁLISIS DEL MERCADO
+#
+# IMPORTANTE:
+# Esto NO depende de tu perfil.
+#
+# Una oferta junior y una oferta senior tienen el mismo peso
+# para determinar qué competencias está solicitando el mercado.
+# ============================================================
+
+def analizar_mercado(ofertas):
+
+    total = len(ofertas)
+
+    contador_competencias = Counter()
+
+    contador_experiencia = Counter()
+
+    contador_ubicaciones = Counter()
+
+    contador_cargos = Counter()
+
+    ofertas_sin_experiencia = 0
+
+    experiencias = []
+
+    for oferta in ofertas:
+
+        texto = texto_oferta(
+            oferta
+        )
+
+        # ----------------------------------------------------
+        # COMPETENCIAS
+        #
+        # Cada oferta cuenta una sola vez por competencia.
+        # ----------------------------------------------------
+
+        competencias = detectar_competencias(
+            texto
+        )
+
+        for competencia in set(
+            competencias
+        ):
+
+            contador_competencias[
+                competencia
+            ] += 1
+
+        # ----------------------------------------------------
+        # EXPERIENCIA
+        # ----------------------------------------------------
+
+        experiencia = detectar_experiencia(
+            oferta.get(
+                "requisitos",
+                ""
+            )
+            or texto
+        )
+
+        meses = experiencia[
+            "meses"
+        ]
+
+        if meses is None:
+
+            contador_experiencia[
+                "no especificada"
+            ] += 1
+
+        elif meses == 0:
+
+            contador_experiencia[
+                "sin experiencia"
+            ] += 1
+
+            ofertas_sin_experiencia += 1
+
+        else:
+
+            anos = meses / 12
+
+            experiencias.append(
+                anos
+            )
+
+            if anos < 1:
+
+                etiqueta = (
+                    "menos de 1 año"
+                )
+
+            elif anos <= 1:
+
+                etiqueta = "1 año"
+
+            elif anos <= 2:
+
+                etiqueta = "2 años"
+
+            elif anos <= 3:
+
+                etiqueta = "3 años"
+
+            else:
+
+                etiqueta = (
+                    "más de 3 años"
+                )
+
+            contador_experiencia[
+                etiqueta
+            ] += 1
+
+        # ----------------------------------------------------
+        # UBICACIÓN
+        # ----------------------------------------------------
+
+        ubicacion = str(
+            oferta.get(
+                "ubicacion",
+                ""
+            )
+        ).strip()
+
+        if ubicacion:
+
+            contador_ubicaciones[
+                ubicacion
+            ] += 1
+
+        # ----------------------------------------------------
+        # CARGOS
+        #
+        # Aquí usamos el título real de la oferta.
+        # No importa si es junior o senior.
+        # ----------------------------------------------------
+
+        titulo = str(
+            oferta.get(
+                "titulo",
+                ""
+            )
+        ).strip()
+
+        if titulo:
+
+            contador_cargos[
+                titulo
+            ] += 1
+
+    # --------------------------------------------------------
+    # EXPERIENCIA PROMEDIO
+    # --------------------------------------------------------
+
+    if experiencias:
+
+        experiencia_promedio = round(
+            sum(experiencias)
+            / len(experiencias),
+            1
+        )
+
+        experiencia_minima = round(
+            min(experiencias),
+            1
+        )
+
+        experiencia_maxima = round(
+            max(experiencias),
+            1
+        )
+
+    else:
+
+        experiencia_promedio = None
+        experiencia_minima = None
+        experiencia_maxima = None
+
+    # --------------------------------------------------------
+    # PORCENTAJES
+    # --------------------------------------------------------
+
+    competencias_mas_solicitadas = {}
+
+    for competencia, cantidad in (
+        contador_competencias.most_common()
+    ):
+
+        porcentaje = round(
+            (cantidad / total) * 100,
+            1
+        ) if total else 0
+
+        competencias_mas_solicitadas[
+            competencia
+        ] = {
+            "ofertas": cantidad,
+            "porcentaje": porcentaje
+        }
+
+    # --------------------------------------------------------
+    # TOP UBICACIONES
+    # --------------------------------------------------------
+
+    ubicaciones_mas_repetidas = dict(
+        contador_ubicaciones.most_common(
+            15
+        )
+    )
+
+    # --------------------------------------------------------
+    # TOP CARGOS
+    # --------------------------------------------------------
+
+    cargos_mas_repetidos = dict(
+        contador_cargos.most_common(
+            15
+        )
+    )
+
+    return {
+
+        "ofertas_analizadas":
+            total,
+
+        "competencias_mas_solicitadas":
+            competencias_mas_solicitadas,
+
+        "experiencia_requerida":
+            dict(
+                contador_experiencia.most_common()
+            ),
+
+        "experiencia_promedio_anos":
+            experiencia_promedio,
+
+        "experiencia_minima_anos":
+            experiencia_minima,
+
+        "experiencia_maxima_anos":
+            experiencia_maxima,
+
+        "ofertas_sin_experiencia":
+            ofertas_sin_experiencia,
+
+        "ubicaciones_mas_repetidas":
+            ubicaciones_mas_repetidas,
+
+        "cargos_mas_repetidos":
+            cargos_mas_repetidos
+    }
+
+
+# ============================================================
+# PLAN DE DESARROLLO
+#
+# Muestra las competencias del mercado que todavía no están
+# dentro de las competencias declaradas en tu perfil.
+# ============================================================
+
+def generar_plan_desarrollo(
+    mercado
+):
+
+    plan = {}
+
+    competencias_mercado = (
+        mercado[
+            "competencias_mas_solicitadas"
+        ]
+    )
+
+    competencias_perfil = set(
+        PERFIL["competencias"]
+    )
+
+    for competencia, datos in (
+        competencias_mercado.items()
+    ):
+
+        if competencia not in competencias_perfil:
+
+            plan[competencia] = (
+                datos["ofertas"]
+            )
+
+    return dict(
+        sorted(
+            plan.items(),
+            key=lambda x: x[1],
+            reverse=True
+        )
+    )
+
+
+# ============================================================
+# GUARDAR ANÁLISIS
 # ============================================================
 
 def analizar_historial():
@@ -564,31 +1029,111 @@ def analizar_historial():
             encoding="utf-8"
         ) as archivo:
 
-            historial = json.load(archivo)
+            historial = json.load(
+                archivo
+            )
 
     except FileNotFoundError:
 
-        print("No se encontró historial.json")
+        print(
+            "No se encontró historial.json"
+        )
+
         return
 
-    ofertas = historial.get("ofertas", [])
+    ofertas = historial.get(
+        "ofertas",
+        []
+    )
+
+    # ========================================================
+    # 1. ANALIZAR CADA OFERTA PARA EL PERFIL
+    # ========================================================
 
     for oferta in ofertas:
 
-        oferta["analisis"] = analizar_oferta(
-            oferta
+        oferta["analisis"] = (
+            analizar_oferta(
+                oferta
+            )
         )
 
+    # ========================================================
+    # 2. ANALIZAR EL MERCADO
+    # ========================================================
+
+    mercado = analizar_mercado(
+        ofertas
+    )
+
+    historial[
+        "resumen_mercado"
+    ] = mercado
+
+    historial[
+        "plan_desarrollo"
+    ] = generar_plan_desarrollo(
+        mercado
+    )
+
+    # ========================================================
+    # 3. GUARDAR PERFIL
+    # ========================================================
+
     historial["perfil"] = {
-        "profesion": PERFIL["profesion"],
-        "experiencia_meses": PERFIL["experiencia_meses"],
-        "certificacion": PERFIL["certificacion"],
-        "certificacion_estado": PERFIL["certificacion_estado"]
+
+        "profesion":
+            PERFIL["profesion"],
+
+        "experiencia_meses":
+            PERFIL["experiencia_meses"],
+
+        "certificacion":
+            PERFIL["certificacion"],
+
+        "certificacion_estado":
+            PERFIL[
+                "certificacion_estado"
+            ]
     }
 
-    historial["ultima_actualizacion"] = (
+    historial[
+        "perfil_analizado"
+    ] = {
+
+        "profesion":
+            PERFIL["profesion"],
+
+        "experiencia_meses":
+            PERFIL["experiencia_meses"],
+
+        "certificacion_electrica": {
+
+            "tipo":
+                PERFIL["certificacion"],
+
+            "estado":
+                PERFIL[
+                    "certificacion_estado"
+                ]
+        },
+
+        "objetivo":
+            "Conseguir experiencia práctica "
+            "en terreno y crecer hacia "
+            "automatización y mantenimiento "
+            "industrial."
+    }
+
+    historial[
+        "ultima_actualizacion"
+    ] = (
         "actualizado automáticamente"
     )
+
+    # ========================================================
+    # 4. GUARDAR JSON
+    # ========================================================
 
     with open(
         ARCHIVO_HISTORIAL,
@@ -604,28 +1149,199 @@ def analizar_historial():
         )
 
     # ========================================================
-    # MOSTRAR RESULTADO
+    # MOSTRAR RESUMEN PRÁCTICO
     # ========================================================
 
     print()
     print("======================================")
-    print("       ANÁLISIS DE OFERTAS")
+    print("       INVESTIGADOR LABORAL")
     print("======================================")
 
+    print()
     print(
-        f"Ofertas analizadas: {len(ofertas)}"
+        "Ofertas analizadas:",
+        mercado[
+            "ofertas_analizadas"
+        ]
     )
 
-    for oferta in ofertas:
+    # ========================================================
+    # COMPETENCIAS MÁS SOLICITADAS
+    # ========================================================
 
-        analisis = oferta["analisis"]
+    print()
+    print("======================================")
+    print("COMPETENCIAS MÁS SOLICITADAS")
+    print("======================================")
 
-        compatibilidad = analisis[
-            "compatibilidad"
+    competencias = (
+        mercado[
+            "competencias_mas_solicitadas"
         ]
+    )
+
+    for i, (
+        nombre,
+        datos
+    ) in enumerate(
+        competencias.items(),
+        start=1
+    ):
+
+        if i > 15:
+            break
+
+        print(
+            f"{i}. {nombre}: "
+            f"{datos['ofertas']} ofertas "
+            f"({datos['porcentaje']}%)"
+        )
+
+    # ========================================================
+    # EXPERIENCIA
+    # ========================================================
+
+    print()
+    print("======================================")
+    print("EXPERIENCIA SOLICITADA")
+    print("======================================")
+
+    experiencia = (
+        mercado[
+            "experiencia_requerida"
+        ]
+    )
+
+    for nombre, cantidad in (
+        experiencia.items()
+    ):
+
+        print(
+            f"- {nombre}: "
+            f"{cantidad} ofertas"
+        )
+
+    if (
+        mercado[
+            "experiencia_promedio_anos"
+        ]
+        is not None
+    ):
 
         print()
-        print("--------------------------------------")
+        print(
+            "Experiencia promedio:",
+            mercado[
+                "experiencia_promedio_anos"
+            ],
+            "años"
+        )
+
+        print(
+            "Experiencia mínima:",
+            mercado[
+                "experiencia_minima_anos"
+            ],
+            "años"
+        )
+
+        print(
+            "Experiencia máxima:",
+            mercado[
+                "experiencia_maxima_anos"
+            ],
+            "años"
+        )
+
+    # ========================================================
+    # UBICACIONES
+    # ========================================================
+
+    print()
+    print("======================================")
+    print("UBICACIONES MÁS REPETIDAS")
+    print("======================================")
+
+    for nombre, cantidad in (
+        mercado[
+            "ubicaciones_mas_repetidas"
+        ].items()
+    ):
+
+        print(
+            f"- {nombre}: "
+            f"{cantidad} ofertas"
+        )
+
+    # ========================================================
+    # PLAN DE DESARROLLO
+    # ========================================================
+
+    print()
+    print("======================================")
+    print("COMPETENCIAS A DESARROLLAR")
+    print("======================================")
+
+    plan = historial[
+        "plan_desarrollo"
+    ]
+
+    if plan:
+
+        for nombre, cantidad in (
+            list(plan.items())[:10]
+        ):
+
+            print(
+                f"- {nombre}: "
+                f"aparece en {cantidad} ofertas"
+            )
+
+    else:
+
+        print(
+            "No se detectaron brechas "
+            "de competencias."
+        )
+
+    # ========================================================
+    # OFERTAS RECOMENDADAS
+    # ========================================================
+
+    print()
+    print("======================================")
+    print("OFERTAS DE MAYOR COMPATIBILIDAD")
+    print("======================================")
+
+    ofertas_ordenadas = sorted(
+        ofertas,
+        key=lambda oferta:
+            oferta.get(
+                "analisis",
+                {}
+            ).get(
+                "compatibilidad",
+                {}
+            ).get(
+                "puntaje",
+                0
+            ),
+        reverse=True
+    )
+
+    for oferta in ofertas_ordenadas[:10]:
+
+        analisis = oferta.get(
+            "analisis",
+            {}
+        )
+
+        compatibilidad = analisis.get(
+            "compatibilidad",
+            {}
+        )
+
+        print()
         print(
             oferta.get(
                 "titulo",
@@ -635,55 +1351,20 @@ def analizar_historial():
 
         print(
             "Puntaje:",
-            compatibilidad["puntaje"]
-        )
-
-        print(
-            "Nivel:",
-            compatibilidad["nivel"]
-        )
-
-        print(
-            "Prioridad:",
-            compatibilidad["prioridad"]
-        )
-
-        print(
-            "Recomendación:",
-            compatibilidad["recomendacion"]
-        )
-
-        experiencia = analisis[
-            "experiencia_solicitada"
-        ]
-
-        if experiencia["anos"] is not None:
-
-            print(
-                "Experiencia solicitada:",
-                experiencia["anos"],
-                "años"
+            compatibilidad.get(
+                "puntaje",
+                0
+            ),
+            "|",
+            compatibilidad.get(
+                "recomendacion",
+                ""
             )
-
-        else:
-
-            print(
-                "Experiencia solicitada: "
-                "No especificada"
-            )
-
-        print(
-            "Experiencia perfil:",
-            PERFIL["experiencia_meses"],
-            "meses"
-        )
-
-        print(
-            "Ubicación:",
-            oferta.get("ubicacion", "")
         )
 
     print()
+    print("======================================")
+    print("ANÁLISIS COMPLETADO")
     print("======================================")
 
 
@@ -692,4 +1373,5 @@ def analizar_historial():
 # ============================================================
 
 if __name__ == "__main__":
+
     analizar_historial()
