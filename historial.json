@@ -20,49 +20,46 @@
           "2 años"
         ],
         "anos_experiencia_solicitados": 2,
+        "experiencia_perfil": {
+          "meses_aproximados": 0.0,
+          "anos_aproximados": 0.0
+        },
         "ubicacion": {
           "ubicacion_oferta": "Curicó",
           "zona_prioritaria": true,
           "zona_coincidente": "Curicó"
         },
         "cargos_coincidentes": [
-          "Técnico eléctrico junior",
           "Técnico de mantenimiento junior",
-          "Técnico en automatización junior",
-          "Ayudante de mantenimiento",
-          "Técnico electromecánico junior",
-          "Técnico de instrumentación junior"
+          "Ayudante de mantenimiento"
         ],
         "compatibilidad": {
-          "puntaje": 75,
-          "probabilidad_ajuste": "ALTA",
+          "puntaje": 85,
+          "probabilidad_ajuste": "MEDIA",
+          "prioridad_postulacion": "MEDIA-ALTA",
+          "recomendacion": "POSTULAR SI EL CARGO ACEPTA PERFILES JUNIOR O EN DESARROLLO",
           "fortalezas": [
-            "La formación técnica está relacionada con el área del cargo.",
-            "Cuenta con SEC Clase D en tramite.",
-            "El perfil prioriza conocimientos relacionados con electricidad industrial.",
-            "El perfil prioriza conocimientos relacionados con mantenimiento industrial.",
-            "El perfil prioriza conocimientos relacionados con tableros eléctricos.",
-            "El perfil prioriza conocimientos relacionados con PLC.",
-            "El perfil prioriza conocimientos relacionados con diagnóstico de fallas.",
+            "La formación técnica está relacionada con automatización, control y electricidad.",
+            "SEC Clase D: en trámite. La certificación aún no se considera obtenida.",
+            "El perfil presenta conocimientos relacionados con electricidad industrial.",
+            "El perfil presenta conocimientos relacionados con mantenimiento industrial.",
+            "El perfil presenta conocimientos relacionados con tableros eléctricos.",
+            "El perfil presenta conocimientos relacionados con PLC.",
+            "El perfil presenta conocimientos relacionados con diagnóstico de fallas.",
             "La ubicación (Curicó) está dentro de las zonas prioritarias.",
-            "El tipo de cargo coincide con uno de los cargos prioritarios."
+            "El tipo de cargo coincide con uno o más cargos prioritarios del perfil."
           ],
           "conocimientos_relacionados": [
-            "mantenimiento preventivo"
+            "mantenimiento industrial",
+            "tableros eléctricos",
+            "diagnóstico de fallas"
           ],
           "brechas": [
-            "La oferta solicita aproximadamente 2 año(s) de experiencia; el perfil registra aproximadamente 0 meses.",
-            "mantenimiento preventivo"
+            "mantenimiento preventivo",
+            "La oferta solicita aproximadamente 2 año(s) de experiencia; el perfil registra aproximadamente 0 meses."
           ],
-          "aprendizaje_rapido": [
-            "PLC: puede reforzarse mediante estudio, simulación y práctica guiada."
-          ],
-          "brechas_practicas": [
-            "La principal diferencia es experiencia práctica acumulada en terreno.",
-            "mantenimiento industrial: conviene desarrollarla mediante experiencia práctica en terreno.",
-            "tableros eléctricos: conviene desarrollarla mediante experiencia práctica en terreno.",
-            "diagnóstico de fallas: conviene desarrollarla mediante experiencia práctica en terreno."
-          ]
+          "aprendizaje_rapido": [],
+          "brechas_practicas": []
         }
       }
     },
@@ -84,6 +81,10 @@
           "1 año"
         ],
         "anos_experiencia_solicitados": 1,
+        "experiencia_perfil": {
+          "meses_aproximados": 0.0,
+          "anos_aproximados": 0.0
+        },
         "ubicacion": {
           "ubicacion_oferta": "Curicó",
           "zona_prioritaria": true,
@@ -91,40 +92,35 @@
         },
         "cargos_coincidentes": [
           "Técnico eléctrico junior",
-          "Técnico de mantenimiento junior",
-          "Técnico en automatización junior",
-          "Ayudante eléctrico",
-          "Técnico electromecánico junior",
-          "Técnico de instrumentación junior"
+          "Ayudante eléctrico"
         ],
         "compatibilidad": {
-          "puntaje": 73,
-          "probabilidad_ajuste": "MEDIA",
+          "puntaje": 91,
+          "probabilidad_ajuste": "ALTA",
+          "prioridad_postulacion": "ALTA",
+          "recomendacion": "POSTULAR",
           "fortalezas": [
-            "La formación técnica está relacionada con el área del cargo.",
-            "Cuenta con SEC Clase D en tramite.",
-            "El perfil prioriza conocimientos relacionados con electricidad industrial.",
-            "El perfil prioriza conocimientos relacionados con mantenimiento industrial.",
-            "El perfil prioriza conocimientos relacionados con tableros eléctricos.",
-            "El perfil prioriza conocimientos relacionados con PLC.",
+            "La formación técnica está relacionada con automatización, control y electricidad.",
+            "SEC Clase D: en trámite. La certificación aún no se considera obtenida.",
+            "El perfil presenta conocimientos relacionados con electricidad industrial.",
+            "El perfil presenta conocimientos relacionados con mantenimiento industrial.",
+            "El perfil presenta conocimientos relacionados con tableros eléctricos.",
+            "El perfil presenta conocimientos relacionados con PLC.",
             "La ubicación (Curicó) está dentro de las zonas prioritarias.",
-            "El tipo de cargo coincide con uno de los cargos prioritarios."
+            "El tipo de cargo coincide con uno o más cargos prioritarios del perfil."
           ],
           "conocimientos_relacionados": [
-            "mantenimiento preventivo"
+            "mantenimiento industrial",
+            "tableros eléctricos"
           ],
           "brechas": [
-            "La oferta solicita aproximadamente 1 año(s) de experiencia; el perfil registra aproximadamente 0 meses.",
-            "mantenimiento preventivo"
+            "mantenimiento preventivo",
+            "La oferta solicita aproximadamente 1 año(s) de experiencia; el perfil registra aproximadamente 0 meses."
           ],
           "aprendizaje_rapido": [
-            "La diferencia de experiencia es relativamente pequeña; conviene postular igualmente si el resto de los requisitos encaja.",
-            "PLC: puede reforzarse mediante estudio, simulación y práctica guiada."
+            "La diferencia de experiencia no es demasiado grande; conviene postular igualmente si el resto de los requisitos encaja."
           ],
-          "brechas_practicas": [
-            "mantenimiento industrial: conviene desarrollarla mediante experiencia práctica en terreno.",
-            "tableros eléctricos: conviene desarrollarla mediante experiencia práctica en terreno."
-          ]
+          "brechas_practicas": []
         }
       }
     }
