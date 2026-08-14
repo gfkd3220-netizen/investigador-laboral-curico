@@ -21,6 +21,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Obtener ofertas
+        run: python ofertas.py
+
       - name: Ejecutar analizador
         run: python analizador.py
 
