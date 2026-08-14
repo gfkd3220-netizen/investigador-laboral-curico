@@ -1,5 +1,6 @@
 import json
 import re
+import unicodedata
 from collections import Counter
 
 
@@ -60,8 +61,6 @@ PERFIL = {
         "lectura de planos"
     ],
 
-    # Competencias que interesa desarrollar aunque todavía
-    # no estén completamente dominadas.
     "objetivos_desarrollo": [
         "PLC Siemens",
         "TIA Portal",
@@ -81,8 +80,6 @@ PERFIL = {
 
 # ============================================================
 # COMPETENCIAS GENERALES
-#
-# Una publicación cuenta SOLO 1 vez por competencia.
 # ============================================================
 
 COMPETENCIAS = {
@@ -90,7 +87,7 @@ COMPETENCIAS = {
     "electricidad industrial": [
         "electricidad industrial",
         "eléctrica industrial",
-        "electrico industrial",
+        "eléctrico industrial",
         "electricista industrial"
     ],
 
@@ -98,7 +95,7 @@ COMPETENCIAS = {
         "mantenimiento industrial",
         "mantención industrial",
         "mantenimiento de maquinaria",
-        "mantencion de maquinaria"
+        "mantención de maquinaria"
     ],
 
     "mantenimiento preventivo": [
@@ -162,7 +159,8 @@ COMPETENCIAS = {
         "instrumentación industrial",
         "instrumentacion industrial",
         "instrumentista",
-        "instrumentación"
+        "instrumentación",
+        "instrumentacion"
     ],
 
     "electromecánica": [
@@ -219,15 +217,6 @@ COMPETENCIAS = {
 
 # ============================================================
 # MARCAS PLC
-#
-# Importante:
-#
-# Una publicación cuenta SOLO 1 vez por marca.
-#
-# Las marcas genéricas como Siemens, Schneider, ABB, etc.
-# necesitan contexto PLC/automatización.
-#
-# Los modelos y softwares de PLC son evidencia fuerte.
 # ============================================================
 
 PLC_MARCAS = {
@@ -266,8 +255,8 @@ PLC_MARCAS = {
     ],
 
     "Schneider": [
-        "schneider",
         "schneider electric",
+        "schneider",
         "modicon",
         "m221",
         "m251",
@@ -304,7 +293,6 @@ PLC_MARCAS = {
 
     "ABB": [
         "abb",
-        "800xa",
         "800xa",
         "abb acs"
     ],
@@ -459,9 +447,6 @@ TECNOLOGIAS = {
 
 # ============================================================
 # ELECTROMECÁNICA
-#
-# Se analiza SOLO dentro de las ofertas que contienen
-# electromecánica/electromecánico.
 # ============================================================
 
 ELECTROMECANICA_DESGLOSE = {
@@ -470,7 +455,7 @@ ELECTROMECANICA_DESGLOSE = {
         "mantenimiento industrial",
         "mantención industrial",
         "mantenimiento de maquinaria",
-        "mantencion de maquinaria"
+        "mantención de maquinaria"
     ],
 
     "mantenimiento preventivo": [
@@ -486,7 +471,7 @@ ELECTROMECANICA_DESGLOSE = {
     "electricidad industrial": [
         "electricidad industrial",
         "eléctrica industrial",
-        "electrico industrial",
+        "eléctrico industrial",
         "electricista industrial"
     ],
 
@@ -583,21 +568,53 @@ ELECTROMECANICA_DESGLOSE = {
 
 def normalizar(texto):
 
-    texto = str(texto).lower()
+    texto = str(texto).lower().strip()
 
-    reemplazos = {
-        "á": "a",
-        "é": "e",
-        "í": "i",
-        "ó": "o",
-        "ú": "u",
-        "ñ": "n"
-    }
+    texto = unicodedata.normalize(
+        "NFD",
+        texto
+    )
 
-    for a, b in reemplazos.items():
-        texto = texto.replace(a, b)
+    texto = "".join(
+        caracter
+        for caracter in texto
+        if unicodedata.category(caracter) != "Mn"
+    )
+
+    texto = texto.replace("–", "-")
+    texto = texto.replace("—", "-")
+    texto = texto.replace("’", "'")
 
     return texto
+
+
+# ============================================================
+# BUSCAR TÉRMINO
+#
+# Evita problemas como:
+#
+# "sensor" encontrando palabras extrañas.
+# "abb" dentro de otra palabra.
+# ============================================================
+
+def contiene_termino(texto, termino):
+
+    texto = normalizar(texto)
+    termino = normalizar(termino).strip()
+
+    if not termino:
+        return False
+
+    patron = (
+        r"(?<![a-z0-9])"
+        + re.escape(termino)
+        + r"(?![a-z0-9])"
+    )
+
+    return re.search(
+        patron,
+        texto
+    ) is not None
 
 
 # ============================================================
@@ -625,24 +642,23 @@ def texto_oferta(oferta):
 
 def detectar_categorias(texto, catalogo):
 
-    texto = normalizar(texto)
-
     encontradas = []
 
     for nombre, variantes in catalogo.items():
 
         for variante in variantes:
 
-            variante_normalizada = normalizar(
+            if contiene_termino(
+                texto,
                 variante
-            )
-
-            if variante_normalizada in texto:
+            ):
 
                 encontradas.append(nombre)
                 break
 
-    return list(dict.fromkeys(encontradas))
+    return list(
+        dict.fromkeys(encontradas)
+    )
 
 
 # ============================================================
@@ -651,8 +667,6 @@ def detectar_categorias(texto, catalogo):
 
 def tiene_contexto_plc(texto):
 
-    texto = normalizar(texto)
-
     contexto_fuerte = [
         "plc",
         "controlador logico programable",
@@ -660,6 +674,7 @@ def tiene_contexto_plc(texto):
         "programacion de plc",
         "programar plc",
         "automatizacion",
+        "automatizacion industrial",
         "control industrial",
         "sistema de control",
         "hmi",
@@ -686,44 +701,164 @@ def tiene_contexto_plc(texto):
     ]
 
     return any(
-        normalizar(x) in texto
-        for x in contexto_fuerte
+        contiene_termino(
+            texto,
+            termino
+        )
+        for termino in contexto_fuerte
     )
 
 
 # ============================================================
 # DETECTAR MARCAS PLC
 #
-# Mejora importante:
+# Regla:
 #
-# Para marcas genéricas se exige contexto PLC.
-# Los modelos/software siguen siendo evidencia directa.
+# 1. Si aparece modelo/software específico,
+#    la marca queda confirmada.
+#
+# 2. Si solamente aparece una marca genérica,
+#    se exige contexto PLC/automatización.
 # ============================================================
 
 def detectar_marcas_plc(texto):
 
-    texto = normalizar(texto)
-
-    if not tiene_contexto_plc(texto):
-
-        return []
-
     marcas = []
 
-    for marca, variantes in PLC_MARCAS.items():
+    texto_normalizado = normalizar(
+        texto
+    )
+
+    if not tiene_contexto_plc(
+        texto_normalizado
+    ):
+        return []
+
+    evidencia_directa = {
+
+        "Siemens": [
+            "s7-1200",
+            "s7 1200",
+            "s7-1500",
+            "s7 1500",
+            "s7-300",
+            "s7 300",
+            "s7-400",
+            "s7 400",
+            "logo!",
+            "logo 8",
+            "tia portal",
+            "step 7",
+            "wincc",
+            "simatic",
+            "sinamics"
+        ],
+
+        "Allen-Bradley": [
+            "allen-bradley",
+            "allen bradley",
+            "rockwell automation",
+            "controllogix",
+            "compactlogix",
+            "micrologix",
+            "studio 5000",
+            "studio5000",
+            "rslogix",
+            "factorytalk"
+        ],
+
+        "Schneider": [
+            "schneider electric",
+            "modicon",
+            "m221",
+            "m251",
+            "m241",
+            "m340",
+            "m580",
+            "unity pro",
+            "unitypro",
+            "ecostruxure",
+            "eco struxure",
+            "plantstruxure"
+        ],
+
+        "Mitsubishi": [
+            "mitsubishi electric",
+            "fx3u",
+            "fx5u",
+            "gx works",
+            "gx works2",
+            "gx works3"
+        ],
+
+        "Omron": [
+            "omron",
+            "cx-programmer",
+            "cx programmer",
+            "nx1p",
+            "cj2",
+            "cj1"
+        ],
+
+        "ABB": [
+            "abb",
+            "800xa",
+            "abb acs"
+        ],
+
+        "Panasonic": [
+            "panasonic",
+            "matsushita"
+        ],
+
+        "GE / Fanuc": [
+            "ge fanuc",
+            "ge/fanuc",
+            "gefanuc",
+            "fanuc"
+        ],
+
+        "Beckhoff": [
+            "beckhoff",
+            "twincat",
+            "twin cat"
+        ]
+    }
+
+    for marca, variantes in evidencia_directa.items():
 
         for variante in variantes:
 
-            variante_normalizada = normalizar(
+            if contiene_termino(
+                texto_normalizado,
                 variante
-            )
-
-            if variante_normalizada in texto:
+            ):
 
                 marcas.append(marca)
                 break
 
-    return list(dict.fromkeys(marcas))
+    return list(
+        dict.fromkeys(marcas)
+    )
+
+
+# ============================================================
+# DETECTAR PLC
+# ============================================================
+
+def tiene_plc(texto):
+
+    return (
+        contiene_termino(texto, "plc")
+        or contiene_termino(
+            texto,
+            "controlador lógico programable"
+        )
+        or contiene_termino(
+            texto,
+            "controlador logico programable"
+        )
+    )
 
 
 # ============================================================
@@ -738,11 +873,17 @@ def detectar_experiencia(texto):
     # SIN EXPERIENCIA
     # --------------------------------------------------------
 
-    if (
-        "sin experiencia" in texto
-        or "no requiere experiencia" in texto
-        or "sin experiencia previa" in texto
-        or "sin experiencia laboral" in texto
+    patrones_sin_experiencia = [
+        "sin experiencia",
+        "no requiere experiencia",
+        "sin experiencia previa",
+        "sin experiencia laboral",
+        "no se requiere experiencia"
+    ]
+
+    if any(
+        patron in texto
+        for patron in patrones_sin_experiencia
     ):
 
         return {
@@ -754,7 +895,7 @@ def detectar_experiencia(texto):
     encontrados = []
 
     # --------------------------------------------------------
-    # Rangos:
+    # RANGOS:
     #
     # 1 a 2 años
     # 1-2 años
@@ -765,10 +906,10 @@ def detectar_experiencia(texto):
         r"(\d+(?:[.,]\d+)?)"
         r"\s*(?:a|-|hasta)\s*"
         r"(\d+(?:[.,]\d+)?)"
-        r"\s*anos?"
+        r"\s*(anos?|mes(?:es)?)"
     )
 
-    for minimo, maximo in re.findall(
+    for minimo, maximo, unidad in re.findall(
         patron_rango,
         texto
     ):
@@ -781,7 +922,13 @@ def detectar_experiencia(texto):
             maximo.replace(",", ".")
         )
 
-        meses = maximo * 12
+        if unidad.startswith("ano"):
+
+            meses = maximo * 12
+
+        else:
+
+            meses = maximo
 
         if meses <= 240:
 
@@ -795,20 +942,43 @@ def detectar_experiencia(texto):
     # "experiencia laboral de 6 meses"
     # --------------------------------------------------------
 
-    patron_1 = (
+    patron_experiencia = (
         r"experiencia"
-        r"[^.\n]{0,60}?"
+        r"[^.\n]{0,80}?"
         r"(\d+(?:[.,]\d+)?)"
         r"\s*"
         r"(anos?|mes(?:es)?)"
     )
+
+    for numero, unidad in re.findall(
+        patron_experiencia,
+        texto
+    ):
+
+        numero = float(
+            numero.replace(",", ".")
+        )
+
+        if unidad.startswith("ano"):
+
+            meses = numero * 12
+
+        else:
+
+            meses = numero
+
+        if meses <= 240:
+
+            encontrados.append(
+                meses
+            )
 
     # --------------------------------------------------------
     # "2 años de experiencia"
     # "6 meses de experiencia"
     # --------------------------------------------------------
 
-    patron_2 = (
+    patron_numero_experiencia = (
         r"(\d+(?:[.,]\d+)?)"
         r"\s*"
         r"(anos?|mes(?:es)?)"
@@ -816,38 +986,35 @@ def detectar_experiencia(texto):
         r"experiencia"
     )
 
-    for patron in [
-        patron_1,
-        patron_2
-    ]:
+    for numero, unidad in re.findall(
+        patron_numero_experiencia,
+        texto
+    ):
 
-        coincidencias = re.findall(
-            patron,
-            texto
+        numero = float(
+            numero.replace(",", ".")
         )
 
-        for numero, unidad in coincidencias:
+        if unidad.startswith("ano"):
 
-            numero = float(
-                numero.replace(",", ".")
+            meses = numero * 12
+
+        else:
+
+            meses = numero
+
+        if meses <= 240:
+
+            encontrados.append(
+                meses
             )
-
-            if unidad.startswith("ano"):
-
-                meses = numero * 12
-
-            else:
-
-                meses = numero
-
-            if meses <= 240:
-
-                encontrados.append(
-                    meses
-                )
 
     # --------------------------------------------------------
     # "más de 3 años"
+    #
+    # Para efectos del filtro:
+    # si dice más de 3 años, usamos 36 meses
+    # como mínimo solicitado.
     # --------------------------------------------------------
 
     patron_mas = (
@@ -892,13 +1059,20 @@ def detectar_experiencia(texto):
             numero.replace(",", ".")
         )
 
-        meses = numero * 12
+        meses = max(
+            1,
+            numero * 12 - 1
+        )
 
         if meses <= 240:
 
             encontrados.append(
-                max(1, meses - 1)
+                meses
             )
+
+    # --------------------------------------------------------
+    # RESULTADO
+    # --------------------------------------------------------
 
     if not encontrados:
 
@@ -908,10 +1082,14 @@ def detectar_experiencia(texto):
             "tipo": "no_especificada"
         }
 
+    # Si hay varias menciones, usamos el requisito mayor.
     meses = max(encontrados)
 
     return {
-        "anos": meses / 12,
+        "anos": round(
+            meses / 12,
+            2
+        ),
         "meses": meses,
         "tipo": "especificada"
     }
@@ -923,7 +1101,9 @@ def detectar_experiencia(texto):
 
 def analizar_ubicacion(ubicacion):
 
-    ubicacion = str(ubicacion)
+    ubicacion = str(
+        ubicacion or ""
+    )
 
     ubicacion_normalizada = normalizar(
         ubicacion
@@ -931,7 +1111,10 @@ def analizar_ubicacion(ubicacion):
 
     for zona in PERFIL["zonas"]:
 
-        if normalizar(zona) in ubicacion_normalizada:
+        if contiene_termino(
+            ubicacion_normalizada,
+            zona
+        ):
 
             return {
                 "zona_prioritaria": True,
@@ -950,7 +1133,9 @@ def analizar_ubicacion(ubicacion):
 
 def detectar_cargo(titulo):
 
-    titulo = normalizar(titulo)
+    titulo = normalizar(
+        titulo
+    )
 
     encontrados = []
 
@@ -960,21 +1145,28 @@ def detectar_cargo(titulo):
             cargo
         )
 
-        palabras = cargo_normalizado.split()
+        palabras = [
+            palabra
+            for palabra in cargo_normalizado.split()
+            if len(palabra) >= 3
+        ]
+
+        if not palabras:
+            continue
 
         coincidencias = 0
 
         for palabra in palabras:
 
-            if (
-                len(palabra) >= 4
-                and palabra in titulo
+            if contiene_termino(
+                titulo,
+                palabra
             ):
 
                 coincidencias += 1
 
-        # Para cargos de 2 palabras:
-        # ambas deben coincidir.
+        # Cargos cortos:
+        # deben coincidir todas las palabras.
         if len(palabras) <= 2:
 
             minimo = len(palabras)
@@ -985,7 +1177,9 @@ def detectar_cargo(titulo):
 
         if coincidencias >= minimo:
 
-            encontrados.append(cargo)
+            encontrados.append(
+                cargo
+            )
 
     return list(
         dict.fromkeys(encontrados)
@@ -1005,6 +1199,10 @@ def comparar_experiencia(meses_solicitados):
     if meses_solicitados is None:
 
         return "no_especificada"
+
+    if meses_solicitados == 0:
+
+        return "sin_experiencia"
 
     if meses_solicitados <= meses_perfil:
 
@@ -1039,27 +1237,52 @@ def calcular_puntaje(
 
     puntaje = 0
 
-    for competencia in competencias:
+    # --------------------------------------------------------
+    # COMPETENCIAS
+    # --------------------------------------------------------
 
-        if competencia in PERFIL["competencias"]:
+    coincidencias = sum(
+        1
+        for competencia in competencias
+        if competencia in PERFIL["competencias"]
+    )
 
-            puntaje += 8
-
-    puntaje = min(
-        puntaje,
+    # Máximo 40 puntos.
+    puntaje += min(
+        coincidencias * 5,
         40
     )
 
-    if ubicacion["zona_prioritaria"]:
+    # --------------------------------------------------------
+    # UBICACIÓN
+    # --------------------------------------------------------
+
+    if ubicacion[
+        "zona_prioritaria"
+    ]:
 
         puntaje += 20
+
+    # --------------------------------------------------------
+    # CARGO
+    # --------------------------------------------------------
 
     if cargos:
 
         puntaje += 20
 
+    # --------------------------------------------------------
+    # EXPERIENCIA
+    # --------------------------------------------------------
+
     if experiencia == "cumple":
 
+        puntaje += 20
+
+    elif experiencia == "sin_experiencia":
+
+        # No penalizamos una oferta que explícitamente
+        # acepta personas sin experiencia.
         puntaje += 20
 
     elif experiencia == "no_especificada":
@@ -1215,6 +1438,7 @@ def analizar_oferta(oferta):
 
     if (
         meses_solicitados is not None
+        and meses_solicitados > 0
         and meses_solicitados
         > PERFIL["experiencia_meses"]
     ):
@@ -1232,6 +1456,10 @@ def analizar_oferta(oferta):
             brechas.append(
                 competencia
             )
+
+    # --------------------------------------------------------
+    # RECOMENDACIÓN
+    # --------------------------------------------------------
 
     if puntaje >= 80:
 
@@ -1350,11 +1578,6 @@ def analizar_plc_por_marca(ofertas):
 
 # ============================================================
 # ANÁLISIS DETALLADO DE PLC
-#
-# Agrega:
-# - ofertas donde aparece PLC
-# - marcas
-# - tecnologías asociadas
 # ============================================================
 
 def analizar_mercado_plc(ofertas):
@@ -1370,21 +1593,15 @@ def analizar_mercado_plc(ofertas):
             oferta
         )
 
-        texto_normalizado = normalizar(
-            texto
-        )
-
-        tiene_plc = (
-            "plc" in texto_normalizado
-            or "controlador logico programable"
-            in texto_normalizado
-        )
-
-        if not tiene_plc:
+        if not tiene_plc(texto):
 
             continue
 
         ofertas_plc += 1
+
+        # ----------------------------------------------------
+        # MARCAS
+        # ----------------------------------------------------
 
         for marca in detectar_marcas_plc(
             texto
@@ -1392,13 +1609,18 @@ def analizar_mercado_plc(ofertas):
 
             marcas[marca] += 1
 
+        # ----------------------------------------------------
+        # TECNOLOGÍAS
+        # ----------------------------------------------------
+
         tecnologias_oferta = detectar_categorias(
             texto,
             TECNOLOGIAS
         )
 
-        for tecnologia in tecnologias_oferta:
-
+        tecnologias_validas = [
+            tecnologia
+            for tecnologia in tecnologias_oferta
             if (
                 tecnologia.startswith("PLC ")
                 or tecnologia in [
@@ -1409,11 +1631,16 @@ def analizar_mercado_plc(ofertas):
                     "WinCC",
                     "EcoStruxure"
                 ]
-            ):
+            )
+        ]
 
-                tecnologias[
-                    tecnologia
-                ] += 1
+        for tecnologia in set(
+            tecnologias_validas
+        ):
+
+            tecnologias[
+                tecnologia
+            ] += 1
 
     return {
 
@@ -1448,13 +1675,15 @@ def analizar_electromecanica(ofertas):
             oferta
         )
 
-        texto_normalizado = normalizar(
-            texto
-        )
-
         es_electromecanica = (
-            "electromecanica" in texto_normalizado
-            or "electromecanico" in texto_normalizado
+            contiene_termino(
+                texto,
+                "electromecanica"
+            )
+            or contiene_termino(
+                texto,
+                "electromecanico"
+            )
         )
 
         if not es_electromecanica:
@@ -1507,15 +1736,6 @@ def analizar_electromecanica(ofertas):
 
 # ============================================================
 # GENERAR PRIORIDADES DE DESARROLLO
-#
-# Ahora no solamente detecta si falta una competencia.
-#
-# También considera:
-#
-# 1. demanda del mercado
-# 2. si ya está en el perfil
-# 3. si está relacionada con los objetivos
-# 4. importancia estratégica
 # ============================================================
 
 def generar_plan_desarrollo(mercado):
@@ -1539,6 +1759,8 @@ def generar_plan_desarrollo(mercado):
 
         es_objetivo = any(
             normalizar(competencia)
+            == normalizar(objetivo)
+            or normalizar(competencia)
             in normalizar(objetivo)
             or normalizar(objetivo)
             in normalizar(competencia)
@@ -1550,7 +1772,6 @@ def generar_plan_desarrollo(mercado):
 
             estado = "YA_EN_PERFIL"
 
-            # No significa que no haya que profundizar.
             prioridad_base = 1
 
         else:
@@ -1559,12 +1780,17 @@ def generar_plan_desarrollo(mercado):
 
             prioridad_base = 3
 
+        # Objetivo personal.
         if es_objetivo:
 
             prioridad_base += 2
 
-        # Demanda adicional
-        if cantidad >= 30:
+        # Demanda de mercado.
+        if cantidad >= 50:
+
+            prioridad_base += 4
+
+        elif cantidad >= 30:
 
             prioridad_base += 3
 
@@ -1722,16 +1948,32 @@ def generar_recomendaciones(mercado):
         "experiencia_requerida"
     ]
 
-    if experiencia.get(
+    sin_experiencia = experiencia.get(
         "sin experiencia",
         0
-    ) > 0:
+    )
+
+    no_especificada = experiencia.get(
+        "no especificada",
+        0
+    )
+
+    if sin_experiencia > 0:
 
         recomendaciones.append(
             "No limitar la búsqueda a cargos que "
             "exijan experiencia: también seguir "
             "las ofertas que aceptan candidatos "
             "sin experiencia."
+        )
+
+    if no_especificada > 0:
+
+        recomendaciones.append(
+            "Dar prioridad adicional a ofertas donde "
+            "la experiencia no está especificada, "
+            "porque no presentan una barrera explícita "
+            "de años de experiencia."
         )
 
     # --------------------------------------------------------
@@ -1750,7 +1992,10 @@ def generar_recomendaciones(mercado):
     ]
 
     brechas.sort(
-        key=lambda x: x["ofertas"],
+        key=lambda x: (
+            x["prioridad"],
+            x["ofertas"]
+        ),
         reverse=True
     )
 
@@ -2019,7 +2264,7 @@ def analizar_mercado(ofertas):
     }
 
     # --------------------------------------------------------
-    # PLAN DE DESARROLLO
+    # PLAN
     # --------------------------------------------------------
 
     mercado[
@@ -2067,10 +2312,31 @@ def analizar_historial():
 
         return
 
+    except json.JSONDecodeError as error:
+
+        print(
+            "Error al leer historial.json:"
+        )
+
+        print(error)
+
+        return
+
     ofertas = historial.get(
         "ofertas",
         []
     )
+
+    if not isinstance(
+        ofertas,
+        list
+    ):
+
+        print(
+            "Error: 'ofertas' no contiene una lista."
+        )
+
+        return
 
     # ========================================================
     # 1. ANALIZAR CADA OFERTA
@@ -2124,6 +2390,12 @@ def analizar_historial():
 
         "experiencia_meses":
             PERFIL["experiencia_meses"],
+
+        "anos_experiencia":
+            round(
+                PERFIL["experiencia_meses"] / 12,
+                2
+            ),
 
         "certificacion_electrica": {
 
@@ -2396,7 +2668,8 @@ def analizar_historial():
     else:
 
         print(
-            "No se detectaron competencias dentro de electromecánica."
+            "No se detectaron competencias "
+            "dentro de electromecánica."
         )
 
     # ========================================================
@@ -2459,15 +2732,25 @@ def analizar_historial():
     print("UBICACIONES MÁS REPETIDAS")
     print("======================================")
 
-    for nombre, cantidad in (
-        mercado[
-            "ubicaciones_mas_repetidas"
-        ].items()
-    ):
+    ubicaciones = mercado[
+        "ubicaciones_mas_repetidas"
+    ]
+
+    if ubicaciones:
+
+        for nombre, cantidad in (
+            ubicaciones.items()
+        ):
+
+            print(
+                f"- {nombre}: "
+                f"{cantidad} ofertas"
+            )
+
+    else:
 
         print(
-            f"- {nombre}: "
-            f"{cantidad} ofertas"
+            "No se detectaron ubicaciones."
         )
 
     # ========================================================
@@ -2587,6 +2870,11 @@ def analizar_historial():
             "/ 100",
             "|",
             compatibilidad.get(
+                "nivel",
+                ""
+            ),
+            "|",
+            compatibilidad.get(
                 "recomendacion",
                 ""
             )
@@ -2617,6 +2905,38 @@ def analizar_historial():
                 "PLC:",
                 ", ".join(
                     marcas_plc
+                )
+            )
+
+        experiencia_oferta = analisis.get(
+            "experiencia_solicitada",
+            {}
+        )
+
+        if experiencia_oferta.get(
+            "tipo"
+        ) != "no_especificada":
+
+            print(
+                "Experiencia solicitada:",
+                experiencia_oferta.get(
+                    "anos"
+                ),
+                "años"
+            )
+
+        brechas = compatibilidad.get(
+            "brechas",
+            []
+        )
+
+        if brechas:
+
+            print(
+                "Brechas:",
+                ", ".join(
+                    str(brecha)
+                    for brecha in brechas[:5]
                 )
             )
 
