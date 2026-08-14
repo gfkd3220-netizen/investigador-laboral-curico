@@ -35,7 +35,9 @@
           "PLC",
           "mantenimiento preventivo"
         ],
-        "experiencia_detectada": []
+        "experiencia_detectada": [
+          "1 año"
+        ]
       }
     }
   ],
@@ -49,7 +51,8 @@
       "diagnóstico de fallas": 1
     },
     "experiencia_requerida": {
-      "2 años": 1
+      "2 años": 1,
+      "1 año": 1
     },
     "ubicaciones": {},
     "cargos": {}
