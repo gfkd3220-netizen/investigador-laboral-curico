@@ -30,35 +30,63 @@
           "zona_coincidente": "Curicó"
         },
         "cargos_coincidentes": [
-          "Técnico de mantenimiento junior"
+          "Técnico eléctrico junior",
+          "Técnico de mantenimiento junior",
+          "Técnico en automatización junior",
+          "Ayudante de mantenimiento",
+          "Técnico electromecánico junior",
+          "Técnico de instrumentación junior"
+        ],
+        "conocimientos_relacionados": [
+          "electricidad industrial",
+          "mantenimiento industrial",
+          "tableros eléctricos",
+          "PLC",
+          "diagnóstico de fallas"
+        ],
+        "aprendizaje_rapido": [
+          "PLC"
+        ],
+        "brechas_practicas": [
+          "mantenimiento industrial",
+          "mantenimiento preventivo",
+          "diagnóstico de fallas"
         ],
         "compatibilidad": {
-          "puntaje": 47,
-          "probabilidad_ajuste": "BAJA",
-          "prioridad_postulacion": "BAJA",
-          "recomendacion": "PRIORIZAR OTRAS OFERTAS CON MAYOR COMPATIBILIDAD",
+          "puntaje": 60,
+          "probabilidad_ajuste": "MEDIA",
+          "prioridad_postulacion": "MEDIA",
+          "recomendacion": "POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES",
           "fortalezas": [
+            "La formación técnica está relacionada con el tipo de cargo.",
             "El perfil cuenta con preparación para SEC Clase D; la certificación todavía está en trámite.",
             "El perfil presenta conocimientos relacionados con electricidad industrial.",
-            "El perfil presenta conocimientos relacionados con mantenimiento preventivo.",
+            "El perfil presenta conocimientos relacionados con mantenimiento industrial.",
             "El perfil presenta conocimientos relacionados con tableros eléctricos.",
+            "El perfil presenta conocimientos relacionados con PLC.",
+            "El perfil presenta conocimientos relacionados con diagnóstico de fallas.",
             "La ubicación (Curicó) está dentro de las zonas prioritarias.",
             "El tipo de cargo coincide con uno o más cargos prioritarios del perfil."
           ],
           "conocimientos_relacionados": [
             "electricidad industrial",
-            "mantenimiento preventivo",
-            "tableros eléctricos"
+            "mantenimiento industrial",
+            "tableros eléctricos",
+            "PLC",
+            "diagnóstico de fallas"
           ],
           "brechas": [
-            "La oferta solicita aproximadamente 2 año(s) de experiencia; el perfil registra aproximadamente 6 meses."
+            "La oferta solicita aproximadamente 2 año(s) de experiencia; el perfil registra aproximadamente 6 meses.",
+            "mantenimiento industrial",
+            "mantenimiento preventivo",
+            "diagnóstico de fallas"
           ],
           "aprendizaje_rapido": [
             "PLC"
           ],
           "brechas_practicas": [
-            "La principal diferencia es la experiencia práctica acumulada en terreno.",
             "mantenimiento industrial",
+            "mantenimiento preventivo",
             "diagnóstico de fallas"
           ]
         }
@@ -92,36 +120,60 @@
           "zona_coincidente": "Curicó"
         },
         "cargos_coincidentes": [
-          "Técnico eléctrico junior"
+          "Técnico eléctrico junior",
+          "Técnico de mantenimiento junior",
+          "Técnico en automatización junior",
+          "Ayudante eléctrico",
+          "Técnico electromecánico junior",
+          "Técnico de instrumentación junior"
+        ],
+        "conocimientos_relacionados": [
+          "electricidad industrial",
+          "mantenimiento industrial",
+          "tableros eléctricos",
+          "PLC"
+        ],
+        "aprendizaje_rapido": [
+          "La diferencia de experiencia no es demasiado grande; conviene postular igualmente si el resto de los requisitos encaja.",
+          "PLC"
+        ],
+        "brechas_practicas": [
+          "mantenimiento industrial",
+          "mantenimiento preventivo"
         ],
         "compatibilidad": {
-          "puntaje": 59,
+          "puntaje": 67,
           "probabilidad_ajuste": "MEDIA",
-          "prioridad_postulacion": "MEDIA",
-          "recomendacion": "POSTULAR SI LOS REQUISITOS NO SON EXCLUYENTES",
+          "prioridad_postulacion": "MEDIA-ALTA",
+          "recomendacion": "POSTULAR SI EL CARGO ACEPTA PERFILES JUNIOR O EN DESARROLLO",
           "fortalezas": [
+            "La formación técnica está relacionada con el tipo de cargo.",
             "El perfil cuenta con preparación para SEC Clase D; la certificación todavía está en trámite.",
             "El perfil presenta conocimientos relacionados con electricidad industrial.",
-            "El perfil presenta conocimientos relacionados con mantenimiento preventivo.",
+            "El perfil presenta conocimientos relacionados con mantenimiento industrial.",
             "El perfil presenta conocimientos relacionados con tableros eléctricos.",
+            "El perfil presenta conocimientos relacionados con PLC.",
             "La ubicación (Curicó) está dentro de las zonas prioritarias.",
             "El tipo de cargo coincide con uno o más cargos prioritarios del perfil."
           ],
           "conocimientos_relacionados": [
             "electricidad industrial",
-            "mantenimiento preventivo",
-            "tableros eléctricos"
+            "mantenimiento industrial",
+            "tableros eléctricos",
+            "PLC"
           ],
           "brechas": [
-            "La oferta solicita aproximadamente 1 año(s) de experiencia; el perfil registra aproximadamente 6 meses."
+            "La oferta solicita aproximadamente 1 año(s) de experiencia; el perfil registra aproximadamente 6 meses.",
+            "mantenimiento industrial",
+            "mantenimiento preventivo"
           ],
           "aprendizaje_rapido": [
-            "PLC",
-            "La diferencia de experiencia no es demasiado grande; conviene postular igualmente si el resto de los requisitos encaja."
+            "La diferencia de experiencia no es demasiado grande; conviene postular igualmente si el resto de los requisitos encaja.",
+            "PLC"
           ],
           "brechas_practicas": [
-            "La principal diferencia es la experiencia práctica acumulada en terreno.",
-            "mantenimiento industrial"
+            "mantenimiento industrial",
+            "mantenimiento preventivo"
           ]
         }
       }
