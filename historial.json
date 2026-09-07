@@ -19793,6 +19793,66 @@
           ]
         }
       }
+    },
+    {
+      "titulo": "Ingeniero/a en Automatización",
+      "empresa": "Postular Sé el primero en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Ingeniero/a en Automatización - Valparaíso | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Otros Ingeniero/a en Automatización Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Ingeniero/a en Automatización ID 3894577 Buscado INCOGNITO Fecha 2026-09-07 08:49:12 Expira 2026-11-21 (en 75 días) Ubicación Valparaíso CL Categoría Otros Tipo Full-time Ley inclusión Postular Sé el primero en postular! Guardar Compartir El anuncio ha sido visto: 2 veces Interesados: 0 PUBLICIDAD Ingeniero/a en Automatización I INCOGNITO , Valparaíso 07 de Septiembre de 2026 Descripción oferta de trabajo hoy Full-time Empresa Busca SUPERVISOR/A DE CONTROL CENTRALIZADO – BMS Principales funciones: - Supervisar la operación diaria de la Sala de Control Centralizado. - Coordinar y supervisar al equipo de operadores. - Monitorear alarmas, eventos y parámetros de los sistemas. - Supervisar sistemas BMS, climatización (HVAC), eléctricos y otros sistemas integrados. - Coordinar la atención y escalamiento de fallas y emergencias. - Realizar seguimiento de incidencias y asegurar su cierre. - Revisar bitácoras, reportes e informes de operación. - Coordinar con equipos de mantenimiento y proveedores. - Velar por la continuidad operacional y cumplimiento de protocolos. Requisitos: - Ingeniero/a en Automatización, Control, Electrónica, Electricidad o carrera afín. - Experiencia en Control Centralizado y/o BMS. - Experiencia liderando equipos. - Conocimientos de BMS, PLC, SCADA y protocolos de comunicación. - Deseable experiencia en hospitales o instalaciones críticas. - Disponibilidad para trabajar en sistema 24/7. Lugar: Viña del Mar Renta: A convenir según experiencia. Beneficios Mutual de Seguridad La empresa esta adscrita a la mutual de seguridad Caja de compensación La empresa esta adscrita a una caja de compensación Uniforme La empresa provee el uniforme de trabajo Otros Valparaíso bms control centralizado Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 2 veces Interesados: 0 Publicado: hoy Expiración: En 75 días Compartir enlace Denunciar oferta Trabajos Relacionados SC Encargado/a de Desarrollo y Asuntos Regulatorios… St consultora, Valparaíso 04 de Septiembre de 2026 Buscamos para importante empresa elaboradora de suplementos alimenticios un/a encargado/a de desarrollo y… Ver más Oferta cercana FF ASESORES Forlivesi funerales, Valparaíso 01 de Septiembre de 2026 Se requiere contratar personal para las siguientes funciones conductor/a e instalador/a y atencion… Ver más Oferta cercana QP Técnico Mantenimiento General Química passol, Valparaíso 28 de Agosto de 2026 ¡Únete a nuestro equipo! búsqueda de técnico en mantenimiento general quÍmica passol s.a.,… Ver más Oferta cercana C EJECUTIVO DE ATENCION DE CLIENTES VIÑA… Confidencial, Valparaíso 27 de Agosto de 2026 Empresa líder en servicios de arriendo de vehículos busca incorporar a su equipo… Ver más Oferta cercana SI Ingeniero Civil en Obras Civiles Sds ingenieria, Valparaíso 04 de Septiembre de 2026 ️ se busca ingeniero civil en obras civiles – ito empresa de ingeniería… Ver más Oferta cercana C Prevencionista de Riesgo (Reñaca) Confidencial, Valparaíso 04 de Septiembre de 2026 ¡Únete a constructora oval y sé parte de un equipo comprometido con la… Ver más Oferta cercana Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Otros Trabajos de Otros en Valparaíso Trabajos de Otros Full-time en Valparaíso Trabajos de Otros Full-time Trabajos en Valparaíso Trabajos Full-time en Valparaíso Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/ingeniero-a-en-automatizacion-3894577",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "PLC",
+      "fecha_recoleccion": "2026-09-07T12:03:55.618436",
+      "terminos_tecnicos_detectados": 4,
+      "analisis": {
+        "competencias_detectadas": [
+          "PLC",
+          "SCADA"
+        ],
+        "tecnologias_detectadas": [
+          "SCADA"
+        ],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
+        "plc_evidencia": {
+          "detectado": true,
+          "patrones_explicitos": [
+            "plc"
+          ],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": null,
+          "meses": null,
+          "tipo": "no_especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "no_especificada",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [],
+        "compatibilidad": {
+          "puntaje": 20,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: PLC",
+            "Se detectó requerimiento relacionado con PLC.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "SCADA"
+          ]
+        }
+      }
     }
   ],
   "tendencias": {
@@ -19862,7 +19922,7 @@
     }
   },
   "resumen_mercado": {
-    "ofertas_analizadas": 338,
+    "ofertas_analizadas": 339,
     "competencias_mas_solicitadas": {
       "electromecánica": 152,
       "mantenimiento preventivo": 122,
@@ -19871,7 +19931,7 @@
       "electricidad industrial": 81,
       "instrumentación industrial": 73,
       "tableros eléctricos": 69,
-      "PLC": 63,
+      "PLC": 64,
       "automatización industrial": 58,
       "puesta en marcha": 43,
       "sensores": 36,
@@ -19881,13 +19941,13 @@
       "neumática": 20,
       "hidráulica": 19,
       "motores eléctricos": 17,
-      "SCADA": 15,
+      "SCADA": 16,
       "mantenimiento correctivo": 14,
       "seguridad eléctrica": 13,
       "HMI": 10
     },
     "tecnologias_especificas": {
-      "SCADA": 15,
+      "SCADA": 16,
       "PLC Allen-Bradley": 11,
       "AutoCAD": 10,
       "TIA Portal": 2,
@@ -19902,9 +19962,9 @@
       "Schneider": 1
     },
     "analisis_PLC": {
-      "ofertas_con_PLC": 63,
+      "ofertas_con_PLC": 64,
       "ofertas_con_marca_PLC": 15,
-      "ofertas_PLC_sin_marca": 48,
+      "ofertas_PLC_sin_marca": 49,
       "marcas_PLC": {
         "Allen-Bradley": 10,
         "Siemens": 4,
@@ -19996,7 +20056,7 @@
       }
     },
     "experiencia_requerida": {
-      "no especificada": 131,
+      "no especificada": 132,
       "3 años": 63,
       "más de 3 años": 60,
       "2 años": 53,
@@ -20079,7 +20139,7 @@
       {
         "tipo": "competencia",
         "competencia": "SCADA",
-        "ofertas": 15,
+        "ofertas": 16,
         "estado": "BRECHA",
         "es_objetivo": true,
         "prioridad": 7
@@ -20175,7 +20235,7 @@
       {
         "tipo": "competencia",
         "competencia": "PLC",
-        "ofertas": 63,
+        "ofertas": 64,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -20239,8 +20299,8 @@
     ],
     "recomendaciones": [
       "Priorizar formación práctica en PLC. Las marcas detectadas con mayor frecuencia son: Allen-Bradley, Siemens, Schneider.",
-      "Hay 48 ofertas que solicitan PLC pero no especifican una marca; no deben descartarse por no identificar fabricante.",
-      "Considerar electromecánica como línea importante de búsqueda: 152 ofertas (45.0% del conjunto analizado).",
+      "Hay 49 ofertas que solicitan PLC pero no especifican una marca; no deben descartarse por no identificar fabricante.",
+      "Considerar electromecánica como línea importante de búsqueda: 152 ofertas (44.8% del conjunto analizado).",
       "Mantener como núcleo profesional: electromecánica, mantenimiento preventivo, lectura de planos, mantenimiento industrial, electricidad industrial.",
       "Buscar especialmente cargos que combinen mantenimiento industrial + electricidad industrial + PLC/automatización.",
       "No limitar la búsqueda a cargos que exijan experiencia: también seguir las ofertas que aceptan candidatos sin experiencia.",
