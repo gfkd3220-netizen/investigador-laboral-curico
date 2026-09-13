@@ -22454,6 +22454,58 @@
           ]
         }
       }
+    },
+    {
+      "titulo": "Tablerista Electrico",
+      "empresa": "Postular Sé de los primeros en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Tablerista Electrico - Rancagua | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Profesionales y Técnicos Tablerista Electrico Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Oferta destacada Tablerista Electrico ID 3898055 Buscado Mava Ingenieria Fecha 2026-09-12 17:02:15 Expira 2026-11-26 (en 74 días) Ubicación Rancagua CL Categoría Profesionales y Técnicos Duración Por Proyecto 3 Meses Tipo Full-time Email Inicia sesión para ver mail Ley inclusión Postular Sé de los primeros en postular! Guardar Compartir El anuncio ha sido visto: 70 veces Interesados: 1 PUBLICIDAD Tablerista Electrico MI Mava Ingenieria , Rancagua 12 de Septiembre de 2026 Descripción oferta de trabajo hoy Full-time ¡ESTAMOS CONTRATANDO: 3 TABLERISTAS ELÉCTRICOS! CON O SIN EXPERIENCIA ¿Eres un profesional con experiencia en el armado y montaje de tableros eléctricos? ¿Te apasiona la precisión, la calidad y el trabajo bien hecho? ¡Esta es tu oportunidad para integrarte a un equipo dinámico con excelente ambiente laboral! Habilidad técnica en el montaje de componentes, canalización, peinado de cables y conexionado. Conocimiento técnico sobre normativas eléctricas vigentes y uso de herramientas de medición. Actitud proactiva, orden, orientación al detalle. Estamos Ubicados en Requínoa, Las Rosas S/N Te esperamos Profesionales y Técnicos Rancagua Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 70 veces Interesados: 1 Publicado: hoy Expiración: En 74 días Compartir enlace Denunciar oferta Trabajos Relacionados LG CAJERO-REPONEDOR CONCEPCION LibrerÍa giorgio, Concepción 31 de Agosto de 2026 Se requiere de personal para cumplir con funciones de cajero - reponedor en… Ver más 100% Similar BP Administrativo Inmobiliario Brix propiedades, Santiago 09 de Septiembre de 2026 En brix propiedades administramos una cartera de propiedades en arriendo y edificios completos… Ver más 100% Similar EC Supervisor de Albañileria Empresa constructora confidencial, Santiago 20 de Agosto de 2026 Descripción del cargo responsable de supervisar la ejecución de los trabajos de construcción… Ver más 100% Similar CO Asistente de Calidad Constructora oval, Santiago 07 de Septiembre de 2026 ¡Únete a constructora oval y sé parte de un equipo comprometido con la… Ver más 100% Similar Encargado oficina tecnica - Oficina Norte… Selección proyectos de ingenieria, Santiago 08 de Septiembre de 2026 Importante empresa del rubro de la ingeniería se encuentra en búsqueda de personas… Ver más 100% Similar Asistente de Oficina Técnica Selección proyectos de ingenieria, Santiago 09 de Septiembre de 2026 Importante empresa de ingenieria con amplia experiencia en el rubro, se encuentra en… Ver más 100% Similar Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Profesionales y Técnicos Trabajos de Profesionales y Técnicos en Rancagua Trabajos de Profesionales y Técnicos Full-time en Rancagua Trabajos de Profesionales y Técnicos Full-time Trabajos en Rancagua Trabajos Full-time en Rancagua Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/tablerista-electrico-3898055",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "tecnico electrico",
+      "fecha_recoleccion": "2026-09-13T12:03:29.273049",
+      "terminos_tecnicos_detectados": 2,
+      "analisis": {
+        "competencias_detectadas": [
+          "tableros eléctricos"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": 0,
+          "meses": 0,
+          "tipo": "sin_experiencia"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "sin_experiencia",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [],
+        "compatibilidad": {
+          "puntaje": 25,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: tableros eléctricos",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": []
+        }
+      }
     }
   ],
   "tendencias": {
@@ -22523,7 +22575,7 @@
     }
   },
   "resumen_mercado": {
-    "ofertas_analizadas": 382,
+    "ofertas_analizadas": 383,
     "competencias_mas_solicitadas": {
       "electromecánica": 175,
       "mantenimiento preventivo": 142,
@@ -22531,7 +22583,7 @@
       "lectura de planos": 104,
       "electricidad industrial": 89,
       "instrumentación industrial": 81,
-      "tableros eléctricos": 79,
+      "tableros eléctricos": 80,
       "PLC": 70,
       "automatización industrial": 62,
       "puesta en marcha": 48,
@@ -22662,12 +22714,12 @@
       "más de 3 años": 66,
       "2 años": 65,
       "1 año": 30,
-      "sin experiencia": 7
+      "sin experiencia": 8
     },
     "experiencia_promedio_anos": 3.7,
     "experiencia_minima_anos": 1.0,
     "experiencia_maxima_anos": 20.0,
-    "ofertas_sin_experiencia": 7,
+    "ofertas_sin_experiencia": 8,
     "ubicaciones_mas_repetidas": {
       "Curicó": 2
     },
@@ -22828,7 +22880,7 @@
       {
         "tipo": "competencia",
         "competencia": "tableros eléctricos",
-        "ofertas": 79,
+        "ofertas": 80,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -22901,7 +22953,7 @@
     "recomendaciones": [
       "Priorizar formación práctica en PLC. Las marcas detectadas con mayor frecuencia son: Allen-Bradley, Siemens, Schneider.",
       "Hay 55 ofertas que solicitan PLC pero no especifican una marca; no deben descartarse por no identificar fabricante.",
-      "Considerar electromecánica como línea importante de búsqueda: 175 ofertas (45.8% del conjunto analizado).",
+      "Considerar electromecánica como línea importante de búsqueda: 175 ofertas (45.7% del conjunto analizado).",
       "Mantener como núcleo profesional: electromecánica, mantenimiento preventivo, mantenimiento industrial, lectura de planos, electricidad industrial.",
       "Buscar especialmente cargos que combinen mantenimiento industrial + electricidad industrial + PLC/automatización.",
       "No limitar la búsqueda a cargos que exijan experiencia: también seguir las ofertas que aceptan candidatos sin experiencia.",
