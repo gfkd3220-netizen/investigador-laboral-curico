@@ -24227,6 +24227,67 @@
           ]
         }
       }
+    },
+    {
+      "titulo": "Técnico en electricidad - Electromecánico sin…",
+      "empresa": "Postular Sé el primero en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Técnico en electricidad - Electromecánico sin experiencia - Santiago | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Otros Técnico en electricidad - Electromecánico sin experiencia Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Técnico en electricidad - Electromecánico sin experiencia ID 3900367 Buscado Alto desempeño Consultores Fecha 2026-09-17 13:19:44 Expira 2026-12-01 (en 73 días) Ubicación Santiago CL Categoría Otros Duración Plazo Fijo, luego indefinido Tipo Full-time Ley inclusión Postular Sé el primero en postular! Guardar Compartir El anuncio ha sido visto: 59 veces Interesados: 0 PUBLICIDAD Técnico en electricidad - Electromecánico sin experiencia Alto desempeño Consultores , Santiago 17 de Septiembre de 2026 Descripción oferta de trabajo ayer Full-time Da tus primeros pasos en una industria técnica con grandes oportunidades de desarrollo ¿Terminaste o estás estudiando tu formación técnica y estás buscando una oportunidad para aprender, adquirir experiencia y construir una carrera profesional? Importante empresa del rubro de transporte vertical busca incorporar Técnicos Trainee que quieran formarse y desarrollarse en un sector altamente especializado, trabajando con equipos como ascensores y sistemas de transporte vertical. ¿Desafíos del cargo? • Participar de una capacitación en sede central de la compañía en Santiago (un mes) • Apoyar y acompañar visitas a instalaciones de clientes para responder a solicitudes de evaluaciones, diagnóstico y mantención en terreno de equipos • Apoyar la confección de informes de servicio o visita técnica. • Ejecutar procesos de mantenimiento preventivo de equipos comercializados, según instrucciones del mentor • Apoyar la puesta en marcha de equipos comercializados en las instalaciones del cliente. ¿Qué buscamos? • Estudiantes vespertinos (excluyente) o recién titulados de formación técnico en mecánica, electricidad, electrónica, mecatrónica, robótica o automatización o similar, con mucho interés por aprender, crecer y desarrollarse laboralmente • Disponibilidad para trabajar 32 hrs semanales, de lunes a viernes. • Disponibilidad de inicio: OCTUBRE – NOVIEMBRE 2026 ¿Dónde? Huechuraba, 100% presencial. Fecha de inicio del programa: Octubre 2026 Otros Santiago equipos una apoyar Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 59 veces Interesados: 0 Publicado: ayer Expiración: En 73 días Compartir enlace Denunciar oferta Trabajos Relacionados C Jefe de Bodega Confidencial, Santiago 17 de Septiembre de 2026 Buscamos a jefe de bodega en la ciudad de santiago para liderar la… Ver más Oferta cercana C Práctica Administrativa / Pudahuel Confidencial, Santiago 17 de Septiembre de 2026 Práctica administrativa: nos encontramos en búsqueda de un estudiante en práctica para apoyar… Ver más Oferta cercana C Práctica en Mantenimiento Industrial / Pudahuel Confidencial, Santiago 17 de Septiembre de 2026 Empresa ubicada en pudahuel, busca incorporar a un estudiante en práctica de mecánica,… Ver más Oferta cercana AM Buscamos gestores de abastecimiento para servicio… Andean management spa, Santiago 16 de Septiembre de 2026 Andean bpo, empresa especializada en gestión de abastecimiento para la industria minera y… Ver más Oferta cercana Barquillera/o - Atención al cliente El toldo azul, Santiago 16 de Septiembre de 2026 Se busca barquillera/o - atención al cliente para tienda el toldo azul -… Ver más Oferta cercana TD Conductor A4 San Bernardo Transportes diaz, Santiago 16 de Septiembre de 2026 Mpresa de transportes busca conductor a4 – san bernardo importante empresa de transportes… Ver más Oferta cercana Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Otros Trabajos de Otros en Santiago Trabajos de Otros Full-time en Santiago Trabajos de Otros Full-time Trabajos en Santiago Trabajos Full-time en Santiago Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/tecnico-en-electricidad-electromecanico-sin-experiencia-3900367",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "electromecanico",
+      "fecha_recoleccion": "2026-09-19T14:59:56.859235",
+      "terminos_tecnicos_detectados": 5,
+      "analisis": {
+        "competencias_detectadas": [
+          "mantenimiento preventivo",
+          "electromecánica",
+          "puesta en marcha"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": 0,
+          "meses": 0,
+          "tipo": "sin_experiencia"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "sin_experiencia",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [
+          "técnico electromecánico junior",
+          "electromecánico"
+        ],
+        "compatibilidad": {
+          "puntaje": 45,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: mantenimiento preventivo",
+            "El cargo coincide con el perfil.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "electromecánica",
+            "puesta en marcha"
+          ]
+        }
+      }
     }
   ],
   "tendencias": {
@@ -24296,10 +24357,10 @@
     }
   },
   "resumen_mercado": {
-    "ofertas_analizadas": 412,
+    "ofertas_analizadas": 413,
     "competencias_mas_solicitadas": {
-      "electromecánica": 192,
-      "mantenimiento preventivo": 164,
+      "electromecánica": 193,
+      "mantenimiento preventivo": 165,
       "mantenimiento industrial": 119,
       "lectura de planos": 106,
       "electricidad industrial": 95,
@@ -24307,7 +24368,7 @@
       "tableros eléctricos": 81,
       "PLC": 73,
       "automatización industrial": 65,
-      "puesta en marcha": 53,
+      "puesta en marcha": 54,
       "sensores": 40,
       "diagnóstico de fallas": 38,
       "control industrial": 38,
@@ -24353,31 +24414,31 @@
       }
     },
     "electromecanica": {
-      "ofertas_electromecanica": 192,
+      "ofertas_electromecanica": 193,
       "competencias_dentro_electromecanica": {
         "mantenimiento preventivo": {
-          "ofertas": 95,
-          "porcentaje": 49.5
+          "ofertas": 96,
+          "porcentaje": 49.7
         },
         "mantenimiento industrial": {
           "ofertas": 73,
-          "porcentaje": 38.0
+          "porcentaje": 37.8
         },
         "electricidad industrial": {
           "ofertas": 71,
-          "porcentaje": 37.0
+          "porcentaje": 36.8
         },
         "tableros eléctricos": {
           "ofertas": 52,
-          "porcentaje": 27.1
+          "porcentaje": 26.9
         },
         "lectura de planos": {
           "ofertas": 50,
-          "porcentaje": 26.0
+          "porcentaje": 25.9
         },
         "automatización industrial": {
           "ofertas": 34,
-          "porcentaje": 17.7
+          "porcentaje": 17.6
         },
         "PLC": {
           "ofertas": 26,
@@ -24388,20 +24449,20 @@
           "porcentaje": 13.0
         },
         "puesta en marcha": {
-          "ofertas": 23,
-          "porcentaje": 12.0
+          "ofertas": 24,
+          "porcentaje": 12.4
         },
         "sensores": {
           "ofertas": 22,
-          "porcentaje": 11.5
+          "porcentaje": 11.4
         },
         "variadores de frecuencia": {
           "ofertas": 19,
-          "porcentaje": 9.9
+          "porcentaje": 9.8
         },
         "motores eléctricos": {
           "ofertas": 18,
-          "porcentaje": 9.4
+          "porcentaje": 9.3
         },
         "neumática": {
           "ofertas": 16,
@@ -24435,12 +24496,12 @@
       "más de 3 años": 72,
       "2 años": 67,
       "1 año": 32,
-      "sin experiencia": 9
+      "sin experiencia": 10
     },
     "experiencia_promedio_anos": 3.7,
     "experiencia_minima_anos": 1.0,
     "experiencia_maxima_anos": 20.0,
-    "ofertas_sin_experiencia": 9,
+    "ofertas_sin_experiencia": 10,
     "ubicaciones_mas_repetidas": {
       "Curicó": 2
     },
@@ -24505,7 +24566,7 @@
       {
         "tipo": "competencia",
         "competencia": "electromecánica",
-        "ofertas": 192,
+        "ofertas": 193,
         "estado": "BRECHA",
         "es_objetivo": false,
         "prioridad": 7
@@ -24513,7 +24574,7 @@
       {
         "tipo": "competencia",
         "competencia": "puesta en marcha",
-        "ofertas": 53,
+        "ofertas": 54,
         "estado": "BRECHA",
         "es_objetivo": false,
         "prioridad": 7
@@ -24569,7 +24630,7 @@
       {
         "tipo": "competencia",
         "competencia": "mantenimiento preventivo",
-        "ofertas": 164,
+        "ofertas": 165,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -24674,7 +24735,7 @@
     "recomendaciones": [
       "Priorizar formación práctica en PLC. Las marcas detectadas con mayor frecuencia son: Allen-Bradley, Siemens, Schneider.",
       "Hay 58 ofertas que solicitan PLC pero no especifican una marca; no deben descartarse por no identificar fabricante.",
-      "Considerar electromecánica como línea importante de búsqueda: 192 ofertas (46.6% del conjunto analizado).",
+      "Considerar electromecánica como línea importante de búsqueda: 193 ofertas (46.7% del conjunto analizado).",
       "Mantener como núcleo profesional: electromecánica, mantenimiento preventivo, mantenimiento industrial, lectura de planos, electricidad industrial.",
       "Buscar especialmente cargos que combinen mantenimiento industrial + electricidad industrial + PLC/automatización.",
       "No limitar la búsqueda a cargos que exijan experiencia: también seguir las ofertas que aceptan candidatos sin experiencia.",
