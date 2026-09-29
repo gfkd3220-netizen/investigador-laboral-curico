@@ -28357,6 +28357,664 @@
           ]
         }
       }
+    },
+    {
+      "titulo": "Electromecánico",
+      "empresa": "Postular Sé el primero en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Electromecánico - Melipilla | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Operarios Electromecánico Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Electromecánico ID 3905575 Buscado Importante Empresa Fecha 2026-09-29 09:16:03 Expira 2026-12-13 (en 75 días) Ubicación Melipilla CL Categoría Operarios Tipo Full-time Postular Sé el primero en postular! Guardar Compartir El anuncio ha sido visto: 35 veces Interesados: 0 PUBLICIDAD Electromecánico IE Importante Empresa , Melipilla 29 de Septiembre de 2026 Descripción oferta de trabajo hoy Full-time DESCRIPCIÓN DEL PUESTO Objetivo del cargo Ejecutar el mantenimiento eléctrico preventivo, predictivo y correctivo de los equipos e instalaciones de una planta de proceso industrial, asegurando la disponibilidad de los equipos y la continuidad operacional, de acuerdo con los procedimientos y estándares de seguridad establecidos. Principales funciones Ejecutar mantenimiento eléctrico preventivo y predictivo según programas establecidos. Diagnosticar y reparar motores eléctricos, bombas, tableros de fuerza y control. Realizar revisión y diagnóstico de variadores de frecuencia (VFD), sensores e instrumentación. Apoyar el montaje, conexionado, pruebas y puesta en marcha de equipos eléctricos. Interpretar planos eléctricos, diagramas de fuerza y control. Ejecutar mediciones eléctricas y diagnósticos de fallas. Realizar trabajos de cableado, canalización y modificaciones eléctricas. Participar en mantenciones programadas y atención de contingencias operacionales. Aplicar procedimientos de bloqueo y aislamiento de energías (LOTO). Registrar actividades de mantención y reportar condiciones de riesgo. REQUISITOS Formación: Técnico de Nivel Medio o Superior en Electricidad, Electromecánica o carrera afín. Experiencia: Mínimo 2 años de experiencia en mantenimiento eléctrico industrial. Deseable experiencia en plantas de proceso continuo. Conocimientos deseables: Motores eléctricos. Tableros de fuerza y control. Variadores de frecuencia (VFD). Instrumentación y automatización industrial. Lectura de planos eléctricos. Diagnóstico de fallas eléctricas. Otros requisitos: Disponibilidad para trabajar en sistema de turnos rotativos. (3 turnos) Deseable licencia SEC vigente. BENEFICIOS Beneficios corporativos de la empresa se comentarán en entrevista. Operarios Melipilla eléctricos industrial equipos Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 35 veces Interesados: 0 Publicado: hoy Expiración: En 75 días Compartir enlace Denunciar oferta Trabajos Relacionados AE Se necesita operador agrícola - Codigua… Agrícola el renacimiento, Melipilla 28 de Septiembre de 2026 Huerto de cerezas ubicado en codigua, melipilla, busca operador agrícola para manejo de… Ver más Oferta cercana CC OPERADOR RODILLO Cbarrios constructora, Melipilla 25 de Septiembre de 2026 Buscamos un operador de rodillo altamente calificado para integrarse a proyectos en la… Ver más Oferta cercana ED Operario 2 de Mantención de Redes Empresa de servicios sanitarios, Melipilla 24 de Septiembre de 2026 Empresa de servicios sanitarios busca incorporar a su equipo un operario 2 de… Ver más Oferta cercana GS Encargado de entrega de implementos Grupo savia, Melipilla 23 de Septiembre de 2026 Encargado/a de entrega de zippers y botas (guardarropia) ubicación: paico / melipilla modalidad:… Ver más Oferta cercana A Técnico en Bioseguridad - Técnico Agrícola/Veterinario Ariztia, Melipilla 03 de Septiembre de 2026 DescripciÓn del puesto ¡en ariztía estamos buscando a los mejores profesionales! nuestra misión… Ver más Oferta cercana H Trabajador / Operario Agrícola Higuera, Melipilla 02 de Septiembre de 2026 Agrícola ubicada en el sector de mallarauco, comuna de melipilla, busca trabajador para… Ver más Oferta cercana Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Operarios Trabajos de Operarios en Melipilla Trabajos de Operarios Full-time en Melipilla Trabajos de Operarios Full-time Trabajos en Melipilla Trabajos Full-time en Melipilla Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/electromecanico-3905575",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "automatizacion industrial",
+      "fecha_recoleccion": "2026-09-29T17:12:41.814376",
+      "terminos_tecnicos_detectados": 14,
+      "analisis": {
+        "competencias_detectadas": [
+          "electricidad industrial",
+          "automatización industrial",
+          "variadores de frecuencia",
+          "motores eléctricos",
+          "instrumentación industrial",
+          "electromecánica",
+          "lectura de planos",
+          "diagnóstico de fallas",
+          "sensores",
+          "puesta en marcha"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": 2.0,
+          "meses": 24.0,
+          "tipo": "especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "brecha_alta",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [
+          "electromecánico"
+        ],
+        "compatibilidad": {
+          "puntaje": 45,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: electricidad industrial, automatización industrial, variadores de frecuencia, motores eléctricos, lectura de planos",
+            "El cargo coincide con el perfil.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "Solicita 24 meses de experiencia y el perfil tiene 6 meses.",
+            "instrumentación industrial",
+            "electromecánica",
+            "diagnóstico de fallas",
+            "sensores",
+            "puesta en marcha"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "Auxiliar de Mantenimiento Nocturno",
+      "empresa": "Postular Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Auxiliar de Mantenimiento Nocturno - Santiago | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Operarios Auxiliar de Mantenimiento Nocturno Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Oferta destacada Auxiliar de Mantenimiento Nocturno ID 3367561 Buscado Confidencial Fecha 2026-09-28 12:38:18 Expira 2026-12-12 (en 74 días) Ubicación Santiago CL Categoría Operarios Duración Indefinido Tipo Full-time Postular Guardar Compartir El anuncio ha sido visto: 4798 veces Interesados: 57 PUBLICIDAD Auxiliar de Mantenimiento Nocturno C Confidencial , Santiago 28 de Septiembre de 2026 Descripción oferta de trabajo ayer Full-time Importante empresa de instalaciones eléctricas, montaje, mantenimiento industrial e ingeniería, con 30 años en el mercado y sólido prestigio, busca Auxiliar de Mantenimiento, para incorporarse a nuestros proyectos. Sus principales funciones serán: -Ejecutar las actividades de mantenimiento inspección, limpieza y operación referido a normalizar las puertas de anden que quedan alarmadas producto de la limpieza del sistema. -Prestar apoyo a los técnicos de mantenimiento. -Ejecutar las actividades de limpieza de Sistema Puertas de Andén. -Informar a su supervisión sobre las anomalías identificadas en terreno por mal uso del sistema (actos de vandalismos). -Mantener y utilizar correctamente las herramientas y materiales para la ejecución de las actividades a su cargo. -Aplicar los procedimientos, instructivos y otros documentos aplicables a las actividades a ejecutar. -Asegurar el uso obligatorio de los elementos de protección personal (EPP) y todos los elementos de seguridad exigidos para ejecutar las actividades a su cargo (conos de seguridad, luces, radio, otros). -Informar a su supervisión sobre situaciones de emergencia, peligro para las personas, equipos u operaciones. -Mantener el lugar de trabajo limpio y ordenado. -Conducir vehículos de la empresa con fines laborales. Requisitos: Deseable Licencia de Educación Media. Licencia de Conducir B vigente Deseable conocimiento en limpieza de equipos industriales Estamos comprometidos con la igualdad de oportunidades laborales, sin distinción de género, orientación sexual, discapacidad, nacionalidad, raza, religión o edad. Creemos en la diversidad y la inclusión como pilares fundamentales para el éxito profesional y personal. Beneficios Mutual de Seguridad La empresa esta adscrita a la mutual de seguridad Caja de compensación La empresa esta adscrita a una caja de compensación Uniforme La empresa provee el uniforme de trabajo Operarios Santiago mantenimiento actividades ejecutar Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 4798 veces Interesados: 57 Publicado: ayer Expiración: En 74 días Compartir enlace Denunciar oferta Trabajos Relacionados SS CHOFER REPARTO (COMUNA DE QUILICURA) Socomarca spa, Santiago 25 de Septiembre de 2026 Empresa distribuidora mayorista con entrega punto a punto, requiere chofer con experiencia, para… Ver más 100% Similar Operario Ayudante para Fábrica Eléctrica Tch, Colina 25 de Septiembre de 2026 Buscamos ayudantes para ejecutar tareas de montaje, producción en el área eléctrica y… Ver más 100% Similar Chofer Clase B Asiamerica, Santiago 09 de Septiembre de 2026 Empresa comercializadora de productos de hogar y deporte, requiere contratar choferes clase b.… Ver más 83% Similar M1, M2 y AYUDANTE ELECTRICO Farenhouse, Santiago 21 de Septiembre de 2026 Somos farenhouse, una empresa líder en el rubro de la construcción, especializados en… Ver más 67% Similar GP Operario de Bodega - Nocturno -… Global pharma spa, Santiago 31 de Agosto de 2026 Nos encontramos en la búsqueda activa para nuestro importante centro de distribución farmacéutico,… Ver más 67% Similar S Técnico en Mantenimiento Sometec, Santiago 14 de Septiembre de 2026 Para santiago, estamos en búsqueda de un/a técnico/a de nivel superior en electricidad,… Ver más 67% Similar Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Operarios Trabajos de Operarios en Santiago Trabajos de Operarios Full-time en Santiago Trabajos de Operarios Full-time Trabajos en Santiago Trabajos Full-time en Santiago Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/auxiliar-de-mantenimiento-nocturno-3367561",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "mantenimiento industrial",
+      "fecha_recoleccion": "2026-09-29T17:12:49.795402",
+      "terminos_tecnicos_detectados": 2,
+      "analisis": {
+        "competencias_detectadas": [
+          "mantenimiento industrial"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": null,
+          "meses": null,
+          "tipo": "no_especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "no_especificada",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [],
+        "compatibilidad": {
+          "puntaje": 20,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: mantenimiento industrial",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": []
+        }
+      }
+    },
+    {
+      "titulo": "Técnico ELectromecánico",
+      "empresa": "Postular Sé de los primeros en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Técnico ELectromecánico - Santiago | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Profesionales y Técnicos Técnico ELectromecánico Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Oferta destacada Técnico ELectromecánico ID 3905315 Buscado Chilefilms Fecha 2026-09-28 16:19:35 Expira 2026-12-12 (en 74 días) Ubicación Santiago CL Categoría Profesionales y Técnicos Salario 1200000 Duración Plazo fijo, posibilidad de indefinido según evaluacion Tipo Full-time Postular Sé de los primeros en postular! Guardar Compartir El anuncio ha sido visto: 196 veces Interesados: 7 PUBLICIDAD Técnico ELectromecánico C Chilefilms , Santiago 28 de Septiembre de 2026 Descripción oferta de trabajo hoy 1200000 Full-time ¡Buscamos Técnico Electromecánico para Unidades Móviles y Sistemas Técnicos! ¿Tienes experiencia en mantenimiento eléctrico, climatización y gestión de flota vehicular? ¿Te motiva asegurar la continuidad operativa de grandes proyectos e instalaciones? ¡Esta oportunidad es para ti! Nuestra empresa ubicada en Las Condes nos encontramos en la búsqueda de un/a Técnico Electromecánico para sumarse a nuestro equipo operaciones y mantenimiento. Objetivo del Cargo Garantizar la máxima disponibilidad, continuidad operacional y óptimo funcionamiento de las instalaciones eléctricas, sistemas de climatización, infraestructura técnica y la flota vehicular operativa de la empresa. Principales Funciones y Responsabilidades Mantenimiento y Gestión de Sistemas Eléctricos y Climatización: Control, revisión periódica y supervisión de mantenciones preventivas y correctivas de Grupos Electrógenos, Sub-Estaciones, Tableros de Distribución (Fuerza y Alumbrado), UPS y Sistemas de Aire Acondicionado. Gestión de proveedores, calendarios de mantención, revisión de cotizaciones, reportes técnicos y confección de fichas de equipos. Mantenimiento y Control de Flota Vehicular: Apoyo en la revisión mecánica/física, control de bitácoras y registros de combustible para camionetas, carros de arrastre y vehículos auxiliares. Coordinación y ejecución de reparaciones y mantenimientos (propios o en talleres externos) para asegurar la pronta disponibilidad de las unidades móviles. Soporte Técnico en Terreno y Planta: Velar por el excelente estado técnico y funcionamiento de las unidades móviles de televisión, equipos portátiles, estudios y recintos técnicos asignados. Reportar anomalías técnicas e implementar soluciones creativas y eficientes para evitar interrupciones operativas o comerciales. Eventual disponibilidad para desplazarse dentro de Santiago o a regiones según los requerimientos operativos de la empresa. Requisitos del Perfil Educación: Título Técnico de Nivel Superior en Electromecánica, Electricidad, Mantenimiento Industrial o carrera afín. (Sólidos conocimientos eléctricos requeridos). Experiencia: Mínimo 5 años de experiencia comprobable en labores similares de mantenimiento electromecánico, tableros eléctricos, climatización y/o soporte a flotas vehiculares/unidades móviles. Competencias: Proactividad, enfoque en resolución de problemas y orientación a la continuidad operacional. Orden, rigurosidad en el control documental/fichas técnicas y excelente capacidad de trabajo en equipo. Disponibilidad para movilizarse en terreno según requerimientos de producción o mantenimientos. ¿Qué Ofrecemos? Pertenecer a una empresa consolidada en el rubro. Desafíos constantes en proyectos técnicos de alto nivel. Estabilidad laboral y un excelente ambiente de trabajo. Renta acorde al mercado y nivel de experiencia ¡Esperamos tu postulación! . Beneficios Seguro de salud La empresa paga o copaga una cobertura de salud adicional. Seguro de vida ¡La salud es lo más importante! La empresa paga el seguro de vida Mutual de Seguridad La empresa esta adscrita a la mutual de seguridad Caja de compensación La empresa esta adscrita a una caja de compensación Casino La empresa incluye casino para la alimentación Uniforme La empresa provee el uniforme de trabajo Profesionales y Técnicos Santiago técnico mantenimiento técnicos Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 196 veces Interesados: 7 Publicado: hoy Expiración: En 74 días Compartir enlace Denunciar oferta Trabajos Relacionados A Líder de Servicio Técnico herramientas eléctricas… Atrade, Santiago 20 de Septiembre de 2026 Parque industrial enea, pudahuel. presencial. en atrade consultora buscamos profesionales con formación técnica… Ver más 100% Similar ID TECNICO ELECTRONICO Inspection data intelligence, Antofagasta 15 de Septiembre de 2026 Tecnico electronico se requiere técnico eléctronico con experiencia mínima de 5 años en… Ver más 67% Similar Asistente de Oficina Técnica Selección proyectos de ingenieria, Santiago 27 de Septiembre de 2026 Importante empresa de ingenieria con amplia experiencia en el rubro, se encuentra en… Ver más 67% Similar MT Mecánico/eléctrico minería 7x7 Equipos móviles superficies Minería todo chile, Antofagasta 21 de Septiembre de 2026 Título: técnico(a) de mantenimiento de palas o equipos caex mineras tipo de contrato:… Ver más 67% Similar WE Técnico Eléctrico Wireless energy chile ltda, Puerto montt 16 de Septiembre de 2026 Empresa de energías renovables busca técnicos eléctricos importante empresa del rubro de energías… Ver más 67% Similar Ingeniero eléctrico Trainee Selección proyectos de ingenieria, Santiago 28 de Septiembre de 2026 Importante empresa del rubro de la ingenierÍa se encuentra en bÚsqueda de personas… Ver más 67% Similar Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Profesionales y Técnicos Trabajos de Profesionales y Técnicos en Santiago Trabajos de Profesionales y Técnicos Full-time en Santiago Trabajos de Profesionales y Técnicos Full-time Trabajos en Santiago Trabajos Full-time en Santiago Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/tecnico-electromecanico-3905315",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "mantenimiento industrial",
+      "fecha_recoleccion": "2026-09-29T17:12:51.250721",
+      "terminos_tecnicos_detectados": 5,
+      "analisis": {
+        "competencias_detectadas": [
+          "mantenimiento industrial",
+          "tableros eléctricos",
+          "electromecánica"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": 5.0,
+          "meses": 60.0,
+          "tipo": "especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "brecha_alta",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [
+          "técnico electromecánico junior",
+          "electromecánico"
+        ],
+        "compatibilidad": {
+          "puntaje": 30,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: mantenimiento industrial, tableros eléctricos",
+            "El cargo coincide con el perfil.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "Solicita 60 meses de experiencia y el perfil tiene 6 meses.",
+            "electromecánica"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "Electromecánico",
+      "empresa": "Postular Sé el primero en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Electromecánico - Puerto Montt | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Profesionales y Técnicos Electromecánico Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Electromecánico ID 3905953 Buscado Importante Empresa Fecha 2026-09-29 13:36:24 Expira 2026-12-13 (en 75 días) Ubicación Puerto Montt CL Categoría Profesionales y Técnicos Tipo Full-time Ley inclusión Postular Sé el primero en postular! Guardar Compartir El anuncio ha sido visto: 3 veces Interesados: 0 PUBLICIDAD Electromecánico Importante Empresa , Puerto Montt 29 de Septiembre de 2026 Descripción oferta de trabajo hoy Full-time Buscamos incorporar a nuestro equipo un/a Electromecánico/a, quien será responsable de ejecutar mantenciones preventivas y correctivas de acuerdo con la programación establecida, contribuyendo a asegurar la continuidad operacional y el correcto funcionamiento de los equipos e infraestructura de la empresa. Principales funciones Ejecutar mantenciones preventivas y correctivas en equipos estacionarios y móviles. Detectar y apoyar la solución de fallas eléctricas y mecánicas. Verificar el correcto funcionamiento y estado de los equipos e infraestructura. Cumplir con los procedimientos y estándares de seguridad establecidos para las labores de mantenimiento. Requisitos Formación: Técnico de Nivel Superior en Electromecánica, Mantenimiento Industrial o carrera afín. Experiencia: Al menos 2 años de experiencia en mantenimiento industrial. Conocimientos: Electricidad y mecánica. Disponibilidad para trabajar en sistema de turnos rotativos. Beneficios Seguro de salud La empresa paga o copaga una cobertura de salud adicional. Bus acercamiento La empresa provee un bus de acercamiento Seguro de vida ¡La salud es lo más importante! La empresa paga el seguro de vida Seguro dental Paga o copaga un seguro dental. Día de cumpleaños libre El día de tu cumpleaños es canjeable por un día completo de vacaciones. Mutual de Seguridad La empresa esta adscrita a la mutual de seguridad Caja de compensación La empresa esta adscrita a una caja de compensación Casino La empresa incluye casino para la alimentación Uniforme La empresa provee el uniforme de trabajo Profesionales y Técnicos Puerto Montt electromecánico equipos mantenimiento Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 3 veces Interesados: 0 Publicado: hoy Expiración: En 75 días Compartir enlace Denunciar oferta Trabajos Relacionados TI Ingeniero Electrónico y/o Automatización Tecnovum internet of water, Puerto montt 28 de Septiembre de 2026 Ingeniero(a) de desarrollo – electrónica y automatización llanquihue presencial jornada completa tecnovum –… Ver más Oferta cercana CP Tens Pabellonero Clínica privada, Puerto montt 28 de Septiembre de 2026 Clínica privada ubicado en puerto montt, se encuentra en búsqueda de un técnico… Ver más Oferta cercana PR Director/a Eleam Patagonia rrhh, Puerto montt 28 de Septiembre de 2026 Se busca director/a administrativo/a con título en salud o ciencias sociales para liderar… Ver más Oferta cercana URGENTE ITO Calidad - EXPERIENCIA OBRAS… Ingenet ltda, Puerto montt 28 de Septiembre de 2026 Ingenet ltda requiere a un/a ingeniero civil, constructor civil, ingeniero constructor o arquitecto… Ver más Oferta cercana ED Tecnico Empresa de servicios en.., Puerto montt 27 de Septiembre de 2026 Desea contratar técnicos/as para instalación y mantenimiento de sistemas de vigilancia y monitoreo… Ver más Oferta cercana N Jefe/a de Mantenimiento de Maquinaria Pesada Naviera, Puerto montt 27 de Septiembre de 2026 Jefe/a de mantenimiento de maquinaria pesada – puerto montt empresa del sector logístico-portuario… Ver más Oferta cercana Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Profesionales y Técnicos Trabajos de Profesionales y Técnicos en Puerto Montt Trabajos de Profesionales y Técnicos Full-time en Puerto Montt Trabajos de Profesionales y Técnicos Full-time Trabajos en Puerto Montt Trabajos Full-time en Puerto Montt Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/electromecanico-3905953",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "mantenimiento industrial",
+      "fecha_recoleccion": "2026-09-29T17:12:53.087124",
+      "terminos_tecnicos_detectados": 3,
+      "analisis": {
+        "competencias_detectadas": [
+          "mantenimiento industrial",
+          "electromecánica"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": 2.0,
+          "meses": 24.0,
+          "tipo": "especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "brecha_alta",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [
+          "electromecánico"
+        ],
+        "compatibilidad": {
+          "puntaje": 25,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: mantenimiento industrial",
+            "El cargo coincide con el perfil.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "Solicita 24 meses de experiencia y el perfil tiene 6 meses.",
+            "electromecánica"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "Electromecanico",
+      "empresa": "Postular Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Electromecanico - Santiago | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Profesionales y Técnicos Electromecanico Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Electromecanico ID 3494184 Buscado Industria Nacional de Rollos Fecha 2026-09-29 12:02:47 Expira 2026-12-13 (en 75 días) Ubicación Santiago CL Categoría Profesionales y Técnicos Salario 950000 Duración Plazo Fijo y Luego Indefinido Tipo Full-time Ley inclusión Postular Guardar Compartir El anuncio ha sido visto: 5323 veces Interesados: 169 PUBLICIDAD Electromecanico IN Industria Nacional de Rollos , Santiago 29 de Septiembre de 2026 Descripción oferta de trabajo hoy 950000 Full-time Descripción de empleo ¡Estamos contratando! En Engatel buscamos profesionales talentosos como tú. Nos encontramos en la búsqueda de un Electromecánico con experiencia para sumarse a nuestro equipo de operaciones en planta productiva. El cual es un profesional altamente calificado encargado de asegurar el óptimo funcionamiento y la continuidad operativa de los equipos de instalación. Su principal responsabilidad es realizar labores de mantenimiento preventivo y correctivo en maquinarias, sistemas eléctricos, electrónicos, mecánicos y neumáticos, garantizando que las instalaciones y equipos estén en perfectas condiciones para su operación segura y eficiente. Si eres una persona proactiva, orientada al detalle y con un fuerte compromiso con la continuidad operacional, ¡esta oportunidad es para ti! ¿Qué buscamos? Formación: Técnico en Electromecánica, Mantenimiento Industrial, Electricidad o carrera afín. Experiencia: Mínimo 2 años de experiencia comprobable desempeñando funciones de mantenimiento en plantas productivas. Conocimientos sólidos en: Mecánica industrial. Sistemas eléctricos y de automatización. Sistemas hidráulicos y neumáticos. Condiciones de la oferta: Jornada laboral: Disponibilidad para trabajar en modalidad de turnos rotativos. ¿Cómo postular? ¡Te estamos esperando para potenciar juntos nuestro equipo! Beneficios Bus acercamiento La empresa provee un bus de acercamiento Mutual de Seguridad La empresa esta adscrita a la mutual de seguridad Caja de compensación La empresa esta adscrita a una caja de compensación Casino La empresa incluye casino para la alimentación Uniforme La empresa provee el uniforme de trabajo Profesionales y Técnicos Santiago mantenimiento sistemas Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 5323 veces Interesados: 169 Publicado: hoy Expiración: En 75 días Compartir enlace Denunciar oferta Trabajos Relacionados OPERADOR INDUSTRIAL - PLANTA CCU -RENCA Grupo rh, Santiago 08 de Septiembre de 2026 Para planta industrial ccu quilicura buscamos profesional del área industrial para cargo operador… Ver más 100% Similar MANTENIMIENTO INDUSTRIAL MAQUINARIA CNC Cnc company spa, Santiago 03 de Septiembre de 2026 Importante empresa dedicada a servicio técnico y mantención de equipos cnc, necesita contratar… Ver más 54% Similar S Técnico en Mantenimiento Sometec, Santiago 14 de Septiembre de 2026 Para santiago, estamos en búsqueda de un/a técnico/a de nivel superior en electricidad,… Ver más 54% Similar Operario Ayudante para Fábrica Eléctrica Tch, Colina 25 de Septiembre de 2026 Buscamos ayudantes para ejecutar tareas de montaje, producción en el área eléctrica y… Ver más 42% Similar EC SUPERVISOR DE FAENAS Empresa constructora, Santiago 08 de Septiembre de 2026 Empresa constructora, requiere supervisor de faenas, con disponibilidad para trabajar en faenas dentro… Ver más 38% Similar ED Técnico en automatizacion /electronico/ o similar Empresa de ingenieria, Santiago 03 de Septiembre de 2026 Experiencia en sistemas de control, automatización. técnico nivel medio o superior. pretenciones de… Ver más 38% Similar Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Profesionales y Técnicos Trabajos de Profesionales y Técnicos en Santiago Trabajos de Profesionales y Técnicos Full-time en Santiago Trabajos de Profesionales y Técnicos Full-time Trabajos en Santiago Trabajos Full-time en Santiago Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/electromecanico-3494184",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "mantenimiento industrial",
+      "fecha_recoleccion": "2026-09-29T17:12:55.575484",
+      "terminos_tecnicos_detectados": 5,
+      "analisis": {
+        "competencias_detectadas": [
+          "mantenimiento industrial",
+          "mantenimiento preventivo",
+          "electromecánica"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": 2.0,
+          "meses": 24.0,
+          "tipo": "especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "brecha_alta",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [
+          "electromecánico"
+        ],
+        "compatibilidad": {
+          "puntaje": 30,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: mantenimiento industrial, mantenimiento preventivo",
+            "El cargo coincide con el perfil.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "Solicita 24 meses de experiencia y el perfil tiene 6 meses.",
+            "electromecánica"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "Jefe Planificación y Programación Mantenimiento",
+      "empresa": "Postular Sé de los primeros en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Jefe Planificación y Programación Mantenimiento - Antofagasta | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Profesionales y Técnicos Jefe Planificación y Programación Mantenimiento Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Jefe Planificación y Programación Mantenimiento ID 3905557 Buscado Confidencial Fecha 2026-09-29 09:02:37 Expira 2026-12-13 (en 75 días) Ubicación Antofagasta CL Categoría Profesionales y Técnicos Tipo Full-time Postular Sé de los primeros en postular! Guardar Compartir El anuncio ha sido visto: 28 veces Interesados: 1 PUBLICIDAD Jefe Planificación y Programación Mantenimiento C Confidencial , Antofagasta 29 de Septiembre de 2026 Descripción oferta de trabajo hoy Full-time Descripción Funciones del Cargo: Importante empresa del rubro industrial, ubicada en la comuna de Mejillones, se encuentra en búsqueda de un Jefe de Planificación y Programación para integrarse a su área de Mantenimiento y Gestión de Activos, quien será responsable de la gestión integral de la planificación y programación del mantenimiento preventivo y predictivo de las instalaciones productivas, desempeñando sus funciones de manera presencial de lunes a viernes. Funciones: • Gestionar la disponibilidad de repuestos, equipos y servicios necesarios para el plan de mantenimiento, incluyendo la evaluación de ofertas y la administración de contratos. • Dirigir la planificación e ingeniería de mantenimiento de la planta, administrando el presupuesto OPEX y CAPEX y controlando los indicadores operacionales. • Liderar la planificación de largo plazo, incluyendo mantenimientos mayores de equipos críticos, asegurando recursos, presupuesto y alineación con el plan de negocio. • Coordinar y programar las actividades de mantenimiento entre las distintas disciplinas y áreas operativas, integrando prioridades y requerimientos técnicos. • Organizar la programación de recursos humanos, materiales y tecnológicos, proyectando necesidades de inversión y gasto según la carga de trabajo. • Consolidar y reportar KPIs técnicos y financieros del área, asegurando la trazabilidad y el control presupuestario. • Analizar indicadores de disponibilidad, confiabilidad y costos para identificar fallas recurrentes y proponer mejoras a los planes de mantenimiento. • Apoyar proyectos de ingeniería asociados a fin de vida útil, obsolescencia tecnológica y mejoras de eficiencia productiva. • Liderar y desarrollar al equipo de trabajo, promoviendo su formación, un buen clima laboral y la aplicación de metodologías Lean e innovación. Nuestro Candidato Ideal: * Residencia en Antofagasta/Mejillones. * Titulado en Ingeniería Civil/Mecánica/Eléctrica, Industrial, Electrónica o afín. * 8 años de experiencia total, con 3 años en planificación o programación de mantenimiento industrial. * 3 años de experiencia liderando equipos. * Conocimiento de análisis de indicadores clave de mantenimiento. * Excel nivel avanzado. * SAP PM (u otro sistema de mantenimiento) nivel usuario. * Project nivel Intermedio. * Manejo de herramientas digitales para planificación de acciones preventivas y correctivas. * Conocimiento de Normas de Gestión de Activos, 55.000 e ISO 9000. El proceso de selección se realiza a través de Aira - plataforma de reclutamiento diseñado para mejorar tu experiencia de postulación. Para postular solo necesitas: 1. Postular a la oferta 2. Revisar tu email 3. Ingresar a Aira y contestar las preguntas y/o pruebas solicitadas Luego, si vemos que tu perfil se ajusta a lo que estamos buscando, te contactaremos por email (a través de Aira) para seguir a la etapa presencial. Profesionales y Técnicos Antofagasta mantenimiento planificación programación Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 28 veces Interesados: 1 Publicado: hoy Expiración: En 75 días Compartir enlace Denunciar oferta Trabajos Relacionados CV Jefe de Obras para viviendas sociales… Constructora viviendas sociales -.., Temuco 27 de Septiembre de 2026 Empresa constructora de viviendas sociales de la región de la araucanía, requiere contratar… Ver más 100% Similar Jefe Producción Eléctrica Industrial (Ing. en… Tch, Colina 24 de Septiembre de 2026 Resumen: • buscamos jefe de producción industrial eléctrica altamente calificado, con experiencia en… Ver más 100% Similar GERENTE GENERAL Redrrhh.cl, Santiago 29 de Septiembre de 2026 Si eres un profesional con habilidades de liderazgo y experiencia en proyectos, podrías… Ver más 100% Similar C Gerente de Sucursal Clínica de Urgencias Confidencial, Santiago 28 de Septiembre de 2026 Clínicas de urgencia ambulatoria, sector poniente de santiago, se encuentra en la búsqueda… Ver más 100% Similar ED Supervisor de Operaciones Empresa de servicio a.., Antofagasta 28 de Septiembre de 2026 Objetivo general del cargo: supervisar y controlar las operaciones del contrato asignado, incluyendo… Ver más 100% Similar ED Encargado de Despacho-Picking Empresa del rubro del.., Santiago 03 de Septiembre de 2026 Aviso encargado de despacho – picking ¡buscamos encargado de despacho y picking para… Ver más 100% Similar Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Profesionales y Técnicos Trabajos de Profesionales y Técnicos en Antofagasta Trabajos de Profesionales y Técnicos Full-time en Antofagasta Trabajos de Profesionales y Técnicos Full-time Trabajos en Antofagasta Trabajos Full-time en Antofagasta Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/jefe-planificacion-y-programacion-mantenimiento-3905557",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "mantenimiento industrial",
+      "fecha_recoleccion": "2026-09-29T17:12:58.465359",
+      "terminos_tecnicos_detectados": 2,
+      "analisis": {
+        "competencias_detectadas": [
+          "mantenimiento industrial",
+          "mantenimiento preventivo"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": 8.0,
+          "meses": 96.0,
+          "tipo": "especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "brecha_alta",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [],
+        "compatibilidad": {
+          "puntaje": 10,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: mantenimiento industrial, mantenimiento preventivo",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "Solicita 96 meses de experiencia y el perfil tiene 6 meses."
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "Técnico en Mantenimiento Industrial / Técnico…",
+      "empresa": "Postular Sé de los primeros en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Técnico en Mantenimiento Industrial / Técnico Eléctrico en Mantenimiento - Santiago | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Profesionales y Técnicos Técnico en Mantenimiento Industrial / Técnico Eléctrico en Mantenimiento Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Técnico en Mantenimiento Industrial / Técnico Eléctrico en Mantenimiento ID 3905486 Buscado Servicios Drej Limitada Fecha 2026-09-28 19:42:18 Expira 2026-12-12 (en 74 días) Ubicación Santiago CL Categoría Profesionales y Técnicos Duración Indefinido Tipo Full-time Postular Sé de los primeros en postular! Guardar Compartir El anuncio ha sido visto: 54 veces Interesados: 3 PUBLICIDAD Técnico en Mantenimiento Industrial / Técnico Eléctrico en Mantenimiento SD Servicios Drej Limitada , Santiago 28 de Septiembre de 2026 Descripción oferta de trabajo hoy Full-time Buscamos integrar a nuestro equipo a un Técnico en Mantenimiento Industrial o Técnico Eléctrico de Mantenimiento para desempeñar funciones de mantenimiento preventivo, correctivo y diagnóstico en plantas industriales y faenas en terreno. Principales Funciones: • Ejecutar mantenimiento electromecánico y eléctrico en plantas industriales y terreno. • Diagnóstico, detección y reparación de fallas en tableros de fuerza/control, motores y sistemas de bombeo/accionamiento. • Apoyo en tareas de montaje, revisiones técnicas y pruebas operacionales. • Elaborar reportes técnicos de las actividades realizadas en terreno. • Cumplir estrictamente con las normas y protocolos de seguridad y prevención de riesgos. Requisitos del Cargo: • Título Técnico de Nivel Medio o Superior en Electricidad Industrial, Mantenimiento Industrial, Electromecánica o carrera afín. • Experiencia laboral mínima de 3 a 4 años en mantenimiento de plantas industriales y trabajo en terreno/faena (perfil con experiencia consolidada). • Licencia de conducir clase B vigente (requisito deseable/excluyente según traslados). • Salud compatible con trabajo en terreno y plantas operativas. • Certificación SEC (deseable). • Capacidad de resolución de problemas, proactividad y trabajo en equipo. Condiciones ofrecidas: • Contrato: Plazo fijo, con posibilidad de paso a indefinido según desempeño. • Jornada: Completa. • Implementación completa de seguridad (EPP) y herramientas de trabajo. • Viáticos y asignaciones correspondientes para trabajos en terreno. Profesionales y Técnicos Santiago mantenimiento técnico terreno Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 54 veces Interesados: 3 Publicado: hoy Expiración: En 74 días Compartir enlace Denunciar oferta Trabajos Relacionados Técnico mantenedor eléctrico Consultora virtus laboral, Santiago 21 de Septiembre de 2026 Importante empresa del rubro metalmecánico se encuentra en búsqueda de un/a electromecánico/a para… Ver más 100% Similar S Técnico en Mantenimiento Sometec, Santiago 14 de Septiembre de 2026 Para santiago, estamos en búsqueda de un/a técnico/a de nivel superior en electricidad,… Ver más 50% Similar EM Técnico Eléctrico, Mecánico o Electromecánico Ese maquinarías s.a., Santiago 27 de Septiembre de 2026 Nuestra empresa ese maquinarías s.a necesita para su equipo, personal técnico eléctrico, mecánico… Ver más 50% Similar SE BUSCA TECNICO EN MANTENCION EN… Alterna ingenieria spa, Santiago 14 de Septiembre de 2026 Se requiere contratar tecnico o ingeniero en equipos médicos con conocimiento y experiencia… Ver más 50% Similar EC Ingeniero Eléctrico Empresa constructora confidencial, Santiago 07 de Septiembre de 2026 Descripción del cargo responsabilidad de diseñar, desarrollar, implementar y mantener sistemas eléctricos y… Ver más 50% Similar TÉCNICO DE MANTENIMIENTO - CARL'S JR. Carl&#039;s jr., Santiago 22 de Septiembre de 2026 En carl’s jr. nos encontramos en búsqueda de un técnico de mantención para… Ver más 50% Similar Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Profesionales y Técnicos Trabajos de Profesionales y Técnicos en Santiago Trabajos de Profesionales y Técnicos Full-time en Santiago Trabajos de Profesionales y Técnicos Full-time Trabajos en Santiago Trabajos Full-time en Santiago Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/tecnico-en-mantenimiento-industrial-tecnico-electrico-en-mantenimiento-3905486",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "mantenimiento industrial",
+      "fecha_recoleccion": "2026-09-29T17:13:00.008940",
+      "terminos_tecnicos_detectados": 5,
+      "analisis": {
+        "competencias_detectadas": [
+          "electricidad industrial",
+          "mantenimiento industrial",
+          "mantenimiento preventivo",
+          "electromecánica"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": 4.0,
+          "meses": 48.0,
+          "tipo": "rango"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "brecha_alta",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [
+          "técnico de mantenimiento junior",
+          "técnico de mantenimiento"
+        ],
+        "compatibilidad": {
+          "puntaje": 35,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: electricidad industrial, mantenimiento industrial, mantenimiento preventivo",
+            "El cargo coincide con el perfil.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "Solicita 48 meses de experiencia y el perfil tiene 6 meses.",
+            "electromecánica"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "Mantenedor instrumentista (PTAS/PTAP) / Los Andes",
+      "empresa": "Postular Sé el primero en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Mantenedor instrumentista (PTAS/PTAP) / Los Andes - Los Andes | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Operarios Mantenedor instrumentista (PTAS/PTAP) / Los Andes Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Mantenedor instrumentista (PTAS/PTAP) / Los Andes ID 3905554 Buscado ALMAR WATER Fecha 2026-09-29 09:01:46 Expira 2026-12-13 (en 75 días) Ubicación Los Andes CL Categoría Operarios Tipo Full-time Ley inclusión Postular Sé el primero en postular! Guardar Compartir El anuncio ha sido visto: 50 veces Interesados: 0 PUBLICIDAD Mantenedor instrumentista (PTAS/PTAP) / Los Andes ALMAR WATER , Los Andes 29 de Septiembre de 2026 Descripción oferta de trabajo hoy Full-time Almar Water Servicios Latam es una empresa con presencia nacional e internacional que se dedica a proveer soluciones integrales en la gestión sustentable del agua, asegurando altos estándares de calidad en nuestros servicios y para nuestros clientes. Te invitamos a postular al cargo Mantenedor instrumentista para nuestro importante cliente Codelco Andina en Los Andes, donde su propósito será ejecutar labores de mantenimiento preventivo, correctivo y predictivo en sistemas de instrumentación, control y automatización de procesos, asegurando la continuidad operativa de los equipos y sistemas de la planta de tratamiento de aguas y servicios sanitarios transversales, conforme a los estándares de seguridad, calidad, y medio ambiente del mandante y la empresa. Requisitos excluyentes para postular: Técnico nivel superior especialidad eléctrico, electrónico o similar, o Ingeniería. Experiencia de al menos 2 años en cargos similares. Experiencia de 3 años en general. Experiencia de al menos 2 años en minería. Certificación SEC D. Licencia de conducir clase B al día. Disponibilidad para trabajar en turno 4x3 de lunes a jueves (sin campamento). Residencia en Los Andes, San Felipe o sectores aledaños. Beneficios Traslado. Alimentación. Seguro complementario de salud, dental y de vida. Se ofrece contrato a plazo fijo, posterior contrato a indefinido de acuerdo con desempeño. En Almar Water Servicios Latam estamos comprometidos a promover un entorno inclusivo y diverso, donde valoramos a las personas y sus talentos, por ello nuestra oferta laboral se rige bajo la ley N° 21.015. Si necesitas algún ajuste razonable para ser parte del proceso de selección, avísanos para facilitar tu participación. ¡Únete a nuestro equipo y se parte de los desafíos que tenemos para ti! Beneficios Seguro de salud La empresa paga o copaga una cobertura de salud adicional. Bus acercamiento La empresa provee un bus de acercamiento Seguro de vida ¡La salud es lo más importante! La empresa paga el seguro de vida Seguro dental Paga o copaga un seguro dental. Casino La empresa incluye casino para la alimentación Operarios Los Andes andes servicios años Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 50 veces Interesados: 0 Publicado: hoy Expiración: En 75 días Compartir enlace Denunciar oferta Trabajos Relacionados P Bodeguero/a Plan Navidad Preunic Los Andes Preunic, Los andes 29 de Septiembre de 2026 ¡la temporada más entretenida del año se vive en preunic! súmate a nuestro… Ver más Oferta cercana MA CONDUCTOR CAMIÓN - ANDINA Mdp andamios, Los andes 28 de Septiembre de 2026 ¡Únete a nuestro equipo! importante empresa prestadora de servicios para la minería, con… Ver más Oferta cercana CT SOLDADOR CALIFICADO 6G Constructora tafca spa, Los andes 24 de Septiembre de 2026 Constructora tafca spa, empresa con faena en sector de los andes, requiere contratar… Ver más Oferta cercana MA CONDUCTOR CAMIÓN - ANDINA Mdp andamios, Los andes 22 de Septiembre de 2026 ¡Únete a nuestro equipo! importante empresa prestadora de servicios para la minería, con… Ver más Oferta cercana A Operador mantenedor de plantas de aguas… Awsl, Los andes 10 de Septiembre de 2026 Importante empresa líder en sector de minería e industrial se encuentra en búsqueda… Ver más Oferta cercana Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Operarios Trabajos de Operarios en Los Andes Trabajos de Operarios Full-time en Los Andes Trabajos de Operarios Full-time Trabajos en Los Andes Trabajos Full-time en Los Andes Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/mantenedor-instrumentista-ptas-ptap-los-andes-3905554",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "tecnico electrico",
+      "fecha_recoleccion": "2026-09-29T17:13:01.905843",
+      "terminos_tecnicos_detectados": 4,
+      "analisis": {
+        "competencias_detectadas": [
+          "mantenimiento preventivo",
+          "instrumentación industrial"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": 3.0,
+          "meses": 36.0,
+          "tipo": "especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "brecha_alta",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [
+          "instrumentista"
+        ],
+        "compatibilidad": {
+          "puntaje": 25,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: mantenimiento preventivo",
+            "El cargo coincide con el perfil.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "Solicita 36 meses de experiencia y el perfil tiene 6 meses.",
+            "instrumentación industrial"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "Técnico Servicio Electrónico/Automatización",
+      "empresa": "Postular Sé de los primeros en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Técnico Servicio Electrónico/Automatización - Santiago | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Profesionales y Técnicos Técnico Servicio Electrónico/Automatización Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Técnico Servicio Electrónico/Automatización ID 3737996 Buscado Pavan Fecha 2026-09-28 16:09:33 Expira 2026-12-12 (en 74 días) Ubicación Santiago CL Categoría Profesionales y Técnicos Tipo Full-time Postular Sé de los primeros en postular! Guardar Compartir El anuncio ha sido visto: 713 veces Interesados: 8 PUBLICIDAD Técnico Servicio Electrónico/Automatización P Pavan , Santiago 28 de Septiembre de 2026 Descripción oferta de trabajo hoy Full-time Para importante empresa líder global en soluciones de efectivo y seguridad, buscamos a un/a responsable de servicio al cliente, servicio técnico y mantención de equipos electrónicos. Principales Responsabilidades: 80% de trabajo de cara al cliente. Realizar mantenimiento correctivo y preventivo de equipos en sitio. Diagnosticar y resolver fallas electromecánicas, electrónicas y de software. Brindar soporte técnico especializado directamente a los clientes. Gestionar viajes de servicio dentro de Chile y Latinoamérica. Requisitos Técnicos: Formación: (Mecánica, Electrónica, Automatización o afín). Experiencia: Mínimo 1 año acreditado en entornos productivos, de terreno u operacionales. Conocimientos Técnicos: Sólidos conocimientos en electromecánica, electrónica, neumática, redes e informática. (Se podría realizar prueba técnica). Idiomas: Inglés técnico Disponibilidad: Para viajar dentro de Chile (asignaciones de ~1 semana) y Latinoamérica (asignaciones de 1 a 4 semanas). Además, para viajes de formación internacional (México, Brasil, España, Alemania). Flexibilidad para trabajar ocasionalmente en turnos alternativos y algunos sábados. Horario Habitual: Lunes a Viernes de 08:30/09:00 a 18:00 hrs. Ofrecemos: Sueldo líquido aproximado 1.000.000 a $1.150.000. Más Gratificación Legal pagada de forma complementaria en Abril/Mayo del año siguiente. Beneficios Adicionales: Seguro de Salud Complementario y Dental. Asignación de reembolso por gastos en visitas a terreno (bencina, etc.). Asignación de Alimentación Viáticos Celular y plan corporativo. Profesionales y Técnicos Santiago servicio técnico técnicos Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 713 veces Interesados: 8 Publicado: hoy Expiración: En 74 días Compartir enlace Denunciar oferta Trabajos Relacionados C Técnicos de Mantención y Reparación de… Confidencial, Santiago 04 de Septiembre de 2026 Proveedor líder de servicios técnicos y de mantenimiento, reparación y modernización de transporte… Ver más 100% Similar Tecnico enRobótica Assertum group, Santiago 21 de Septiembre de 2026 Técnico en robótica y automatización descripción del cargo: nos encontramos en la búsqueda… Ver más 100% Similar Operario Ayudante para Fábrica Eléctrica Tch, Colina 25 de Septiembre de 2026 Buscamos ayudantes para ejecutar tareas de montaje, producción en el área eléctrica y… Ver más 50% Similar Técnico Mantenimiento Equipos PU Optime, Santiago 08 de Septiembre de 2026 Técnico en mantenimiento equipos quilicura ejecutar las labores de mantenimiento preventivas y correctivas… Ver más 50% Similar OPERADOR INDUSTRIAL - PLANTA CCU -RENCA Grupo rh, Santiago 08 de Septiembre de 2026 Para planta industrial ccu quilicura buscamos profesional del área industrial para cargo operador… Ver más 50% Similar ED Técnico en automatizacion /electronico/ o similar Empresa de ingenieria, Santiago 03 de Septiembre de 2026 Experiencia en sistemas de control, automatización. técnico nivel medio o superior. pretenciones de… Ver más 50% Similar Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Profesionales y Técnicos Trabajos de Profesionales y Técnicos en Santiago Trabajos de Profesionales y Técnicos Full-time en Santiago Trabajos de Profesionales y Técnicos Full-time Trabajos en Santiago Trabajos Full-time en Santiago Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/tecnico-servicio-electronico-automatizacion-3737996",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "tecnico automatizacion",
+      "fecha_recoleccion": "2026-09-29T17:13:04.507671",
+      "terminos_tecnicos_detectados": 3,
+      "analisis": {
+        "competencias_detectadas": [
+          "mantenimiento correctivo",
+          "electromecánica",
+          "neumática"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": 1.0,
+          "meses": 12.0,
+          "tipo": "especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "brecha_pequena",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [
+          "técnico en automatización junior",
+          "técnico en automatización"
+        ],
+        "compatibilidad": {
+          "puntaje": 30,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "El cargo coincide con el perfil.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "Solicita 12 meses de experiencia y el perfil tiene 6 meses.",
+            "mantenimiento correctivo",
+            "electromecánica",
+            "neumática"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "Electromecánico",
+      "empresa": "Postular Sé el primero en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Electromecánico - Santiago | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Profesionales y Técnicos Electromecánico Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Electromecánico ID 3905905 Buscado Nébula SpA Fecha 2026-09-29 12:54:42 Expira 2026-12-13 (en 75 días) Ubicación Santiago CL Categoría Profesionales y Técnicos Duración Plazo fijo y luego indefinido Tipo Full-time Ley inclusión Postular Sé el primero en postular! Guardar Compartir El anuncio ha sido visto: 7 veces Interesados: 0 PUBLICIDAD Electromecánico Nébula SpA , Santiago 29 de Septiembre de 2026 Descripción oferta de trabajo hoy Full-time Empresa de venta, arriendo y servicio técnico de maquinaria busca Electromecánico de Maquinaria Pesada y Camiones para su taller central en Santiago (2 vacantes). Equipos que mantendrás: - Excavadoras HD Hyundai de oruga, neumáticas y mini. - Cargadores frontales, retroexcavadoras y minicargadores HD Hyundai. - Camiones tolva y tractocamiones Shacman. - Grúas horquilla Hyundai, plataformas elevadoras Skyjack, rodillos Dynapac y Sakai, compresores Airman y tractores Sonalika. Principales funciones: - Diagnóstico eléctrico y electrónico con escáner y software de fábrica: ECM/ECU, Bus CAN, sensores y actuadores. - Reparación de sistemas electrohidráulicos de excavadoras y cargadores: joysticks, válvulas proporcionales, solenoides y monitores de cabina. - Diagnóstico de motores diésel electrónicos, AdBlue/SCR, DPF, cajas automatizadas y ABS/EBS en camiones. - Sistemas de carga, arranque y baterías en grúas horquilla, plataformas eléctricas, rodillos y compresores. - Mantención de equipos de venta y arriendo, y asistencia en terreno a clientes, bajo protocolos LOTO y ART. REQUISITOS - Técnico de nivel superior en Electromecánica, Electricidad Automotriz y Sistemas Diésel o carrera afín. - 3 a 4 años de experiencia en cargos eléctrico-mecánicos en maquinaria de construcción, camiones o servicio técnico de distribuidor. - Lectura de diagramas eléctricos, planos hidráulicos y manuales de fábrica. - Licencia de conducir clase B vigente (excluyente). - Residir en Santiago (RM) y estar autorizado para trabajar en Chile (excluyente). - Deseable: manejo de software de diagnóstico de fábrica, experiencia en equipos HD Hyundai, Shacman o Dynapac, experiencia en distribuidores o empresas de arriendo de maquinaria y licencia clase D. CONDICIONES - Lugar de trabajo: taller central en Santiago, con salidas a terreno. - Jornada: lunes a viernes. INCLUSIÓN En el marco de la Ley N° 21.015 de Inclusión Laboral, invitamos a postular a personas con discapacidad. Si necesitas algún ajuste o apoyo para participar del proceso de selección, indícalo en tu postulación. Profesionales y Técnicos Santiago maquinaria santiago camiones Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 7 veces Interesados: 0 Publicado: hoy Expiración: En 75 días Compartir enlace Denunciar oferta Trabajos Relacionados MS Coordinador de Licitaciones y portales Multiaceros s.a, Santiago 29 de Septiembre de 2026 En multiaceros estamos en búsqueda de un/a administrativo de licitaciones para sumarse a… Ver más Oferta cercana Ejecutiva Servicio al cliente Cherit consulting, Santiago 29 de Septiembre de 2026 ¿te apasiona entregar una experiencia de servicio cercana, ágil y de calidad? buscamos… Ver más Oferta cercana Vendedor para Tienda de Equipos Medicos-… Istec innova service spa, Santiago 29 de Septiembre de 2026 Ubicación : providencia / santiago somos una empresa médica y estamos en búsqueda… Ver más Oferta cercana Técnico de Reacondicionamiento de Equipos Informáticos Technology world group us.., Santiago 29 de Septiembre de 2026 Buscamos técnico con experiencia comprobable en reacondicionamiento y reparación de notebooks, computadores y… Ver más Oferta cercana G Community Manager: Contenido, Redes y Comunidad… Geods, Santiago 28 de Septiembre de 2026 Lee esto antes de postular este cargo no es para ti si: -… Ver más Oferta cercana Ingeniero Junior de Proyectos (profesión Ambiental,… Consultora better ltda, Santiago 28 de Septiembre de 2026 ¡te invitamos a ser parte de nuestro equipo humano! en consultora better, durante… Ver más Oferta cercana Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Profesionales y Técnicos Trabajos de Profesionales y Técnicos en Santiago Trabajos de Profesionales y Técnicos Full-time en Santiago Trabajos de Profesionales y Técnicos Full-time Trabajos en Santiago Trabajos Full-time en Santiago Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/electromecanico-3905905",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "electromecanico",
+      "fecha_recoleccion": "2026-09-29T17:13:06.262654",
+      "terminos_tecnicos_detectados": 4,
+      "analisis": {
+        "competencias_detectadas": [
+          "electromecánica",
+          "sensores"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": 4.0,
+          "meses": 48.0,
+          "tipo": "rango"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "brecha_alta",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [
+          "electromecánico"
+        ],
+        "compatibilidad": {
+          "puntaje": 20,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "El cargo coincide con el perfil.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "Solicita 48 meses de experiencia y el perfil tiene 6 meses.",
+            "electromecánica",
+            "sensores"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "Técnico de Mantenimiento – Región Metropolitana",
+      "empresa": "Postular Sé de los primeros en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Técnico de Mantenimiento – Región Metropolitana - Santiago | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Profesionales y Técnicos Técnico de Mantenimiento – Región Metropolitana Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Técnico de Mantenimiento – Región Metropolitana ID 3905396 Buscado Manpowergroup Fecha 2026-09-28 17:10:43 Expira 2026-12-12 (en 74 días) Ubicación Santiago CL Categoría Profesionales y Técnicos Salario 222222 Duración Plazo fijo, luego indefinido Tipo Full-time Postular Sé de los primeros en postular! Guardar Compartir El anuncio ha sido visto: 35 veces Interesados: 1 PUBLICIDAD Técnico de Mantenimiento – Región Metropolitana M Manpowergroup , Santiago 28 de Septiembre de 2026 Descripción oferta de trabajo hoy 222222 Full-time ¿Tienes experiencia en mantenimiento de infraestructura y buscas estabilidad laboral en una empresa líder? ¡Esta oportunidad puede ser para ti! Importante Cliente se encuentra en búsqueda de un Técnico de Mantenimiento para desempeñarse en distintos centros comerciales, bodegas industriales y centros de almacenaje de la Región Metropolitana. Principales funciones: Mantención general de infraestructura. Reparación y revisión de luminarias. Trabajos de pintura y reparaciones menores. Mantenimiento de tableros eléctricos. Gasfitería, plomería, albañilería y otras obras menores. Limpieza de cubiertas y apoyo en requerimientos estructurales. Control de herramientas, inventarios y administración de pañol. Requisitos: Técnico Nivel Medio en Electricidad o Electrónica. Al menos 2 años de experiencia en mantención de infraestructura. Disponibilidad para trabajar en terreno y atender emergencias cuando sea necesario. Deseable Licencia de Conducir Clase B. Deseable Certificación SEC. Se ofrece: Jornada Art. 22. Estabilidad laboral y la posibilidad de integrarse a una empresa sólida y en crecimiento. Beneficios Mutual de Seguridad La empresa esta adscrita a la mutual de seguridad Caja de compensación La empresa esta adscrita a una caja de compensación Profesionales y Técnicos Santiago mantenimiento técnico región Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 35 veces Interesados: 1 Publicado: hoy Expiración: En 74 días Compartir enlace Denunciar oferta Trabajos Relacionados MT Electromecánico industrial Manufacturas textiles mtn ltda., Santiago 23 de Septiembre de 2026 Se requiere electromecánico industrial para planta textil ubicada en la comuna de huechuraba,… Ver más 100% Similar MANTENIMIENTO INDUSTRIAL MAQUINARIA CNC Cnc company spa, Santiago 03 de Septiembre de 2026 Importante empresa dedicada a servicio técnico y mantención de equipos cnc, necesita contratar… Ver más 100% Similar S Técnico en Mantenimiento Sometec, Santiago 14 de Septiembre de 2026 Para santiago, estamos en búsqueda de un/a técnico/a de nivel superior en electricidad,… Ver más 100% Similar OPERADOR INDUSTRIAL - PLANTA CCU -RENCA Grupo rh, Santiago 08 de Septiembre de 2026 Para planta industrial ccu quilicura buscamos profesional del área industrial para cargo operador… Ver más 100% Similar LB Técnico en Mantención Laboratorios biologica spa, Santiago 24 de Septiembre de 2026 Importante fabrica de detergentes, ubicada en la comuna lo espejo, esta en la… Ver más 100% Similar EM Técnico Eléctrico, Mecánico o Electromecánico Ese maquinarías s.a., Santiago 27 de Septiembre de 2026 Nuestra empresa ese maquinarías s.a necesita para su equipo, personal técnico eléctrico, mecánico… Ver más 100% Similar Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Profesionales y Técnicos Trabajos de Profesionales y Técnicos en Santiago Trabajos de Profesionales y Técnicos Full-time en Santiago Trabajos de Profesionales y Técnicos Full-time Trabajos en Santiago Trabajos Full-time en Santiago Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/tecnico-de-mantenimiento-region-metropolitana-3905396",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "mantenimiento electrico",
+      "fecha_recoleccion": "2026-09-29T17:13:16.343463",
+      "terminos_tecnicos_detectados": 4,
+      "analisis": {
+        "competencias_detectadas": [
+          "tableros eléctricos"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": 2.0,
+          "meses": 24.0,
+          "tipo": "especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "brecha_alta",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [
+          "técnico de mantenimiento junior",
+          "técnico de mantenimiento"
+        ],
+        "compatibilidad": {
+          "puntaje": 25,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: tableros eléctricos",
+            "El cargo coincide con el perfil.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "Solicita 24 meses de experiencia y el perfil tiene 6 meses."
+          ]
+        }
+      }
     }
   ],
   "tendencias": {
@@ -28426,27 +29084,27 @@
     }
   },
   "resumen_mercado": {
-    "ofertas_analizadas": 479,
+    "ofertas_analizadas": 490,
     "competencias_mas_solicitadas": {
-      "electromecánica": 232,
-      "mantenimiento preventivo": 200,
-      "mantenimiento industrial": 138,
-      "lectura de planos": 124,
-      "electricidad industrial": 108,
-      "instrumentación industrial": 96,
-      "tableros eléctricos": 85,
+      "electromecánica": 239,
+      "mantenimiento preventivo": 204,
+      "mantenimiento industrial": 144,
+      "lectura de planos": 125,
+      "electricidad industrial": 110,
+      "instrumentación industrial": 98,
+      "tableros eléctricos": 87,
       "PLC": 80,
-      "puesta en marcha": 70,
-      "automatización industrial": 69,
-      "sensores": 52,
-      "diagnóstico de fallas": 50,
+      "puesta en marcha": 71,
+      "automatización industrial": 70,
+      "sensores": 54,
+      "diagnóstico de fallas": 51,
       "control industrial": 44,
-      "variadores de frecuencia": 37,
-      "neumática": 32,
+      "variadores de frecuencia": 38,
+      "neumática": 33,
+      "motores eléctricos": 29,
       "hidráulica": 29,
-      "motores eléctricos": 28,
       "SCADA": 23,
-      "mantenimiento correctivo": 19,
+      "mantenimiento correctivo": 20,
       "HMI": 15,
       "seguridad eléctrica": 14
     },
@@ -28483,71 +29141,71 @@
       }
     },
     "electromecanica": {
-      "ofertas_electromecanica": 232,
+      "ofertas_electromecanica": 239,
       "competencias_dentro_electromecanica": {
         "mantenimiento preventivo": {
-          "ofertas": 122,
-          "porcentaje": 52.6
+          "ofertas": 124,
+          "porcentaje": 51.9
         },
         "mantenimiento industrial": {
-          "ofertas": 90,
-          "porcentaje": 38.8
+          "ofertas": 94,
+          "porcentaje": 39.3
         },
         "electricidad industrial": {
-          "ofertas": 83,
-          "porcentaje": 35.8
+          "ofertas": 85,
+          "porcentaje": 35.6
         },
         "lectura de planos": {
-          "ofertas": 59,
-          "porcentaje": 25.4
+          "ofertas": 60,
+          "porcentaje": 25.1
         },
         "tableros eléctricos": {
-          "ofertas": 53,
-          "porcentaje": 22.8
+          "ofertas": 54,
+          "porcentaje": 22.6
         },
         "diagnóstico de fallas": {
-          "ofertas": 35,
+          "ofertas": 36,
           "porcentaje": 15.1
         },
         "automatización industrial": {
-          "ofertas": 34,
-          "porcentaje": 14.7
+          "ofertas": 35,
+          "porcentaje": 14.6
         },
         "sensores": {
-          "ofertas": 31,
-          "porcentaje": 13.4
+          "ofertas": 33,
+          "porcentaje": 13.8
         },
         "puesta en marcha": {
-          "ofertas": 30,
-          "porcentaje": 12.9
+          "ofertas": 31,
+          "porcentaje": 13.0
+        },
+        "variadores de frecuencia": {
+          "ofertas": 27,
+          "porcentaje": 11.3
         },
         "PLC": {
           "ofertas": 27,
-          "porcentaje": 11.6
-        },
-        "variadores de frecuencia": {
-          "ofertas": 26,
-          "porcentaje": 11.2
+          "porcentaje": 11.3
         },
         "neumática": {
-          "ofertas": 22,
-          "porcentaje": 9.5
+          "ofertas": 23,
+          "porcentaje": 9.6
         },
         "motores eléctricos": {
-          "ofertas": 22,
-          "porcentaje": 9.5
+          "ofertas": 23,
+          "porcentaje": 9.6
         },
         "hidráulica": {
           "ofertas": 21,
-          "porcentaje": 9.1
+          "porcentaje": 8.8
         },
         "mantenimiento correctivo": {
-          "ofertas": 11,
-          "porcentaje": 4.7
+          "ofertas": 12,
+          "porcentaje": 5.0
         },
         "instrumentación industrial": {
           "ofertas": 5,
-          "porcentaje": 2.2
+          "porcentaje": 2.1
         },
         "HMI": {
           "ofertas": 3,
@@ -28560,11 +29218,11 @@
       }
     },
     "experiencia_requerida": {
-      "no especificada": 184,
-      "más de 3 años": 86,
-      "3 años": 86,
-      "2 años": 78,
-      "1 año": 35,
+      "no especificada": 185,
+      "más de 3 años": 90,
+      "3 años": 87,
+      "2 años": 82,
+      "1 año": 36,
       "sin experiencia": 10
     },
     "experiencia_promedio_anos": 3.7,
@@ -28577,10 +29235,10 @@
     "cargos_mas_repetidos": {
       "Técnico/a Eléctrico/a en Automatización Industrial": 18,
       "Técnico Eléctrico": 11,
+      "Electromecánico": 8,
       "Técnico eléctrico": 5,
-      "Electromecánico": 5,
+      "Electromecanico": 5,
       "Electromecanico Senior en Palas Hidráulicas –…": 5,
-      "Electromecanico": 4,
       "Técnico de Mantenimiento": 3,
       "ELECTROMECÁNICO": 3,
       "Eléctrico Industrial": 3,
@@ -28595,7 +29253,7 @@
       {
         "tipo": "competencia",
         "competencia": "instrumentación industrial",
-        "ofertas": 96,
+        "ofertas": 98,
         "estado": "BRECHA",
         "es_objetivo": true,
         "prioridad": 10
@@ -28603,7 +29261,7 @@
       {
         "tipo": "competencia",
         "competencia": "sensores",
-        "ofertas": 52,
+        "ofertas": 54,
         "estado": "BRECHA",
         "es_objetivo": true,
         "prioridad": 10
@@ -28611,7 +29269,7 @@
       {
         "tipo": "competencia",
         "competencia": "diagnóstico de fallas",
-        "ofertas": 50,
+        "ofertas": 51,
         "estado": "BRECHA",
         "es_objetivo": true,
         "prioridad": 10
@@ -28619,7 +29277,7 @@
       {
         "tipo": "competencia",
         "competencia": "neumática",
-        "ofertas": 32,
+        "ofertas": 33,
         "estado": "BRECHA",
         "es_objetivo": true,
         "prioridad": 9
@@ -28643,7 +29301,7 @@
       {
         "tipo": "competencia",
         "competencia": "electromecánica",
-        "ofertas": 232,
+        "ofertas": 239,
         "estado": "BRECHA",
         "es_objetivo": false,
         "prioridad": 7
@@ -28651,7 +29309,7 @@
       {
         "tipo": "competencia",
         "competencia": "puesta en marcha",
-        "ofertas": 70,
+        "ofertas": 71,
         "estado": "BRECHA",
         "es_objetivo": false,
         "prioridad": 7
@@ -28699,7 +29357,7 @@
       {
         "tipo": "competencia",
         "competencia": "mantenimiento preventivo",
-        "ofertas": 200,
+        "ofertas": 204,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -28707,7 +29365,7 @@
       {
         "tipo": "competencia",
         "competencia": "mantenimiento industrial",
-        "ofertas": 138,
+        "ofertas": 144,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -28715,7 +29373,7 @@
       {
         "tipo": "competencia",
         "competencia": "lectura de planos",
-        "ofertas": 124,
+        "ofertas": 125,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -28723,7 +29381,7 @@
       {
         "tipo": "competencia",
         "competencia": "electricidad industrial",
-        "ofertas": 108,
+        "ofertas": 110,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -28731,7 +29389,7 @@
       {
         "tipo": "competencia",
         "competencia": "tableros eléctricos",
-        "ofertas": 85,
+        "ofertas": 87,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -28747,8 +29405,16 @@
       {
         "tipo": "competencia",
         "competencia": "automatización industrial",
-        "ofertas": 69,
+        "ofertas": 70,
         "estado": "YA_EN_PERFIL",
+        "es_objetivo": false,
+        "prioridad": 5
+      },
+      {
+        "tipo": "competencia",
+        "competencia": "mantenimiento correctivo",
+        "ofertas": 20,
+        "estado": "BRECHA",
         "es_objetivo": false,
         "prioridad": 5
       },
@@ -28763,16 +29429,8 @@
       {
         "tipo": "competencia",
         "competencia": "variadores de frecuencia",
-        "ofertas": 37,
+        "ofertas": 38,
         "estado": "YA_EN_PERFIL",
-        "es_objetivo": false,
-        "prioridad": 4
-      },
-      {
-        "tipo": "competencia",
-        "competencia": "mantenimiento correctivo",
-        "ofertas": 19,
-        "estado": "BRECHA",
         "es_objetivo": false,
         "prioridad": 4
       },
@@ -28787,7 +29445,7 @@
       {
         "tipo": "competencia",
         "competencia": "motores eléctricos",
-        "ofertas": 28,
+        "ofertas": 29,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 3
@@ -28804,7 +29462,7 @@
     "recomendaciones": [
       "Priorizar formación práctica en PLC. Las marcas detectadas con mayor frecuencia son: Allen-Bradley, Siemens, Schneider.",
       "Hay 62 ofertas que solicitan PLC pero no especifican una marca; no deben descartarse por no identificar fabricante.",
-      "Considerar electromecánica como línea importante de búsqueda: 232 ofertas (48.4% del conjunto analizado).",
+      "Considerar electromecánica como línea importante de búsqueda: 239 ofertas (48.8% del conjunto analizado).",
       "Mantener como núcleo profesional: electromecánica, mantenimiento preventivo, mantenimiento industrial, lectura de planos, electricidad industrial.",
       "Buscar especialmente cargos que combinen mantenimiento industrial + electricidad industrial + PLC/automatización.",
       "No limitar la búsqueda a cargos que exijan experiencia: también seguir las ofertas que aceptan candidatos sin experiencia.",
