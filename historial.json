@@ -31172,6 +31172,270 @@
           ]
         }
       }
+    },
+    {
+      "titulo": "PROGRAMADOR PLC/HMI- Ingeniero(a)-  en Automatización, Electrónica,…",
+      "empresa": "Postular Sé de los primeros en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "PROGRAMADOR PLC/HMI- Ingeniero(a)- en Automatización, Electrónica, Electricidad - Santiago | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Profesionales y Técnicos PROGRAMADOR PLC/HMI- Ingeniero(a)- en Automatización, Electrónica, Electricidad Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Oferta destacada PROGRAMADOR PLC/HMI- Ingeniero(a)- en Automatización, Electrónica, Electricidad ID 3908455 Buscado NAKA ELECTRONICA SPA Fecha 2026-10-02 19:02:52 Expira 2026-12-16 (en 74 días) Ubicación Santiago CL Categoría Profesionales y Técnicos Salario 1.200.000 Duración Plazo Fijo Tipo Full-time Ley inclusión Postular Sé de los primeros en postular! Guardar Compartir El anuncio ha sido visto: 119 veces Interesados: 2 PUBLICIDAD PROGRAMADOR PLC/HMI- Ingeniero(a)- en Automatización, Electrónica, Electricidad NAKA ELECTRONICA SPA , Santiago 02 de Octubre de 2026 Descripción oferta de trabajo hoy 1.200.000 Full-time Formación: Técnico o Ingeniero en Automatización y Control Industrial, Electrónica, Electricidad o carrera afín. Descripción del puesto Programarás PLCs y sistemas HMI de los principales fabricantes (Siemens, Omron, Allen Bradley…), liderando la puesta en marcha y optimización de sistemas de seguridad en maquinas Principales responsabilidades: - Programación y puesta en marcha de PLC del mercado, especialmente SIEMENS S7-TIA PORTAL, OMRON, ALLEN BRADLEY (Rockwell Automation), entre otros. - Desarrollo, modificación y optimización de programas de automatización. -Puesta en marcha y seguimiento de las instalaciones. - Programación variadores SEW, SCHNEIDER, ABB, SIEMENS… - Diagnóstico y resolución de fallas en sistemas de control. - Configuración y mantenimiento de sistemas de automatización industrial. - Interpretación de planos eléctricos y diagramas de control. - Soporte técnico proyectos de seguridad en maquinas -Programación tableros de control, lectura de planos. - Establecer diagnósticos de fallas electrónicas. Requisitos: -Experiencia Comprobada en programación de PLC y automatización industrial. -Conocimientos de HMI, variadores de frecuencia y redes industriales. -Lectura e interpretación de planos eléctricos. -Capacidad de análisis y resolución de problemas -Experiencia en Terreno Horario: Lunes a Viernes de 9:00 am a las 18:00 Renta Liquida:($1.200.000) INDISPENSABLE DISPONIBILIDAD FINES DE SEMANA Y DIAS FERIADOS Beneficios Vestimenta informal Utiliza lo que desees, sin dresscode. Teletrabajo opcional Organiza tu tiempo y trabaja algunos días en tu hogar. Mutual de Seguridad La empresa esta adscrita a la mutual de seguridad Profesionales y Técnicos Santiago automatización sistemas plc Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 119 veces Interesados: 2 Publicado: hoy Expiración: En 74 días Compartir enlace Denunciar oferta Trabajos Relacionados S Técnico en Mantenimiento Sometec, Santiago 14 de Septiembre de 2026 Para santiago, estamos en búsqueda de un/a técnico/a de nivel superior en electricidad,… Ver más 100% Similar EL Técnico instrumentista -Medioambiente (Pudahuel) Empresa líder mundial en.., Santiago 02 de Octubre de 2026 Empresa líder mundial en inspección, verificación, análisis y certificación requiere técnico en instrumentación,… Ver más 100% Similar ELÉCTRICO INSTRUMENTISTA Ckf soluciones, Copiapó 21 de Septiembre de 2026 Empresa de la iv región, dedicada a la ingeniería multidisciplinaria para proyectos mineros… Ver más 100% Similar Técnico de instrumentación Imp ltda, Santiago 22 de Septiembre de 2026 En imp ltda buscamos un/a técnico instrumentista para realizar mantención preventiva y correctiva… Ver más 100% Similar Maestros Eléctricos / Ayudantes Eléctricos LA… Ejehsa, La serena 23 de Septiembre de 2026 Maestros eléctricos m1/ ayudantes eléctricos -la serena requisitos: • responsabilidad y compromiso laboral… Ver más 100% Similar Ayudante Técnico Eléctrico / Electrónico –… Inmade spa, Santiago 24 de Septiembre de 2026 ¡estamos buscando ayudante técnico! ¿eres técnico electrónico o técnico eléctrico y te interesa… Ver más 100% Similar Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Profesionales y Técnicos Trabajos de Profesionales y Técnicos en Santiago Trabajos de Profesionales y Técnicos Full-time en Santiago Trabajos de Profesionales y Técnicos Full-time Trabajos en Santiago Trabajos Full-time en Santiago Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/programador-plc-hmi-ingeniero-a-en-automatizacion-electronica-electricidad-3908455",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "automatizacion industrial",
+      "fecha_recoleccion": "2026-10-03T15:22:55.383423",
+      "terminos_tecnicos_detectados": 11,
+      "analisis": {
+        "competencias_detectadas": [
+          "PLC",
+          "automatización industrial",
+          "control industrial",
+          "variadores de frecuencia",
+          "HMI",
+          "lectura de planos",
+          "puesta en marcha"
+        ],
+        "tecnologias_detectadas": [
+          "PLC Siemens",
+          "PLC Allen-Bradley",
+          "TIA Portal"
+        ],
+        "tecnologias_plc_detectadas": [
+          "PLC Siemens",
+          "PLC Allen-Bradley",
+          "TIA Portal"
+        ],
+        "plc_detectado": true,
+        "plc_evidencia": {
+          "detectado": true,
+          "patrones_explicitos": [
+            "plc",
+            "programacion de plc",
+            "programación de plc"
+          ],
+          "tecnologias_identificadoras": [
+            "allen bradley",
+            "rockwell automation",
+            "s7",
+            "siemens s7",
+            "tia portal"
+          ]
+        },
+        "plc_marcas_detectadas": [
+          "Siemens",
+          "Allen-Bradley"
+        ],
+        "experiencia_solicitada": {
+          "anos": null,
+          "meses": null,
+          "tipo": "no_especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "no_especificada",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [],
+        "compatibilidad": {
+          "puntaje": 45,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: PLC, automatización industrial, control industrial, variadores de frecuencia, HMI, lectura de planos",
+            "PLC detectado: Siemens, Allen-Bradley",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "puesta en marcha"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "TÉCNICO DE MANTENIMIENTO INDUSTRIAL - TALAGANTE",
+      "empresa": "Postular Sé de los primeros en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "TÉCNICO DE MANTENIMIENTO INDUSTRIAL - TALAGANTE - Talagante | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Profesionales y Técnicos TÉCNICO DE MANTENIMIENTO INDUSTRIAL - TALAGANTE Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Oferta destacada TÉCNICO DE MANTENIMIENTO INDUSTRIAL - TALAGANTE ID 3908330 Buscado Santiago Agrisupply Spa Fecha 2026-10-02 16:20:55 Expira 2026-12-16 (en 74 días) Ubicación Talagante CL Categoría Profesionales y Técnicos Salario 780.000 Duración Plazo fijo, posteriormente indefinido Tipo Full-time Ley inclusión Postular Sé de los primeros en postular! Guardar Compartir El anuncio ha sido visto: 121 veces Interesados: 1 PUBLICIDAD TÉCNICO DE MANTENIMIENTO INDUSTRIAL - TALAGANTE SA Santiago Agrisupply Spa , Talagante 02 de Octubre de 2026 Descripción oferta de trabajo hoy 780.000 Full-time Santiago Agrisupply SpA, empresa del rubro agroindustrial ubicada en Talagante, se encuentra en búsqueda de un/a Técnico de Mantenimiento Industrial para incorporarse a nuestro equipo. La persona será responsable de ejecutar labores operativas de mantenimiento de maquinarias y equipos de la planta, contribuyendo a su correcto funcionamiento, continuidad del proceso productivo y cumplimiento de los estándares de seguridad, calidad e inocuidad de la empresa. OFRECEMOS: - Renta líquida: $780.000 - Jornada: * Turno AM: Lunes a Jueves 06:00 a 15:00 Hrs. y Viernes de 06:00 a 14:30 Hrs. / Martes a Viernes 06:00 a 15:00 Hrs. y Sábados de 06:00 a 14:30 Hrs. * Turno PM: Lunes a Jueves 15:00 a 00:00 Hrs. y Viernes de 14:30 a 23:00 Hrs. / Martes a Viernes 15:00 a 00:00 Hrs. y Sábados de 14:30 a 00:00 Hrs. - Beneficios internos de la empresa. - Estabilidad y posibilidad de desarrollo dentro del área. PRINCIPALES FUNCIONES: - Ejecutar labores de mantenimiento preventivo, correctivo y de apoyo al mantenimiento predictivo de las maquinarias y equipos de la planta. - Verificar el correcto funcionamiento de los equipos, contribuyendo a la continuidad del proceso productivo. - Registrar las actividades de mantenimiento, reparaciones y condiciones operacionales de los equipos. - Informar oportunamente a la jefatura sobre fallas, desperfectos o condiciones que puedan afectar el funcionamiento de la planta. - Resguardar la seguridad de las zonas de trabajo y evitar el ingreso de personas no autorizadas a las áreas de maquinarias. REQUISITOS: - Enseñanza media completa o Tecnico profesional en mecanica, electromecanica o carrera afín. - Experiencia en mantención de equipos industriales u/o similares. - Capacidad para trabajar en equipo, con responsabilidad, iniciativa y orientación a la seguridad. - Orden, organización y disposición para aprender y desarrollar nuevas habilidades. - Capacidad para comunicar oportunamente fallas, desviaciones y avances de los trabajos realizados. CONDICIONES DEL TRABAJO El cargo considera labores en áreas operativas e industriales, incluyendo desplazamiento dentro de la planta, interacción con maquinarias y equipos, uso de herramientas y cumplimiento de procedimientos de seguridad y prevención de riesgos. ¡POSTULA CON NOSOTROS! Invitamos a postular a todas las personas que cumplan con los requisitos del cargo, promoviendo la igualdad de oportunidades y considerando ajustes razonables cuando corresponda. Beneficios Bus acercamiento La empresa provee un bus de acercamiento Estacionamiento de bicicletas Cuidamos sus pertenencias y ofrecen un lugar para estacionar bicicletas. Mutual de Seguridad La empresa esta adscrita a la mutual de seguridad Caja de compensación La empresa esta adscrita a una caja de compensación Uniforme La empresa provee el uniforme de trabajo Profesionales y Técnicos Talagante hrs mantenimiento equipos Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 121 veces Interesados: 1 Publicado: hoy Expiración: En 74 días Compartir enlace Denunciar oferta Trabajos Relacionados SA TÉCNICO EN REFRIGERACIÓN INDUSTRIAL - TALAGANTE Santiago agrisupply spa, Talagante 01 de Octubre de 2026 Santiago agrisupply spa, empresa del rubro agroindustrial ubicada en talagante, se encuentra en… Ver más Oferta cercana CI Ayudante Residente (Melipilla) Creaxxion ingenieros consultores s.a., Talagante 26 de Septiembre de 2026 Se requiere para inicio inmediato, contrato asesorÍa a la inspecciÓn fiscal para el… Ver más Oferta cercana PI Maestro eléctrico Prolux ingenierÍa y servicios.., Talagante 14 de Septiembre de 2026 Ferta laboral – maestro elÉctrico para recambio de luminarias y montajista prolux ingeniería… Ver más Oferta cercana Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Profesionales y Técnicos Trabajos de Profesionales y Técnicos en Talagante Trabajos de Profesionales y Técnicos Full-time en Talagante Trabajos de Profesionales y Técnicos Full-time Trabajos en Talagante Trabajos Full-time en Talagante Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/tecnico-de-mantenimiento-industrial-talagante-3908330",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "mantenimiento industrial",
+      "fecha_recoleccion": "2026-10-03T15:22:56.152682",
+      "terminos_tecnicos_detectados": 3,
+      "analisis": {
+        "competencias_detectadas": [
+          "mantenimiento industrial",
+          "mantenimiento preventivo",
+          "electromecánica"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": null,
+          "meses": null,
+          "tipo": "no_especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "no_especificada",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [
+          "técnico de mantenimiento junior",
+          "técnico de mantenimiento"
+        ],
+        "compatibilidad": {
+          "puntaje": 45,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: mantenimiento industrial, mantenimiento preventivo",
+            "El cargo coincide con el perfil.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "electromecánica"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "Mecánico o Electromecánico Mantención Camiones con…",
+      "empresa": "Postular Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Mecánico o Electromecánico Mantención Camiones con experiencia - Coquimbo | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Profesionales y Técnicos Mecánico o Electromecánico Mantención Camiones con experiencia Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Mecánico o Electromecánico Mantención Camiones con experiencia ID 3688504 Buscado Pillado y Cía. Ltda. Fecha 2026-10-02 02:31:18 Expira 2026-12-16 (en 74 días) Ubicación Coquimbo CL Categoría Profesionales y Técnicos Duración Plazo Fijo, luego Indefinido Tipo Full-time Postular Guardar Compartir El anuncio ha sido visto: 1778 veces Interesados: 39 PUBLICIDAD Mecánico o Electromecánico Mantención Camiones con experiencia Pillado y Cía. Ltda. , Coquimbo 02 de Octubre de 2026 Descripción oferta de trabajo ayer Full-time Se necesitan mecánicos o electromecánicos con conocimientos avanzados en camiones de gama alta (Mercedes Benz, Volvo, Mack), para incorporarse al equipo de \"Servicio Técnico - Taller Central\". Este equipo tiene a cargo el levantamiento de averías, la mantención y las reparaciones mayores de la flota de camiones y vehículos livianos de la empresa. Se trabaja con renta fija más incentivos por cumplimiento de plazos de entrega y excelencia en el servicio (cumplimiento medido por persona). Es necesario para el cargo: experiencia en cargos similares. Residencia permanente en La Serena o Coquimbo. Orden y disciplina para gestionar las reparaciones asignadas y las solicitudes de repuestos. Conocimientos suficientes para dar soporte técnico a los usuarios u operadores de los camiones y equipos. Facilidad en el uso de software o aplicaciones para emitir informes técnicos. Disponibilidad para viajar a terreno ocasionalmente (dentro y fuera de la zona). Salud Compatible con altura geográfica (alta cordillera). Licencia de Conducir A4 (No excluyente). Se ofrece: - Horario: lunes a jueves de 08:30 a 17:45 hrs. Viernes de 08:30 a 16:00 hrs. - Buen ambiente laboral y cultura de prevención de riesgos con estándar minero. - Renta fija más incentivos por cumplimiento de metas (plazos de entrega, garantía de la reparación). - Seguro de Salud al cumplir los 6 meses de antigüedad y tener contrato indefinido. Habilidades: - Diagnóstico de fallas mecánicas y eléctricas en motores diésel, transmisiones, sistemas de frenos, dirección y suspensión. - Lectura e interpretación de planos, manuales técnicos y diagramas eléctricos. - Manejo de equipos de diagnóstico computarizado (scanner, software de fabricantes). - Mantenimiento preventivo y correctivo de motores, sistemas de inyección, frenos ABS, cajas de cambio y diferenciales. - Conocimientos en hidráulica y neumática aplicadas a camiones pesados. - Soldadura y trabajos de ajuste mecánico básicos. - Uso de herramientas manuales, eléctricas y de precisión. - Aplicación de normas de seguridad y medioambiente (trabajo seguro con combustibles, aceites, baterías, etc.). Beneficios Seguro de vida ¡La salud es lo más importante! La empresa paga el seguro de vida Mutual de Seguridad La empresa esta adscrita a la mutual de seguridad Caja de compensación La empresa esta adscrita a una caja de compensación Uniforme La empresa provee el uniforme de trabajo Profesionales y Técnicos Coquimbo camiones técnicos conocimientos Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 1778 veces Interesados: 39 Publicado: ayer Expiración: En 74 días Compartir enlace Denunciar oferta Trabajos Relacionados MT Mecánico/eléctrico minería 7x7 Equipos móviles superficies Minería todo chile, Antofagasta 21 de Septiembre de 2026 Título: técnico(a) de mantenimiento de palas o equipos caex mineras tipo de contrato:… Ver más 100% Similar M Mecánico/eléctrico minería 7x7 Equipos CAEX Mineria, La serena 21 de Septiembre de 2026 Título: técnico(a) de mantenimiento de palas o equipos caex mineras tipo de contrato:… Ver más 100% Similar Ayudante de Sondaje RC - turno… Confidencial, La serena 05 de Septiembre de 2026 Empresa de sondaje minero está en búsqueda de ayudantes de sondaje de aire… Ver más 38% Similar Ayudante de Sondaje RC - turno… Confidencial, Coquimbo 05 de Septiembre de 2026 Empresa de sondaje minero está en búsqueda de ayudantes de sondaje de aire… Ver más 38% Similar C Mecánico/eléctrico minería 7x7 Equipos CAEX -… Confidencial, Copiapó 21 de Septiembre de 2026 El tecnico debe asistir labores operativas de servicio de mantención, reparación, diagnóstico y/o… Ver más 38% Similar MT Electromecanico Senior en Palas Hidráulicas –… Minería todo chile, La serena 21 de Septiembre de 2026 Especialista senior en mantenimiento de palas hidráulicas – gran minería ¿quieres ser parte… Ver más 38% Similar Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Profesionales y Técnicos Trabajos de Profesionales y Técnicos en Coquimbo Trabajos de Profesionales y Técnicos Full-time en Coquimbo Trabajos de Profesionales y Técnicos Full-time Trabajos en Coquimbo Trabajos Full-time en Coquimbo Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/mecanico-o-electromecanico-mantencion-camiones-con-experiencia-3688504",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "tecnico electrico",
+      "fecha_recoleccion": "2026-10-03T15:22:57.709673",
+      "terminos_tecnicos_detectados": 6,
+      "analisis": {
+        "competencias_detectadas": [
+          "mantenimiento preventivo",
+          "electromecánica",
+          "lectura de planos",
+          "diagnóstico de fallas",
+          "neumática",
+          "hidráulica"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": null,
+          "meses": null,
+          "tipo": "no_especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "no_especificada",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [
+          "electromecánico"
+        ],
+        "compatibilidad": {
+          "puntaje": 45,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: mantenimiento preventivo, lectura de planos",
+            "El cargo coincide con el perfil.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "electromecánica",
+            "diagnóstico de fallas",
+            "neumática",
+            "hidráulica"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "INSTRUMENTISTA",
+      "empresa": "Postular Sé de los primeros en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "INSTRUMENTISTA - Antofagasta | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Otros INSTRUMENTISTA Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Oferta destacada INSTRUMENTISTA ID 3908219 Buscado INDUSTRIAL Fecha 2026-10-02 16:12:36 Expira 2026-12-16 (en 74 días) Ubicación Antofagasta CL Categoría Otros Salario 1400000 Duración Plazo fijo Tipo Full-time Email Inicia sesión para ver mail Postular Sé de los primeros en postular! Guardar Compartir El anuncio ha sido visto: 119 veces Interesados: 4 PUBLICIDAD INSTRUMENTISTA INDUSTRIAL , Antofagasta 02 de Octubre de 2026 Descripción oferta de trabajo hoy 1400000 Full-time Antofagasta – Faena Maria Elena. Empresa del rubro minero se encuentra en búsqueda de Instrumentista. Principales funciones Medir y controlar variables de proceso como presión, temperatura, nivel y flujo. Ajustar y calibrar instrumentos para garantizar la exactitud de las lecturas. Realizar pruebas de lazos y verificar los sistemas conectados a los controladores automáticos de la planta. Participar en las charlas de seguridad y operacionales, y en el análisis ABC. Realizar el check list diario de equipos y herramientas. Cuidar y mantener en buen estado los EPP entregados por la empresa. Requisitos Título técnico en Instrumentación, Electrónica, Automatización o afín. Experiencia mínima de 3 años en cargos similares. Conocimiento en calibración de instrumentos y pruebas de lazos de control. Compromiso con la seguridad y el trabajo en equipo. Estabilidad laboral. Grato ambiente de trabajo. Renta acorde al mercado. Oportunidades de desarrollo dentro de la empresa. Jornada bisemanal: 8x6 , horario desde las 07:00 a 17:00 Beneficios: alojamiento y alimentación Postulación: Si cumples con el perfil enviar CV actualizado y certificación, indicando en asunto \"Instrumentista\". Beneficios Mutual de Seguridad La empresa esta adscrita a la mutual de seguridad Caja de compensación La empresa esta adscrita a una caja de compensación Casino La empresa incluye casino para la alimentación Uniforme La empresa provee el uniforme de trabajo Otros Antofagasta instrumentista empresa Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 119 veces Interesados: 4 Publicado: hoy Expiración: En 74 días Compartir enlace Denunciar oferta Trabajos Relacionados Mecánico/eléctrico PALAS minería 7x7 17.229.460-k, Calama 21 de Septiembre de 2026 Título: técnico(a) electromecánicos de mantenimiento en palas komatsu tipo de contrato: plazo fijo… Ver más 100% Similar ID TECNICO ELECTRONICO Inspection data intelligence, Antofagasta 15 de Septiembre de 2026 Tecnico electronico se requiere técnico eléctronico con experiencia mínima de 5 años en… Ver más 50% Similar EL Técnico Instrumentista (Area medio ambiente-Antofagasta) Empresa líder mundial en.., Antofagasta 02 de Octubre de 2026 Empresa líder mundial en inspección, verificación, análisis y certificación, requiere técnico en instrumentación,… Ver más 50% Similar EL Operador de Terreno-medioambiente (Iquique-Quebrada Blanca) Empresa líder mundial en.., Iquique 02 de Octubre de 2026 Empresa líder mundial en inspección, verificación, análisis y certificación requiere tecnico en el… Ver más 50% Similar EL Asesor en Prevencion de Riesgos (Calama) Empresa líder mundial en.., Calama 01 de Octubre de 2026 Empresa líder mundial en inspección, verificación, análisis y certificación requiere ingeniero en prevencion… Ver más 50% Similar MT Mecánico/eléctrico minería 7x7 Equipos móviles superficies Minería todo chile, Antofagasta 21 de Septiembre de 2026 Título: técnico(a) de mantenimiento de palas o equipos caex mineras tipo de contrato:… Ver más 50% Similar Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Otros Trabajos de Otros en Antofagasta Trabajos de Otros Full-time en Antofagasta Trabajos de Otros Full-time Trabajos en Antofagasta Trabajos Full-time en Antofagasta Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/instrumentista-3908219",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "tecnico automatizacion",
+      "fecha_recoleccion": "2026-10-03T15:22:58.492203",
+      "terminos_tecnicos_detectados": 4,
+      "analisis": {
+        "competencias_detectadas": [
+          "instrumentación industrial"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": 3.0,
+          "meses": 36.0,
+          "tipo": "especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "brecha_alta",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [
+          "instrumentista"
+        ],
+        "compatibilidad": {
+          "puntaje": 20,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "El cargo coincide con el perfil.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "Solicita 36 meses de experiencia y el perfil tiene 6 meses.",
+            "instrumentación industrial"
+          ]
+        }
+      }
     }
   ],
   "tendencias": {
@@ -31241,124 +31505,124 @@
     }
   },
   "resumen_mercado": {
-    "ofertas_analizadas": 526,
+    "ofertas_analizadas": 530,
     "competencias_mas_solicitadas": {
-      "electromecánica": 258,
-      "mantenimiento preventivo": 222,
-      "mantenimiento industrial": 158,
-      "lectura de planos": 134,
+      "electromecánica": 260,
+      "mantenimiento preventivo": 224,
+      "mantenimiento industrial": 159,
+      "lectura de planos": 136,
       "electricidad industrial": 117,
-      "instrumentación industrial": 105,
+      "instrumentación industrial": 106,
       "tableros eléctricos": 91,
-      "PLC": 86,
-      "puesta en marcha": 77,
-      "automatización industrial": 74,
-      "diagnóstico de fallas": 58,
+      "PLC": 87,
+      "puesta en marcha": 78,
+      "automatización industrial": 75,
+      "diagnóstico de fallas": 59,
       "sensores": 57,
-      "control industrial": 47,
-      "variadores de frecuencia": 40,
-      "neumática": 37,
+      "control industrial": 48,
+      "variadores de frecuencia": 41,
+      "neumática": 38,
+      "hidráulica": 32,
       "motores eléctricos": 31,
-      "hidráulica": 31,
       "SCADA": 25,
       "mantenimiento correctivo": 20,
-      "HMI": 16,
+      "HMI": 17,
       "seguridad eléctrica": 16
     },
     "tecnologias_especificas": {
       "SCADA": 25,
       "AutoCAD": 19,
-      "PLC Allen-Bradley": 13,
-      "TIA Portal": 3,
-      "PLC Siemens": 2,
+      "PLC Allen-Bradley": 14,
+      "TIA Portal": 4,
+      "PLC Siemens": 3,
       "WinCC": 2,
       "EcoStruxure": 1,
       "EPLAN": 1
     },
     "plc_por_marca": {
-      "Allen-Bradley": 12,
-      "Siemens": 5,
+      "Allen-Bradley": 13,
+      "Siemens": 6,
       "Schneider": 1
     },
     "analisis_PLC": {
-      "ofertas_con_PLC": 86,
-      "ofertas_con_marca_PLC": 18,
-      "ofertas_PLC_sin_marca": 68,
+      "ofertas_con_PLC": 87,
+      "ofertas_con_marca_PLC": 20,
+      "ofertas_PLC_sin_marca": 67,
       "marcas_PLC": {
-        "Allen-Bradley": 12,
-        "Siemens": 5,
+        "Allen-Bradley": 13,
+        "Siemens": 6,
         "Schneider": 1
       },
       "tecnologias_PLC": {
-        "PLC Allen-Bradley": 13,
-        "TIA Portal": 3,
-        "PLC Siemens": 2,
+        "PLC Allen-Bradley": 14,
+        "TIA Portal": 4,
+        "PLC Siemens": 3,
         "WinCC": 2,
         "EcoStruxure": 1
       }
     },
     "electromecanica": {
-      "ofertas_electromecanica": 258,
+      "ofertas_electromecanica": 260,
       "competencias_dentro_electromecanica": {
         "mantenimiento preventivo": {
-          "ofertas": 136,
-          "porcentaje": 52.7
+          "ofertas": 138,
+          "porcentaje": 53.1
         },
         "mantenimiento industrial": {
-          "ofertas": 104,
-          "porcentaje": 40.3
+          "ofertas": 105,
+          "porcentaje": 40.4
         },
         "electricidad industrial": {
           "ofertas": 90,
-          "porcentaje": 34.9
+          "porcentaje": 34.6
         },
         "lectura de planos": {
-          "ofertas": 66,
-          "porcentaje": 25.6
+          "ofertas": 67,
+          "porcentaje": 25.8
         },
         "tableros eléctricos": {
           "ofertas": 55,
-          "porcentaje": 21.3
+          "porcentaje": 21.2
         },
         "diagnóstico de fallas": {
-          "ofertas": 42,
-          "porcentaje": 16.3
+          "ofertas": 43,
+          "porcentaje": 16.5
         },
         "automatización industrial": {
           "ofertas": 36,
-          "porcentaje": 14.0
+          "porcentaje": 13.8
         },
         "sensores": {
           "ofertas": 35,
-          "porcentaje": 13.6
+          "porcentaje": 13.5
         },
         "puesta en marcha": {
           "ofertas": 35,
-          "porcentaje": 13.6
-        },
-        "PLC": {
-          "ofertas": 29,
-          "porcentaje": 11.2
+          "porcentaje": 13.5
         },
         "variadores de frecuencia": {
           "ofertas": 29,
           "porcentaje": 11.2
         },
+        "PLC": {
+          "ofertas": 29,
+          "porcentaje": 11.2
+        },
         "neumática": {
-          "ofertas": 25,
-          "porcentaje": 9.7
+          "ofertas": 26,
+          "porcentaje": 10.0
         },
         "motores eléctricos": {
           "ofertas": 25,
-          "porcentaje": 9.7
+          "porcentaje": 9.6
         },
         "hidráulica": {
-          "ofertas": 21,
-          "porcentaje": 8.1
+          "ofertas": 22,
+          "porcentaje": 8.5
         },
         "mantenimiento correctivo": {
           "ofertas": 12,
-          "porcentaje": 4.7
+          "porcentaje": 4.6
         },
         "instrumentación industrial": {
           "ofertas": 5,
@@ -31375,9 +31639,9 @@
       }
     },
     "experiencia_requerida": {
-      "no especificada": 202,
+      "no especificada": 205,
       "más de 3 años": 99,
-      "3 años": 89,
+      "3 años": 90,
       "2 años": 88,
       "1 año": 38,
       "sin experiencia": 10
@@ -31410,7 +31674,7 @@
       {
         "tipo": "competencia",
         "competencia": "instrumentación industrial",
-        "ofertas": 105,
+        "ofertas": 106,
         "estado": "BRECHA",
         "es_objetivo": true,
         "prioridad": 10
@@ -31418,7 +31682,7 @@
       {
         "tipo": "competencia",
         "competencia": "diagnóstico de fallas",
-        "ofertas": 58,
+        "ofertas": 59,
         "estado": "BRECHA",
         "es_objetivo": true,
         "prioridad": 10
@@ -31434,7 +31698,7 @@
       {
         "tipo": "competencia",
         "competencia": "neumática",
-        "ofertas": 37,
+        "ofertas": 38,
         "estado": "BRECHA",
         "es_objetivo": true,
         "prioridad": 9
@@ -31442,7 +31706,7 @@
       {
         "tipo": "competencia",
         "competencia": "hidráulica",
-        "ofertas": 31,
+        "ofertas": 32,
         "estado": "BRECHA",
         "es_objetivo": true,
         "prioridad": 9
@@ -31458,7 +31722,7 @@
       {
         "tipo": "competencia",
         "competencia": "electromecánica",
-        "ofertas": 258,
+        "ofertas": 260,
         "estado": "BRECHA",
         "es_objetivo": false,
         "prioridad": 7
@@ -31466,7 +31730,7 @@
       {
         "tipo": "competencia",
         "competencia": "puesta en marcha",
-        "ofertas": 77,
+        "ofertas": 78,
         "estado": "BRECHA",
         "es_objetivo": false,
         "prioridad": 7
@@ -31482,7 +31746,7 @@
       {
         "tipo": "tecnologia",
         "competencia": "PLC Allen-Bradley",
-        "ofertas": 13,
+        "ofertas": 14,
         "estado": "BRECHA",
         "es_objetivo": true,
         "prioridad": 7
@@ -31490,7 +31754,7 @@
       {
         "tipo": "tecnologia",
         "competencia": "TIA Portal",
-        "ofertas": 3,
+        "ofertas": 4,
         "estado": "BRECHA",
         "es_objetivo": true,
         "prioridad": 6
@@ -31498,7 +31762,7 @@
       {
         "tipo": "tecnologia",
         "competencia": "PLC Siemens",
-        "ofertas": 2,
+        "ofertas": 3,
         "estado": "BRECHA",
         "es_objetivo": true,
         "prioridad": 6
@@ -31514,7 +31778,7 @@
       {
         "tipo": "competencia",
         "competencia": "mantenimiento preventivo",
-        "ofertas": 222,
+        "ofertas": 224,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -31522,7 +31786,7 @@
       {
         "tipo": "competencia",
         "competencia": "mantenimiento industrial",
-        "ofertas": 158,
+        "ofertas": 159,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -31530,7 +31794,7 @@
       {
         "tipo": "competencia",
         "competencia": "lectura de planos",
-        "ofertas": 134,
+        "ofertas": 136,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -31554,7 +31818,7 @@
       {
         "tipo": "competencia",
         "competencia": "PLC",
-        "ofertas": 86,
+        "ofertas": 87,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -31562,7 +31826,7 @@
       {
         "tipo": "competencia",
         "competencia": "automatización industrial",
-        "ofertas": 74,
+        "ofertas": 75,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -31578,7 +31842,7 @@
       {
         "tipo": "competencia",
         "competencia": "control industrial",
-        "ofertas": 47,
+        "ofertas": 48,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 4
@@ -31586,7 +31850,7 @@
       {
         "tipo": "competencia",
         "competencia": "variadores de frecuencia",
-        "ofertas": 40,
+        "ofertas": 41,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 4
@@ -31610,7 +31874,7 @@
       {
         "tipo": "competencia",
         "competencia": "HMI",
-        "ofertas": 16,
+        "ofertas": 17,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 2
@@ -31618,8 +31882,8 @@
     ],
     "recomendaciones": [
       "Priorizar formación práctica en PLC. Las marcas detectadas con mayor frecuencia son: Allen-Bradley, Siemens, Schneider.",
-      "Hay 68 ofertas que solicitan PLC pero no especifican una marca; no deben descartarse por no identificar fabricante.",
-      "Considerar electromecánica como línea importante de búsqueda: 258 ofertas (49.0% del conjunto analizado).",
+      "Hay 67 ofertas que solicitan PLC pero no especifican una marca; no deben descartarse por no identificar fabricante.",
+      "Considerar electromecánica como línea importante de búsqueda: 260 ofertas (49.1% del conjunto analizado).",
       "Mantener como núcleo profesional: electromecánica, mantenimiento preventivo, mantenimiento industrial, lectura de planos, electricidad industrial.",
       "Buscar especialmente cargos que combinen mantenimiento industrial + electricidad industrial + PLC/automatización.",
       "No limitar la búsqueda a cargos que exijan experiencia: también seguir las ofertas que aceptan candidatos sin experiencia.",
