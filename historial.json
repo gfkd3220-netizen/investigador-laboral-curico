@@ -35733,6 +35733,675 @@
           ]
         }
       }
+    },
+    {
+      "titulo": "Instrumentista",
+      "empresa": "Postular Sé el primero en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Instrumentista - Antofagasta | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Otros Instrumentista Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Instrumentista ID 3915339 Buscado Instrumentista Fecha 2026-10-16 10:54:39 Expira 2026-12-30 (en 75 días) Ubicación Antofagasta CL Categoría Otros Tipo Full-time Ley inclusión Postular Sé el primero en postular! Guardar Compartir El anuncio ha sido visto: 21 veces Interesados: 0 PUBLICIDAD Instrumentista I Instrumentista , Antofagasta 16 de Octubre de 2026 Descripción oferta de trabajo hoy Full-time Novandino Litio, compañía minera global que desde el norte de Chile está presente en industrias estratégicas para el desarrollo sostenible, tales como Salud, Tecnología y Energías limpias que mueven al mundo. Consideramos que una cultura diversa e inclusiva es vital para nuestra misión de ayudar a construir una mejor sociedad, con principal foco para: Mujeres, Personas con discapacidad (Ley 21.015) y Empleo local. Desempeña tu talento, un rol fundamental en nuestro equipo como Instrumentista, Para ejecutar los programas de mantención de los sistemas de control programables, instrumentación y eléctricos existentes en los procesos de la planta, para lograr la confiabilidad de los equipos, respetando las reglas básicas establecidas. ️Tus Desafíos Diarios: - Realizar tus funciones respetando las normas de operación, prevención de riesgos, gestión ambiental y calidad definidas para el área - Efectuar la mantención preventiva y reparación de los instrumentos eléctricos, neumáticos, hidráulicos y electrónicos de control de los procesos productivos de la Planta - Colaborar en la coordinación de los programas de mantención con el equipo de Operación de la Planta, asegurando que estos se lleven a cabo sin afectar la producción - Detectar y controlar las necesidades de repuestos y materiales para los equipos de la Planta - Verificar y calibrar los sistemas de control e instrumentación de la Planta - Efectuar la correcta ejecución de los trabajos de mantención correctiva o reparaciones de fallas imprevistas. - Efectuar pruebas para detectar fallas en los sistemas electrónicos de las plantas. Proponer a su jefatura, de acuerdo con las necesidades del terreno, cambios en los programas de mantención preventiva o modificaciones en las prioridades de los trabajos. ¿Eres nuestro(a) candidato(a) ideal? Descubre si cumples con estos requisitos: - Técnico Nivel Superior en Automatización y Control Industrial - Al menos 3 años de experiencia como Instrumentista en plantas químicas o mineras - Residencia en Antofagasta Te proponemos: - Tipo de contrato: Plazo Fijo. - Jornada laboral: Turno 7x7. - Lugar de trabajo: Planta Química Litio del Carmen. - La oportunidad de pertenecer y desarrollarte en un entorno laboral dinámico y de aprendizaje continuo Importante: Por favor, realiza tu postulación únicamente a través de nuestro sitio oficial: trabajaen.novandino.com Solo las postulaciones recibidas directamente por ese medio serán consideradas ¡Esperamos conocer tu perfil y contar con tu talento! Otros Antofagasta planta mantención instrumentista Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 21 veces Interesados: 0 Publicado: hoy Expiración: En 75 días Compartir enlace Denunciar oferta Trabajos Relacionados Administrador de contrato Skm industrial, Antofagasta 16 de Octubre de 2026 En skm nos encontramos en búsqueda de un/a ingeniero/a civil industrial con experiencia… Ver más Oferta cercana JEFE PLANTA Confidencial, Antofagasta 14 de Octubre de 2026 Nuestro importante cliente requiere contratar jefe planta, para nuestro cliente ubicado en el… Ver más Oferta cercana Mecánico Mantenedor EEAA y CAEX Prevetec, Antofagasta 14 de Octubre de 2026 En empresa prevetec eirl, nos dedicamos al rubro de minería en la 2da… Ver más Oferta cercana A ASESOR EN PREVENCION DE RIESGOS EN… Asfalnor, Antofagasta 13 de Octubre de 2026 Asfalnor empresa del rubro de la construcción, se encuentra en búsqueda de un… Ver más Oferta cercana BS ENCARGADO DE BODEGA 7X7 FAENA MINERA… Box solution spa, Antofagasta 09 de Octubre de 2026 Encargado de bodega 7x7 – faena minera ii regiÓn box solution spa requiere… Ver más Oferta cercana SUPERVISOR DE ASEO INDUSTRIAL EN LOS… Gsbrain, Antofagasta 08 de Octubre de 2026 Facultades : capacidades suficientes para solucionar problemas en terreno , ya sean estos… Ver más Oferta cercana Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Otros Trabajos de Otros en Antofagasta Trabajos de Otros Full-time en Antofagasta Trabajos de Otros Full-time Trabajos en Antofagasta Trabajos Full-time en Antofagasta Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/instrumentista-3915339",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "automatizacion industrial",
+      "fecha_recoleccion": "2026-10-16T15:43:31.275461",
+      "terminos_tecnicos_detectados": 4,
+      "analisis": {
+        "competencias_detectadas": [
+          "mantenimiento preventivo",
+          "mantenimiento correctivo",
+          "control industrial",
+          "instrumentación industrial"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": 3.0,
+          "meses": 36.0,
+          "tipo": "especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "brecha_alta",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [
+          "instrumentista"
+        ],
+        "compatibilidad": {
+          "puntaje": 30,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: mantenimiento preventivo, control industrial",
+            "El cargo coincide con el perfil.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "Solicita 36 meses de experiencia y el perfil tiene 6 meses.",
+            "mantenimiento correctivo",
+            "instrumentación industrial"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "Electromecánico",
+      "empresa": "Postular Sé de los primeros en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Electromecánico - Puerto Montt | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Profesionales y Técnicos Electromecánico Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Electromecánico ID 3914910 Buscado Ventisqueros Fecha 2026-10-15 15:52:08 Expira 2026-12-29 (en 74 días) Ubicación Puerto Montt CL Categoría Profesionales y Técnicos Duración Indefinido Tipo Full-time Ley inclusión Postular Sé de los primeros en postular! Guardar Compartir El anuncio ha sido visto: 68 veces Interesados: 2 PUBLICIDAD Electromecánico Ventisqueros , Puerto Montt 15 de Octubre de 2026 Descripción oferta de trabajo hoy Full-time En Ventisqueros nos encontramos en búsqueda de Electromecánico(a) Agua Dulce para integrarse a nuestro equipo de Operaciones en la Gerencia de Agua Dulce. Buscamos personas con formación técnica o profesional en Mantención Industrial, Electricidad, Automatización, Mecánica Industrial o carreras afines, que cuenten con experiencia en labores de mantenimiento y conocimientos en sistemas eléctricos y equipos utilizados en centros de cultivo. ¿Cuál será tu principal desafío? Ejecutar y apoyar las labores de mantenimiento preventivo y correctivo de equipos, maquinaria e instalaciones de los centros de cultivo de Agua Dulce, contribuyendo a su continuidad operacional y al cumplimiento de los estándares de seguridad y mantenimiento establecidos por la compañía. Principales funciones: • Ejecutar el plan de mantenimiento preventivo y realizar mantenciones correctivas de equipos, maquinaria e instalaciones de los centros de cultivo. • Revisar el estado de sistemas eléctricos y monitorear parámetros operacionales de los equipos, informando oportunamente desviaciones a la jefatura. • Registrar lecturas y datos operacionales de equipos críticos, contribuyendo al seguimiento y planificación de las actividades de mantenimiento. • Identificar y reportar necesidades de reparación o mantenimiento que requieran la participación de proveedores externos. • Apoyar la continuidad operacional de los centros de cultivo, ejecutando las labores de mantenimiento requeridas por el área. Requisitos del cargo: • Formación: Técnico Nivel Medio, Técnico Profesional o Profesional en Mantención Industrial, Electricidad, Automatización, Mecánica Industrial o carrera afín. • Experiencia de al menos 1 año en labores de mantenimiento. • Conocimientos en Electricidad y Control. • Conocimientos en programación de PLC. • Conocimientos en equipos utilizados en centros de cultivo de Agua Dulce, tales como bombas de peces, seleccionadoras y contadoras de peces. • Disponibilidad para trabajar en turnos rotativos 14x14. Valoramos especialmente la capacidad para resolver problemas, autonomía, trabajo colaborativo, adaptación al cambio y orientación a la continuidad operacional. ¡Te invitamos a ser parte de Ventisqueros y contribuir al funcionamiento seguro y eficiente de nuestras operaciones de Agua Dulce! Beneficios Bus acercamiento La empresa provee un bus de acercamiento Seguro de vida ¡La salud es lo más importante! La empresa paga el seguro de vida Mutual de Seguridad La empresa esta adscrita a la mutual de seguridad Caja de compensación La empresa esta adscrita a una caja de compensación Profesionales y Técnicos Puerto Montt mantenimiento equipos cultivo Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 68 veces Interesados: 2 Publicado: hoy Expiración: En 74 días Compartir enlace Denunciar oferta Trabajos Relacionados ED Electromecánico SEC A, B o C Empresa de minería, Santiago 05 de Octubre de 2026 Buscamos un electromecánico titulado en ingeniería eléctrica o técnico en electricidad y electrónica… Ver más 100% Similar OL Asistente administrativo Operaciones logísticas, Puerto montt 15 de Octubre de 2026 ¡estamos buscando un asistente administrativo altamente capacitado para unirse a nuestro equipo! como… Ver más 100% Similar RH TECNICO INSTALADOR Recursos humano, Temuco 07 de Octubre de 2026 Empresa del rubro de seguridad electrónica requiere contratar técnicos electrónicos o de telecomunicaciones… Ver más 100% Similar Técnicos/as Electromecánicos/as Antofagasta Fluitek, Antofagasta 08 de Octubre de 2026 En fluitek nos especializamos en el suministro, instalación y mantención de productos de… Ver más 100% Similar C ELECTROMECANICO Confidencial, Iquique 01 de Octubre de 2026 Estamos en busca de un electromecánico en nuestra sucursal de alto hospicio funciones… Ver más 100% Similar PT Electromecánico Plásticos temuco, Temuco 27 de Septiembre de 2026 Se solicita un electromecánico con experiencia para realizar la instalación, conexión y puesta… Ver más 100% Similar Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Profesionales y Técnicos Trabajos de Profesionales y Técnicos en Puerto Montt Trabajos de Profesionales y Técnicos Full-time en Puerto Montt Trabajos de Profesionales y Técnicos Full-time Trabajos en Puerto Montt Trabajos Full-time en Puerto Montt Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/electromecanico-3914910",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "automatizacion industrial",
+      "fecha_recoleccion": "2026-10-16T15:43:31.663558",
+      "terminos_tecnicos_detectados": 6,
+      "analisis": {
+        "competencias_detectadas": [
+          "mantenimiento industrial",
+          "mantenimiento preventivo",
+          "PLC",
+          "electromecánica"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
+        "plc_evidencia": {
+          "detectado": true,
+          "patrones_explicitos": [
+            "plc",
+            "programacion de plc",
+            "programación de plc"
+          ],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": 1.0,
+          "meses": 12.0,
+          "tipo": "especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "brecha_pequena",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [
+          "electromecánico"
+        ],
+        "compatibilidad": {
+          "puntaje": 45,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: mantenimiento industrial, mantenimiento preventivo, PLC",
+            "Se detectó requerimiento relacionado con PLC.",
+            "El cargo coincide con el perfil.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "Solicita 12 meses de experiencia y el perfil tiene 6 meses.",
+            "electromecánica"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "Ingeniero Trainee de Automatización - Santiago",
+      "empresa": "Postular Sé de los primeros en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Ingeniero Trainee de Automatización - Santiago - Santiago | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Otros Ingeniero Trainee de Automatización - Santiago Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Ingeniero Trainee de Automatización - Santiago ID 3915126 Buscado TRC Recruitme Fecha 2026-10-15 22:29:23 Expira 2026-12-29 (en 74 días) Ubicación Santiago CL Categoría Otros Duración Indefinido Tipo Full-time Postular Sé de los primeros en postular! Guardar Compartir El anuncio ha sido visto: 82 veces Interesados: 1 PUBLICIDAD Ingeniero Trainee de Automatización - Santiago TR TRC Recruitme , Santiago 15 de Octubre de 2026 Descripción oferta de trabajo hoy Full-time Empresa líder mundial especializada en el desarrollo de tecnologías y servicios para el monitoreo de riesgos geológicos, geotécnicos, geoespaciales y estructurales en tiempo real busca incorporar un Ingeniero Trainee de Automatización para integrarse a su equipo técnico. El profesional participará en la implementación, configuración y puesta en marcha de soluciones tecnológicas de monitoreo, colaborando en proyectos que integran instrumentación, adquisición de datos, sistemas de comunicación y automatización. Tendrá la oportunidad de desarrollar sus conocimientos en terreno y trabajar con tecnologías orientadas a la seguridad, la prevención de riesgos y el monitoreo de infraestructura crítica. Funciones: - Apoyar la instalación, configuración y puesta en marcha de equipos de automatización, instrumentación y monitoreo. - Participar en la implementación de sistemas de adquisición, transmisión y procesamiento de datos en tiempo real. - Colaborar en la configuración y conexión de sensores, instrumentos y dispositivos electrónicos. - Apoyar la integración de equipos y sistemas de comunicación utilizados en soluciones de monitoreo. - Realizar pruebas funcionales y verificaciones técnicas para asegurar el correcto funcionamiento de los sistemas. - Participar en actividades de diagnóstico y resolución de fallas en equipos y sistemas de instrumentación. - Apoyar la recopilación, revisión y validación de datos provenientes de dispositivos de monitoreo. - Elaborar informes técnicos y documentar las actividades realizadas en terreno. Requisitos: -Título profesional o estar próximo a titularse de Ingeniería en Automatización y Control Industrial, Ingeniería Electrónica, Ingeniería Eléctrica, Ingeniería en Instrumentación o carrera afín. - Experiencia inicial o práctica profesional en automatización, instrumentación, electrónica o sistemas de control. - Conocimientos básicos de sensores, instrumentación industrial y adquisición de datos. - Conocimientos de electricidad, electrónica y sistemas de comunicación. - Deseable experiencia académica o práctica con sistemas de monitoreo, telemetría o integración de dispositivos. - Capacidad para interpretar documentación técnica y elaborar informes. - Manejo de herramientas computacionales para análisis y registro de información. - Disponibilidad para realizar trabajos en terreno y participar en proyectos industriales. - Licencia de conducir clase B, deseable. Otros Santiago sistemas monitoreo automatización Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 82 veces Interesados: 1 Publicado: hoy Expiración: En 74 días Compartir enlace Denunciar oferta Trabajos Relacionados TS Ingeniero Junior de Supervisión y Comisionamiento. Tales spa, Santiago 21 de Septiembre de 2026 Ingeniero recién titulado, idealmente de especialidad eléctrica, electrónica, automatización o afín, para incorporarse… Ver más 100% Similar ES Ingeniero/a de Software IA Empresas sb, Santiago 24 de Septiembre de 2026 Nos encontramos en búsqueda de profesional para el cargo de ingeniero/a de software… Ver más 100% Similar I Ingeniero/a en Automatización y Sistemas de… Idiem, Santiago 25 de Septiembre de 2026 DescripciÓn del puesto: en el centro de investigación, desarrollo e innovación de estructuras… Ver más 100% Similar SA Ingeniero en IA - Informatica Servicios acuicolas, Puerto montt 29 de Septiembre de 2026 Buscamos ingenieros en inteligencia artificial, informatica, programacion, desarrollo software, joven con ganas de… Ver más 100% Similar MC AI Engineer Muck consultores, Santiago 01 de Octubre de 2026 Perfil técnico con experiencia en diseño, desarrollo e implementación de soluciones de inteligencia… Ver más 100% Similar PROGRAMADOR PLC/HMI- Ingeniero(a)- en Automatización, Electrónica,… Naka electronica spa, Santiago 02 de Octubre de 2026 Formación: técnico o ingeniero en automatización y control industrial, electrónica, electricidad o carrera… Ver más 100% Similar Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Otros Trabajos de Otros en Santiago Trabajos de Otros Full-time en Santiago Trabajos de Otros Full-time Trabajos en Santiago Trabajos Full-time en Santiago Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/ingeniero-trainee-de-automatizacion-santiago-3915126",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "automatizacion industrial",
+      "fecha_recoleccion": "2026-10-16T15:43:31.990073",
+      "terminos_tecnicos_detectados": 7,
+      "analisis": {
+        "competencias_detectadas": [
+          "control industrial",
+          "instrumentación industrial",
+          "sensores",
+          "puesta en marcha"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": null,
+          "meses": null,
+          "tipo": "no_especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "no_especificada",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [],
+        "compatibilidad": {
+          "puntaje": 20,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: control industrial",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "instrumentación industrial",
+            "sensores",
+            "puesta en marcha"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "Ingeniero Trainee de Automatización - Calama",
+      "empresa": "Postular Sé de los primeros en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Ingeniero Trainee de Automatización - Calama - Calama | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Otros Ingeniero Trainee de Automatización - Calama Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Ingeniero Trainee de Automatización - Calama ID 3915127 Buscado TRC Recruitme Fecha 2026-10-15 22:29:27 Expira 2026-12-29 (en 74 días) Ubicación Calama CL Categoría Otros Duración Indefinido Tipo Full-time Postular Sé de los primeros en postular! Guardar Compartir El anuncio ha sido visto: 73 veces Interesados: 2 PUBLICIDAD Ingeniero Trainee de Automatización - Calama TR TRC Recruitme , Calama 15 de Octubre de 2026 Descripción oferta de trabajo hoy Full-time Empresa líder mundial especializada en el desarrollo de tecnologías y servicios para el monitoreo de riesgos geológicos, geotécnicos, geoespaciales y estructurales en tiempo real busca incorporar un Ingeniero Trainee de Automatización para integrarse a su equipo técnico. El profesional participará en la implementación, configuración y puesta en marcha de soluciones tecnológicas de monitoreo, colaborando en proyectos que integran instrumentación, adquisición de datos, sistemas de comunicación y automatización. Tendrá la oportunidad de desarrollar sus conocimientos en terreno y trabajar con tecnologías orientadas a la seguridad, la prevención de riesgos y el monitoreo de infraestructura crítica. Funciones: - Apoyar la instalación, configuración y puesta en marcha de equipos de automatización, instrumentación y monitoreo. - Participar en la implementación de sistemas de adquisición, transmisión y procesamiento de datos en tiempo real. - Colaborar en la configuración y conexión de sensores, instrumentos y dispositivos electrónicos. - Apoyar la integración de equipos y sistemas de comunicación utilizados en soluciones de monitoreo. - Realizar pruebas funcionales y verificaciones técnicas para asegurar el correcto funcionamiento de los sistemas. - Participar en actividades de diagnóstico y resolución de fallas en equipos y sistemas de instrumentación. - Apoyar la recopilación, revisión y validación de datos provenientes de dispositivos de monitoreo. - Elaborar informes técnicos y documentar las actividades realizadas en terreno. Requisitos: -Título profesional o estar próximo a titularse de Ingeniería en Automatización y Control Industrial, Ingeniería Electrónica, Ingeniería Eléctrica, Ingeniería en Instrumentación o carrera afín. - Experiencia inicial o práctica profesional en automatización, instrumentación, electrónica o sistemas de control. - Conocimientos básicos de sensores, instrumentación industrial y adquisición de datos. - Conocimientos de electricidad, electrónica y sistemas de comunicación. - Deseable experiencia académica o práctica con sistemas de monitoreo, telemetría o integración de dispositivos. - Capacidad para interpretar documentación técnica y elaborar informes. - Manejo de herramientas computacionales para análisis y registro de información. - Disponibilidad para realizar trabajos en terreno y participar en proyectos industriales. - Licencia de conducir clase B, deseable. Otros Calama sistemas monitoreo automatización Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 73 veces Interesados: 2 Publicado: hoy Expiración: En 74 días Compartir enlace Denunciar oferta Trabajos Relacionados S Operador-Mantenedor Planta de Osmosis Inversa Servilog, Calama 16 de Octubre de 2026 Requisitos: • formación técnica en las áreas de: electricidad, instrumentación, mecánica, electromecánica, química.… Ver más Oferta cercana Auxiliar de Aseo reemplazo día de… Fundación creeser, Calama 13 de Octubre de 2026 Como fundación comprometida con el bienestar de lactantes, niños, niñas y adolescentes, estamos… Ver más Oferta cercana I Supervisor(a) de Equipos Médicos – Calama Incognito, Calama 25 de Septiembre de 2026 Supervisor(a) de equipos médicos – calama importante empresa del rubro de servicios de… Ver más Oferta cercana I Técnico en Equipos Industriales – Calama Incognito, Calama 25 de Septiembre de 2026 Técnico en equipos industriales – calama importante empresa del rubro de servicios de… Ver más Oferta cercana TC MAESTRO MAYOR MECANICO (A) Tecnologias cobra, Calama 15 de Octubre de 2026 Empresa tecnologias cobra ltda, líder en el rubro de la minería se encuentra… Ver más Oferta cercana TR Supervisor Técnico – Área Minera -… Trc recruitme, Calama 15 de Octubre de 2026 Empresa líder mundial especializada en el desarrollo de tecnologías y servicios para el… Ver más Oferta cercana Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Otros Trabajos de Otros en Calama Trabajos de Otros Full-time en Calama Trabajos de Otros Full-time Trabajos en Calama Trabajos Full-time en Calama Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/ingeniero-trainee-de-automatizacion-calama-3915127",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "automatizacion industrial",
+      "fecha_recoleccion": "2026-10-16T15:43:32.318362",
+      "terminos_tecnicos_detectados": 5,
+      "analisis": {
+        "competencias_detectadas": [
+          "control industrial",
+          "instrumentación industrial",
+          "sensores",
+          "puesta en marcha"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": null,
+          "meses": null,
+          "tipo": "no_especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "no_especificada",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [],
+        "compatibilidad": {
+          "puntaje": 20,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: control industrial",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "instrumentación industrial",
+            "sensores",
+            "puesta en marcha"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "Asistente Electromecánico (Nancagua)",
+      "empresa": "Postular Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Asistente Electromecánico (Nancagua) - San Fernando | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Operarios Asistente Electromecánico (Nancagua) Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Asistente Electromecánico (Nancagua) ID 3875207 Buscado Tuniche Fruits Fecha 2026-10-16 00:13:29 Expira 2026-12-30 (en 75 días) Ubicación San Fernando CL Categoría Operarios Duración Por Temporada Tipo Full-time Ley inclusión Postular Guardar Compartir El anuncio ha sido visto: 718 veces Interesados: 15 PUBLICIDAD Asistente Electromecánico (Nancagua) Tuniche Fruits , San Fernando 16 de Octubre de 2026 Descripción oferta de trabajo hoy Full-time En Tuniche Fruits nos encontramos en búsqueda de Asistentes Electromecánicos con ideal experiencia en rubro frutícola, quien se integrará al equipo de mantención para apoyar la continuidad operativa de maquinaria, equipos y sistemas productivos. Ubicación: Planta Tuniche Puquillay (Nancagua) Principales funciones: - Colaborar en labores de mantención preventiva y correctiva en maquinaria y equipos electromecánicos. - Apoyar en la detección de fallas en sistemas mecánicos. - Utilizar herramientas y equipos adecuados según las tareas asignadas. - Cumplir con los estándares de seguridad y protocolos internos de la compañía. Requisitos: - Formación técnica en Mecánica Industrial, Mantención Industrial o carrera afín. - Perfil con experiencia en mecánica y conocimientos en mantenimiento de equipos industriales. - Deseable experiencia en equipos Unitec y rieles terrestres automatizados en Agroindustria. - Residencia en zonas cercanas Condiciones: - Contrato por temporada. - Horario Lunes a Jueves 08:00 - 18:00 hrs / viernes 08:00 - 15:00 hrs / variable en temporada alta. ¡Si cumples con el perfil y buscas desarrollarte en el área de mantención industrial, te invitamos a postular y ser parte de nuestro equipo! Beneficios Casino La empresa incluye casino para la alimentación Uniforme La empresa provee el uniforme de trabajo Operarios San Fernando equipos mantención industrial Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 718 veces Interesados: 15 Publicado: hoy Expiración: En 75 días Compartir enlace Denunciar oferta Trabajos Relacionados Encargado de Mantención (Nancagua) Tuniche fruits, San fernando 06 de Octubre de 2026 ¡Únete a nuestro equipo! en tuniche fruits, nos encontramos en búsqueda de nuestro… Ver más 100% Similar Técnico Electricista - Nancagua Tuniche fruits, San fernando 30 de Septiembre de 2026 ¡Únete a tuniche fruits! en tuniche fruits, nos encontramos en búsqueda de un… Ver más 67% Similar Operador Sala de Maquinas (Nancagua) Tuniche fruits, San fernando 15 de Octubre de 2026 ¡Únete a tuniche fruits! operador sala de maquinas senior (nancagua) planta puquillay, nancagua… Ver más 50% Similar TD Técnico de Mantenimiento Técnico de mantenimiento, San antonio 15 de Octubre de 2026 Nos encontramos en búsqueda de un técnico en mantenimiento, en nuestro terminal de… Ver más 33% Similar TD Tecnico de Mantemiento Tecnico de mantenimiento, Arica 16 de Octubre de 2026 Nos encontramos en búsqueda de un técnico en mantenimiento, en nuestro terminal de… Ver más 33% Similar Técnicos de Mantenimiento: Mecánicos y Electromecánicos… Confidencial, Santiago 23 de Septiembre de 2026 Sobre nosotros: somos una empresa con más de 40 años de trayectoria líder… Ver más 33% Similar Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Operarios Trabajos de Operarios en San Fernando Trabajos de Operarios Full-time en San Fernando Trabajos de Operarios Full-time Trabajos en San Fernando Trabajos Full-time en San Fernando Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/asistente-electromecanico-nancagua-3875207",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "mantenimiento industrial",
+      "fecha_recoleccion": "2026-10-16T15:43:33.444268",
+      "terminos_tecnicos_detectados": 2,
+      "analisis": {
+        "competencias_detectadas": [
+          "mantenimiento industrial",
+          "mantenimiento preventivo",
+          "electromecánica",
+          "diagnóstico de fallas"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": null,
+          "meses": null,
+          "tipo": "no_especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "no_especificada",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [
+          "electromecánico"
+        ],
+        "compatibilidad": {
+          "puntaje": 45,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: mantenimiento industrial, mantenimiento preventivo",
+            "El cargo coincide con el perfil.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "electromecánica",
+            "diagnóstico de fallas"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "TÉCNICO ELÉCTRICO (MUJER) – TURNO 7X7…",
+      "empresa": "Postular Sé de los primeros en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "TÉCNICO ELÉCTRICO (MUJER) – TURNO 7X7 FAENA SPENCE - Iquique | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Operarios TÉCNICO ELÉCTRICO (MUJER) – TURNO 7X7 FAENA SPENCE Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas TÉCNICO ELÉCTRICO (MUJER) – TURNO 7X7 FAENA SPENCE ID 3915038 Buscado FIBERCOM Fecha 2026-10-15 17:35:44 Expira 2026-12-29 (en 74 días) Ubicación Iquique CL Categoría Operarios Duración INDEFINIDO Tipo Full-time Ley inclusión Postular Sé de los primeros en postular! Guardar Compartir El anuncio ha sido visto: 68 veces Interesados: 2 PUBLICIDAD TÉCNICO ELÉCTRICO (MUJER) – TURNO 7X7 FAENA SPENCE FIBERCOM , Iquique 15 de Octubre de 2026 Descripción oferta de trabajo hoy Full-time En línea con nuestro compromiso con la equidad de género y la Ley de Inclusión Femenina en la minería, empresa líder en servicios industriales abre una convocatoria exclusiva para talento femenino. Nos encontramos en la búsqueda activa de una Técnico Eléctrico con residencia en Iquique o Alto Hospicio para integrarse a nuestro equipo en Minera Spence, Segunda Región. Buscamos a una profesional con sólida experiencia práctica en equipos técnicos y en faena minera, que destaque por su sentido de la responsabilidad, capacidad para el trabajo en equipo y un liderazgo activo en terreno. Requisitos Mínimos (Excluyentes) • Género: Femenino (Exclusivo por cuota de inclusión y equidad). • Residencia obligatoria: Iquique, Alto Hospicio, Antofagasta y Calama. • Certificación SEC vigente Clase D (o superior). • Experiencia en Minería: Experiencia comprobable trabajando en faenas mineras bajo estrictos estándares de seguridad. • Experiencia con Equipos Técnicos: Conocimiento comprobable en el diagnóstico, mantenimiento y reparación de equipos eléctricos industriales, tableros de fuerza/control y sistemas de distribución. • Disponibilidad: Para trabajar en sistema de turno 7x7 (con alojamiento en campamento en Faena Spence). • Salud compatible con trabajos. ️ Funciones Principales • Ejecutar planes de mantenimiento preventivo y correctivo de equipos técnicos y sistemas eléctricos en la faena. • Diagnosticar fallas complejas y asegurar la continuidad operacional de los equipos asignados. • Trabajar en estrecha colaboración con el equipo de operaciones, promoviendo el trabajo en equipo y el autocuidado. • Asegurar que todas las intervenciones cumplan estrictamente con la normativa SEC y los protocolos HSEC de la compañía. Ofrecemos • Contratación directa, estabilidad laboral y un entorno laboral inclusivo, seguro y respetuoso. • Traslados garantizados desde Iquique/Alto Hospicio hacia Faena Spence. • Alojamiento en campamento minero con excelentes comodidades y servicios. Entre otros. Beneficios Bus acercamiento La empresa provee un bus de acercamiento Mutual de Seguridad La empresa esta adscrita a la mutual de seguridad Caja de compensación La empresa esta adscrita a una caja de compensación Casino La empresa incluye casino para la alimentación Uniforme La empresa provee el uniforme de trabajo Operarios Iquique faena spence equipos Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 68 veces Interesados: 2 Publicado: hoy Expiración: En 74 días Compartir enlace Denunciar oferta Trabajos Relacionados Operarios Para Faena Freemaq spa, Iquique 23 de Septiembre de 2026 Empresa: freemaq spa ubicación: iquique puesto: operario para faena tipo de contrato: plazo… Ver más 100% Similar F ASISTENTE ADMINISTRATIVA RRHH Fullmaqui, Iquique 06 de Octubre de 2026 Se busca asistente de recursos humanos ubicación: alto hospicio jornada: turno 5x2 nos… Ver más 100% Similar EC Asistente de Venta Empresa confidencial, Iquique 01 de Octubre de 2026 ¡Únete a nuestro equipo en iquique como asistente de ventas! empresa líder en… Ver más 100% Similar C ASISTENTE DE PROYECTOS Y CONTRATOS Confidencial, Iquique 08 de Octubre de 2026 Asistente de proyectos y contratos importante empresa metalmecánica, necesita para sus operaciones en… Ver más 100% Similar PC Bodeguero/a Procesum consultores, Iquique 29 de Septiembre de 2026 Nuestro cliente centro logístico, requiere, operador responsable de ejecutar los procesos logísticos de… Ver más 100% Similar MA Oportunidad Laboral: BODEGUERO Metalmecánica alto hospicio, Iquique 07 de Octubre de 2026 Importante empresa metalmecánica de la comuna de alto hospicio se encuentra en la… Ver más 100% Similar Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Operarios Trabajos de Operarios en Iquique Trabajos de Operarios Full-time en Iquique Trabajos de Operarios Full-time Trabajos en Iquique Trabajos Full-time en Iquique Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/tecnico-electrico-mujer-turno-7x7-faena-spence-3915038",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "tecnico electrico",
+      "fecha_recoleccion": "2026-10-16T15:43:35.063084",
+      "terminos_tecnicos_detectados": 2,
+      "analisis": {
+        "competencias_detectadas": [
+          "mantenimiento preventivo"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": null,
+          "meses": null,
+          "tipo": "no_especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "no_especificada",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [
+          "técnico eléctrico junior",
+          "técnico eléctrico"
+        ],
+        "compatibilidad": {
+          "puntaje": 40,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: mantenimiento preventivo",
+            "El cargo coincide con el perfil.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": []
+        }
+      }
+    },
+    {
+      "titulo": "ITO Electrico e Instrumentación - 14…",
+      "empresa": "Postular Sé de los primeros en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "ITO Electrico e Instrumentación - 14 x 14 Antofagasta - Antofagasta | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Otros ITO Electrico e Instrumentación - 14 x 14 Antofagasta Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas ITO Electrico e Instrumentación - 14 x 14 Antofagasta ID 3914325 Buscado Empresa Ingeniería Fecha 2026-10-15 23:54:47 Expira 2026-12-29 (en 74 días) Ubicación Antofagasta CL Categoría Otros Tipo Full-time Ley inclusión Postular Sé de los primeros en postular! Guardar Compartir El anuncio ha sido visto: 101 veces Interesados: 2 PUBLICIDAD ITO Electrico e Instrumentación - 14 x 14 Antofagasta EI Empresa Ingeniería , Antofagasta 15 de Octubre de 2026 Descripción oferta de trabajo hoy Full-time Importante empresa del rubro de ingeniería se encuentra en búsqueda de un/a Inspector/a Técnico/a de Obras (ITO) Eléctrico e Instrumentación para incorporarse a un proyecto ubicado en Antofagasta, bajo sistema de turno 14x14. La búsqueda está dirigida a profesionales que cuenten con conocimientos y experiencia en inspección, supervisión y control técnico de instalaciones eléctricas y sistemas de instrumentación. Objetivo del cargo: Inspeccionar y controlar técnicamente la ejecución de obras eléctricas y de instrumentación en terreno, verificando el cumplimiento de planos, especificaciones técnicas, normativa vigente y estándares de seguridad, calidad y plazos establecidos para el proyecto. Requisitos: - Título Técnico de Nivel Superior, Ingeniería de Ejecución Eléctrica o carrera afín. - Al menos 1 año experiencia general. - Mínimo 1 año en actividades de supervisión, inspección, montaje, mantención o pruebas de sistemas eléctricos. - Conocimientos en instalaciones eléctricas, tableros, subestaciones, salas eléctricas y sistemas de instrumentación. - Manejo de planos eléctricos, diagramas unilineales y especificaciones técnicas. - Conocimientos de normativa eléctrica vigente. - Deseable experiencia en proyectos mineros, industriales o de infraestructura. - Disponibilidad para trabajar en Antofagasta bajo sistema de turno 14x14. Condiciones laborales: - Antofagasta. - Turno: 14x14. - Traslado y hospedaje Incluido durante la permanencia en el proyecto. Otros Antofagasta antofagasta instrumentación eléctricas Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 101 veces Interesados: 2 Publicado: hoy Expiración: En 74 días Compartir enlace Denunciar oferta Trabajos Relacionados ED Jefe/a de Mantención Eléctrica, Instrumentación y… Empresa del rubro industrial, Antofagasta 14 de Octubre de 2026 Bajo el marco de la ley 21.015 que incentiva la inclusión de personas… Ver más 100% Similar OFERTA DE TRABAJO Power system, Antofagasta 28 de Septiembre de 2026 ¡power system estÁ buscando nuevos talentos! oportunidad laboral proyecto minero buscamos incorporar profesionales… Ver más 100% Similar ED Electromecánico SEC A, B o C Empresa de minería, Santiago 05 de Octubre de 2026 Buscamos un electromecánico titulado en ingeniería eléctrica o técnico en electricidad y electrónica… Ver más 50% Similar TECNICO ELECTRICO, RESIDENCIA ANTOFAGASTA Telmin ingenieria, Antofagasta 08 de Octubre de 2026 Empresa del rubro eléctrico, requiere contratar técnicos en electricidad s, para desempeñarse en… Ver más 50% Similar Supervisor Eléctrico Ckf soluciones, Copiapó 06 de Octubre de 2026 En ckf soluciones, empresa dedicada a la ingeniería multidisciplinaria para proyectos mineros e… Ver más 50% Similar Ingeniero Ejecución o Técnico electrónico/automatización de… Exportacion de servicios electronicos, Concepción 05 de Octubre de 2026 Exportacion de servicios electronicos selmarltda empresa de servicios y venta de equipos de… Ver más 50% Similar Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Otros Trabajos de Otros en Antofagasta Trabajos de Otros Full-time en Antofagasta Trabajos de Otros Full-time Trabajos en Antofagasta Trabajos Full-time en Antofagasta Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/ito-electrico-e-instrumentacion-14-x-14-antofagasta-3914325",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "tecnico electrico",
+      "fecha_recoleccion": "2026-10-16T15:43:35.414942",
+      "terminos_tecnicos_detectados": 5,
+      "analisis": {
+        "competencias_detectadas": [
+          "instrumentación industrial",
+          "lectura de planos"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": 1.0,
+          "meses": 12.0,
+          "tipo": "especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "brecha_pequena",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [],
+        "compatibilidad": {
+          "puntaje": 15,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: lectura de planos",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "Solicita 12 meses de experiencia y el perfil tiene 6 meses.",
+            "instrumentación industrial"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "Técnico/a de Mantenimiento de Chancado  Asesoría…",
+      "empresa": "Postular Sé de los primeros en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Técnico/a de Mantenimiento de Chancado Asesoría Remota - Santiago | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Otros Técnico/a de Mantenimiento de Chancado Asesoría Remota Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Oferta destacada Técnico/a de Mantenimiento de Chancado Asesoría Remota ID 3915114 Buscado Private Fecha 2026-10-15 20:34:32 Expira 2026-12-29 (en 74 días) Ubicación Santiago CL Categoría Otros Duración Por Proyecto Tipo Part-time Postular Sé de los primeros en postular! Guardar Compartir El anuncio ha sido visto: 101 veces Interesados: 1 PUBLICIDAD Técnico/a de Mantenimiento de Chancado Asesoría Remota P Private , Santiago 15 de Octubre de 2026 Descripción oferta de trabajo hoy Part-time Técnico/a de Mantenimiento de Chancado Asesoría Remota Buscamos un/a técnico/a con experiencia en mantenimiento de equipos de chancado en plantas de procesamiento de cobre, para brindar asesoría técnica a un proyecto minero. Principales funciones: • Asesorar en el diagnóstico de fallas y la definición de soluciones para equipos de chancado. • Revisar y recomendar mejoras en procedimientos de mantenimiento preventivo y correctivo. • Apoyar la preparación de trabajos y paradas de planta, identificando repuestos, herramientas y recursos necesarios. • Aportar recomendaciones prácticas para mejorar la confiabilidad y disponibilidad de los equipos. Requisitos: • Título técnico en Mantenimiento Mecánico, Electromecánica o carrera afín. • Experiencia comprobable en mantenimiento de chancadores, harneros, alimentadores y correas transportadoras. • Conocimiento práctico de sistemas de lubricación, hidráulica y componentes de desgaste. • Capacidad para interpretar planos, manuales y documentación técnica. • Capacidad para comunicar recomendaciones técnicas y trabajar con equipos a distancia. El rol puede desarrollarse de forma remota y contempla exclusivamente funciones de asesoría. No requiere viajes ni presencia en faena. Si te interesa, envía tu CV a info@andesagile.com Otros Santiago mantenimiento técnico asesoría Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 101 veces Interesados: 1 Publicado: hoy Expiración: En 74 días Compartir enlace Denunciar oferta Trabajos Relacionados Técnico/a Mecánico/a - Antofagasta Fluitek, Antofagasta 08 de Octubre de 2026 En fluitek nos especializamos en el suministro, instalación y mantención de productos de… Ver más 100% Similar HE Asistente Mantención Hogar el buen samaritano, Santiago 16 de Octubre de 2026 Fundación dedicada al cuidado y bienestar de personas mayores busca incorporar a su… Ver más Oferta cercana Comprador y Apoyo Operativo para Taller… Taller mecánico, Santiago 15 de Octubre de 2026 ¡buscamos comprador para taller mecÁnico! buscamos una persona responsable, proactiva y comprometida para… Ver más Oferta cercana ED Chofer A4 Empresa de transporte de.., Santiago 15 de Octubre de 2026 Empresa de transporte busca conductor o chofer profesional con licencia a4 para realizar… Ver más Oferta cercana SD AUXILIARES DE ASEO - TURNOS PM Servicios de aseo, Santiago 15 de Octubre de 2026 Empresa de aseo corporativo, se encuentra en busqueda de personal para jornadas part… Ver más Oferta cercana P PLANIFICADOR DE MANTENIMIENTO PLANTA SAP y… Private, Santiago 15 de Octubre de 2026 Planificador de mantenimiento planta sap y datos maestros buscamos un/a profesional con experiencia… Ver más Oferta cercana Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Otros Trabajos de Otros en Santiago Trabajos de Otros Part-time en Santiago Trabajos de Otros Part-time Trabajos en Santiago Trabajos Part-time en Santiago Trabajos Part-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/tecnico-a-de-mantenimiento-de-chancado-asesoria-remota-3915114",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "electromecanico",
+      "fecha_recoleccion": "2026-10-16T15:43:36.777609",
+      "terminos_tecnicos_detectados": 3,
+      "analisis": {
+        "competencias_detectadas": [
+          "mantenimiento preventivo",
+          "electromecánica",
+          "diagnóstico de fallas",
+          "hidráulica"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": null,
+          "meses": null,
+          "tipo": "no_especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "no_especificada",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [
+          "técnico de mantenimiento junior",
+          "técnico de mantenimiento"
+        ],
+        "compatibilidad": {
+          "puntaje": 40,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: mantenimiento preventivo",
+            "El cargo coincide con el perfil.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "electromecánica",
+            "diagnóstico de fallas",
+            "hidráulica"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "ELECTROMECANICO CALAMA",
+      "empresa": "Postular Sé de los primeros en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "ELECTROMECANICO CALAMA - Calama | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Profesionales y Técnicos ELECTROMECANICO CALAMA Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas ELECTROMECANICO CALAMA ID 3915055 Buscado Sociedad De Repuestos Rodar Fecha 2026-10-15 17:47:49 Expira 2026-12-29 (en 74 días) Ubicación Calama CL Categoría Profesionales y Técnicos Salario Acorde al mercado Duración Plazo fijo Tipo Full-time Ley inclusión Postular Sé de los primeros en postular! Guardar Compartir El anuncio ha sido visto: 54 veces Interesados: 2 PUBLICIDAD ELECTROMECANICO CALAMA SD Sociedad De Repuestos Rodar , Calama 15 de Octubre de 2026 Descripción oferta de trabajo hoy Acorde al mercado Full-time En Sociedad de Repuestos Rodar, taller mecánico ubicado en la ciudad de Calama, nos encontramos en búsqueda de un Electromecánico para integrarse a nuestro equipo de trabajo. funciones principales: 1.1. Diagnosticar, reparar y mantener sistemas eléctricos y mecánicos de vehículos livianos, maquinaria y equipos que ingresen a los talleres de la empresa. 1.2. Realizar diagnósticos computarizados utilizando herramientas de escaneo (scanner) y multímetros, a objeto de identificar fallas en la Unidad de Control Electrónico (ECU), sensores y sistemas eléctricos del vehículo. 1.3. Ejecutar labores en sistemas de carga y arranque, incluyendo diagnóstico y reparación de alternadores, motores de arranque, baterías y componentes asociados, asegurando su correcto funcionamiento. 1.4. Intervenir en sistemas de inyección de combustible (diésel y gasolina), efectuando mantenimiento, reparación y ajustes necesarios en motores térmicos y sus sistemas auxiliares. 1.5. Realizar mantenimiento preventivo y correctivo en los sistemas y dispositivos mecánicos y eléctricos, asegurando la continuidad operativa y seguridad de los vehículos y equipos. 1.6. Reparar y mantener sistemas de confort y seguridad, tales como aire acondicionado, frenos ABS, airbags y sistemas de iluminación. 1.7. Diagnosticar y solucionar fallas en sistemas hidráulicos y neumáticos, comunes en camiones y maquinaria pesada, garantizando su correcto funcionamiento. 1.8. Leer, interpretar y aplicar diagramas eléctricos y esquemas mecánicos para la correcta localización de averías y ejecución de reparaciones. 1.9. Utilizar herramientas especializadas para la medición de electricidad, corriente, resistencia y otros parámetros técnicos necesarios para el diagnóstico y reparación. 1.10. Trabajar con controladores lógicos programables (PLC) y sistemas de automatización cuando las labores lo requieran. 1.11. Cumplir con los procedimientos internos establecidos para la recepción, reparación y entrega de vehículos, asegurando el correcto registro de órdenes de trabajo y documentación asociada. 1.12. Velar por el cuidado de los vehículos y equipos bajo su responsabilidad, evitando daños internos o externos durante su permanencia en los talleres. 1.13. Informar oportunamente a su jefatura directa sobre fallas detectadas, trabajos realizados y requerimientos técnicos adicionales que se identifiquen durante la intervención. 1.14. Cumplir estrictamente con las normas de seguridad, prevención de riesgos y uso adecuado de herramientas y equipos proporcionados por la empresa. 1.15. Mantenerse en constante capacitación y actualización técnica en materias de electricidad, mecánica, automatización y nuevas tecnologías aplicadas al rubro automotriz e industrial. Profesionales y Técnicos Calama sistemas vehículos equipos Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 54 veces Interesados: 2 Publicado: hoy Expiración: En 74 días Compartir enlace Denunciar oferta Trabajos Relacionados O Técnico de Terreno Orpak, Calama 15 de Octubre de 2026 ¡esta es tu oportunidad para formar parte de una empresa líder en su… Ver más 100% Similar EL Operador Mantenedor Faena (Calama) Empresa líder mundial en.., Calama 14 de Octubre de 2026 Empresa líder mundial en inspección, verificación, análisis, capacitación y certificación requiere técnico de… Ver más 100% Similar TC INSTRUMENTISTA - DRT PILAS Tecnologias cobra ltda, Calama 07 de Octubre de 2026 Empresa líder en el rubro de la minería se encuentra en la búsqueda… Ver más 50% Similar TC ELECTROMECANICO - DRT NAVE Tecnologias cobra, Calama 05 de Octubre de 2026 Empresa líder en el rubro de la minería se encuentra en la búsqueda… Ver más 50% Similar EL Asesor en Prevencion de Riesgos (Calama) Empresa líder mundial en.., Calama 01 de Octubre de 2026 Empresa líder mundial en inspección, verificación, análisis y certificación requiere ingeniero en prevencion… Ver más 50% Similar MT Mecánico/eléctrico minería 7x7 Equipos móviles superficies Minería todo chile, Antofagasta 21 de Septiembre de 2026 Título: técnico(a) de mantenimiento de palas o equipos caex mineras tipo de contrato:… Ver más 50% Similar Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Profesionales y Técnicos Trabajos de Profesionales y Técnicos en Calama Trabajos de Profesionales y Técnicos Full-time en Calama Trabajos de Profesionales y Técnicos Full-time Trabajos en Calama Trabajos Full-time en Calama Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/electromecanico-calama-3915055",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "PLC",
+      "fecha_recoleccion": "2026-10-16T15:43:38.619919",
+      "terminos_tecnicos_detectados": 7,
+      "analisis": {
+        "competencias_detectadas": [
+          "mantenimiento preventivo",
+          "PLC",
+          "electromecánica",
+          "sensores"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": true,
+        "plc_evidencia": {
+          "detectado": true,
+          "patrones_explicitos": [
+            "plc"
+          ],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": null,
+          "meses": null,
+          "tipo": "no_especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "no_especificada",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [
+          "electromecánico"
+        ],
+        "compatibilidad": {
+          "puntaje": 45,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: mantenimiento preventivo, PLC",
+            "Se detectó requerimiento relacionado con PLC.",
+            "El cargo coincide con el perfil.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "electromecánica",
+            "sensores"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "Electromecánico Industrial – Mantención y Diagnóstico,…",
+      "empresa": "Postular Sé de los primeros en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Electromecánico Industrial – Mantención y Diagnóstico, Antofagasta - Antofagasta | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Profesionales y Técnicos Electromecánico Industrial – Mantención y Diagnóstico, Antofagasta Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Electromecánico Industrial – Mantención y Diagnóstico, Antofagasta ID 3915350 Buscado PeopleGo Fecha 2026-10-16 10:59:02 Expira 2026-12-30 (en 75 días) Ubicación Antofagasta CL Categoría Profesionales y Técnicos Tipo Full-time Ley inclusión Postular Sé de los primeros en postular! Guardar Compartir El anuncio ha sido visto: 18 veces Interesados: 1 PUBLICIDAD Electromecánico Industrial – Mantención y Diagnóstico, Antofagasta P PeopleGo , Antofagasta 16 de Octubre de 2026 Descripción oferta de trabajo hoy Full-time Dón del cargo Ejecutar diagnósticos, mantenciones y reparaciones electromecánicas en equipos y componentes, tanto en taller como en terreno, asegurando la correcta identificación de fallas y la ejecución de trabajos bajo estándares de calidad, seguridad y cumplimiento técnico, con el objetivo de garantizar la continuidad operativa y confiabilidad de los equipos intervenidos. Principales Funciones: • Desarmar componentes y equipos para su evaluación técnica en taller o terreno. • Realizar diagnóstico de fallas eléctricas, mecánicas y/o hidráulicas en equipos industriales. • Ejecutar mantenciones preventivas y correctivas, incluyendo desmontaje, limpieza, inspección, control de medidas, ajustes y montaje de componentes. • Realizar ensambles, ajustes de piezas y montajes con interferencia, asegurando tolerancias y estándares técnicos. • Ejecutar pruebas en banco bajo especificaciones técnicas y normas de seguridad. • Elaborar informes técnicos posteriores a cada intervención, detallando diagnóstico, trabajos realizados y condiciones del equipo. • Velar por el cumplimiento técnico en la puesta en marcha y entrega de equipos reparados o nuevos. • Interpretar planos eléctricos, mecánicos e hidráulicos para la correcta ejecución de trabajos. • Revisar manuales técnicos, protocolos y documentación de equipos para asegurar intervenciones adecuadas. • Mantener orden y limpieza del área de trabajo, cumpliendo normativas de seguridad y medioambiente. Requisitos Excluyentes: Formación técnica en Electromecánica, Electricidad Industrial o carrera afín. Experiencia en mantención y reparación de equipos industriales. Conocimientos en diagnóstico de fallas eléctricas, mecánicas y oleo hidráulicas. Manejo de instrumentos de medición (multímetro, amperímetro, megger). Interpretación de planos eléctricos y mecánicos. Disponibilidad para trabajo en terreno. Disponibilidad para trabajos en fines de semana (por emergencias o contingencias) Conocimiento en mantenimiento y chequeo a Equipos de Izaje, Procesos LOTO y Variadores de Frecuencia (VDF) . Salud Compatible para trabajo en altura física. Deseables: Conocimiento en variadores de frecuencia (VDF). Conocimientos en electrónica. Experiencia en montaje de rodamientos. Conocimientos en metrología. Buscamos personas con Orientación a la calidad y seguridad Capacidad de análisis y resolución de problemas Autonomía y proactividad Responsabilidad y compromiso Trabajo en equipo Qué ofrecemos Integrarse a una empresa consolidada en el rubro industrial Desarrollo en un entorno técnico especializado Estabilidad laboral Beneficios Aguinaldo fiestas patrias (valor 23 días de sueldo) Bono convenio noviembre Aguinaldo de navidad (380.000 bruto) Medio día libre de cumpleaños 2 días administrativos al año Casino Seguro complementario de salud Si cumples con el perfil y te interesa ser parte de un equipo técnico altamente especializado, ¡postula con nosotros! Conocimientos y habilidades obligatorias • Conocimiento en mantenimiento y chequeo a Equipos de Izaje, Procesos LOTO y Variadores de Frecuencia (VDF) . • Interpretación de planos eléctricos y mecánicos. • Manejo de instrumentos de medición (multímetro, amperímetro, megger). • onocimientos en diagnóstico de fallas eléctricas, mecánicas y oleo hidráulicas. Tareas principales del cargo • mantención y reparación de equipos industriales. Profesionales y Técnicos Antofagasta equipos diagnóstico fallas Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 18 veces Interesados: 1 Publicado: hoy Expiración: En 75 días Compartir enlace Denunciar oferta Trabajos Relacionados PREVENCIONISTA DE RIESGOS - FAENAS Grandleasing spa, Antofagasta 15 de Octubre de 2026 Reconocida empresa del rubro de leasing operativo se encuentra en la búsqueda de… Ver más Oferta cercana IE Jefe Zona Norte Importante empresa, Antofagasta 15 de Octubre de 2026 Importante empresa se encuentra en la búsqueda de un jefe de taller para… Ver más Oferta cercana TECNICO EN CONTROL DE PLAGAS -… Ecap, Antofagasta 15 de Octubre de 2026 Empresa con más de 30 años de experiencia en control de plagas y… Ver más Oferta cercana PSICOLOGO(A)/ ACOMPAÑANTE TERAPEÚTICO AFT - PF… Corporación prodel, Antofagasta 15 de Octubre de 2026 Corporación prodel, se encuentra en la búsqueda de profesionales del área psicosocial psicólogo… Ver más Oferta cercana BI Ing. Civil Eléctrico / Ing. Ejecución… Bcs ingeniería y construcción.., Antofagasta 15 de Octubre de 2026 Empresa constructora requiere incorporar a su equipo un ingeniero eléctrico para participar en… Ver más Oferta cercana S Superintendente/a Optimización de Procesos Sourcing, Antofagasta 15 de Octubre de 2026 Buscamos una/un profesional para liderar equipos e iniciativas de optimización de procesos y… Ver más Oferta cercana Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Profesionales y Técnicos Trabajos de Profesionales y Técnicos en Antofagasta Trabajos de Profesionales y Técnicos Full-time en Antofagasta Trabajos de Profesionales y Técnicos Full-time Trabajos en Antofagasta Trabajos Full-time en Antofagasta Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/electromecanico-industrial-mantencion-y-diagnostico-antofagasta-3915350",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "electricidad industrial",
+      "fecha_recoleccion": "2026-10-16T15:43:39.889152",
+      "terminos_tecnicos_detectados": 10,
+      "analisis": {
+        "competencias_detectadas": [
+          "electricidad industrial",
+          "variadores de frecuencia",
+          "electromecánica",
+          "lectura de planos",
+          "diagnóstico de fallas",
+          "puesta en marcha"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": null,
+          "meses": null,
+          "tipo": "no_especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "no_especificada",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [
+          "electromecánico"
+        ],
+        "compatibilidad": {
+          "puntaje": 50,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: electricidad industrial, variadores de frecuencia, lectura de planos",
+            "El cargo coincide con el perfil.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "electromecánica",
+            "diagnóstico de fallas",
+            "puesta en marcha"
+          ]
+        }
+      }
+    },
+    {
+      "titulo": "Electromecánico - Sierra Gorda",
+      "empresa": "Postular Sé de los primeros en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Electromecánico - Sierra Gorda - Antofagasta | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Otros Electromecánico - Sierra Gorda Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Electromecánico - Sierra Gorda ID 3914769 Buscado Word Class MS Fecha 2026-10-15 13:16:12 Expira 2026-12-29 (en 74 días) Ubicación Antofagasta CL Categoría Otros Duración plazo fijo Tipo Full-time Postular Sé de los primeros en postular! Guardar Compartir El anuncio ha sido visto: 58 veces Interesados: 1 PUBLICIDAD Electromecánico - Sierra Gorda Word Class MS , Antofagasta 15 de Octubre de 2026 Descripción oferta de trabajo hoy Full-time Empresa de servicios para la minería busca incorporar Electromecánico para desempeñarse en faena Minera Sierra Gorda, ejecutando labores de mantenimiento preventivo y correctivo de equipos y sistemas electromecánicos, contribuyendo a la continuidad operacional y al cumplimiento de los estándares de seguridad. Principales funciones: - Realizar mantenimiento preventivo y correctivo de equipos y sistemas electromecánicos. - Diagnosticar fallas eléctricas y mecánicas, ejecutando las reparaciones correspondientes. - Inspeccionar el funcionamiento de equipos, motores y componentes eléctricos. - Informar fallas y proponer mejoras para optimizar la operación. - Cumplir los procedimientos de trabajo, normas de seguridad y estándares de calidad y medioambiente. Requisitos: - Mínimo 5 años de experiencia en cargos similares, idealmente en faenas mineras. - Conocimientos en mantenimiento eléctrico y mecánico industrial. - Experiencia en diagnóstico y reparación de fallas electromecánicas. - Compromiso con la seguridad y el cumplimiento de procedimientos. Perfil buscado: Persona proactiva, responsable, analítica y orientada al trabajo seguro. Beneficios Seguro de salud La empresa paga o copaga una cobertura de salud adicional. Seguro de vida ¡La salud es lo más importante! La empresa paga el seguro de vida Seguro dental Paga o copaga un seguro dental. Caja de compensación La empresa esta adscrita a una caja de compensación Casino La empresa incluye casino para la alimentación Uniforme La empresa provee el uniforme de trabajo Otros Antofagasta fallas equipos mantenimiento Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 58 veces Interesados: 1 Publicado: hoy Expiración: En 74 días Compartir enlace Denunciar oferta Trabajos Relacionados TC ELECTROMECANICO Tecnologias cobra ltda, Calama 07 de Octubre de 2026 Empresa tecnologias cobra ltda, líder en el rubro de la minería se encuentra… Ver más 100% Similar EM Eléctrico Instrumentista Empresa minera, Antofagasta 28 de Septiembre de 2026 Empresa del rubro minero se encuentra en búsqueda de eléctrico instrumentista para integrarse… Ver más 100% Similar E Eléctrico (a) Eléctrico (a), Antofagasta 15 de Octubre de 2026 Novandino litio, compañía minera global que desde el norte de chile está presente… Ver más 100% Similar Administrador de contrato Skm industrial, Antofagasta 16 de Octubre de 2026 En skm nos encontramos en búsqueda de un/a ingeniero/a civil industrial con experiencia… Ver más Oferta cercana JEFE PLANTA Confidencial, Antofagasta 14 de Octubre de 2026 Nuestro importante cliente requiere contratar jefe planta, para nuestro cliente ubicado en el… Ver más Oferta cercana Mecánico Mantenedor EEAA y CAEX Prevetec, Antofagasta 14 de Octubre de 2026 En empresa prevetec eirl, nos dedicamos al rubro de minería en la 2da… Ver más Oferta cercana Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Otros Trabajos de Otros en Antofagasta Trabajos de Otros Full-time en Antofagasta Trabajos de Otros Full-time Trabajos en Antofagasta Trabajos Full-time en Antofagasta Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/electromecanico-sierra-gorda-3914769",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "mantenimiento electrico",
+      "fecha_recoleccion": "2026-10-16T15:43:42.396760",
+      "terminos_tecnicos_detectados": 3,
+      "analisis": {
+        "competencias_detectadas": [
+          "mantenimiento preventivo",
+          "electromecánica"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": 5.0,
+          "meses": 60.0,
+          "tipo": "especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "brecha_alta",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [
+          "electromecánico"
+        ],
+        "compatibilidad": {
+          "puntaje": 25,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: mantenimiento preventivo",
+            "El cargo coincide con el perfil.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "Solicita 60 meses de experiencia y el perfil tiene 6 meses.",
+            "electromecánica"
+          ]
+        }
+      }
     }
   ],
   "tendencias": {
@@ -35802,27 +36471,27 @@
     }
   },
   "resumen_mercado": {
-    "ofertas_analizadas": 601,
+    "ofertas_analizadas": 612,
     "competencias_mas_solicitadas": {
-      "electromecánica": 296,
-      "mantenimiento preventivo": 261,
-      "mantenimiento industrial": 186,
-      "lectura de planos": 157,
-      "electricidad industrial": 135,
-      "instrumentación industrial": 118,
+      "electromecánica": 302,
+      "mantenimiento preventivo": 268,
+      "mantenimiento industrial": 188,
+      "lectura de planos": 159,
+      "electricidad industrial": 136,
+      "instrumentación industrial": 122,
       "tableros eléctricos": 100,
-      "PLC": 94,
-      "puesta en marcha": 87,
+      "PLC": 96,
+      "puesta en marcha": 90,
       "automatización industrial": 76,
-      "sensores": 72,
-      "diagnóstico de fallas": 69,
-      "control industrial": 51,
-      "variadores de frecuencia": 44,
+      "sensores": 75,
+      "diagnóstico de fallas": 72,
+      "control industrial": 54,
+      "variadores de frecuencia": 45,
       "neumática": 42,
       "motores eléctricos": 37,
-      "hidráulica": 36,
+      "hidráulica": 37,
       "SCADA": 25,
-      "mantenimiento correctivo": 24,
+      "mantenimiento correctivo": 25,
       "seguridad eléctrica": 21,
       "HMI": 17
     },
@@ -35842,9 +36511,9 @@
       "Schneider": 1
     },
     "analisis_PLC": {
-      "ofertas_con_PLC": 94,
+      "ofertas_con_PLC": 96,
       "ofertas_con_marca_PLC": 22,
-      "ofertas_PLC_sin_marca": 72,
+      "ofertas_PLC_sin_marca": 74,
       "marcas_PLC": {
         "Allen-Bradley": 14,
         "Siemens": 7,
@@ -35859,67 +36528,67 @@
       }
     },
     "electromecanica": {
-      "ofertas_electromecanica": 296,
+      "ofertas_electromecanica": 302,
       "competencias_dentro_electromecanica": {
         "mantenimiento preventivo": {
-          "ofertas": 161,
-          "porcentaje": 54.4
+          "ofertas": 166,
+          "porcentaje": 55.0
         },
         "mantenimiento industrial": {
-          "ofertas": 124,
-          "porcentaje": 41.9
+          "ofertas": 126,
+          "porcentaje": 41.7
         },
         "electricidad industrial": {
-          "ofertas": 104,
-          "porcentaje": 35.1
+          "ofertas": 105,
+          "porcentaje": 34.8
         },
         "lectura de planos": {
-          "ofertas": 75,
-          "porcentaje": 25.3
+          "ofertas": 76,
+          "porcentaje": 25.2
         },
         "tableros eléctricos": {
           "ofertas": 62,
-          "porcentaje": 20.9
+          "porcentaje": 20.5
         },
         "diagnóstico de fallas": {
-          "ofertas": 48,
-          "porcentaje": 16.2
+          "ofertas": 51,
+          "porcentaje": 16.9
         },
         "sensores": {
-          "ofertas": 44,
+          "ofertas": 45,
           "porcentaje": 14.9
         },
         "puesta en marcha": {
-          "ofertas": 39,
+          "ofertas": 40,
           "porcentaje": 13.2
         },
         "automatización industrial": {
           "ofertas": 37,
-          "porcentaje": 12.5
+          "porcentaje": 12.3
+        },
+        "PLC": {
+          "ofertas": 33,
+          "porcentaje": 10.9
+        },
+        "variadores de frecuencia": {
+          "ofertas": 32,
+          "porcentaje": 10.6
         },
         "motores eléctricos": {
           "ofertas": 31,
-          "porcentaje": 10.5
-        },
-        "PLC": {
-          "ofertas": 31,
-          "porcentaje": 10.5
-        },
-        "variadores de frecuencia": {
-          "ofertas": 31,
-          "porcentaje": 10.5
+          "porcentaje": 10.3
         },
         "neumática": {
           "ofertas": 29,
-          "porcentaje": 9.8
+          "porcentaje": 9.6
         },
         "hidráulica": {
-          "ofertas": 25,
-          "porcentaje": 8.4
+          "ofertas": 26,
+          "porcentaje": 8.6
         },
         "mantenimiento correctivo": {
           "ofertas": 14,
-          "porcentaje": 4.7
+          "porcentaje": 4.6
         },
         "instrumentación industrial": {
           "ofertas": 6,
@@ -35936,11 +36605,11 @@
       }
     },
     "experiencia_requerida": {
-      "no especificada": 228,
-      "más de 3 años": 109,
+      "no especificada": 235,
+      "más de 3 años": 110,
       "2 años": 105,
-      "3 años": 100,
-      "1 año": 47,
+      "3 años": 101,
+      "1 año": 49,
       "sin experiencia": 12
     },
     "experiencia_promedio_anos": 3.6,
@@ -35952,8 +36621,8 @@
     },
     "cargos_mas_repetidos": {
       "Técnico/a Eléctrico/a en Automatización Industrial": 18,
+      "Electromecánico": 14,
       "Técnico Eléctrico": 13,
-      "Electromecánico": 13,
       "Electromecanico": 9,
       "Técnico eléctrico": 5,
       "Electromecanico Senior en Palas Hidráulicas –…": 5,
@@ -35962,16 +36631,16 @@
       "Técnico de Mantenimiento": 3,
       "ELECTROMECÁNICO": 3,
       "Electromecánico Industrial": 3,
+      "Instrumentista": 3,
       "ELECTROMECANICO": 3,
       "Mantenedor/a Eléctrico/a Instrumentista": 3,
-      "tecnico electrico de mantenimiento": 2,
-      "Mecanico o Electromecanico para maquinaria pesada": 2
+      "tecnico electrico de mantenimiento": 2
     },
     "plan_desarrollo": [
       {
         "tipo": "competencia",
         "competencia": "instrumentación industrial",
-        "ofertas": 118,
+        "ofertas": 122,
         "estado": "BRECHA",
         "es_objetivo": true,
         "prioridad": 10
@@ -35979,7 +36648,7 @@
       {
         "tipo": "competencia",
         "competencia": "sensores",
-        "ofertas": 72,
+        "ofertas": 75,
         "estado": "BRECHA",
         "es_objetivo": true,
         "prioridad": 10
@@ -35987,7 +36656,7 @@
       {
         "tipo": "competencia",
         "competencia": "diagnóstico de fallas",
-        "ofertas": 69,
+        "ofertas": 72,
         "estado": "BRECHA",
         "es_objetivo": true,
         "prioridad": 10
@@ -36003,7 +36672,7 @@
       {
         "tipo": "competencia",
         "competencia": "hidráulica",
-        "ofertas": 36,
+        "ofertas": 37,
         "estado": "BRECHA",
         "es_objetivo": true,
         "prioridad": 9
@@ -36027,7 +36696,7 @@
       {
         "tipo": "competencia",
         "competencia": "electromecánica",
-        "ofertas": 296,
+        "ofertas": 302,
         "estado": "BRECHA",
         "es_objetivo": false,
         "prioridad": 7
@@ -36035,7 +36704,7 @@
       {
         "tipo": "competencia",
         "competencia": "puesta en marcha",
-        "ofertas": 87,
+        "ofertas": 90,
         "estado": "BRECHA",
         "es_objetivo": false,
         "prioridad": 7
@@ -36075,7 +36744,7 @@
       {
         "tipo": "competencia",
         "competencia": "mantenimiento preventivo",
-        "ofertas": 261,
+        "ofertas": 268,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -36083,7 +36752,7 @@
       {
         "tipo": "competencia",
         "competencia": "mantenimiento industrial",
-        "ofertas": 186,
+        "ofertas": 188,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -36091,7 +36760,7 @@
       {
         "tipo": "competencia",
         "competencia": "lectura de planos",
-        "ofertas": 157,
+        "ofertas": 159,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -36099,7 +36768,7 @@
       {
         "tipo": "competencia",
         "competencia": "electricidad industrial",
-        "ofertas": 135,
+        "ofertas": 136,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -36115,7 +36784,7 @@
       {
         "tipo": "competencia",
         "competencia": "PLC",
-        "ofertas": 94,
+        "ofertas": 96,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -36131,7 +36800,7 @@
       {
         "tipo": "competencia",
         "competencia": "control industrial",
-        "ofertas": 51,
+        "ofertas": 54,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -36139,7 +36808,7 @@
       {
         "tipo": "competencia",
         "competencia": "mantenimiento correctivo",
-        "ofertas": 24,
+        "ofertas": 25,
         "estado": "BRECHA",
         "es_objetivo": false,
         "prioridad": 5
@@ -36155,7 +36824,7 @@
       {
         "tipo": "competencia",
         "competencia": "variadores de frecuencia",
-        "ofertas": 44,
+        "ofertas": 45,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 4
@@ -36179,8 +36848,8 @@
     ],
     "recomendaciones": [
       "Priorizar formación práctica en PLC. Las marcas detectadas con mayor frecuencia son: Allen-Bradley, Siemens, Schneider.",
-      "Hay 72 ofertas que solicitan PLC pero no especifican una marca; no deben descartarse por no identificar fabricante.",
-      "Considerar electromecánica como línea importante de búsqueda: 296 ofertas (49.3% del conjunto analizado).",
+      "Hay 74 ofertas que solicitan PLC pero no especifican una marca; no deben descartarse por no identificar fabricante.",
+      "Considerar electromecánica como línea importante de búsqueda: 302 ofertas (49.3% del conjunto analizado).",
       "Mantener como núcleo profesional: electromecánica, mantenimiento preventivo, mantenimiento industrial, lectura de planos, electricidad industrial.",
       "Buscar especialmente cargos que combinen mantenimiento industrial + electricidad industrial + PLC/automatización.",
       "No limitar la búsqueda a cargos que exijan experiencia: también seguir las ofertas que aceptan candidatos sin experiencia.",
