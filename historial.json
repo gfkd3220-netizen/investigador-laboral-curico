@@ -40404,6 +40404,62 @@
           ]
         }
       }
+    },
+    {
+      "titulo": "Electromecánico para mantencion de plataformas tijeras",
+      "empresa": "Postular Sé el primero en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Electromecánico para mantencion de plataformas tijeras - Temuco | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Operarios Electromecánico para mantencion de plataformas tijeras Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Electromecánico para mantencion de plataformas tijeras ID 3919930 Buscado Empresa de arriendo de Maquinaria Fecha 2026-10-24 13:25:26 Expira 2027-01-07 (en 74 días) Ubicación Temuco CL Categoría Operarios Duración Por proyecto Tipo Part-time Postular Sé el primero en postular! Guardar Compartir El anuncio ha sido visto: 58 veces Interesados: 0 PUBLICIDAD Electromecánico para mantencion de plataformas tijeras ED Empresa de arriendo de Maquinaria , Temuco 24 de Octubre de 2026 Descripción oferta de trabajo hoy Part-time Se busca Técnico Electromecánico – Plataformas Tijera Nuestra empresa requiere técnico electromecánico con conocimientos y experiencia en plataformas elevadoras tipo tijera, para realizar mantenciones preventivas y correctivas. Se requiere experiencia en diagnóstico y reparación de fallas mecánicas, eléctricas e hidráulicas, además de disponibilidad para atender requerimientos programados y fallas imprevistas, idealmente en terreno. Modalidad: Servicios a requerimiento, según necesidad de la empresa. Lugar: Temuco y alrededores. Operarios Temuco electromecánico plataformas Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 58 veces Interesados: 0 Publicado: hoy Expiración: En 74 días Compartir enlace Denunciar oferta Trabajos Relacionados IV CAJERO Inmobiliaria vega modelo, Temuco 21 de Octubre de 2026 Se busca recaudador/a part time buscamos una persona responsable, proactiva, con experiencia en… Ver más Oferta cercana Lavador-Movilizador de Vehículos - Temuco People match, Temuco 20 de Octubre de 2026 Importante empresa del rubro automotriz se encuentra en búsqueda de lavadores-movilizadores de vehículos… Ver más Oferta cercana Lavador de Vehículos - Temuco People match, Temuco 20 de Octubre de 2026 Importante empresa del rubro automotriz se encuentra en búsqueda de lavadores de vehículos… Ver más Oferta cercana C Chofer licencia clase B, despachador Confidencial, Temuco 22 de Octubre de 2026 Resumen del cargo ejecutar de forma eficiente, segura y responsable, las labores de… Ver más Oferta cercana GS Ejecutivo de Ventas en VILLARRICA Guemac s.a, Temuco 16 de Octubre de 2026 Estamos buscamos vendedores en villarrica, pro activos con experiencia y ganas de ganar… Ver más Oferta cercana CS Operador grúa horquilla Comercial suragro temuco, Temuco 15 de Octubre de 2026 Se requiere operador de grúa horquilla, cuarto medio rendido, con experiencia en el… Ver más Oferta cercana Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Operarios Trabajos de Operarios en Temuco Trabajos de Operarios Part-time en Temuco Trabajos de Operarios Part-time Trabajos en Temuco Trabajos Part-time en Temuco Trabajos Part-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/electromecanico-para-mantencion-de-plataformas-tijeras-3919930",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "electromecanico",
+      "fecha_recoleccion": "2026-10-25T15:12:36.998747",
+      "terminos_tecnicos_detectados": 2,
+      "analisis": {
+        "competencias_detectadas": [
+          "electromecánica"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": null,
+          "meses": null,
+          "tipo": "no_especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "no_especificada",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [
+          "electromecánico"
+        ],
+        "compatibilidad": {
+          "puntaje": 35,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "El cargo coincide con el perfil.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "electromecánica"
+          ]
+        }
+      }
     }
   ],
   "tendencias": {
@@ -40473,9 +40529,9 @@
     }
   },
   "resumen_mercado": {
-    "ofertas_analizadas": 677,
+    "ofertas_analizadas": 678,
     "competencias_mas_solicitadas": {
-      "electromecánica": 339,
+      "electromecánica": 340,
       "mantenimiento preventivo": 300,
       "mantenimiento industrial": 211,
       "lectura de planos": 174,
@@ -40506,10 +40562,10 @@
       "WinCC": 3,
       "EcoStruxure": 1,
       "EPLAN": 1,
-      "Step 7": 1,
-      "PLC Schneider": 1,
       "Studio 5000": 1,
-      "FactoryTalk": 1
+      "FactoryTalk": 1,
+      "PLC Schneider": 1,
+      "Step 7": 1
     },
     "plc_por_marca": {
       "Allen-Bradley": 15,
@@ -40531,34 +40587,34 @@
         "PLC Siemens": 4,
         "WinCC": 3,
         "EcoStruxure": 1,
-        "Step 7": 1,
-        "PLC Schneider": 1,
         "Studio 5000": 1,
-        "FactoryTalk": 1
+        "FactoryTalk": 1,
+        "PLC Schneider": 1,
+        "Step 7": 1
       }
     },
     "electromecanica": {
-      "ofertas_electromecanica": 339,
+      "ofertas_electromecanica": 340,
       "competencias_dentro_electromecanica": {
         "mantenimiento preventivo": {
           "ofertas": 187,
-          "porcentaje": 55.2
+          "porcentaje": 55.0
         },
         "mantenimiento industrial": {
           "ofertas": 146,
-          "porcentaje": 43.1
+          "porcentaje": 42.9
         },
         "electricidad industrial": {
           "ofertas": 118,
-          "porcentaje": 34.8
+          "porcentaje": 34.7
         },
         "lectura de planos": {
           "ofertas": 82,
-          "porcentaje": 24.2
+          "porcentaje": 24.1
         },
         "tableros eléctricos": {
           "ofertas": 69,
-          "porcentaje": 20.4
+          "porcentaje": 20.3
         },
         "diagnóstico de fallas": {
           "ofertas": 57,
@@ -40566,11 +40622,11 @@
         },
         "sensores": {
           "ofertas": 47,
-          "porcentaje": 13.9
+          "porcentaje": 13.8
         },
         "puesta en marcha": {
           "ofertas": 43,
-          "porcentaje": 12.7
+          "porcentaje": 12.6
         },
         "automatización industrial": {
           "ofertas": 39,
@@ -40594,7 +40650,7 @@
         },
         "hidráulica": {
           "ofertas": 29,
-          "porcentaje": 8.6
+          "porcentaje": 8.5
         },
         "mantenimiento correctivo": {
           "ofertas": 16,
@@ -40615,7 +40671,7 @@
       }
     },
     "experiencia_requerida": {
-      "no especificada": 263,
+      "no especificada": 264,
       "2 años": 117,
       "más de 3 años": 116,
       "3 años": 110,
@@ -40706,7 +40762,7 @@
       {
         "tipo": "competencia",
         "competencia": "electromecánica",
-        "ofertas": 339,
+        "ofertas": 340,
         "estado": "BRECHA",
         "es_objetivo": false,
         "prioridad": 7
@@ -40867,7 +40923,7 @@
     "recomendaciones": [
       "Priorizar formación práctica en PLC. Las marcas detectadas con mayor frecuencia son: Allen-Bradley, Siemens, Schneider.",
       "Hay 79 ofertas que solicitan PLC pero no especifican una marca; no deben descartarse por no identificar fabricante.",
-      "Considerar electromecánica como línea importante de búsqueda: 339 ofertas (50.1% del conjunto analizado).",
+      "Considerar electromecánica como línea importante de búsqueda: 340 ofertas (50.1% del conjunto analizado).",
       "Mantener como núcleo profesional: electromecánica, mantenimiento preventivo, mantenimiento industrial, lectura de planos, electricidad industrial.",
       "Buscar especialmente cargos que combinen mantenimiento industrial + electricidad industrial + PLC/automatización.",
       "No limitar la búsqueda a cargos que exijan experiencia: también seguir las ofertas que aceptan candidatos sin experiencia.",
