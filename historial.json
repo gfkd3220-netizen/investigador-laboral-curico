@@ -44797,6 +44797,67 @@
           ]
         }
       }
+    },
+    {
+      "titulo": "Ayudante Electromecánico",
+      "empresa": "Postular Sé de los primeros en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Ayudante Electromecánico - Santiago | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Operarios Ayudante Electromecánico Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Oferta destacada Ayudante Electromecánico ID 3923937 Buscado Onevision Fecha 2026-11-01 11:54:52 Expira 2027-01-15 (en 75 días) Ubicación Santiago CL Categoría Operarios Duración Indefinido Tipo Full-time Email Inicia sesión para ver mail Ley inclusión Postular Sé de los primeros en postular! Guardar Compartir El anuncio ha sido visto: 95 veces Interesados: 1 PUBLICIDAD Ayudante Electromecánico O Onevision , Santiago 01 de Noviembre de 2026 Descripción oferta de trabajo hoy Full-time Empresa productora de alimentos para mascotas necesita un Ayudante Electromecánico que tenga experiencia en mantenimiento de líneas de producción, en plantas industriales, en equipos y máquinas, con conocimientos y experiencia en la reparación electromecánica. El trabajo en sistema de turnos se ubica en la comuna de Lampa. Formación: • Buscamos un electromecánico industrial con experiencia en mantenimiento de maquinaria y líneas de fabricación • Formación técnica acreditada en niveles superiores en Enseñanza Media Mecánica, Electromecánica, Eléctrica o niveles técnicos • Es imprescindible que los postulantes tengan conocimientos y experiencia al menos de un año como ayudante o electromecánico de mantenimiento industrial en líneas de fabricación y envasado de productos • Contar con conocimientos y experiencia en mantenimiento preventivo y correctivo, cambios de formatos y modificaciones de líneas de fabricación • Con experiencia y conocimientos en mecánica, electricidad, neumática y en electrónica industrial • Residencia en Lampa o en comunas cercanas • Disponibilidad para trabajar en turnos rotativos - Contar con movilización propia para facilitar su traslado al trabajo y retorno.. Responsabilidades del cargo son: 1. Cuando se precise debe operar las máquinas mencionadas y otras para dar continuidad operacional 2. Llevará también labores operativas en la línea de producción procurando el mantenimiento preventivo y correctivo, cambios de formatos y modificaciones de línea de fabricación de alimentos con maquinarias tales como: extrusoras, mezcladoras, llenadoras, agrupadoras, compresores y equipos neumáticos, cintas transportadoras, cerradoras, formadoras de cajas, etiquetadoras, entre otras 3. Responsable por la mantención de las máquinas y equipos de las líneas de producción de alimentos en óptimas condiciones operativas tanto mecánica como eléctricamente 4. Diagnosticar e identificar los componentes de los equipos que presenten fallas entregando a tiempo y en forma una serie de soluciones mecánicas, eléctricas, neumáticas y otras que conlleven las reparaciones que se precisen y con ello recuperar la continuidad operacional. Operarios Santiago líneas mantenimiento electromecánico Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 95 veces Interesados: 1 Publicado: hoy Expiración: En 75 días Compartir enlace Denunciar oferta Trabajos Relacionados PS Analista Contable- 3 días a la… Puente sur, Santiago 29 de Octubre de 2026 Empresa de outsourcing, requiere para su staff analistas contables con experiencia. contrato por… Ver más 100% Similar PS Analista Contable- Santiago- 3 días a… Puente sur, Santiago 29 de Octubre de 2026 Empresa de outsourcing, requiere para su staff analistas contables con experiencia. contrato por… Ver más 100% Similar PS Contador@ Auditor@- Analista Contable (3 dias… Puente sur, Santiago 29 de Octubre de 2026 Empresa de outsourcing, requiere para su staff analistas contables con experiencia. contrato por… Ver más 100% Similar ED Especialista Contable y Financiero Empresa de tecnología y.., Santiago 21 de Octubre de 2026 Descripción del puesto: estamos en la búsqueda de un/contador/administrador/a con sólida formación y… Ver más 100% Similar C Jefe Administrativo/Contador General Confidencial, Santiago 27 de Octubre de 2026 Importante empresa retail requiere incorporar a su equipo de trabajo a jefe administrativo/contador… Ver más 100% Similar EC Analista Contable (Empresa de ingenieria) Empresa confidencial, Santiago 30 de Octubre de 2026 Empresa internacional de ingeniería con sede en santiago se encuentra en búsqueda de… Ver más 100% Similar Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Operarios Trabajos de Operarios en Santiago Trabajos de Operarios Full-time en Santiago Trabajos de Operarios Full-time Trabajos en Santiago Trabajos Full-time en Santiago Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/ayudante-electromecanico-3923937",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "mantenimiento industrial",
+      "fecha_recoleccion": "2026-11-01T17:22:47.747440",
+      "terminos_tecnicos_detectados": 4,
+      "analisis": {
+        "competencias_detectadas": [
+          "mantenimiento industrial",
+          "mantenimiento preventivo",
+          "electromecánica",
+          "neumática"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": null,
+          "meses": null,
+          "tipo": "no_especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "no_especificada",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [
+          "electromecánico"
+        ],
+        "compatibilidad": {
+          "puntaje": 45,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: mantenimiento industrial, mantenimiento preventivo",
+            "El cargo coincide con el perfil.",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "electromecánica",
+            "neumática"
+          ]
+        }
+      }
     }
   ],
   "tendencias": {
@@ -44866,11 +44927,11 @@
     }
   },
   "resumen_mercado": {
-    "ofertas_analizadas": 748,
+    "ofertas_analizadas": 749,
     "competencias_mas_solicitadas": {
-      "electromecánica": 380,
-      "mantenimiento preventivo": 343,
-      "mantenimiento industrial": 241,
+      "electromecánica": 381,
+      "mantenimiento preventivo": 344,
+      "mantenimiento industrial": 242,
       "lectura de planos": 190,
       "electricidad industrial": 171,
       "instrumentación industrial": 146,
@@ -44882,8 +44943,8 @@
       "automatización industrial": 86,
       "control industrial": 66,
       "variadores de frecuencia": 65,
+      "neumática": 50,
       "motores eléctricos": 50,
-      "neumática": 49,
       "hidráulica": 45,
       "SCADA": 35,
       "seguridad eléctrica": 31,
@@ -44899,10 +44960,10 @@
       "WinCC": 3,
       "EcoStruxure": 1,
       "EPLAN": 1,
-      "Step 7": 1,
       "PLC Schneider": 1,
+      "FactoryTalk": 1,
       "Studio 5000": 1,
-      "FactoryTalk": 1
+      "Step 7": 1
     },
     "plc_por_marca": {
       "Allen-Bradley": 15,
@@ -44924,26 +44985,26 @@
         "PLC Siemens": 4,
         "WinCC": 3,
         "EcoStruxure": 1,
-        "Step 7": 1,
         "PLC Schneider": 1,
+        "FactoryTalk": 1,
         "Studio 5000": 1,
-        "FactoryTalk": 1
+        "Step 7": 1
       }
     },
     "electromecanica": {
-      "ofertas_electromecanica": 380,
+      "ofertas_electromecanica": 381,
       "competencias_dentro_electromecanica": {
         "mantenimiento preventivo": {
-          "ofertas": 213,
-          "porcentaje": 56.1
+          "ofertas": 214,
+          "porcentaje": 56.2
         },
         "mantenimiento industrial": {
-          "ofertas": 174,
-          "porcentaje": 45.8
+          "ofertas": 175,
+          "porcentaje": 45.9
         },
         "electricidad industrial": {
           "ofertas": 135,
-          "porcentaje": 35.5
+          "porcentaje": 35.4
         },
         "lectura de planos": {
           "ofertas": 91,
@@ -44951,11 +45012,11 @@
         },
         "tableros eléctricos": {
           "ofertas": 76,
-          "porcentaje": 20.0
+          "porcentaje": 19.9
         },
         "diagnóstico de fallas": {
           "ofertas": 61,
-          "porcentaje": 16.1
+          "porcentaje": 16.0
         },
         "sensores": {
           "ofertas": 51,
@@ -44965,11 +45026,11 @@
           "ofertas": 51,
           "porcentaje": 13.4
         },
-        "motores eléctricos": {
+        "variadores de frecuencia": {
           "ofertas": 43,
           "porcentaje": 11.3
         },
-        "variadores de frecuencia": {
+        "motores eléctricos": {
           "ofertas": 43,
           "porcentaje": 11.3
         },
@@ -44979,11 +45040,11 @@
         },
         "automatización industrial": {
           "ofertas": 39,
-          "porcentaje": 10.3
+          "porcentaje": 10.2
         },
         "neumática": {
-          "ofertas": 36,
-          "porcentaje": 9.5
+          "ofertas": 37,
+          "porcentaje": 9.7
         },
         "hidráulica": {
           "ofertas": 33,
@@ -44999,7 +45060,7 @@
         },
         "SCADA": {
           "ofertas": 4,
-          "porcentaje": 1.1
+          "porcentaje": 1.0
         },
         "HMI": {
           "ofertas": 3,
@@ -45008,7 +45069,7 @@
       }
     },
     "experiencia_requerida": {
-      "no especificada": 292,
+      "no especificada": 293,
       "2 años": 132,
       "más de 3 años": 126,
       "3 años": 122,
@@ -45067,10 +45128,10 @@
       {
         "tipo": "competencia",
         "competencia": "neumática",
-        "ofertas": 49,
+        "ofertas": 50,
         "estado": "BRECHA",
         "es_objetivo": true,
-        "prioridad": 9
+        "prioridad": 10
       },
       {
         "tipo": "competencia",
@@ -45099,7 +45160,7 @@
       {
         "tipo": "competencia",
         "competencia": "electromecánica",
-        "ofertas": 380,
+        "ofertas": 381,
         "estado": "BRECHA",
         "es_objetivo": false,
         "prioridad": 7
@@ -45163,7 +45224,7 @@
       {
         "tipo": "competencia",
         "competencia": "mantenimiento preventivo",
-        "ofertas": 343,
+        "ofertas": 344,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -45171,7 +45232,7 @@
       {
         "tipo": "competencia",
         "competencia": "mantenimiento industrial",
-        "ofertas": 241,
+        "ofertas": 242,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -45260,7 +45321,7 @@
     "recomendaciones": [
       "Priorizar formación práctica en PLC. Las marcas detectadas con mayor frecuencia son: Allen-Bradley, Siemens, Schneider.",
       "Hay 90 ofertas que solicitan PLC pero no especifican una marca; no deben descartarse por no identificar fabricante.",
-      "Considerar electromecánica como línea importante de búsqueda: 380 ofertas (50.8% del conjunto analizado).",
+      "Considerar electromecánica como línea importante de búsqueda: 381 ofertas (50.9% del conjunto analizado).",
       "Mantener como núcleo profesional: electromecánica, mantenimiento preventivo, mantenimiento industrial, lectura de planos, electricidad industrial.",
       "Buscar especialmente cargos que combinen mantenimiento industrial + electricidad industrial + PLC/automatización.",
       "No limitar la búsqueda a cargos que exijan experiencia: también seguir las ofertas que aceptan candidatos sin experiencia.",
