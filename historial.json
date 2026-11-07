@@ -47444,6 +47444,69 @@
           ]
         }
       }
+    },
+    {
+      "titulo": "Eléctrico Industrial Senior",
+      "empresa": "Postular Sé el primero en postular! Guardar Compartir",
+      "ubicacion": "",
+      "descripcion": "Eléctrico Industrial Senior - Los Ángeles | Chiletrabajos × Home Buscar empleos Crear cuenta Ingresa a tu cuenta Empleadores PUBLICIDAD Home Otros Eléctrico Industrial Senior Volver Buscar Ofertas PUBLICIDAD Detalle oferta Ofertas relacionadas Más ofertas Oferta destacada Eléctrico Industrial Senior ID 3928150 Buscado Planta Productiva Los Angeles Fecha 2026-11-07 11:04:12 Expira 2027-01-21 (en 75 días) Ubicación Los Ángeles CL Categoría Otros Duración Plazo fijo y luego indefinido Tipo Full-time Postular Sé el primero en postular! Guardar Compartir El anuncio ha sido visto: 82 veces Interesados: 0 PUBLICIDAD Eléctrico Industrial Senior PP Planta Productiva Los Angeles , Los Ángeles 07 de Noviembre de 2026 Descripción oferta de trabajo hoy Full-time Empresa del sector industrial busca incorporar a su equipo de Mantenimiento un Eléctrico Industrial Senior, responsable de asegurar la continuidad operacional, confiabilidad y eficiencia de los equipos e instalaciones eléctricas de su planta productiva. Principales funciones Ejecutar mantenciones eléctricas preventivas, correctivas y predictivas en equipos e instalaciones industriales. Diagnosticar y solucionar fallas eléctricas complejas en tableros, motores, variadores de frecuencia y sistemas de control. Participar y liderar técnicamente proyectos de automatización y mejoras eléctricas. Realizar pruebas eléctricas y verificar el correcto funcionamiento de equipos e instalaciones. Orientar técnicamente al personal de mantenimiento. Asegurar el cumplimiento de las normas de seguridad eléctrica, calidad e inocuidad. Mantener actualizados los registros y documentación técnica de mantenimiento. Requisitos Título Técnico de Nivel Superior en Electricidad Industrial, Electromecánica, Automatización o carrera afín. Experiencia mínima de 5 años en mantenimiento eléctrico de plantas industriales o productivas. Conocimientos sólidos en tableros eléctricos, motores, variadores de frecuencia y sistemas de control. Experiencia en mantenimiento preventivo y correctivo. Deseable experiencia en automatización industrial y procesos productivos continuos. Deseable licencia de instalador eléctrico SEC. Conocimientos de normativa y procedimientos de seguridad eléctrica. Competencias Capacidad de análisis y resolución de problemas técnicos. Autonomía, responsabilidad y orientación a resultados. Trabajo en equipo y comunicación efectiva. Compromiso con la seguridad y la mejora continua. Condiciones laborales Lugar de trabajo: Los Ángeles, Región del Biobío. Jornada: 42 horas semanales, en turnos rotativos de lunes a sábado. Área: Servicios y Mantenimiento. Postulación Invitamos a postular a profesionales con experiencia en mantenimiento eléctrico industrial, orientación a la mejora continua y compromiso con la seguridad y continuidad de los procesos productivos. ¡Esperamos su postulación! Beneficios Bus acercamiento La empresa provee un bus de acercamiento Mutual de Seguridad La empresa esta adscrita a la mutual de seguridad Uniforme La empresa provee el uniforme de trabajo Otros Los Ángeles mantenimiento industrial eléctrico Comparte por redes sociales Postular PUBLICIDAD Estadísticas del anuncio El anuncio ha sido visto: 82 veces Interesados: 0 Publicado: hoy Expiración: En 75 días Compartir enlace Denunciar oferta Trabajos Relacionados N Residente de Obras-Los Ángeles Newenruka, Los Ángeles 04 de Noviembre de 2026 ¡buscamos residente de obra! lugar de trabajo: los Ángeles (preferentemente) / temuco. estamos… Ver más Oferta cercana Mecánico/a Soldador/a de Maquinaria – Nacimiento Serfonac, Los Ángeles 05 de Noviembre de 2026 Empresa del rubro forestal busca incorporar un/a mecánico/a soldador/a de maquinaria para realizar… Ver más Oferta cercana Mecánico/a Automotriz – Nacimiento Serfonac, Los Ángeles 05 de Noviembre de 2026 Empresa del rubro forestal busca incorporar un/a mecánico/a automotriz para realizar labores de… Ver más Oferta cercana Inspector de medidores /ayudante eléctrico y… Mla servicios, Los Ángeles 03 de Noviembre de 2026 Importante empresa en el rubro eléctrico con más de 17 años en el… Ver más Oferta cercana EC LAJA- CONDUCTOR AMPLIROLL A4 Empresa confidencial, Los Ángeles 03 de Noviembre de 2026 Importante empresa del rubro industrial busca conductores a4 o a5 ampliroll para laja… Ver más Oferta cercana S Auditor(a) - Relator(a) de Calidad e… Smu, Los Ángeles 02 de Noviembre de 2026 ¿quieres formar parte de la red de supermercados más grande de chile? en… Ver más Oferta cercana Ver más Ver mucho más PUBLICIDAD Encuentra más: Trabajos de Otros Trabajos de Otros en Los Ángeles Trabajos de Otros Full-time en Los Ángeles Trabajos de Otros Full-time Trabajos en Los Ángeles Trabajos Full-time en Los Ángeles Trabajos Full-time Para postular a esta oferta debes realizarlo desde www.chiletrabajos.cl Click aquí para ingresar",
+      "requisitos": "",
+      "url": "https://www.chiletrabajos.cl/trabajo/electrico-industrial-senior-3928150",
+      "fuente": "Chiletrabajos",
+      "busqueda_origen": "automatizacion industrial",
+      "fecha_recoleccion": "2026-11-07T17:07:43.215149",
+      "terminos_tecnicos_detectados": 8,
+      "analisis": {
+        "competencias_detectadas": [
+          "electricidad industrial",
+          "mantenimiento industrial",
+          "mantenimiento preventivo",
+          "tableros eléctricos",
+          "automatización industrial",
+          "variadores de frecuencia",
+          "electromecánica",
+          "seguridad eléctrica"
+        ],
+        "tecnologias_detectadas": [],
+        "tecnologias_plc_detectadas": [],
+        "plc_detectado": false,
+        "plc_evidencia": {
+          "detectado": false,
+          "patrones_explicitos": [],
+          "tecnologias_identificadoras": []
+        },
+        "plc_marcas_detectadas": [],
+        "experiencia_solicitada": {
+          "anos": 5.0,
+          "meses": 60.0,
+          "tipo": "especificada"
+        },
+        "experiencia_perfil": {
+          "meses": 6,
+          "anos": 0.5
+        },
+        "ajuste_experiencia": "brecha_alta",
+        "ubicacion": {
+          "zona_prioritaria": false,
+          "zona_coincidente": null
+        },
+        "cargos_coincidentes": [],
+        "compatibilidad": {
+          "puntaje": 30,
+          "nivel": "BAJA",
+          "prioridad": "BAJA",
+          "recomendacion": "PRIORIZAR OTRAS OFERTAS",
+          "fortalezas": [
+            "Coincide con: electricidad industrial, mantenimiento industrial, mantenimiento preventivo, tableros eléctricos, automatización industrial, variadores de frecuencia",
+            "SEC Clase D en trámite."
+          ],
+          "brechas": [
+            "Solicita 60 meses de experiencia y el perfil tiene 6 meses.",
+            "electromecánica",
+            "seguridad eléctrica"
+          ]
+        }
+      }
     }
   ],
   "tendencias": {
@@ -47513,27 +47576,27 @@
     }
   },
   "resumen_mercado": {
-    "ofertas_analizadas": 792,
+    "ofertas_analizadas": 793,
     "competencias_mas_solicitadas": {
-      "electromecánica": 399,
-      "mantenimiento preventivo": 364,
-      "mantenimiento industrial": 252,
+      "electromecánica": 400,
+      "mantenimiento preventivo": 365,
+      "mantenimiento industrial": 253,
       "lectura de planos": 205,
-      "electricidad industrial": 182,
+      "electricidad industrial": 183,
       "instrumentación industrial": 153,
-      "tableros eléctricos": 140,
+      "tableros eléctricos": 141,
       "PLC": 123,
       "puesta en marcha": 121,
       "sensores": 94,
       "diagnóstico de fallas": 93,
-      "automatización industrial": 89,
-      "variadores de frecuencia": 70,
+      "automatización industrial": 90,
+      "variadores de frecuencia": 71,
       "control industrial": 70,
       "neumática": 51,
       "motores eléctricos": 51,
       "hidráulica": 46,
       "SCADA": 37,
-      "seguridad eléctrica": 31,
+      "seguridad eléctrica": 32,
       "mantenimiento correctivo": 31,
       "HMI": 28
     },
@@ -47547,9 +47610,9 @@
       "EcoStruxure": 1,
       "EPLAN": 1,
       "Studio 5000": 1,
-      "Step 7": 1,
       "PLC Schneider": 1,
-      "FactoryTalk": 1
+      "FactoryTalk": 1,
+      "Step 7": 1
     },
     "plc_por_marca": {
       "Allen-Bradley": 17,
@@ -47572,33 +47635,33 @@
         "WinCC": 3,
         "EcoStruxure": 1,
         "Studio 5000": 1,
-        "Step 7": 1,
         "PLC Schneider": 1,
-        "FactoryTalk": 1
+        "FactoryTalk": 1,
+        "Step 7": 1
       }
     },
     "electromecanica": {
-      "ofertas_electromecanica": 399,
+      "ofertas_electromecanica": 400,
       "competencias_dentro_electromecanica": {
         "mantenimiento preventivo": {
-          "ofertas": 225,
-          "porcentaje": 56.4
+          "ofertas": 226,
+          "porcentaje": 56.5
         },
         "mantenimiento industrial": {
-          "ofertas": 182,
-          "porcentaje": 45.6
+          "ofertas": 183,
+          "porcentaje": 45.8
         },
         "electricidad industrial": {
-          "ofertas": 144,
-          "porcentaje": 36.1
+          "ofertas": 145,
+          "porcentaje": 36.2
         },
         "lectura de planos": {
           "ofertas": 98,
-          "porcentaje": 24.6
+          "porcentaje": 24.5
         },
         "tableros eléctricos": {
-          "ofertas": 79,
-          "porcentaje": 19.8
+          "ofertas": 80,
+          "porcentaje": 20.0
         },
         "diagnóstico de fallas": {
           "ofertas": 62,
@@ -47613,8 +47676,8 @@
           "porcentaje": 13.0
         },
         "variadores de frecuencia": {
-          "ofertas": 45,
-          "porcentaje": 11.3
+          "ofertas": 46,
+          "porcentaje": 11.5
         },
         "motores eléctricos": {
           "ofertas": 44,
@@ -47625,16 +47688,16 @@
           "porcentaje": 10.5
         },
         "automatización industrial": {
-          "ofertas": 40,
-          "porcentaje": 10.0
+          "ofertas": 41,
+          "porcentaje": 10.2
         },
         "neumática": {
           "ofertas": 37,
-          "porcentaje": 9.3
+          "porcentaje": 9.2
         },
         "hidráulica": {
           "ofertas": 33,
-          "porcentaje": 8.3
+          "porcentaje": 8.2
         },
         "mantenimiento correctivo": {
           "ofertas": 16,
@@ -47657,7 +47720,7 @@
     "experiencia_requerida": {
       "no especificada": 310,
       "2 años": 140,
-      "más de 3 años": 135,
+      "más de 3 años": 136,
       "3 años": 128,
       "1 año": 66,
       "sin experiencia": 13
@@ -47754,7 +47817,7 @@
       {
         "tipo": "competencia",
         "competencia": "electromecánica",
-        "ofertas": 399,
+        "ofertas": 400,
         "estado": "BRECHA",
         "es_objetivo": false,
         "prioridad": 7
@@ -47770,7 +47833,7 @@
       {
         "tipo": "competencia",
         "competencia": "seguridad eléctrica",
-        "ofertas": 31,
+        "ofertas": 32,
         "estado": "BRECHA",
         "es_objetivo": false,
         "prioridad": 6
@@ -47818,7 +47881,7 @@
       {
         "tipo": "competencia",
         "competencia": "mantenimiento preventivo",
-        "ofertas": 364,
+        "ofertas": 365,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -47826,7 +47889,7 @@
       {
         "tipo": "competencia",
         "competencia": "mantenimiento industrial",
-        "ofertas": 252,
+        "ofertas": 253,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -47842,7 +47905,7 @@
       {
         "tipo": "competencia",
         "competencia": "electricidad industrial",
-        "ofertas": 182,
+        "ofertas": 183,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -47850,7 +47913,7 @@
       {
         "tipo": "competencia",
         "competencia": "tableros eléctricos",
-        "ofertas": 140,
+        "ofertas": 141,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -47866,7 +47929,7 @@
       {
         "tipo": "competencia",
         "competencia": "automatización industrial",
-        "ofertas": 89,
+        "ofertas": 90,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -47874,7 +47937,7 @@
       {
         "tipo": "competencia",
         "competencia": "variadores de frecuencia",
-        "ofertas": 70,
+        "ofertas": 71,
         "estado": "YA_EN_PERFIL",
         "es_objetivo": false,
         "prioridad": 5
@@ -47907,7 +47970,7 @@
     "recomendaciones": [
       "Priorizar formación práctica en PLC. Las marcas detectadas con mayor frecuencia son: Allen-Bradley, Siemens, Schneider.",
       "Hay 96 ofertas que solicitan PLC pero no especifican una marca; no deben descartarse por no identificar fabricante.",
-      "Considerar electromecánica como línea importante de búsqueda: 399 ofertas (50.4% del conjunto analizado).",
+      "Considerar electromecánica como línea importante de búsqueda: 400 ofertas (50.4% del conjunto analizado).",
       "Mantener como núcleo profesional: electromecánica, mantenimiento preventivo, mantenimiento industrial, lectura de planos, electricidad industrial.",
       "Buscar especialmente cargos que combinen mantenimiento industrial + electricidad industrial + PLC/automatización.",
       "No limitar la búsqueda a cargos que exijan experiencia: también seguir las ofertas que aceptan candidatos sin experiencia.",
