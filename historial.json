@@ -47609,9 +47609,9 @@
       "WinCC": 3,
       "EcoStruxure": 1,
       "EPLAN": 1,
+      "FactoryTalk": 1,
       "Studio 5000": 1,
       "PLC Schneider": 1,
-      "FactoryTalk": 1,
       "Step 7": 1
     },
     "plc_por_marca": {
@@ -47634,9 +47634,9 @@
         "PLC Siemens": 4,
         "WinCC": 3,
         "EcoStruxure": 1,
+        "FactoryTalk": 1,
         "Studio 5000": 1,
         "PLC Schneider": 1,
-        "FactoryTalk": 1,
         "Step 7": 1
       }
     },
